@@ -2,4 +2,125 @@
 title: "A fermentação malolática"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Depois da fermentação alcoólica, muitos vinhos passam por uma segunda
+transformação — a **fermentação malolática** — que, a rigor, nem é uma
+fermentação: é a ação de **bactérias**, não de leveduras. Seu efeito, porém, é
+inconfundível: o vinho fica mais **macio**, menos ácido e, às vezes, com um toque
+amanteigado. Quase todo tinto a faz; muitos brancos também.
+
+Este capítulo explica o que acontece nessa etapa, quem a realiza e quando ela é
+desejada ou evitada. É a peça que falta para entender por que dois vinhos da mesma
+uva podem ter texturas tão diferentes.
+
+## A conversão málico → lático
+
+::: {#def-malolatica-detalhe}
+## Fermentação malolática
+A **fermentação malolática** (FML) é a conversão do **ácido málico** (duro, de
+sabor "maçã verde") em **ácido lático** (macio, lácteo), com liberação de CO₂,
+realizada por **bactérias láticas** (sobretudo *Oenococcus oeni*). O resultado é
+**menos acidez**, pH um pouco mais alto e textura mais redonda.
+:::
+
+O ácido málico é o mesmo da maçã verde — anguloso e cortante. O ácido lático é o
+do leite — suave. Trocar um pelo outro **abranda** o vinho. A @fig-conversao-malo
+resume a transformação.
+
+::: {#fig-conversao-malo}
+```{.tikz}
+%%| filename: conversao-malolatica
+%%| alt: Esquema da fermentação malolática — uma caixa de ácido málico (duro, maçã verde) com uma seta marcada bactérias láticas (Oenococcus oeni) apontando para ácido lático (macio) mais CO2, indicando que a acidez diminui e o pH sobe.
+\begin{tikzpicture}[font=\sffamily\small]
+  \node[draw=manualgreen, very thick, rounded corners=3pt, fill=manualgreen!12,
+        align=center, text width=30mm, minimum height=15mm] (mal)
+        at (0,0) {\textbf{Ácido málico}\\\footnotesize duro · maçã verde};
+  \node[draw=manualred, very thick, rounded corners=3pt, fill=manualred!10,
+        align=center, text width=30mm, minimum height=15mm] (lac)
+        at (7,0) {\textbf{Ácido lático}\\\footnotesize macio · lácteo \\[1mm]$+\;$CO$_2$};
+  \draw[-{Stealth[length=3mm]}, line width=1.4pt, manualgray] (mal) -- (lac)
+    node[midway, above, align=center, font=\scriptsize]
+      {bactérias láticas\\(\emph{Oenococcus oeni})}
+    node[midway, below, align=center, font=\scriptsize, manualgray]
+      {acidez $\downarrow$ · pH $\uparrow$};
+\end{tikzpicture}
+```
+
+A fermentação malolática troca um ácido **duro** (málico) por um ácido **macio**
+(lático), liberando CO₂. O vinho perde acidez, ganha textura e fica
+microbiologicamente mais estável.
+:::
+
+## Quando se quer (e quando não)
+
+A FML faz três coisas: **suaviza** a acidez, traz **estabilidade microbiológica**
+(consome um açúcar-ácido que bactérias indesejadas poderiam atacar depois) e pode
+acrescentar aromas **amanteigados** — via uma substância chamada **diacetil**.
+
+- **Tintos** — quase sempre a fazem: a maciez e a estabilidade são desejadas.
+- **Brancos encorpados** (muito Chardonnay) — frequentemente a fazem, buscando
+  textura cremosa e nota de manteiga.
+- **Brancos aromáticos e crocantes** (Riesling, Sauvignon Blanc) — em geral a
+  **evitam**: aqui a acidez vibrante é a graça, e suavizá-la seria perder o estilo.
+
+::: {.callout-note}
+## Como se bloqueia a malolática
+Para impedir a FML, o enólogo mantém o vinho **frio**, adiciona **SO₂** (que inibe
+as bactérias — assunto do próximo capítulo) e filtra. Para favorecê-la, faz o
+oposto: temperatura amena e, muitas vezes, inoculação de bactérias selecionadas.
+:::
+
+## Exemplos
+
+::: {#exm-chardonnay-amanteigado}
+## A manteiga do Chardonnay
+Aquela nota "amanteigada" típica de certos Chardonnays não vem da uva nem da
+madeira sozinha: vem do **diacetil**, produzido na fermentação malolática. Um
+Chardonnay que passou por FML completa tende ao cremoso e amanteigado; um que a
+evitou fica mais tenso e cítrico. A escolha do enólogo molda a textura.
+:::
+
+::: {#exm-malo-clima-frio}
+## Resgatando vinhos muito ácidos
+Em climas frios, a uva chega com **muito ácido málico** — o vinho sairia
+agressivamente ácido. A FML é então especialmente bem-vinda: ao converter o
+málico em lático, devolve equilíbrio. É uma ferramenta de **clima**, não só de
+estilo.
+:::
+
+## Exercícios
+
+::: {#exr-o-que-muda-malo}
+Segundo a @def-malolatica-detalhe, o que acontece com a **acidez** e a **textura**
+do vinho na fermentação malolática, e quem realiza essa conversão?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+A **acidez diminui** (o málico duro vira lático macio) e a **textura fica mais
+redonda**; o pH sobe um pouco. A conversão é feita por **bactérias láticas**
+(sobretudo *Oenococcus oeni*), não por leveduras.
+:::
+
+::: {#exr-fazer-ou-evitar}
+Para cada vinho, diga se normalmente se **faz** ou se **evita** a malolática, e
+por quê: (a) um tinto encorpado; (b) um Riesling seco e crocante.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) **Faz** — busca maciez e estabilidade; (b) **Evita** — a acidez vibrante é o
+charme do estilo, e a FML a suavizaria.
+:::
+
+::: {#exr-diacetil}
+De onde vem a nota **amanteigada** de certos Chardonnays, e o que ela indica sobre
+a vinificação do vinho (@exm-chardonnay-amanteigado)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Vem do **diacetil**, produzido na **fermentação malolática**. A presença marcante
+dessa nota indica que o vinho passou por FML (completa), buscando textura cremosa.
+:::

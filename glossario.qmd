@@ -23,6 +23,9 @@ vinho; extraído por maceração. É um composto fenólico.
 **Autóctone** (casta) — variedade nativa de uma região, a ela historicamente
 ligada e pouco cultivada fora dali; oposta às castas internacionais.
 
+**Bactéria lática** — micro-organismo (sobretudo *Oenococcus oeni*) que realiza
+a fermentação malolática, convertendo ácido málico em lático.
+
 **Baga** — o fruto da videira (o "bago"), formado por película, polpa e
 grainhas; é onde se concentram água, açúcares, ácidos, cor e taninos.
 
@@ -68,6 +71,9 @@ latada) que define como folhas e cachos se distribuem no espaço.
 mesmo vinho, buscando que se complementem (ex.: Cabernet com Merlot em Bordeaux).
 
 **Cultivar** — sinônimo de casta/variedade de videira.
+
+**Diacetil** — composto produzido na fermentação malolática, responsável pela
+nota amanteigada de certos vinhos (sobretudo Chardonnay).
 
 **Dormência** — repouso invernal da videira, sem folhas; período em que se faz a
 poda que definirá a safra seguinte.

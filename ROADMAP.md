@@ -42,7 +42,7 @@ fotos entram como imagem embutida — ver `PLANO.md`).
 ### Volume IV — Princípios da Vinificação
 - [x] `v4-principios-vinificacao/01-composicao-do-mosto.qmd` — açúcares, ácidos, fenólicos, taninos. *fig.: composição do mosto.*
 - [x] `v4-principios-vinificacao/02-fermentacao-alcoolica.qmd` — química, leveduras, curva. *fig.: curva de fermentação (açúcar↓/álcool↑).*
-- [ ] `v4-principios-vinificacao/03-fermentacao-malolatica.qmd` — málico→lático. *fig.: esquema da conversão.*
+- [x] `v4-principios-vinificacao/03-fermentacao-malolatica.qmd` — málico→lático. *fig.: esquema da conversão.*
 - [ ] `v4-principios-vinificacao/04-so2-e-estabilizacao.qmd` — SO₂, clarificação, filtração. *fig.: pontos de adição de SO₂.*
 - [ ] `v4-principios-vinificacao/05-higiene-e-controle.qmd` — oxigênio, temperatura, contaminações. *fig.: balanço de oxigênio.*
 

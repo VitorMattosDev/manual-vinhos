@@ -67,12 +67,12 @@ book:
         - volumes/v5-vinificacao/03-vinificacao-rose.qmd
         - volumes/v5-vinificacao/04-tecnicas-especiais.qmd
 
-    # - part: "Volume VI — Espumantes, Fortificados e Doces"
-    #   chapters:
-    #     - volumes/v6-espumantes-fortificados/01-metodo-tradicional.qmd
-    #     - volumes/v6-espumantes-fortificados/02-charmat-e-outros.qmd
-    #     - volumes/v6-espumantes-fortificados/03-fortificados.qmd
-    #     - volumes/v6-espumantes-fortificados/04-doces-naturais.qmd
+    - part: "Volume VI — Espumantes, Fortificados e Doces"
+      chapters:
+        - volumes/v6-espumantes-fortificados/01-metodo-tradicional.qmd
+        - volumes/v6-espumantes-fortificados/02-charmat-e-outros.qmd
+        - volumes/v6-espumantes-fortificados/03-fortificados.qmd
+        - volumes/v6-espumantes-fortificados/04-doces-naturais.qmd
 
     # - part: "Volume VII — Estágio, Envelhecimento e Engarrafamento"
     #   chapters:

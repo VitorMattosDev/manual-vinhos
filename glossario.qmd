@@ -26,6 +26,9 @@ vinho; extraído por maceração. É um composto fenólico.
 **Autóctone** (casta) — variedade nativa de uma região, a ela historicamente
 ligada e pouco cultivada fora dali; oposta às castas internacionais.
 
+**Autólise** — decomposição lenta das leveduras mortas durante o estágio sobre
+borras; dá aos espumantes notas de pão e brioche e textura cremosa.
+
 **Bactéria lática** — micro-organismo (sobretudo *Oenococcus oeni*) que realiza
 a fermentação malolática, convertendo ácido málico em lático.
 
@@ -98,11 +101,17 @@ mesmo vinho, buscando que se complementem (ex.: Cabernet com Merlot em Bordeaux)
 **Débourbage** — decantação do mosto branco recém-prensado, a frio, para que as
 partículas grossas assentem antes da fermentação, dando um vinho mais limpo.
 
+**Dégorgement** — expulsão da borra acumulada no gargalo da garrafa de espumante
+(método tradicional), após o remuage e antes da dosagem.
+
 **Diacetil** — composto produzido na fermentação malolática, responsável pela
 nota amanteigada de certos vinhos (sobretudo Chardonnay).
 
 **Dormência** — repouso invernal da videira, sem folhas; período em que se faz a
 poda que definirá a safra seguinte.
+
+**Dosagem** — adição final de licor de expedição (vinho + açúcar) a um espumante
+após o dégorgement, que define seu nível de doçura (de brut nature a doux).
 
 **Engaço** — a estrutura ramificada do cacho que sustenta as bagas; rica em
 taninos verdes, costuma ser removida no desengace.
@@ -172,6 +181,10 @@ busca conciliar as duas.
 
 **Mesoclima** — clima de um sítio específico (uma encosta, um vale), moldado por
 relevo e água próxima. Ver **macroclima** e **microclima**.
+
+**Método tradicional** (champenoise) — método de espumante com segunda
+fermentação dentro da garrafa e estágio sobre borras; usado em Champagne, Cava,
+Franciacorta e muitos espumantes brasileiros.
 
 **Microclima** — ambiente imediato em torno das folhas e cachos, alterável pelo
 próprio manejo da planta. Ver **macroclima** e **mesoclima**.
@@ -258,6 +271,9 @@ adstringência e pela estrutura dos tintos.
 
 **Terroir** — conjunto de solo, clima, relevo e tradição que dá identidade ao
 vinho de um lugar.
+
+**Tiragem** — no método tradicional, a adição ao vinho-base do licor de tiragem
+(açúcar e leveduras) e o engarrafamento que deflagram a segunda fermentação.
 
 **Trasfega** — transferência do vinho de um recipiente a outro, deixando para
 trás a borra depositada no fundo; clarifica e areia o vinho de forma controlada.

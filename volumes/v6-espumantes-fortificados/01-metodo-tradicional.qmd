@@ -1,0 +1,141 @@
+---
+title: "Espumantes: o método tradicional"
+---
+
+## Motivação
+
+As bolhas de um grande espumante não são acrescentadas com uma bomba: elas
+**nascem dentro da garrafa**, presas sob pressão. O **método tradicional** — o da
+Champagne — é a forma mais nobre (e trabalhosa) de capturá-las, e dá ao vinho não
+só a efervescência fina, mas aromas inconfundíveis de pão e brioche.
+
+Este capítulo abre o Volume VI explicando, passo a passo, como o método
+tradicional transforma um vinho tranquilo em espumante. Os outros métodos, mais
+rápidos, virão por contraste no capítulo seguinte.
+
+## De onde vêm as bolhas
+
+A efervescência é **CO₂** dissolvido sob pressão — o mesmo gás da fermentação
+(Volume IV). O truque é provocar uma **segunda fermentação** num recipiente
+fechado, para que o gás não escape e fique retido no vinho.
+
+::: {#def-metodo-tradicional}
+## Método tradicional (champenoise)
+No **método tradicional**, faz-se a segunda fermentação **dentro da própria
+garrafa**: adiciona-se ao vinho-base um **licor de tiragem** (açúcar e
+leveduras), engarrafa-se, e a fermentação que se segue aprisiona o CO₂. O vinho
+ainda repousa longos meses **sobre as borras**, ganhando complexidade.
+:::
+
+A @fig-metodo-tradicional resume a sequência completa, da tiragem ao
+arrolhamento final.
+
+::: {#fig-metodo-tradicional}
+```{.tikz}
+%%| filename: metodo-tradicional
+%%| alt: Fluxograma vertical do método tradicional de espumante — vinho-base, tiragem com licor de tiragem, segunda fermentação na garrafa (destacada), estágio sobre borras com autólise, remuage, dégorgement, dosagem com licor de expedição e arrolhamento.
+\begin{tikzpicture}[node distance=6mm,
+    et/.style={draw=manualgreen!60!black, very thick, rounded corners=2pt,
+      fill=manualgreen!10, text width=52mm, align=center, minimum height=8.5mm,
+      font=\sffamily\small},
+    dest/.style={draw=manualred, very thick, rounded corners=2pt, fill=manualred!15,
+      text width=52mm, align=center, minimum height=10mm, font=\sffamily\small},
+    fl/.style={-{Stealth[length=2.5mm]}, very thick, manualgray}]
+  \node[et] (a) {1. Vinho-base (tranquilo)};
+  \node[et, below=of a] (b) {2. Tiragem (+ licor de tiragem:\\\footnotesize açúcar e leveduras) e engarrafamento};
+  \node[dest, below=of b] (c) {3. 2.ª fermentação \textbf{na garrafa}\\\footnotesize cria as bolhas (CO$_2$ preso)};
+  \node[et, below=of c] (d) {4. Estágio sobre borras (autólise:\\\footnotesize aromas de pão e brioche)};
+  \node[et, below=of d] (e) {5. \emph{Remuage} (borra desce ao gargalo)};
+  \node[et, below=of e] (f) {6. \emph{Dégorgement} (expulsa a borra)};
+  \node[et, below=of f] (g) {7. Dosagem (licor de expedição:\\\footnotesize define a doçura) e rolha};
+  \foreach \x/\y in {a/b,b/c,c/d,d/e,e/f,f/g}{\draw[fl] (\x)--(\y);}
+\end{tikzpicture}
+```
+
+As etapas do método tradicional. A **segunda fermentação na garrafa** (3) cria as
+bolhas; o longo **estágio sobre borras** (4) traz os aromas de brioche; e o
+**dégorgement** (6) seguido da **dosagem** (7) limpa e adoça o vinho na medida
+desejada.
+:::
+
+## Autólise e dosagem
+
+Dois passos definem o caráter de um grande espumante tradicional:
+
+::: {#def-autolise-dosagem}
+## Autólise e dosagem
+A **autólise** é a decomposição lenta das leveduras mortas durante o longo
+estágio sobre borras: ela acrescenta os aromas de **pão, brioche e amêndoa** e
+uma textura cremosa. A **dosagem** é a adição final de um **licor de expedição**
+(vinho + açúcar) após o dégorgement, que define o **nível de doçura** do
+espumante.
+:::
+
+A dosagem dá origem à escala de doçura, do mais seco ao mais doce: **brut nature**
+(sem adição de açúcar), **extra brut**, **brut** (o mais comum), **extra dry**,
+**sec**, **demi-sec** e **doux**.
+
+::: {.callout-warning}
+## Champagne ≠ espumante
+**Champagne** é só o espumante de método tradicional feito na **região de
+Champagne**, na França. O **método** é o mesmo usado no Cava (Espanha), no
+Franciacorta (Itália), no Cap Classique (África do Sul) e em muitos espumantes
+brasileiros — mas só os de Champagne podem usar o nome.
+:::
+
+## Exemplos
+
+::: {#exm-brioche}
+## O cheiro de pão no espumante
+Aquele aroma de **pão fresco e brioche** de um bom champanhe não vem da uva: vem
+da **autólise**, durante anos sobre as borras. Quanto mais longo o estágio, mais
+intensa a nota e mais cremosa a textura. É o tempo, literalmente, virando aroma.
+:::
+
+::: {#exm-mesmo-vinho-doçuras}
+## Um vinho, várias doçuras
+Do mesmo lote pós-dégorgement, a **dosagem** decide o estilo: sem licor, nasce um
+**brut nature** tenso e seco; com um pouco mais de açúcar, um **brut** equilibrado;
+com bastante, um **demi-sec** para sobremesa. A última colher de açúcar molda o
+caráter final.
+:::
+
+## Exercícios
+
+::: {#exr-de-onde-bolhas}
+Explique, com base na @def-metodo-tradicional, de onde vêm as bolhas no método
+tradicional e por que a segunda fermentação precisa ocorrer num recipiente
+**fechado**.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+As bolhas são **CO₂** produzido por uma **segunda fermentação**, provocada pelo
+licor de tiragem dentro da **garrafa**. O recipiente fechado impede o gás de
+escapar, mantendo-o dissolvido sob pressão — é isso que gera a efervescência.
+:::
+
+::: {#exr-autolise}
+O que é a **autólise** (@def-autolise-dosagem) e que contribuição ela dá ao
+espumante?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+É a decomposição lenta das **leveduras mortas** durante o estágio sobre borras.
+Acrescenta aromas de **pão, brioche e amêndoa** e uma **textura cremosa** ao
+espumante.
+:::
+
+::: {#exr-champagne-nome}
+Um espumante brasileiro foi feito pelo método tradicional. Ele pode se chamar
+"champagne"? Justifique com base na distinção entre método e região.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Não.** "Champagne" é uma denominação **geográfica**: só o espumante de método
+tradicional produzido na **região de Champagne** pode usar o nome. O brasileiro
+usa o mesmo **método**, mas deve chamar-se espumante (de método tradicional), não
+champagne.
+:::

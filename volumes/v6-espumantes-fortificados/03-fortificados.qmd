@@ -2,4 +2,139 @@
 title: "Vinhos fortificados"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Antes da refrigeração, vinho não viajava bem — a não ser que fosse "reforçado". A
+solução, nascida da necessidade, foi adicionar **aguardente** ao vinho, elevando
+seu álcool a ponto de torná-lo estável e longevo. Desse improviso surgiram alguns
+dos vinhos mais grandiosos do mundo: o **Porto**, o **Jerez** e o **Madeira**.
+
+Este capítulo trata dos fortificados. A chave para entendê-los é simples e
+poderosa: **o momento em que se adiciona a aguardente** decide se o vinho será
+doce ou seco. A partir daí, ramificam-se estilos e técnicas — entre elas o
+engenhoso sistema de **solera**.
+
+## Fortificar: quando, e por quê importa
+
+::: {#def-fortificacao}
+## Fortificação
+**Fortificar** é adicionar **aguardente vínica** (destilado de vinho) ao vinho,
+elevando o teor alcoólico para algo entre **15% e 22%**. O álcool mais alto
+estabiliza o vinho e o torna muito mais longevo.
+:::
+
+O **momento** da fortificação é decisivo. Se a aguardente é adicionada **durante**
+a fermentação, o álcool **mata as leveduras** antes que consumam todo o açúcar — e
+o vinho fica **doce** (é o caso do Porto). Se é adicionada **depois** de a
+fermentação terminar, não sobra açúcar e o vinho fica **seco** (caso do Jerez
+fino).
+
+- **Porto** (Douro, Portugal) — doce, fortificado durante a fermentação; estilos
+  Ruby, Tawny, LBV e Vintage.
+- **Jerez** (*Sherry*, Espanha) — em geral seco; estilos do fino e da manzanilla
+  (sob o véu de leveduras chamado **flor**) ao oloroso (oxidativo) e ao doce PX.
+- **Madeira** (Portugal) — aquecido de propósito (estufagem), oxidado e
+  praticamente **indestrutível**: garrafas duram séculos.
+
+## O sistema de solera
+
+Muitos fortificados (sobretudo o Jerez) não têm safra: são misturas contínuas de
+muitos anos, feitas pelo sistema de **solera**, na @fig-solera.
+
+::: {#def-solera}
+## Solera
+A **solera** é um sistema de **mistura fracionada** em barris empilhados por
+idade. Engarrafa-se sempre uma fração do barril **mais velho** (embaixo), que é
+completado com vinho do barril imediatamente **mais jovem**, e assim por diante. O
+resultado é um vinho de **estilo constante**, mistura de muitas safras.
+:::
+
+::: {#fig-solera}
+```{.tikz}
+%%| filename: sistema-solera
+%%| alt: Esquema do sistema de solera, com três fileiras de barris empilhados por idade — criaderas mais jovens em cima, solera (mais velha) embaixo — e setas mostrando o vinho cascateando de cima para baixo e sendo engarrafado a partir da fileira do solera.
+\begin{tikzpicture}[font=\sffamily\scriptsize,
+    bar/.style={draw=manualred!70!black, very thick, fill=manualred!12,
+      rounded corners=3pt, minimum width=14mm, minimum height=8mm},
+    fl/.style={-{Stealth[length=2mm]}, very thick, manualgray}]
+  % fileiras (y): topo jovem, base velha
+  \foreach \x in {0,1.9,3.8}{
+    \node[bar] at (\x,3.0) {};
+    \node[bar] at (\x,1.5) {};
+    \node[bar, fill=manualred!28] at (\x,0.0) {};}
+  \node[font=\tiny, align=left] at (5.7,3.0) {3.ª criadera\\(mais jovem)};
+  \node[font=\tiny, align=left] at (5.7,1.5) {2.ª criadera};
+  \node[font=\tiny, align=left] at (5.7,0.0) {\textbf{solera}\\(mais velha)};
+  % vinho novo entra no topo
+  \draw[fl] (-1.4,3.6) -- (-0.75,3.1) node[midway, above, font=\tiny]{vinho novo};
+  % cascata para baixo
+  \foreach \x in {0,1.9,3.8}{
+    \draw[fl] (\x,2.6) -- (\x,1.9);
+    \draw[fl] (\x,1.1) -- (\x,0.4);}
+  % engarrafa do solera
+  \draw[fl] (4.55,0.0) -- (5.2,0.0) node[right, font=\tiny, align=left]{engarrafa\\(fração)};
+\end{tikzpicture}
+```
+
+O sistema de solera. Engarrafa-se uma **fração** do barril mais velho (a
+*solera*, embaixo); o que se retira é reposto pelo barril mais jovem acima, numa
+**cascata** contínua. Cada garrafa é, assim, uma mistura de incontáveis safras —
+e o estilo se mantém constante ano após ano.
+:::
+
+## Exemplos
+
+::: {#exm-porto-doce}
+## Por que o Porto é doce
+No Porto, a aguardente entra **no meio da fermentação**: o álcool sobe de repente,
+as leveduras morrem e **param de consumir o açúcar**. O açúcar que ainda não havia
+fermentado **permanece** no vinho, que fica doce e encorpado. É a fortificação
+**precoce** que cria a doçura — não uma adição de açúcar.
+:::
+
+::: {#exm-solera-sem-safra}
+## Um Jerez não tem ano
+Por causa da **solera**, um Jerez clássico não traz safra no rótulo: ele é a
+mistura perpétua de muitas. A cada engarrafamento retira-se só uma fração do
+barril mais velho, reposta pelo mais jovem. O sistema garante um **sabor
+constante** década após década — o oposto da lógica de safra do vinho tranquilo.
+:::
+
+## Exercícios
+
+::: {#exr-momento-fortificacao}
+Explique por que o **momento** da fortificação determina se o vinho será doce ou
+seco (@def-fortificacao). Em que momento se fortifica o Porto?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Se a aguardente entra **durante** a fermentação, mata as leveduras e deixa açúcar
+não fermentado: vinho **doce** (caso do **Porto**). Se entra **depois** do fim da
+fermentação, não há açúcar a preservar: vinho **seco** (caso do Jerez fino).
+:::
+
+::: {#exr-solera}
+Descreva, com base na @fig-solera, como funciona o sistema de **solera** e por que
+um vinho assim feito não tem safra.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Engarrafa-se sempre uma **fração** do barril mais velho (solera), reposta por
+vinho do barril mais jovem, numa cascata contínua. Como cada garrafa mistura
+vinho de **muitas safras**, não há um ano único a declarar — e o estilo se mantém
+constante.
+:::
+
+::: {#exr-madeira}
+Por que o **Madeira** é considerado praticamente indestrutível, ao ponto de
+garrafas durarem séculos? Relacione com sua produção.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque é **fortificado** (álcool alto) e, sobretudo, **aquecido e oxidado de
+propósito** (estufagem) na produção. Tendo já passado por calor e oxigênio, é
+quase imune a se deteriorar por eles depois — daí a longevidade extrema.
+:::

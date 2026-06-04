@@ -14,6 +14,9 @@ bactérias acéticas; em excesso, dão cheiro de vinagre e esmalte. Defeito.
 **Açúcar residual** — açúcar da uva que não foi convertido em álcool e
 permanece no vinho; define a escala do seco ao doce.
 
+**Aguardente vínica** — destilado de vinho usado na fortificação para elevar o
+teor alcoólico do vinho.
+
 **Ampelografia** — estudo e identificação das castas, pela forma da folha e do
 cacho (clássica) ou por análise de DNA (molecular).
 
@@ -145,8 +148,16 @@ vinho.
 videira; devastou os vinhedos europeus no fim do século XIX. A *Vitis vinifera*
 não resiste a ela; videiras americanas, sim.
 
+**Flor** — véu de leveduras que se forma sobre o vinho em alguns Jerez (fino,
+manzanilla), protegendo-o do ar e dando aromas próprios (envelhecimento
+biológico).
+
 **Floração** — fase em que as flores se abrem nos cachos embrionários; chuva e
 frio podem comprometer a polinização e a futura safra.
+
+**Fortificação** — adição de aguardente vínica ao vinho, elevando o álcool a
+15–22%; o momento da adição define se o fortificado será doce (Porto) ou seco
+(Jerez fino).
 
 **Glicerol** — álcool de sabor levemente adocicado formado na fermentação;
 contribui para a maciez e a sensação de corpo.
@@ -273,6 +284,10 @@ Garnacha/Grenache). Oposto de **homonímia**.
 **SO₂** (dióxido de enxofre, sulfitos) — principal aditivo da enologia, com
 papel antioxidante e antisséptico; presente em quase todo vinho ("contém
 sulfitos").
+
+**Solera** — sistema de mistura fracionada de fortificados (sobretudo Jerez) em
+barris empilhados por idade; engarrafa-se do mais velho e repõe-se com o mais
+jovem, dando estilo constante sem safra.
 
 **Tanino** — composto fenólico das cascas, sementes e madeira; responsável pela
 adstringência e pela estrutura dos tintos.

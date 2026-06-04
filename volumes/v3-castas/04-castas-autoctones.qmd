@@ -2,4 +2,140 @@
 title: "Castas autóctones"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+A globalização do vinho teve um efeito colateral: Cabernet Sauvignon e Chardonnay
+viraram quase onipresentes, e por um tempo pareceu que o mundo beberia sempre as
+mesmas meia-dúzia de castas. A reação veio das **castas autóctones** — as
+variedades nativas de cada região, muitas vezes cultivadas há séculos só ali. São
+elas que dão a um vinho um sabor de **lugar** impossível de copiar.
+
+Este capítulo apresenta algumas das grandes autóctones e o que as torna
+especiais: não apenas identidade cultural, mas também adaptação ao clima local e,
+em vários casos, qualidade de primeiríssima linha.
+
+## O que é uma casta autóctone
+
+::: {#def-autoctone}
+## Casta autóctone
+**Casta autóctone** (ou nativa) é a variedade originária de uma região, a ela
+historicamente ligada e em geral pouco cultivada fora dali. Opõe-se às castas
+**internacionais** (Cabernet, Merlot, Chardonnay…), difundidas pelo mundo todo.
+:::
+
+Autóctone **não** quer dizer rústica ou inferior. Muitas das maiores joias do
+vinho — o Barolo italiano, o Vinho do Porto — nascem de castas que quase não
+existem fora de sua terra natal. A @fig-mapa-autoctones reúne alguns exemplos
+emblemáticos.
+
+::: {#fig-mapa-autoctones}
+```{.tikz}
+%%| filename: mapa-autoctones
+%%| alt: Diagrama associando castas autóctones a seus países — Touriga Nacional a Portugal, Nebbiolo à Itália, Garnacha à Espanha, Assyrtiko à Grécia e Carmenère ao Chile (adotiva).
+\begin{tikzpicture}[font=\sffamily\scriptsize,
+    pais/.style={draw=manualgray, very thick, rounded corners=2pt,
+      fill=manualgray!15, align=center, text width=20mm, minimum height=6.5mm},
+    casta/.style={draw=manualred, very thick, rounded corners=2pt,
+      fill=manualred!12, align=center, text width=23mm, minimum height=8mm},
+    liga/.style={manualgray, thick}]
+  \foreach \i/\nome in {0/Portugal,1/Itália,2/Espanha,3/Grécia,4/Chile*}{
+    \node[pais] (p\i) at (\i*2.9,1.7) {\nome};}
+  % castas
+  \node[casta] (c0) at (0,0)    {Touriga Nacional};
+  \node[casta] (c1) at (2.9,0)  {Nebbiolo};
+  \node[casta] (c2) at (5.8,0)  {Garnacha};
+  \node[casta] (c3) at (8.7,0)  {Assyrtiko};
+  \node[casta] (c4) at (11.6,0) {Carmenère};
+  \foreach \i in {0,1,2,3,4}{\draw[liga] (p\i) -- (c\i);}
+  \node[manualgray, font=\tiny, align=left] at (11.6,-0.85) {* adotiva (origem em Bordeaux)};
+\end{tikzpicture}
+```
+
+Castas autóctones e suas terras. A Carmenère é um caso curioso: **autóctone
+adotiva** do Chile, embora tenha nascido em Bordeaux — onde quase desapareceu.
+:::
+
+## Quatro retratos
+
+**Touriga Nacional** é a estrela de Portugal: base do **Vinho do Porto** e de
+tintos secos potentes do Douro, intensamente floral (violeta) e estruturada.
+
+**Nebbiolo**, do Piemonte, faz **Barolo** e Barbaresco. Engana pela cor pálida:
+por baixo dela escondem-se taninos firmes, acidez alta e aromas de rosa, cereja e
+alcatrão — um dos grandes tintos de guarda do mundo.
+
+**Garnacha** (Grenache na França) é generosa, frutada e alcoólica; brilha sozinha
+no Priorat e em corte no Châteauneuf-du-Pape e na Rioja. **Carmenère**, por fim,
+é a assinatura tinta do **Chile**: herbácea quando pouco madura, encorpada e
+especiada quando plena.
+
+::: {.callout-note}
+## A casta que ressuscitou
+A Carmenère quase sumiu de Bordeaux após a **filoxera** e foi dada como perdida.
+No Chile, vinhas tidas como Merlot revelaram-se, em **1994**, Carmenère — levada
+para lá no século XIX e ali sobrevivente. Uma casta europeia que encontrou no
+Novo Mundo uma segunda vida e uma nova identidade nacional.
+:::
+
+::: {.callout-warning}
+## Erro comum
+**Cor pálida não significa vinho fraco.** O Nebbiolo é a prova: clarinho na taça,
+mas de tanino e acidez potentes, capaz de envelhecer décadas. Julgar o corpo de
+um tinto só pela intensidade da cor leva a erros — sobretudo com castas
+autóctones de perfil "pálido e potente".
+:::
+
+## Exemplos
+
+::: {#exm-carmenere-merlot}
+## Meio século como outra casta
+Até 1994, boa parte da "Merlot" chilena era, na verdade, **Carmenère** — as duas
+se parecem na folha e foram confundidas por décadas. Foi a **ampelografia
+molecular** (Volume III, cap. 1) que desfez o engano. O episódio mostra como o DNA
+redesenhou o mapa das castas e devolveu ao Chile uma identidade própria.
+:::
+
+::: {#exm-touriga-dois-vinhos}
+## Uma casta, do doce ao seco
+A Touriga Nacional sustenta tanto o **Vinho do Porto** (fortificado e doce) quanto
+os tintos **secos** modernos do Douro. A mesma casta autóctone, conforme a
+vinificação, dá um clássico fortificado ou um tinto encorpado de mesa — outra
+ilustração de que a casta é uma faixa de possibilidades.
+:::
+
+## Exercícios
+
+::: {#exr-autoctone-internacional}
+Classifique cada casta como **autóctone** (e de onde) ou **internacional**:
+(a) Chardonnay; (b) Nebbiolo; (c) Cabernet Sauvignon; (d) Touriga Nacional.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) **Internacional**; (b) **Autóctone** (Itália, Piemonte); (c)
+**Internacional**; (d) **Autóctone** (Portugal, Douro).
+:::
+
+::: {#exr-cor-corpo}
+Por que dizer que "vinho de cor clara é necessariamente leve" é um erro? Use o
+**Nebbiolo** como contraexemplo.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque cor e corpo são propriedades **distintas**. O Nebbiolo é pálido, mas tem
+taninos firmes, acidez alta e grande potência e longevidade. A cor depende da
+casta e da extração; não mede, sozinha, a estrutura do vinho.
+:::
+
+::: {#exr-papel-dna}
+Que técnica permitiu descobrir que a "Merlot" chilena era Carmenère, e por que
+isso importou para a identidade do Chile (@exm-carmenere-merlot)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+A **ampelografia molecular** (análise de DNA). Ela revelou a confusão e devolveu
+ao Chile uma casta-assinatura própria — a Carmenère —, em vez de mais uma região
+produtora de Merlot.
+:::

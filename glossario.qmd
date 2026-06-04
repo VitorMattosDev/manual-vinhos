@@ -45,6 +45,9 @@ que inclui os taninos e os pigmentos responsáveis pela cor.
 **Condução** (sistema de) — arranjo físico dado à videira (espaldeira, taça,
 latada) que define como folhas e cachos se distribuem no espaço.
 
+**Corte** (*assemblage*, *blend*) — mistura de duas ou mais castas ou lotes num
+mesmo vinho, buscando que se complementem (ex.: Cabernet com Merlot em Bordeaux).
+
 **Cultivar** — sinônimo de casta/variedade de videira.
 
 **Dormência** — repouso invernal da videira, sem folhas; período em que se faz a

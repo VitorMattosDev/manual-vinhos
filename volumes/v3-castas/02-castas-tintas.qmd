@@ -2,4 +2,160 @@
 title: "As grandes castas tintas"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Sete ou oito castas tintas respondem pela maior parte do vinho tinto de qualidade
+que se bebe no mundo. Conhecê-las — seu corpo, seus taninos, seus aromas e o lugar
+que as consagrou — é ganhar um mapa mental que organiza prateleiras, cartas de
+restaurante e a própria memória sensorial.
+
+Este capítulo apresenta as principais tintas internacionais e a região que se
+tornou sua referência. Não se trata de decorar fichas, mas de captar a
+**personalidade** de cada uma e como ela se liga a um terroir.
+
+## Como ler uma casta tinta
+
+Toda casta pode ser descrita por alguns eixos simples: a **cor** e o **corpo**
+(de leve a encorpado), a quantidade de **tanino** (a adstringência da casca), a
+**acidez** e a família de **aromas** típicos. A tabela abaixo resume as grandes
+tintas por esses eixos e indica sua região-berço.
+
+| Casta | Corpo | Tanino | Aromas típicos | Região-berço |
+|---|---|---|---|---|
+| Cabernet Sauvignon | Encorpado | Alto | Cassis, pimentão, cedro | Bordeaux (Médoc) |
+| Merlot | Médio a encorpado | Médio | Ameixa, frutas pretas maduras | Bordeaux (margem direita) |
+| Pinot Noir | Leve a médio | Baixo | Cereja, framboesa, sub-bosque | Borgonha |
+| Syrah / Shiraz | Encorpado | Alto | Frutas pretas, pimenta, defumado | Rhône Norte |
+| Tempranillo | Médio | Médio | Cereja, couro, tabaco | Rioja / Ribera |
+| Sangiovese | Médio | Alto | Cereja ácida, ervas, terra | Toscana |
+| Malbec | Encorpado | Médio | Ameixa, violeta, frutas escuras | Mendoza (e Cahors) |
+
+::: {.callout-note}
+## A casta é uma faixa, não um ponto
+Os descritores da tabela são **tendências**, não garantias. Um Syrah de clima
+fresco é mais apimentado e contido; o mesmo Syrah em clima quente fica mais
+encorpado e frutado. A casta define a **faixa de possibilidades**; o terroir e a
+vinificação escolhem o ponto.
+:::
+
+## As castas, uma a uma
+
+**Cabernet Sauvignon** é a tinta mais plantada do mundo: tânica, estruturada e
+longeva, dá vinhos de guarda e combina maravilhosamente com **Merlot**, sua
+parceira clássica nos cortes de Bordeaux — onde a estrutura de uma encontra a
+maciez frutada da outra.
+
+**Pinot Noir** é o oposto: pálida, delicada, de tanino baixo e aroma de pequenas
+frutas vermelhas. Difícil de cultivar e extremamente sensível ao terroir, é a
+casta da Borgonha e a expressão máxima da ideia de **climat**.
+
+**Syrah** (Shiraz na Austrália) é potente e apimentada; **Tempranillo** é a alma
+da Espanha, ligada ao envelhecimento em carvalho; **Sangiovese** sustenta os
+grandes vinhos da Toscana, com sua acidez de cereja; e **Malbec**, originária do
+sudoeste francês, renasceu como símbolo nacional na **Mendoza** argentina, em
+altitude. A @fig-casta-regiao liga cada uma ao seu lar.
+
+::: {#def-corte}
+## Corte (*assemblage*, *blend*)
+**Corte** é a mistura de duas ou mais castas (ou de lotes) num mesmo vinho. O
+corte de Bordeaux — Cabernet Sauvignon com Merlot e outras — é o exemplo
+clássico: as castas se complementam, uma trazendo estrutura, outra maciez.
+:::
+
+::: {#fig-casta-regiao}
+```{.tikz}
+%%| filename: casta-regiao-tintas
+%%| alt: Diagrama ligando castas tintas às suas regiões-berço — Cabernet Sauvignon e Merlot a Bordeaux, Pinot Noir à Borgonha, Syrah ao Rhône Norte, Tempranillo a Rioja/Ribera, Sangiovese à Toscana e Malbec a Mendoza.
+\begin{tikzpicture}[font=\sffamily\scriptsize,
+    casta/.style={draw=manualred, very thick, rounded corners=2pt,
+      fill=manualred!12, align=center, text width=30mm, minimum height=6.5mm},
+    regiao/.style={draw=manualgray, very thick, rounded corners=2pt,
+      fill=manualgray!12, align=center, text width=30mm, minimum height=6.5mm},
+    liga/.style={manualgray, thick}]
+  % castas (esquerda)
+  \node[casta] (cs) at (0,3)  {Cabernet Sauvignon};
+  \node[casta] (me) at (0,2)  {Merlot};
+  \node[casta] (pn) at (0,1)  {Pinot Noir};
+  \node[casta] (sy) at (0,0)  {Syrah / Shiraz};
+  \node[casta] (te) at (0,-1) {Tempranillo};
+  \node[casta] (sa) at (0,-2) {Sangiovese};
+  \node[casta] (ma) at (0,-3) {Malbec};
+  % regiões (direita)
+  \node[regiao] (bx) at (6,2.5)  {Bordeaux};
+  \node[regiao] (bg) at (6,1)    {Borgonha};
+  \node[regiao] (rh) at (6,0)    {Rhône Norte};
+  \node[regiao] (ri) at (6,-1)   {Rioja / Ribera};
+  \node[regiao] (to) at (6,-2)   {Toscana};
+  \node[regiao] (mz) at (6,-3)   {Mendoza};
+  % ligações
+  \draw[liga] (cs.east) -- (bx.west);
+  \draw[liga] (me.east) -- (bx.west);
+  \draw[liga] (pn.east) -- (bg.west);
+  \draw[liga] (sy.east) -- (rh.west);
+  \draw[liga] (te.east) -- (ri.west);
+  \draw[liga] (sa.east) -- (to.west);
+  \draw[liga] (ma.east) -- (mz.west);
+\end{tikzpicture}
+```
+
+Cada grande tinta e sua região-berço. **Cabernet Sauvignon** e **Merlot**
+convergem para Bordeaux, onde se cortam; as demais marcam um par casta–lugar que
+se tornou referência mundial.
+:::
+
+## Exemplos
+
+::: {#exm-corte-bordeaux}
+## Por que Bordeaux corta Cabernet com Merlot
+A Cabernet Sauvignon dá estrutura, tanino e potencial de guarda, mas pode ser
+austera e demorar a amadurecer. A Merlot é mais macia, frutada e precoce.
+Cortá-las (@def-corte) equilibra o vinho: a Merlot "preenche" o meio de boca que a
+Cabernet deixa firme. Não por acaso, na margem esquerda de Bordeaux domina a
+Cabernet, e na direita, a Merlot.
+:::
+
+::: {#exm-malbec-mendoza}
+## Malbec: de coadjuvante a símbolo
+Na França, a Malbec era casta secundária dos cortes do sudoeste. Levada à
+Argentina, encontrou na **altitude** de Mendoza — sol intenso, noites frias — as
+condições para dar vinhos encorpados, de cor profunda e taninos macios. Tornou-se
+a identidade do país: a mesma casta, outro terroir, outro destino.
+:::
+
+## Exercícios
+
+::: {#exr-casta-regiao}
+Associe cada casta à sua região-berço (@fig-casta-regiao): (1) Sangiovese,
+(2) Pinot Noir, (3) Tempranillo, (4) Syrah. Regiões: (a) Borgonha, (b) Rhône
+Norte, (c) Toscana, (d) Rioja/Ribera.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+1→c (Sangiovese · Toscana); 2→a (Pinot Noir · Borgonha); 3→d (Tempranillo ·
+Rioja/Ribera); 4→b (Syrah · Rhône Norte).
+:::
+
+::: {#exr-complementaridade}
+Com base no @exm-corte-bordeaux, explique por que Cabernet Sauvignon e Merlot são
+consideradas castas **complementares** num corte.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque oferecem qualidades opostas e desejáveis: a Cabernet traz **estrutura,
+tanino e guarda**; a Merlot traz **maciez, fruta e precocidade**. Juntas,
+produzem um vinho mais equilibrado do que cada uma isolada.
+:::
+
+::: {#exr-mesma-casta-clima}
+Um produtor faz Syrah em clima fresco e outro em clima quente. Segundo o texto,
+em que esperaríamos que os vinhos difiram, e por quê?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+O Syrah de **clima fresco** tende a ser mais **apimentado e contido**; o de
+**clima quente**, mais **encorpado e frutado**. A casta dá a faixa de aromas e
+estrutura; o clima decide onde, dentro dela, o vinho se posiciona.
+:::

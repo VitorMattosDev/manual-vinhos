@@ -2,4 +2,144 @@
 title: "Envelhecimento em garrafa"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Há um mito tenaz de que "vinho velho é melhor". A verdade é quase o contrário: a
+**imensa maioria** dos vinhos é feita para ser bebida **jovem**, nos primeiros
+anos, e só piora se for guardada. Uma minoria seleta, ao contrário, ganha com o
+tempo — e entender por que isso acontece, e quando, é o que separa abrir um vinho
+no auge de desperdiçá-lo.
+
+Este capítulo trata do que acontece com o vinho **depois** da garrafa fechada: a
+lenta evolução química, a curva entre juventude e declínio, e o que dá a um vinho
+o tão falado **potencial de guarda**.
+
+## O que muda na garrafa
+
+Fechada e quase sem oxigênio, a garrafa é palco de uma evolução **lenta**: os
+taninos se polimerizam e **amaciam**, a cor muda (o tinto vai do púrpura ao rubi e
+ao tijolo; o branco, do palha ao dourado e ao âmbar) e, sobretudo, os aromas se
+transformam.
+
+::: {#def-aromas-bouquet}
+## Primários, secundários e terciários
+Os aromas **primários** vêm da uva (fruta, flores); os **secundários**, da
+fermentação (pão, manteiga, lácteos); e os **terciários** surgem com o tempo de
+guarda (couro, cogumelo, tabaco, frutas secas, mel). O conjunto de aromas
+terciários de um vinho evoluído chama-se **bouquet**.
+:::
+
+## A curva de evolução
+
+A qualidade de um vinho ao longo do tempo desenha uma curva: sobe na **juventude**,
+estabiliza num **apogeu** e depois entra em **declínio**. A diferença entre um
+vinho comum e um de guarda está em **onde** e **quando** esse apogeu acontece, como
+mostra a @fig-curva-evolucao.
+
+::: {#def-apogeu}
+## Apogeu e potencial de guarda
+O **apogeu** é o período de auge do vinho, em que ele está no melhor equilíbrio. O
+**potencial de guarda** é por quanto tempo o vinho pode evoluir até lá: depende de
+seus "conservantes" naturais — **acidez, taninos, açúcar, álcool e concentração**.
+Vinhos pobres nesses elementos têm apogeu **precoce** e curto.
+:::
+
+::: {#fig-curva-evolucao}
+```{.tikz}
+%%| filename: curva-evolucao
+%%| alt: Gráfico de qualidade versus tempo com duas curvas — um vinho para beber jovem, que atinge o apogeu cedo e logo declina, e um vinho de guarda, que sobe devagar, atinge o apogeu tarde e tem longo platô.
+\begin{tikzpicture}[font=\sffamily\small]
+  \draw[-{Stealth[length=2.5mm]}, thick, manualgray] (0,0) -- (8.4,0)
+    node[right, font=\scriptsize]{tempo};
+  \draw[-{Stealth[length=2.5mm]}, thick, manualgray] (0,0) -- (0,4.6)
+    node[above, font=\scriptsize]{qualidade};
+  % vinho jovem: apogeu cedo, declina
+  \draw[manualblue, very thick] (0,1.2) .. controls (1.0,3.4) and (1.6,3.5) .. (2.2,3.4)
+       .. controls (3.2,3.2) and (4.0,1.0) .. (5.0,0.4)
+       node[right, manualblue, font=\footnotesize, yshift=-2mm]{beber jovem};
+  % vinho de guarda: sobe devagar, apogeu tardio, longo platô
+  \draw[manualred, very thick] (0,0.8) .. controls (2.5,1.6) and (3.5,3.7) .. (5.2,3.9)
+       .. controls (6.2,4.0) and (7.0,3.4) .. (8.0,2.6)
+       node[right, manualred, font=\footnotesize]{de guarda};
+  % marcações de apogeu
+  \fill[manualblue] (2.0,3.45) circle (1.4pt);
+  \fill[manualred] (5.6,3.95) circle (1.4pt);
+  \node[manualgray, font=\scriptsize] at (2.0,3.9) {apogeu};
+  \node[manualgray, font=\scriptsize] at (5.9,4.35) {apogeu};
+\end{tikzpicture}
+```
+
+A curva de evolução. O vinho **para beber jovem** (azul) atinge o apogeu cedo e
+declina rápido; o vinho **de guarda** (vermelho) sobe devagar, alcança o auge anos
+depois e mantém um longo platô. A maioria dos vinhos é do primeiro tipo.
+:::
+
+## Quem envelhece bem
+
+Os elementos que conservam o vinho são justamente os que, na juventude, podem
+parecer "duros": muita **acidez**, muito **tanino**, boa **concentração** (e, nos
+doces, **açúcar**). Um Barolo ou um Bordeaux estruturado tem do que viver por
+décadas; um branco leve e frutado, não — e tentar guardá-lo só o cansa.
+
+::: {.callout-warning}
+## Erro comum
+Guardar um vinho **não** o melhora por padrão. Sem acidez e taninos para
+sustentá-lo, um vinho simples apenas **perde** sua fruta jovem e fica cansado.
+Saber **quando** beber é tão importante quanto saber **o que** beber.
+:::
+
+## Exemplos
+
+::: {#exm-bouquet}
+## De fruta a bouquet
+Um tinto jovem cheira a fruta fresca (primário). Com anos de garrafa, essa fruta
+cede lugar a **couro, tabaco, cogumelo e frutas secas** — o **bouquet** terciário.
+Não é que a fruta "suma" por acaso: ela se transforma. Apreciar vinho velho é
+gostar dessa troca da fruta pela complexidade.
+:::
+
+::: {#exm-guarda-conservantes}
+## Por que o Barolo espera e o Vinho Verde não
+O Barolo (Nebbiolo) tem **tanino e acidez altíssimos**: na juventude é quase
+austero, mas esses "conservantes" o sustentam por 20, 30 anos até o apogeu. Um
+Vinho Verde jovem, leve e de pouca estrutura, está no auge **agora** — guardá-lo
+seria perder seu frescor. Cada vinho tem sua curva (@fig-curva-evolucao).
+:::
+
+## Exercícios
+
+::: {#exr-tres-fases}
+Quais são as três fases da @fig-curva-evolucao, e o que distingue a curva de um
+vinho "para beber jovem" da de um vinho "de guarda"?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+As fases são **juventude**, **apogeu** e **declínio**. O vinho para beber jovem
+atinge o apogeu **cedo** e declina rápido; o de guarda sobe devagar, chega ao
+apogeu **tarde** e mantém um **longo platô**.
+:::
+
+::: {#exr-conservantes}
+Quais elementos do vinho determinam seu **potencial de guarda** (@def-apogeu)? Por
+que um branco leve e frutado costuma ter apogeu precoce?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Acidez, taninos, açúcar, álcool e concentração** — os "conservantes" naturais.
+Um branco leve e frutado é pobre nesses elementos, então não tem do que viver por
+muito tempo: seu apogeu é **precoce** e curto.
+:::
+
+::: {#exr-aromas-evolucao}
+Classifique cada aroma como **primário**, **secundário** ou **terciário**
+(@def-aromas-bouquet): (a) framboesa fresca; (b) pão/brioche; (c) couro e
+cogumelo.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) **Primário** (da uva); (b) **Secundário** (da fermentação/autólise); (c)
+**Terciário** (do envelhecimento) — parte do bouquet.
+:::

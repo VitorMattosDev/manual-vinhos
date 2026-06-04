@@ -60,7 +60,7 @@ fotos entram como imagem embutida — ver `PLANO.md`).
 
 ### Volume VII — Estágio, Envelhecimento e Engarrafamento
 - [x] `v7-estagio-envelhecimento/01-madeira-e-barricas.qmd` — carvalho, tosta, microoxigenação. *fig.: troca na barrica (O₂/aromas).*
-- [ ] `v7-estagio-envelhecimento/02-envelhecimento-em-garrafa.qmd` — evolução, potencial de guarda. *fig.: curva de evolução × tempo.*
+- [x] `v7-estagio-envelhecimento/02-envelhecimento-em-garrafa.qmd` — evolução, potencial de guarda. *fig.: curva de evolução × tempo.*
 - [ ] `v7-estagio-envelhecimento/03-engarrafamento-e-vedantes.qmd` — rolha, screwcap, vidro. *fig.: tipos de vedante.*
 - [ ] `v7-estagio-envelhecimento/04-defeitos-do-vinho.qmd` — TCA, oxidação, redução, brett. *fig.: mapa de defeitos × causa.*
 

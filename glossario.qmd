@@ -26,6 +26,13 @@ vinho; hoje retomada por produtores em estilos de longa maceração.
 **Antocianina** — pigmento das cascas das uvas tintas, responsável pela cor do
 vinho; extraído por maceração. É um composto fenólico.
 
+**Apogeu** — período de auge de um vinho, em que está no melhor equilíbrio; ver
+**potencial de guarda**.
+
+**Aromas terciários** (*bouquet*) — aromas que surgem com a guarda (couro,
+cogumelo, tabaco, frutas secas, mel), por oposição aos primários (uva) e
+secundários (fermentação).
+
 **Autóctone** (casta) — variedade nativa de uma região, a ela historicamente
 ligada e pouco cultivada fora dali; oposta às castas internacionais.
 
@@ -267,6 +274,10 @@ açúcares e ácidos do mosto.
 **Porta-enxerto** — raiz (de espécie americana ou híbrida, resistente à
 filoxera) sobre a qual se enxerta a *Vitis vinifera*; base de quase toda videira
 cultivada desde a crise da filoxera.
+
+**Potencial de guarda** — por quanto tempo um vinho pode evoluir até o apogeu;
+depende de acidez, taninos, açúcar, álcool e concentração. A maioria dos vinhos
+tem apogeu precoce.
 
 **Qvevri** — grande pote de barro enterrado, usado na Geórgia há milênios para
 fermentar e conservar vinho; técnica reconhecida como patrimônio cultural.

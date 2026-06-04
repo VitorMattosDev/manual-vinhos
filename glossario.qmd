@@ -14,8 +14,15 @@ vinho; hoje retomada por produtores em estilos de longa maceração.
 **Baga** — o fruto da videira (o "bago"), formado por película, polpa e
 grainhas; é onde se concentram água, açúcares, ácidos, cor e taninos.
 
+**Botrytis** (*Botrytis cinerea*) — fungo de duas faces: arruína a uva
+(podridão cinzenta) ou, em clima preciso, a concentra (podridão nobre). Ver
+**podridão nobre**.
+
 **Brotação** — fase do ciclo em que as gemas abrem na primavera e surgem os
 primeiros pâmpanos; momento de risco diante das geadas tardias.
+
+**Calda bordalesa** — mistura de sulfato de cobre e cal usada desde o século
+XIX para tratar o míldio e outros fungos da videira.
 
 **Casta** — variedade de videira (sinônimo de cultivar/uva). Ex.: Cabernet
 Sauvignon, Chardonnay.
@@ -37,6 +44,9 @@ poda que definirá a safra seguinte.
 
 **Engaço** — a estrutura ramificada do cacho que sustenta as bagas; rica em
 taninos verdes, costuma ser removida no desengace.
+
+**Enxertia** — união de um porta-enxerto (raiz resistente à filoxera) com um
+garfo de *Vitis vinifera* (a casta); base de quase toda videira moderna.
 
 **Espaldeira** (VSP) — sistema de condução em que os ramos são amarrados a
 arames e sobem na vertical, formando uma parede de folhas; favorece exposição e
@@ -83,11 +93,17 @@ relevo e água próxima. Ver **macroclima** e **microclima**.
 **Microclima** — ambiente imediato em torno das folhas e cachos, alterável pelo
 próprio manejo da planta. Ver **macroclima** e **mesoclima**.
 
+**Míldio** (*downy mildew*) — doença fúngica favorecida pela umidade, com
+manchas oleosas nas folhas; tratada classicamente com calda bordalesa.
+
 **Mosto** — suco de uva, antes ou durante a fermentação.
 
 **Novo Mundo** — regiões vitícolas que receberam a vinha pela expansão colonial
 europeia (Américas, África do Sul, Oceania). Distinção histórica, não de
 qualidade. Ver **Velho Mundo**.
+
+**Oídio** (*powdery mildew*) — doença fúngica em pó branco acinzentado sobre
+folhas e bagas, favorecida pelo calor e pela sombra; tratada com enxofre.
 
 **Película** — a casca da baga, onde se concentram cor, taninos e muitos
 aromas; o contato com ela define tinto, branco ou rosé.
@@ -98,6 +114,10 @@ passa a acumular açúcar e perder acidez.
 **Poda** — corte dos ramos na dormência que define o número de gemas e, com
 isso, a carga de uva e o rendimento da safra; pode ser longa (Guyot) ou curta
 (cordão esporonado).
+
+**Podridão nobre** — ação benéfica do *Botrytis* sobre uva madura e sã, sob
+névoa de manhã e sol à tarde, que concentra açúcar e aromas; base de vinhos
+doces como Sauternes e Tokaji.
 
 **Polpa** — a parte carnosa e quase sempre incolor da baga; fonte de água,
 açúcares e ácidos do mosto.

@@ -2,4 +2,177 @@
 title: "Pragas e doenças da videira"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+A videira tem inimigos. Um inseto microscópico quase apagou a viticultura
+europeia no século XIX (a filoxera, que vimos na história); fungos invisíveis
+podem destruir uma safra em poucos dias de chuva. Boa parte das práticas de
+vinhedo — a enxertia, a condução arejada, os tratamentos preventivos — só faz
+sentido quando se sabe **de que** a planta se defende.
+
+Neste capítulo conhecemos os principais adversários da videira e como o
+viticultor responde a cada um. Um deles, curiosamente, pode ser **aliado**: o
+fungo *Botrytis* arruína a uva na maioria dos casos, mas em condições especiais
+dá origem a alguns dos maiores vinhos doces do mundo.
+
+## A filoxera e a resposta: o enxerto
+
+A **filoxera** (@def-filoxera) ataca as raízes da *Vitis vinifera*, que não tem
+defesa. A solução, encontrada após a devastação do século XIX, não foi matar o
+inseto, mas **trocar a raiz**: enxertar a casta europeia sobre uma raiz americana
+resistente.
+
+::: {#def-enxertia}
+## Enxertia
+**Enxertia** é a união de duas plantas numa só: um **porta-enxerto** (a raiz,
+de espécie americana resistente à filoxera) e um **garfo** ou **cavaleiro** (a
+parte aérea, da *Vitis vinifera*, que dá as uvas da casta desejada). As duas
+soldam-se no **ponto de enxertia**. A @fig-enxerto mostra o arranjo.
+:::
+
+::: {#fig-enxerto}
+```{.tikz}
+%%| filename: enxerto-porta-enxerto
+%%| alt: Esquema de uma videira enxertada — embaixo, o porta-enxerto de raiz americana resistente à filoxera; no ponto de enxertia, a junção; e acima o garfo de Vitis vinifera com folhas e um cacho, a parte que dá as uvas.
+\begin{tikzpicture}[font=\sffamily\footnotesize,
+    rot/.style={font=\sffamily\scriptsize, align=left},
+    seta/.style={-{Stealth[length=2mm]}, manualgray}]
+  % solo
+  \draw[manualgray, thick] (-1.7,0) -- (1.7,0);
+  \node[manualgray, font=\scriptsize] at (1.4,0.22) {solo};
+
+  % raízes + porta-enxerto (azul)
+  \foreach \a in {250,266,282,298}{\draw[manualblue, very thick] (0,0) -- (\a:1.45);}
+  \draw[manualblue, line width=4pt] (0,0) -- (0,1.15);
+
+  % ponto de enxertia (banda amarela)
+  \draw[manualyellow!85, line width=5pt] (0,1.15) -- (0,1.4);
+  \draw[manualgray, thick] (-0.16,1.27) -- (0.16,1.27);
+
+  % garfo (vinifera, vermelho)
+  \draw[manualred, line width=4pt] (0,1.4) -- (0,2.6);
+
+  % ramos, folhas e cacho
+  \draw[manualgreen, very thick] (0,2.55) -- (0.55,3.1);
+  \draw[manualgreen, very thick] (0,2.55) -- (-0.45,3.05);
+  \fill[manualgreen!45, draw=manualgreen, thick] (0.62,3.15) ellipse (4.5mm and 3mm);
+  \fill[manualgreen!45, draw=manualgreen, thick] (-0.5,3.1) ellipse (4.5mm and 3mm);
+  \foreach \cy in {2.35,2.2}{\fill[manualred!70] (0.18,\cy) circle (0.8mm); \fill[manualred!70] (0.32,\cy) circle (0.8mm);}
+
+  % rótulos
+  \node[rot, align=center] (g) at (2.7,2.6) {garfo (cavaleiro):\\\emph{Vitis vinifera}\\— a casta};
+    \draw[seta] (g) -- (0.08,2.4);
+  \node[rot] (pe) at (-3.0,1.27) {ponto de enxertia}; \draw[seta] (pe) -- (-0.1,1.27);
+  \node[rot, align=center] (pp) at (-3.0,0.0) {porta-enxerto:\\raiz americana\\(resiste à filoxera)};
+    \draw[seta] (pp) -- (-0.45,-0.3);
+\end{tikzpicture}
+```
+
+A videira enxertada: raiz americana (**porta-enxerto**) resistente à filoxera,
+unida no **ponto de enxertia** ao **garfo** de *Vitis vinifera*, que produz as
+uvas da casta. Quase toda vinha cultivada hoje tem esta estrutura.
+:::
+
+## Os fungos: oídio, míldio e *Botrytis*
+
+Se a filoxera é história resolvida, os fungos são a luta de toda safra. Três
+deles dominam a preocupação do viticultor:
+
+- **Oídio** (*powdery mildew*) — recobre folhas e bagas com um **pó branco
+  acinzentado**. Prospera no calor e na sombra úmida; trata-se classicamente com
+  **enxofre**.
+- **Míldio** (*downy mildew*) — surge com **umidade e chuva**, formando manchas
+  de aspecto oleoso nas folhas; pode arrasar a safra num clima chuvoso. O
+  tratamento tradicional é a **calda bordalesa**, à base de cobre.
+- **_Botrytis cinerea_** — um fungo de duas faces, tratado a seguir.
+
+::: {.callout-note}
+## Prevenir antes de tratar
+Boa parte da defesa contra fungos é feita **antes** do tratamento químico, pela
+condução arejada (capítulo anterior): expor os cachos ao sol e ao vento reduz a
+umidade onde o fungo se instala. Manejo e sanidade andam juntos.
+:::
+
+## As duas faces do *Botrytis*
+
+::: {#def-podridao-nobre}
+## Podridão nobre × podridão cinzenta
+O fungo *Botrytis cinerea* causa a **podridão cinzenta** — destrutiva — quando
+ataca uva sã em clima úmido e frio. Mas, sobre uva **madura e sadia**, sob
+manhãs de **névoa úmida seguidas de tardes secas e ensolaradas**, ele desidrata a
+baga e concentra açúcares e aromas: é a **podridão nobre**, base de grandes
+vinhos doces.
+:::
+
+A diferença entre desastre e tesouro está nas **condições**: a mesma espécie de
+fungo arruína a colheita ou cria um Sauternes, um Tokaji, um *Beerenauslese*. Por
+isso a podridão nobre exige clima muito específico e colheita seletiva, bago a
+bago.
+
+::: {.callout-warning}
+## Erro comum
+Não confunda as duas podridões. Toda uva mofada **não** é "podridão nobre": esta
+só ocorre em uva madura e íntegra, sob um regime preciso de umidade e sol. Sobre
+uva verde, ferida ou em clima só úmido, *Botrytis* é puro prejuízo.
+:::
+
+## Exemplos
+
+::: {#exm-duas-plantas-revisao}
+## Por que olhar a base do tronco
+Numa vinha enxertada, há uma pequena saliência logo acima do solo: é o **ponto de
+enxertia** (@fig-enxerto), a cicatriz da união entre o porta-enxerto americano e
+o garfo europeu. Abaixo dela, a planta é uma espécie; acima, outra. Vinhas
+**pé-franco** (sem enxerto), raríssimas hoje, não têm essa saliência.
+:::
+
+::: {#exm-sauternes}
+## Quando o fungo faz o doce
+Em Sauternes (Bordeaux), o encontro do rio frio com tardes quentes de outono cria
+exatamente o regime de **névoa de manhã, sol à tarde** que favorece a podridão
+nobre. As uvas murcham, concentram açúcar, e são colhidas em várias passagens,
+grão a grão. O resultado é um vinho doce, denso e longevo — um produto do mesmo
+fungo que, em outro clima, seria ruína.
+:::
+
+## Exercícios
+
+::: {#exr-papel-porta-enxerto}
+Explique, com base na @def-enxertia, por que quase toda videira moderna é
+"duas plantas". Qual parte resolve o problema da filoxera, e qual parte define a
+casta do vinho?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+A videira moderna une **porta-enxerto** (raiz americana, que resiste à filoxera)
+e **garfo** de *Vitis vinifera* (que dá as uvas da casta). A raiz resolve a
+praga; a parte aérea define qual vinho será feito.
+:::
+
+::: {#exr-oidio-vs-mildio}
+Um viticultor relata: após uma semana de **chuva e umidade**, manchas oleosas
+surgiram nas folhas. Trata-se mais provavelmente de **oídio** ou de **míldio**? E
+qual tratamento clássico ele tende a usar?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Míldio** (*downy mildew*), que prospera com umidade e chuva e dá manchas
+oleosas. O tratamento tradicional é a **calda bordalesa** (à base de cobre). O
+oídio, por contraste, aparece como pó branco e é associado a calor e sombra.
+:::
+
+::: {#exr-condicoes-botrytis}
+Por que a mesma espécie *Botrytis cinerea* pode ser desastre numa vinha e dádiva
+em outra? Cite as condições que separam a podridão **nobre** da **cinzenta**
+(@def-podridao-nobre).
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Depende do estado da uva e do clima. Sobre uva **madura e sã**, com **névoa de
+manhã e sol à tarde**, o fungo desidrata e concentra a baga (podridão nobre, para
+vinhos doces). Sobre uva verde ou ferida, ou em clima só úmido e frio, ele
+apodrece a colheita (podridão cinzenta).
+:::

@@ -27,7 +27,7 @@ fotos entram como imagem embutida — ver `PLANO.md`).
 - [x] `v2-viticultura/02-ciclo-vegetativo.qmd` — brotação a dormência. *fig.: roda do ciclo anual.*
 - [x] `v2-viticultura/03-terroir.qmd` — clima, solo, relevo, exposição. *fig.: corte de terroir (solo/encosta/sol).*
 - [x] `v2-viticultura/04-manejo-do-vinhedo.qmd` — condução, poda, rendimento, irrigação. *fig.: sistemas de condução (espaldeira etc.).*
-- [ ] `v2-viticultura/05-pragas-e-doencas.qmd` — filoxera, oídio, míldio, botrytis. *fig.: enxerto em porta-enxerto.*
+- [x] `v2-viticultura/05-pragas-e-doencas.qmd` — filoxera, oídio, míldio, botrytis. *fig.: enxerto em porta-enxerto.*
 - [ ] `v2-viticultura/06-maturacao-e-vindima.qmd` — pontos de colheita, manual × mecânica. *fig.: curva de açúcar × acidez na maturação.*
 
 ### Volume III — Castas e Variedades

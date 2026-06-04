@@ -156,6 +156,10 @@ fermentação previsível e de perfil escolhido.
 **Maceração** — contato do mosto com as cascas, sementes e/ou engaços para
 extrair cor, taninos e aromas.
 
+**Maceração carbônica** — fermentação de cachos inteiros em atmosfera de CO₂,
+com fermentação intracelular dentro das bagas; dá tintos leves e frutados (ex.:
+Beaujolais).
+
 **Macroclima** — clima geral de uma região vitícola inteira. Ver **mesoclima** e
 **microclima**.
 
@@ -276,6 +280,9 @@ em bagas; determina quantas bagas cada cacho terá.
 **Vinho-gota** — vinho que escorre sozinho das cascas após a maceração, mais
 fino e elegante; distinto do **vinho de prensa**, mais tânico, extraído ao
 prensar as cascas.
+
+**Vinho laranja** (*orange wine*) — branco fermentado com as cascas, em
+maceração longa (muitas vezes em ânfora); ganha cor âmbar, taninos e textura.
 
 **_Vitis vinifera_** — espécie de videira de origem caucasiana que dá quase
 todo o vinho fino do mundo; tronco de onde derivam as castas cultivadas.

@@ -50,7 +50,7 @@ fotos entram como imagem embutida — ver `PLANO.md`).
 - [x] `v5-vinificacao/01-vinificacao-tinto.qmd` — maceração, remontagem, prensagem. *fig.: fluxograma do tinto.*
 - [x] `v5-vinificacao/02-vinificacao-branco.qmd` — prensagem direta, fermentação a frio. *fig.: fluxograma do branco.*
 - [x] `v5-vinificacao/03-vinificacao-rose.qmd` — sangria × prensagem direta. *fig.: comparação dos dois métodos.*
-- [ ] `v5-vinificacao/04-tecnicas-especiais.qmd` — maceração carbônica, ânfora, talha. *fig.: maceração carbônica.*
+- [x] `v5-vinificacao/04-tecnicas-especiais.qmd` — maceração carbônica, ânfora, talha. *fig.: maceração carbônica.*
 
 ### Volume VI — Espumantes, Fortificados e Doces
 - [ ] `v6-espumantes-fortificados/01-metodo-tradicional.qmd` — champenoise, segunda fermentação, dégorgement. *fig.: etapas do método tradicional.*

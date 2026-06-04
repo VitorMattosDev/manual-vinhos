@@ -2,4 +2,140 @@
 title: "Técnicas especiais de vinificação"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Tinto, branco e rosé cobrem a maior parte do que se bebe, mas não esgotam a
+imaginação do enólogo. Algumas técnicas produzem estilos inconfundíveis: a
+**maceração carbônica**, que dá tintos leves e explosivamente frutados, e a
+vinificação em **ânfora ou talha**, que reabilita uma tradição milenar — e dá
+origem aos **vinhos laranja**.
+
+Este capítulo fecha o Volume V com essas vinificações fora do roteiro padrão. São
+exceções instrutivas: ao quebrar a regra, revelam o porquê das regras.
+
+## Maceração carbônica
+
+::: {#def-maceracao-carbonica}
+## Maceração carbônica
+Na **maceração carbônica**, cachos de uva **inteiros** (não esmagados) são postos
+num tanque saturado de **CO₂**, sem oxigênio. Sem leveduras e sem ar, começa uma
+**fermentação intracelular** dentro de cada baga. O resultado são tintos de cor
+viva, taninos baixos e aromas frutados típicos (banana, frutas vermelhas, bala).
+:::
+
+É o método do **Beaujolais** (uva Gamay) e a alma do *Beaujolais Nouveau* —
+vinho jovem, leve, para beber semanas após a colheita. A @fig-maceracao-carbonica
+mostra o que acontece dentro do tanque.
+
+::: {#fig-maceracao-carbonica}
+```{.tikz}
+%%| filename: maceracao-carbonica
+%%| alt: Corte de um tanque fechado de maceração carbônica, com atmosfera de CO2 no topo, cachos de uva inteiros no meio onde ocorre a fermentação intracelular, e uma camada de mosto no fundo formada pelas bagas esmagadas sob o próprio peso.
+\begin{tikzpicture}[font=\sffamily\scriptsize,
+    rot/.style={font=\sffamily\scriptsize, align=left},
+    seta/.style={-{Stealth[length=2mm]}, manualgray}]
+  % tanque
+  \draw[manualgray, very thick, rounded corners=4pt] (0,0) rectangle (5,5);
+  % atmosfera de CO2
+  \fill[manualblue!10] (0.12,3.4) rectangle (4.88,4.88);
+  \node[manualblue!60!black] at (2.5,4.4) {atmosfera de CO$_2$};
+  % mosto no fundo
+  \fill[manualred!30] (0.12,0.12) rectangle (4.88,0.9);
+  \node[manualred!60!black, font=\tiny] at (2.5,0.5) {mosto (bagas esmagadas pelo peso)};
+  % cachos inteiros (triângulos de bagas)
+  \foreach \cx/\cy in {1.3/3.0,2.7/3.3,3.6/2.4,1.9/1.8}{
+    \foreach \dx/\dy in {0/0,0.18/0,-0.18/0,0.09/-0.16,-0.09/-0.16,0/-0.32}{
+      \fill[manualred!75] (\cx+\dx,\cy+\dy) circle (0.8mm);}}
+  % rótulos
+  \node[rot] (u) at (6.2,3.0) {uvas inteiras\\(não esmagadas)};
+    \draw[seta] (u) -- (2.9,3.25);
+  \node[rot] (f) at (6.2,1.8) {fermentação\\intracelular\\(dentro da baga)};
+    \draw[seta] (f) -- (2.05,1.75);
+\end{tikzpicture}
+```
+
+A maceração carbônica: num tanque cheio de **CO₂**, as bagas **inteiras**
+fermentam por dentro. As do fundo, esmagadas pelo próprio peso, soltam mosto. O
+método dá tintos frutados, macios e de pouca tanicidade.
+:::
+
+## Ânfora, talha e vinhos laranja
+
+Muito antes do aço inox e do carvalho, fermentava-se em **barro**. Essa tradição
+sobrevive — e renasce — em recipientes como o **qvevri** georgiano (que vimos no
+Volume I), a **talha** portuguesa e a *tinaja* espanhola.
+
+O barro permitiu o reaparecimento de um estilo radical: o **vinho laranja**.
+
+::: {#def-vinho-laranja}
+## Vinho laranja (*orange wine*)
+**Vinho laranja** é um **branco feito como tinto**: uvas brancas fermentadas
+**com as cascas**, em maceração longa (dias a meses), muitas vezes em ânfora. O
+contato com a película extrai cor (âmbar/laranja), taninos e textura — algo
+inédito para um branco.
+:::
+
+::: {.callout-note}
+## Laranja fecha o círculo
+O vinho laranja une duas pontas deste manual: a ideia de que a **cor e o tanino
+vêm da maceração com as cascas** (Volume II) e a tradição **milenar do barro**
+(Volume I). Não é moda nova — é uma das formas mais antigas de fazer vinho,
+redescoberta.
+:::
+
+## Exemplos
+
+::: {#exm-beaujolais}
+## Por que o Beaujolais Nouveau é tão frutado
+Os aromas de banana e bala do *Beaujolais Nouveau* não vêm da uva Gamay sozinha:
+nascem da **maceração carbônica**, com sua fermentação intracelular. Pouca
+extração de tanino e muito aroma frutado tornam o vinho leve e imediato — feito
+para beber jovem, não para guardar.
+:::
+
+::: {#exm-qvevri-laranja}
+## Um branco cor de âmbar
+Na Geórgia, brancos fermentados em **qvevri** com longa maceração das cascas saem
+**alaranjados**, tânicos e estruturados — mais perto de um tinto leve, na textura,
+do que de um branco comum. É o **vinho laranja** em sua forma original, feito como
+há milênios.
+:::
+
+## Exercícios
+
+::: {#exr-carbonica}
+Descreva o que acontece dentro do tanque na **maceração carbônica**
+(@def-maceracao-carbonica) e por que o vinho resultante é leve e frutado.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Cachos **inteiros** ficam num tanque saturado de **CO₂**, sem oxigênio; começa uma
+**fermentação intracelular** dentro das bagas. Como há pouca extração de tanino e
+muita formação de aromas frutados, o vinho sai **leve, macio e frutado**.
+:::
+
+::: {#exr-laranja}
+Por que o **vinho laranja** pode ser descrito como "um branco feito como tinto"
+(@def-vinho-laranja)? O que o contato com as cascas lhe acrescenta?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque usa uvas **brancas** mas as fermenta **com as cascas**, como um tinto. O
+contato com a película acrescenta **cor** (tom âmbar/laranja), **taninos** e
+**textura** — atributos incomuns num branco convencional.
+:::
+
+::: {#exr-tradicao-barro}
+Que duas ideias já vistas no manual o **vinho laranja** reúne, e por que se diz
+que ele "não é moda nova"?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Reúne a ideia de que **cor e tanino vêm da maceração com as cascas** (Volume II) e
+a **tradição milenar de fermentar em barro** (qvevri, Volume I). Como essa forma
+de vinificar é antiquíssima, o vinho laranja é uma **redescoberta**, não uma
+invenção recente.
+:::

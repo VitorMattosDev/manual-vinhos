@@ -1,0 +1,143 @@
+---
+title: "Madeira e barricas"
+---
+
+## Motivação
+
+A barrica de carvalho não é apenas um recipiente onde o vinho espera: é um
+**ingrediente**. Ela cede aromas (baunilha, tosta, especiarias), acrescenta
+taninos, deixa o vinho respirar um fio de oxigênio e o concentra pela evaporação.
+Bem usada, dá complexidade e textura; mal usada, mascara a fruta sob uma camada de
+"serraria".
+
+Este capítulo abre o Volume VII com o estágio em madeira: o que a barrica faz com
+o vinho, quais variáveis o enólogo controla e onde está o limite entre temperar e
+encobrir.
+
+## O que a barrica faz
+
+Durante o estágio, três processos acontecem ao mesmo tempo, resumidos na
+@fig-barrica:
+
+- **Cede compostos da madeira** — aromas de **baunilha**, coco e especiarias, e o
+  caráter da **tosta** (notas torradas, de café e defumado), além de taninos.
+- **Permite microxigenação** — o oxigênio entra devagar pelos poros da madeira,
+  **amaciando os taninos** e estabilizando a cor (Volume IV).
+- **Concentra por evaporação** — parte da água e do álcool evapora pela madeira (a
+  "parte dos anjos"), exigindo **atestar** a barrica regularmente.
+
+::: {#def-barrica-tosta}
+## Barrica e tosta
+A **barrica** é o tonel de carvalho usado no estágio do vinho. Ao montá-la, as
+aduelas são **tostadas** por fogo — a **tosta** —, e seu nível (leve, média ou
+forte) regula as notas torradas e de baunilha que o vinho vai absorver.
+:::
+
+::: {#fig-barrica}
+```{.tikz}
+%%| filename: troca-barrica
+%%| alt: Corte de uma barrica mostrando três trocas — oxigênio entrando lentamente pelos poros da madeira, compostos da madeira (baunilha, tosta, taninos) migrando para o vinho, e evaporação de água e álcool (parte dos anjos) saindo pelo topo.
+\begin{tikzpicture}[font=\sffamily\scriptsize,
+    seta/.style={-{Stealth[length=2mm]}, very thick}]
+  % corpo da barrica
+  \fill[manualred!16] (1.2,0.3) rectangle (5.2,3.0);
+  \draw[manualgray, very thick, rounded corners=3pt] (1.2,0.3) rectangle (5.2,3.0);
+  % aduelas
+  \foreach \x in {1.9,2.6,3.3,4.0,4.7}{\draw[manualgray!60] (\x,0.3) -- (\x,3.0);}
+  % arcos da barrica
+  \draw[manualgray, very thick] (1.2,0.9) -- (5.2,0.9);
+  \draw[manualgray, very thick] (1.2,2.4) -- (5.2,2.4);
+  \node[manualred!60!black, font=\sffamily\small] at (3.2,1.65) {vinho};
+
+  % O2 entrando (esquerda)
+  \draw[seta, manualblue] (-0.4,2.2) -- (1.15,2.0);
+  \node[manualblue, font=\tiny, align=left] at (-1.6,2.2) {O$_2$\\(microxigenação)};
+  % compostos da madeira entrando (direita)
+  \draw[seta, manualgray] (6.9,1.3) -- (5.25,1.3);
+  \node[manualgray, font=\tiny, align=left] at (7.0,1.3) {baunilha,\\tosta, taninos};
+  % evaporação (topo)
+  \draw[seta, manualgray] (3.2,3.1) -- (3.2,3.9);
+  \node[manualgray, font=\tiny, align=center] at (3.2,4.2) {evaporação\\(parte dos anjos)};
+\end{tikzpicture}
+```
+
+As trocas na barrica: o **oxigênio** entra devagar (amaciando o vinho), os
+**compostos da madeira** migram para o vinho (aroma e tanino) e parte do líquido
+**evapora** pela madeira. A barrica tempera e estrutura ao mesmo tempo.
+:::
+
+## O que o enólogo controla
+
+O efeito da barrica varia com algumas escolhas: o **tipo de carvalho** (o
+**francês** tende ao sutil e especiado; o **americano**, à baunilha e ao coco mais
+intensos), o **tamanho** (quanto menor a barrica, maior o contato proporcional com
+a madeira), a **idade** (uma barrica nova cede muito; uma usada já é quase neutra)
+e o **nível de tosta**.
+
+Quem não quer caráter de madeira usa **aço inox** (neutro). Há ainda atalhos
+econômicos — **aduelas e chips** de carvalho dentro do tanque — que imitam parte
+do efeito sem a barrica inteira.
+
+::: {.callout-warning}
+## Erro comum
+Mais madeira **não** é sinal de mais qualidade. Excesso de carvalho novo encobre a
+fruta e deixa o vinho com gosto de "serraria" ou baunilha artificial. A boa
+barrica **tempera** o vinho; ela não deve ser o prato principal.
+:::
+
+## Exemplos
+
+::: {#exm-carvalho-frances-americano}
+## Francês ou americano
+Um mesmo tinto em **carvalho francês** ganha especiarias finas e tanino discreto;
+em **carvalho americano**, ganha baunilha e coco mais evidentes. Por isso a Rioja
+tradicional, amante do americano, tem aquele perfil baunilhado característico,
+enquanto muitos Bordeaux preferem a sutileza do francês.
+:::
+
+::: {#exm-barrica-nova-usada}
+## Nova, usada, neutra
+Uma barrica **nova** marca fortemente o vinho; depois de dois ou três usos, cede
+cada vez menos e vira quase um recipiente **neutro**, que ainda permite
+microxigenação sem "amadeirar". Por isso os produtores dosam a proporção de
+barricas novas e usadas para calibrar a intensidade da madeira.
+:::
+
+## Exercícios
+
+::: {#exr-tres-processos-barrica}
+Cite os **três** processos que ocorrem no estágio em barrica (@fig-barrica) e o
+efeito de cada um sobre o vinho.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+(1) **Cessão de compostos da madeira** — aromas (baunilha, tosta) e taninos; (2)
+**microxigenação** — amacia os taninos e estabiliza a cor; (3) **evaporação** (a
+parte dos anjos) — concentra o vinho e exige atestar a barrica.
+:::
+
+::: {#exr-intensidade-madeira}
+Um enólogo quer **menos** marca de madeira, mantendo a microxigenação. Que duas
+escolhas (entre carvalho, tamanho, idade, tosta) o ajudam, e por quê?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Por exemplo: usar **barricas usadas** (já quase neutras, cedem pouco aroma mas
+ainda deixam o vinho respirar) e **tosta leve**; também ajuda preferir barricas
+**maiores** (menos contato proporcional). Assim há microxigenação sem grande marca
+de madeira.
+:::
+
+::: {#exr-serraria}
+Por que se diz que "mais madeira não é mais qualidade"? O que acontece com um
+vinho excessivamente amadeirado?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque o excesso de carvalho **encobre a fruta** e o caráter do vinho, deixando
+notas de "serraria" ou baunilha artificial dominantes. A madeira deve **temperar**,
+não substituir o vinho — equilíbrio, não quantidade.
+:::

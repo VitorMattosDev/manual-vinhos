@@ -38,6 +38,9 @@ a fermentação malolática, convertendo ácido málico em lático.
 **Baga** — o fruto da videira (o "bago"), formado por película, polpa e
 grainhas; é onde se concentram água, açúcares, ácidos, cor e taninos.
 
+**Barrica** — tonel de carvalho usado no estágio do vinho; cede aromas (baunilha,
+tosta) e taninos e permite microxigenação. Ver **tosta**.
+
 **Bâtonnage** — ato de mexer as borras finas durante o estágio sobre borras,
 intensificando textura e cremosidade do vinho.
 
@@ -233,6 +236,9 @@ folhas e bagas, favorecida pelo calor e pela sombra; tratada com enxofre.
 **Oxidação** — dano causado pelo excesso de oxigênio: perda de aroma frutado,
 escurecimento e risco de acetificação. Oposto da **microxigenação**.
 
+**Parte dos anjos** — fração do vinho que evapora pela madeira durante o estágio
+em barrica; exige atestar regularmente o recipiente.
+
 **Passito** (*appassimento*) — método de vinho doce em que as uvas são secas
 após a colheita (ao sol ou em esteiras), murchando e concentrando açúcar (Vin
 Santo, Pedro Ximénez).
@@ -308,6 +314,9 @@ vinho de um lugar.
 
 **Tiragem** — no método tradicional, a adição ao vinho-base do licor de tiragem
 (açúcar e leveduras) e o engarrafamento que deflagram a segunda fermentação.
+
+**Tosta** — queima das aduelas no fabrico da barrica; seu nível (leve, média,
+forte) regula as notas torradas e de baunilha que o vinho absorve.
 
 **Trasfega** — transferência do vinho de um recipiente a outro, deixando para
 trás a borra depositada no fundo; clarifica e areia o vinho de forma controlada.

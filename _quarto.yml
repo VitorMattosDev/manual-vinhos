@@ -74,12 +74,12 @@ book:
         - volumes/v6-espumantes-fortificados/03-fortificados.qmd
         - volumes/v6-espumantes-fortificados/04-doces-naturais.qmd
 
-    # - part: "Volume VII — Estágio, Envelhecimento e Engarrafamento"
-    #   chapters:
-    #     - volumes/v7-estagio-envelhecimento/01-madeira-e-barricas.qmd
-    #     - volumes/v7-estagio-envelhecimento/02-envelhecimento-em-garrafa.qmd
-    #     - volumes/v7-estagio-envelhecimento/03-engarrafamento-e-vedantes.qmd
-    #     - volumes/v7-estagio-envelhecimento/04-defeitos-do-vinho.qmd
+    - part: "Volume VII — Estágio, Envelhecimento e Engarrafamento"
+      chapters:
+        - volumes/v7-estagio-envelhecimento/01-madeira-e-barricas.qmd
+        - volumes/v7-estagio-envelhecimento/02-envelhecimento-em-garrafa.qmd
+        - volumes/v7-estagio-envelhecimento/03-engarrafamento-e-vedantes.qmd
+        - volumes/v7-estagio-envelhecimento/04-defeitos-do-vinho.qmd
 
     # - part: "Volume VIII — Estilos e Tipos de Vinho"
     #   chapters:

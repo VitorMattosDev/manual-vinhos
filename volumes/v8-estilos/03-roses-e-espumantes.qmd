@@ -2,4 +2,116 @@
 title: "Estilos de rosé e espumante"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Rosés e espumantes têm uma gramática de estilo própria — e, no caso dos
+espumantes, uma das nomenclaturas mais **contraintuitivas** do mundo do vinho: um
+espumante "Extra Dry" (extra seco) é, na verdade, **mais doce** que um "Brut".
+Decifrar essa escala é indispensável para escolher bem.
+
+Este capítulo organiza os estilos de rosé (pela cor e pela doçura) e, sobretudo, a
+**escala de doçura dos espumantes**, herdada da dosagem que vimos no Volume VI.
+
+## Estilos de rosé
+
+A maior parte do rosé fino moderno é **seca**, e seu estilo se descreve pela
+**cor** (do pálido provençal, mais delicado, ao rosa intenso de sangria, mais
+frutado) e pelo **corpo**. Há também rosés **adocicados** populares (o *blush* /
+White Zinfandel), de perfil mais simples e doce. Em quase todos, a graça é a
+combinação de **frescor** e fruta vermelha leve.
+
+## A escala de doçura dos espumantes
+
+A **dosagem** (Volume VI) define quanto açúcar o espumante leva, e isso é rotulado
+numa escala padronizada — a da @fig-escala-docura. O detalhe traiçoeiro está no
+meio dela.
+
+::: {#def-escala-docura}
+## Da brut nature ao doux
+Os espumantes vão do mais seco ao mais doce: **brut nature** (sem açúcar
+adicionado), **extra brut**, **brut**, **extra dry**, **sec**, **demi-sec** e
+**doux**. O **brut** é de longe o mais comum. A armadilha: "**extra dry**" é
+**mais doce** que "**brut**", apesar do nome.
+:::
+
+::: {#fig-escala-docura}
+```{.tikz}
+%%| filename: escala-docura
+%%| alt: Escala horizontal de doçura dos espumantes, do mais seco ao mais doce — brut nature, extra brut, brut, extra dry, sec, demi-sec e doux — com faixas aproximadas de açúcar em gramas por litro.
+\begin{tikzpicture}[font=\sffamily\scriptsize]
+  \foreach \i/\nome/\gl/\sh in {
+      0/{brut\\nature}/{0–3}/8,
+      1/{extra\\brut}/{0–6}/18,
+      2/{brut}/{0–12}/30,
+      3/{extra\\dry}/{12–17}/44,
+      4/{sec}/{17–32}/58,
+      5/{demi-\\sec}/{32–50}/74,
+      6/{doux}/{50+}/90}{
+    \fill[manualyellow!\sh!white, draw=manualgray, thick]
+      (\i*1.7,0) rectangle (\i*1.7+1.7,1.0);
+    \node[align=center, font=\tiny] at (\i*1.7+0.85,0.5) {\nome};
+    \node[align=center, font=\tiny, manualgray] at (\i*1.7+0.85,-0.4) {\gl};}
+  \draw[-{Stealth[length=2mm]}, manualgray] (0,1.45) -- (3.0,1.45);
+  \node[manualgray, font=\tiny] at (0.1,1.7) {mais seco};
+  \draw[{Stealth[length=2mm]}-, manualgray] (8.9,1.45) -- (11.9,1.45);
+  \node[manualgray, font=\tiny] at (11.8,1.7) {mais doce};
+  \node[manualgray, font=\tiny] at (6,-0.85) {açúcar (g/L)};
+\end{tikzpicture}
+```
+
+A escala de doçura dos espumantes, do **brut nature** ao **doux**, com faixas
+aproximadas de açúcar (g/L). Note a pegadinha: **extra dry** cai à **direita** do
+**brut** — ou seja, é mais doce.
+:::
+
+## Exemplos
+
+::: {#exm-brut-comum}
+## Por que quase todo espumante é "brut"
+O **brut** equilibra a altíssima acidez do espumante com um toque discreto de
+açúcar, agradando à maioria dos paladares e a quase qualquer ocasião. Por isso
+domina o mercado. As versões mais secas (extra brut, brut nature) exigem um vinho
+de base muito maduro para não ficarem agressivas.
+:::
+
+::: {#exm-demi-sec-sobremesa}
+## O doce certo para a sobremesa
+Um espumante **brut** servido com bolo costuma parecer **azedo**: a doçura do prato
+"apaga" a do vinho. Para sobremesas, um **demi-sec** ou **doux** funciona melhor —
+um caso da regra de que, na harmonização, o vinho deve ser ao menos tão doce
+quanto o prato (Volume XII).
+:::
+
+## Exercícios
+
+::: {#exr-ordenar-docura}
+Ordene do **mais seco** ao **mais doce** (@fig-escala-docura): demi-sec, brut,
+brut nature, extra dry.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+brut nature → brut → extra dry → demi-sec.
+:::
+
+::: {#exr-extra-dry}
+Por que dizer que um espumante "Extra Dry" é seco pode enganar o consumidor
+(@def-escala-docura)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque, apesar do nome, **extra dry é mais doce que brut**: situa-se à direita dele
+na escala (cerca de 12–17 g/L de açúcar). O nome sugere mais seco do que de fato é.
+:::
+
+::: {#exr-espumante-sobremesa}
+Que nível de doçura você escolheria para acompanhar uma sobremesa, e por quê
+(@exm-demi-sec-sobremesa)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Um **demi-sec** ou **doux**. Como a sobremesa é doce, um espumante seco (brut)
+pareceria azedo ao lado dela; o vinho precisa ser ao menos tão doce quanto o prato.
+:::

@@ -67,6 +67,9 @@ prever o teor alcoólico do futuro vinho.
 **Brotação** — fase do ciclo em que as gemas abrem na primavera e surgem os
 primeiros pâmpanos; momento de risco diante das geadas tardias.
 
+**Brut** — nível de doçura do espumante (até ~12 g/L de açúcar), o mais comum; na
+escala, *extra dry* é mais doce que *brut*, apesar do nome. Ver **dosagem**.
+
 **Calda bordalesa** — mistura de sulfato de cobre e cal usada desde o século
 XIX para tratar o míldio e outros fungos da videira.
 

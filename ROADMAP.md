@@ -69,7 +69,7 @@ fotos entram como imagem embutida — ver `PLANO.md`).
 ### Volume VIII — Estilos e Tipos de Vinho
 - [x] `v8-estilos/01-tintos.qmd` — do leve ao encorpado. *fig.: eixo corpo × tanino.*
 - [x] `v8-estilos/02-brancos.qmd` — secos, aromáticos, com madeira. *fig.: eixo acidez × aroma.*
-- [ ] `v8-estilos/03-roses-e-espumantes.qmd` — estilos e níveis de doçura. *fig.: escala brut→doce.*
+- [x] `v8-estilos/03-roses-e-espumantes.qmd` — estilos e níveis de doçura. *fig.: escala brut→doce.*
 - [ ] `v8-estilos/04-fortificados-e-doces.qmd` — tipologia. *fig.: mapa álcool × açúcar.*
 - [ ] `v8-estilos/05-laranja-naturais-biodinamicos.qmd` — orange, naturais, biodinâmicos. *fig.: vinho laranja vs branco.*
 

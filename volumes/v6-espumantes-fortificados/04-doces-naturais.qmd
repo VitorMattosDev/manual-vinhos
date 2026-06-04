@@ -2,4 +2,132 @@
 title: "Vinhos doces naturais"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Um grande vinho doce **não** é vinho com açúcar adicionado, nem vinho
+fortificado: é vinho cujo **açúcar da própria uva** foi tão concentrado que a
+fermentação não dá conta de consumi-lo todo. O segredo, portanto, acontece
+**antes** da adega — no modo como se tira água da uva para concentrar o açúcar.
+
+Este capítulo fecha o Volume VI com os doces naturais. Veremos as quatro grandes
+**vias de concentração** de açúcar e como todas levam ao mesmo ponto: uma uva
+doce demais para fermentar até o fim.
+
+## O princípio: concentrar o açúcar
+
+A ideia comum a todos os doces naturais é **remover água** da uva, concentrando o
+açúcar que nela já existe. Quando esse mosto super-adocicado fermenta, as
+leveduras produzem álcool até morrer (ou ser detidas), e **sobra muito açúcar
+residual** — o vinho fica doce. A @fig-vias-concentracao reúne os quatro caminhos.
+
+::: {#def-doce-natural}
+## Vinho doce natural
+**Vinho doce natural** é aquele cuja doçura vem de **açúcar da uva concentrado
+antes da fermentação** (e não de açúcar adicionado nem de fortificação). A
+fermentação para com **açúcar residual** alto porque o mosto era doce demais.
+:::
+
+::: {#fig-vias-concentracao}
+```{.tikz}
+%%| filename: vias-concentracao
+%%| alt: Diagrama com quatro vias de concentração de açúcar — podridão nobre, colheita tardia, ice wine (congelamento) e passito (secagem) — convergindo para uma uva de açúcar concentrado e, daí, para o vinho doce natural.
+\begin{tikzpicture}[font=\sffamily\scriptsize,
+    via/.style={draw=manualgray, very thick, rounded corners=2pt, fill=manualgray!10,
+      align=center, text width=34mm, minimum height=9mm},
+    centro/.style={draw=manualyellow!75!black, very thick, rounded corners=3pt,
+      fill=manualyellow!30, align=center, text width=28mm, minimum height=13mm},
+    fim/.style={draw=manualred, very thick, rounded corners=3pt, fill=manualred!12,
+      align=center, text width=26mm, minimum height=13mm},
+    fl/.style={-{Stealth[length=2mm]}, very thick, manualgray}]
+  \node[via] (a) at (0,3.0)  {Podridão nobre\\\tiny fungo desidrata a baga};
+  \node[via] (b) at (0,1.0)  {Colheita tardia\\\tiny uva passa do ponto};
+  \node[via] (c) at (0,-1.0) {Ice wine\\\tiny uva congela; água vira gelo};
+  \node[via] (d) at (0,-3.0) {Passito\\\tiny uva seca após a colheita};
+  \node[centro] (m) at (5.4,0) {Uva de açúcar concentrado};
+  \node[fim] (v) at (9.6,0) {Vinho doce natural};
+  \foreach \n in {a,b,c,d}{\draw[fl] (\n.east) -- (m.west);}
+  \draw[fl] (m) -- (v);
+\end{tikzpicture}
+```
+
+As quatro vias de concentração de açúcar. Todas **retiram água** da uva — por
+fungo, sobrematuração, congelamento ou secagem — e convergem para um mosto
+riquíssimo em açúcar, que origina o **vinho doce natural**.
+:::
+
+## As quatro vias
+
+- **Podridão nobre** — o *Botrytis* (Volume II) desidrata bagas maduras e sãs,
+  concentrando açúcar e aromas. Dá Sauternes, Tokaji, Beerenauslese.
+- **Colheita tardia** (*vendange tardive*) — deixa-se a uva na planta muito além
+  do ponto normal, perdendo água e concentrando açúcar.
+- **Ice wine** (*Eiswein*) — colhe-se a uva **congelada** na planta e prensa-se
+  ainda gelada: a água sai como **cristais de gelo**, e o que escorre é um sumo
+  concentradíssimo.
+- **Passito** (*appassimento*) — as uvas são **secas** após a colheita, ao sol ou
+  em esteiras, murchando como passas (Vin Santo, Recioto, Pedro Ximénez).
+
+::: {.callout-warning}
+## Três doçuras diferentes
+Não confunda as origens da doçura: **doce natural** (açúcar concentrado **na
+uva**, este capítulo), **fortificado doce** como o Porto (fermentação interrompida
+por **álcool**, capítulo anterior) e a simples **adição de açúcar** (proibida em
+vinhos finos). São mecanismos distintos, ainda que o resultado na taça seja
+"doce".
+:::
+
+## Exemplos
+
+::: {#exm-eiswein}
+## O vinho que depende do gelo
+O **Eiswein** só existe se a natureza colaborar: é preciso uma onda de frio que
+**congele as uvas na planta**, sem apodrecê-las. Prensadas congeladas, liberam um
+sumo denso enquanto a água fica retida como gelo. Em invernos amenos, simplesmente
+não há ice wine — é um doce **refém do clima**.
+:::
+
+::: {#exm-passito}
+## Uva virando passa
+No **passito**, as uvas colhidas são postas a secar por semanas a meses, perdendo
+boa parte da água. O que era um cacho vira algo entre uva e passa, com açúcar
+altíssimo. O Vin Santo toscano e o Pedro Ximénez andaluz nascem assim — doçura por
+**secagem**, não por adição.
+:::
+
+## Exercícios
+
+::: {#exr-principio-comum}
+Qual é o **princípio comum** às quatro vias da @fig-vias-concentracao? Por que ele
+faz a fermentação parar com açúcar residual alto?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Todas **removem água** da uva, **concentrando o açúcar**. O mosto fica tão doce
+que as leveduras produzem álcool até morrer (ou serem detidas) **antes** de
+consumir todo o açúcar — sobra muito **açúcar residual**, e o vinho fica doce.
+:::
+
+::: {#exr-tres-docuras}
+Diferencie a origem da doçura em: (a) Sauternes; (b) Porto; (c) um hipotético
+vinho com açúcar de mesa adicionado.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) **Doce natural** — açúcar concentrado na uva pela **podridão nobre**; (b)
+**Fortificado** — fermentação interrompida pela adição de **álcool**, deixando
+açúcar; (c) **Adição de açúcar** — doçura artificial, proibida em vinhos finos.
+:::
+
+::: {#exr-ice-wine-clima}
+Por que o **ice wine** depende tão fortemente do clima (@exm-eiswein)? O que
+precisa acontecer com a uva?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque a uva precisa **congelar na própria planta** antes da colheita, sem
+apodrecer. Prensada congelada, a água sai como gelo e o açúcar se concentra. Sem
+uma onda de frio adequada, não há ice wine.
+:::

@@ -94,6 +94,10 @@ Noir e Chardonnay.
 proteínas) que liga partículas em suspensão e as precipita; pode suavizar
 taninos.
 
+**Colheita tardia** (*vendange tardive*) — colheita muito além do ponto normal,
+deixando a uva perder água e concentrar açúcar; uma das vias do vinho doce
+natural.
+
 **Composto fenólico** — família de substâncias das cascas, sementes e madeira
 que inclui os taninos e os pigmentos responsáveis pela cor.
 
@@ -168,6 +172,9 @@ esmagá-la para não extrair adstringência excessiva.
 **Homonímia** — uso do mesmo nome para castas geneticamente diferentes (ou para
 grupos vagos de castas). Oposto de **sinonímia**.
 
+**Ice wine** (*Eiswein*) — vinho doce de uvas colhidas e prensadas **congeladas**
+na planta: a água sai como gelo e o açúcar se concentra; depende de frio intenso.
+
 **Levedura** — micro-organismo (sobretudo *Saccharomyces cerevisiae*)
 responsável pela fermentação alcoólica.
 
@@ -225,6 +232,10 @@ folhas e bagas, favorecida pelo calor e pela sombra; tratada com enxofre.
 
 **Oxidação** — dano causado pelo excesso de oxigênio: perda de aroma frutado,
 escurecimento e risco de acetificação. Oposto da **microxigenação**.
+
+**Passito** (*appassimento*) — método de vinho doce em que as uvas são secas
+após a colheita (ao sol ou em esteiras), murchando e concentrando açúcar (Vin
+Santo, Pedro Ximénez).
 
 **Película** — a casca da baga, onde se concentram cor, taninos e muitos
 aromas; o contato com ela define tinto, branco ou rosé.

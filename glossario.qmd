@@ -32,6 +32,12 @@ a fermentação malolática, convertendo ácido málico em lático.
 **Baga** — o fruto da videira (o "bago"), formado por película, polpa e
 grainhas; é onde se concentram água, açúcares, ácidos, cor e taninos.
 
+**Bâtonnage** — ato de mexer as borras finas durante o estágio sobre borras,
+intensificando textura e cremosidade do vinho.
+
+**Borras** (*lies*) — leveduras mortas e sedimentos que assentam após a
+fermentação; o estágio do vinho sobre elas (*sur lie*) acrescenta textura.
+
 **Botrytis** (*Botrytis cinerea*) — fungo de duas faces: arruína a uva
 (podridão cinzenta) ou, em clima preciso, a concentra (podridão nobre). Ver
 **podridão nobre**.
@@ -88,6 +94,9 @@ latada) que define como folhas e cachos se distribuem no espaço.
 mesmo vinho, buscando que se complementem (ex.: Cabernet com Merlot em Bordeaux).
 
 **Cultivar** — sinônimo de casta/variedade de videira.
+
+**Débourbage** — decantação do mosto branco recém-prensado, a frio, para que as
+partículas grossas assentem antes da fermentação, dando um vinho mais limpo.
 
 **Diacetil** — composto produzido na fermentação malolática, responsável pela
 nota amanteigada de certos vinhos (sobretudo Chardonnay).

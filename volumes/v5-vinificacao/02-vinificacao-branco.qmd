@@ -2,4 +2,130 @@
 title: "Vinificação em branco"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Se o tinto se define por fermentar **com** as cascas, o branco se define pelo
+contrário: **prensar antes** e fermentar só o sumo, **sem** as cascas. O objetivo
+muda de figura — não se quer extrair cor e tanino, e sim **preservar** o frescor,
+a acidez e os aromas delicados que o calor e o oxigênio facilmente destroem.
+
+Este capítulo segue o branco da uva à garrafa. Como vimos, a cor está na película;
+mantendo o mosto longe dela, mesmo uvas tintas podem dar vinho branco. A
+vinificação branca é, em boa medida, uma vinificação de **proteção**.
+
+## O fluxo do branco
+
+A @fig-fluxo-branco mostra a sequência. A inversão em relação ao tinto está logo
+no início: **prensa-se antes de fermentar** (passo 2).
+
+::: {#fig-fluxo-branco}
+```{.tikz}
+%%| filename: fluxo-branco
+%%| alt: Fluxograma vertical da vinificação em branco — vindima, prensagem direta (destacada), decantação ou débourbage, fermentação a frio sem cascas, malolática opcional, estágio sobre borras e engarrafamento.
+\begin{tikzpicture}[node distance=6.5mm,
+    et/.style={draw=manualyellow!75!black, very thick, rounded corners=2pt,
+      fill=manualyellow!18, text width=48mm, align=center, minimum height=9mm,
+      font=\sffamily\small},
+    dest/.style={draw=manualyellow!75!black, very thick, rounded corners=2pt,
+      fill=manualyellow!40, text width=48mm, align=center, minimum height=11mm,
+      font=\sffamily\small},
+    fl/.style={-{Stealth[length=2.5mm]}, very thick, manualgray}]
+  \node[et] (a) {1. Vindima};
+  \node[dest, below=of a] (b) {2. Prensagem direta\\\footnotesize separa o mosto das cascas};
+  \node[et, below=of b] (c) {3. Decantação (\emph{débourbage})};
+  \node[et, below=of c] (d) {4. Fermentação a frio\\\footnotesize (sem cascas)};
+  \node[et, below=of d] (e) {5. Malolática (opcional)};
+  \node[et, below=of e] (f) {6. Estágio sobre as borras};
+  \node[et, below=of f] (g) {7. Engarrafamento};
+  \foreach \x/\y in {a/b,b/c,c/d,d/e,e/f,f/g}{\draw[fl] (\x) -- (\y);}
+  \node[align=left, font=\sffamily\scriptsize, manualyellow!50!black, text width=30mm]
+    at (5.8,0.0) (note) {prensa \textbf{antes} de fermentar — sem extrair cor/tanino};
+  \draw[-{Stealth[length=2mm]}, manualyellow!70!black] (note) -- (b.east);
+\end{tikzpicture}
+```
+
+O fluxo da vinificação branca. O passo que a distingue do tinto é a **prensagem
+direta** (2), feita **antes** da fermentação: o mosto fermenta limpo, sem cascas,
+preservando frescor e aroma.
+:::
+
+## Proteger o frescor
+
+Sem taninos para protegê-lo, o branco é mais vulnerável à **oxidação** — daí o
+cuidado com o oxigênio e com o frio em toda a linha. Duas operações merecem nome:
+
+::: {#def-debourbage}
+## Débourbage e estágio sobre borras
+O **débourbage** (decantação) é deixar o mosto recém-prensado repousar a frio para
+que as partículas grossas assentem, antes de fermentar — dando um vinho mais
+limpo. Já o **estágio sobre as borras** (*sur lie*) mantém o vinho em contato com
+as leveduras mortas (as borras finas) depois da fermentação, ganhando **textura e
+cremosidade**; mexer essas borras é a **bâtonnage**.
+:::
+
+A fermentação se dá a **baixa temperatura** (12–18 °C), em aço inox para preservar
+o frutado, ou em barrica quando se busca um branco mais encorpado e complexo
+(caso de muitos Chardonnays).
+
+::: {.callout-note}
+## Branco de uva tinta
+Como a cor mora na película, prensar uvas tintas e fermentar só o mosto (incolor)
+dá um **branco** — o *blanc de noirs*. É o mesmo princípio que sustenta muitos
+espumantes, e a prova de que "branco" é um método, não uma cor de uva.
+:::
+
+## Exemplos
+
+::: {#exm-inox-vs-barrica}
+## Aço ou barrica para o branco
+Um Sauvignon Blanc em **aço inox**, fermentado a frio, sai cristalino, cítrico e
+herbáceo — puro frutado preservado. Um Chardonnay em **barrica**, com estágio
+sobre borras e bâtonnage, ganha corpo, cremosidade e notas tostadas. O recipiente
+e o manejo das borras moldam o estilo tanto quanto a uva.
+:::
+
+::: {#exm-sur-lie-muscadet}
+## *Sur lie* à beira do Atlântico
+O Muscadet (Loire) é célebre por seu estágio **sur lie**: o vinho passa o inverno
+sobre as borras finas, ganhando textura, leve perlado e profundidade, sem perder
+a acidez marinha. Um exemplo de como as borras, longe de serem só resíduo, são
+ferramenta de estilo.
+:::
+
+## Exercícios
+
+::: {#exr-ordem-branco}
+Com base na @fig-fluxo-branco, explique por que se diz que a vinificação branca
+"inverte" a ordem do tinto. Em que passo está a diferença?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque no branco se **prensa antes** de fermentar (passo 2) e fermenta-se o mosto
+**sem cascas**; no tinto, fermenta-se com as cascas e prensa-se depois. A diferença
+está na **prensagem direta**, no início do processo.
+:::
+
+::: {#exr-proteger-branco}
+Por que o branco exige mais cuidado com o **oxigênio** e o **frio** do que o
+tinto? Relacione com a ausência de um componente.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque o branco quase não tem **taninos**, que são antioxidantes naturais. Sem
+essa proteção, oxida com mais facilidade — daí o manejo cuidadoso do oxigênio e
+das baixas temperaturas para preservar frescor e aromas.
+:::
+
+::: {#exr-sur-lie}
+O que é o estágio **sur lie** (@def-debourbage) e que característica ele
+acrescenta ao vinho?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+É manter o vinho em contato com as **borras finas** (leveduras mortas) após a
+fermentação. Acrescenta **textura e cremosidade** (e complexidade); a bâtonnage,
+que mexe as borras, intensifica o efeito.
+:::

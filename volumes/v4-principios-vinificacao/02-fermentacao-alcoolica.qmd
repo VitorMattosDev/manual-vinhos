@@ -2,4 +2,159 @@
 title: "A fermentação alcoólica"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Se há um instante em que o suco de uva vira vinho, é a **fermentação
+alcoólica**. É a reação que define o produto: converte o açúcar do mosto em
+álcool, libera gás carbônico e calor, e desperta os aromas. Tudo o que veio antes
+— vinhedo, casta, colheita — foi preparação para esta transformação; tudo o que
+vem depois é ajuste.
+
+Neste capítulo vemos a química da fermentação, quem a realiza (as **leveduras**) e
+como ela evolui no tempo, com o açúcar caindo enquanto o álcool sobe. É o capítulo
+central do Volume IV.
+
+## A reação
+
+::: {#def-fermentacao-quimica}
+## A equação da fermentação
+Na **fermentação alcoólica**, as leveduras convertem os açúcares (glicose e
+frutose) em **etanol** e **gás carbônico**, liberando **calor**. De forma
+simplificada (Gay-Lussac):
+$$
+\underbrace{\text{C}_6\text{H}_{12}\text{O}_6}_{\text{açúcar}}
+\;\longrightarrow\;
+2\,\underbrace{\text{C}_2\text{H}_5\text{OH}}_{\text{etanol}}
+\;+\;
+2\,\text{CO}_2 .
+$$
+:::
+
+Três produtos importam na prática: o **etanol** (o álcool do vinho), o **CO₂**
+(que borbulha e, num espaço fechado, é perigoso) e o **calor** (que precisa ser
+controlado, sob risco de a fermentação "ferver" e perder aromas).
+
+## Quem fermenta: as leveduras
+
+A fermentação é obra de **leveduras**, sobretudo *Saccharomyces cerevisiae*. O
+enólogo escolhe entre duas filosofias:
+
+::: {#def-leveduras}
+## Leveduras indígenas × selecionadas
+**Leveduras indígenas** (ou nativas) são as que já vivem na uva e na adega;
+fermentam de forma menos previsível, mas podem dar mais complexidade.
+**Leveduras selecionadas** são cepas cultivadas, inoculadas pelo enólogo, que dão
+fermentação **segura e previsível**, com perfil escolhido.
+:::
+
+As leveduras toleram álcool só até certo ponto: por volta de **15–16%** elas
+morrem. Por isso vinhos de mesa raramente passam disso por fermentação — acima
+desse teor, ou se fortifica (adicionando álcool), ou sobra açúcar.
+
+## A curva da fermentação
+
+Acompanhada dia a dia, a fermentação desenha a @fig-curva-fermentacao: o
+**açúcar despenca** enquanto o **álcool sobe**, espelhando a equação. O enólogo
+monitora a queda pela **densidade** do mosto, que diminui à medida que o açúcar
+(denso) vira álcool (leve).
+
+::: {#fig-curva-fermentacao}
+```{.tikz}
+%%| filename: curva-fermentacao
+%%| alt: Gráfico ao longo dos dias de fermentação com duas curvas que se cruzam — o açúcar caindo de alto a quase zero e o álcool subindo de zero ao teor final — com a marca de fim de fermentação (vinho seco) à direita.
+\begin{tikzpicture}[font=\sffamily\small]
+  % eixos
+  \draw[-{Stealth[length=2.5mm]}, thick, manualgray] (0,0) -- (6.8,0)
+    node[right, font=\scriptsize]{dias};
+  \draw[-{Stealth[length=2.5mm]}, thick, manualgray] (0,0) -- (0,5.6)
+    node[above, font=\scriptsize]{concentração};
+  % açúcar (cai)
+  \draw[manualred, very thick] (0,5.0) .. controls (2.2,4.4) and (3.2,1.0) .. (6,0.35)
+    node[right, manualred, font=\footnotesize]{açúcar};
+  % álcool (sobe)
+  \draw[manualblue, very thick] (0,0.2) .. controls (2.6,0.7) and (3.6,4.2) .. (6,4.7)
+    node[right, manualblue, font=\footnotesize]{álcool};
+  % fim (seco)
+  \draw[manualgray, dashed] (6,0) -- (6,0.35);
+  \node[manualgray, font=\scriptsize, align=center] at (6.0,-0.45) {fim:\\vinho seco};
+  \node[manualgray, font=\scriptsize] at (0.3,-0.4) {início};
+\end{tikzpicture}
+```
+
+A curva da fermentação: o **açúcar** (vermelho) cai enquanto o **álcool** (azul)
+sobe — os dois lados da mesma equação. Quando o açúcar se esgota, a fermentação
+termina e o vinho fica **seco**; interrompê-la antes deixa açúcar residual (vinho
+mais doce).
+:::
+
+## Controlar a temperatura
+
+A fermentação **esquenta**. Controlar essa temperatura é decisivo para o estilo:
+brancos e rosés fermentam **frios** (12–18 °C) para preservar aromas frutados e
+florais; tintos fermentam mais **quentes** (22–30 °C) para extrair cor e taninos
+das cascas. Sem controle, o calor pode matar as leveduras e travar tudo.
+
+::: {.callout-warning}
+## CO₂ não é brincadeira
+A fermentação libera grandes volumes de **gás carbônico**, mais pesado que o ar,
+que se acumula no chão de adegas e tanques. É um risco real de **asfixia**: tanques
+e cubas só devem ser acessados com ventilação e procedimentos de segurança. O
+charme do borbulhar esconde um perigo concreto.
+:::
+
+## Exemplos
+
+::: {#exm-temp-branco-tinto}
+## Frio para o aroma, calor para a cor
+Um Sauvignon Blanc aromático é fermentado a frio, perto de 14 °C, para reter seus
+voláteis delicados. Um Cabernet tinto fermenta a 28 °C: o calor e o contato com as
+cascas extraem cor e taninos. A **mesma reação**, em temperaturas diferentes,
+serve a objetivos opostos.
+:::
+
+::: {#exm-fermentacao-travada}
+## Quando a fermentação para no meio
+Se as leveduras ficam sem **nitrogênio** (YAN, do capítulo anterior) ou sofrem
+calor excessivo, a fermentação pode **travar** com açúcar ainda no tanque — um
+problema sério, pois o vinho fica vulnerável a contaminações. Liga-se aqui o que
+vimos sobre a composição do mosto: nutrir as leveduras é prevenir o
+travamento.
+:::
+
+## Exercícios
+
+::: {#exr-produtos-fermentacao}
+Segundo a @def-fermentacao-quimica, quais são os três resultados da fermentação
+alcoólica que importam na prática da adega? Para cada um, diga uma consequência.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Etanol** (o álcool do vinho), **CO₂** (borbulha e pode asfixiar em espaço
+fechado) e **calor** (precisa ser controlado para não travar a fermentação nem
+perder aromas).
+:::
+
+::: {#exr-ler-curva-ferment}
+Descreva, com base na @fig-curva-fermentacao, o que acontece com açúcar e álcool
+ao longo dos dias, e o que caracteriza o **fim** da fermentação.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+O **açúcar cai** e o **álcool sobe** ao longo do tempo. A fermentação **termina**
+quando o açúcar se esgota: o vinho fica **seco**. Se for interrompida antes, sobra
+açúcar residual e o vinho fica mais doce.
+:::
+
+::: {#exr-temperatura-estilo}
+Por que brancos aromáticos costumam fermentar a temperaturas mais **baixas** que
+os tintos? Relacione com o objetivo de cada estilo (@exm-temp-branco-tinto).
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque a fermentação **fria** preserva os aromas voláteis e delicados desejados
+nos brancos. Os tintos fermentam mais **quentes** para extrair cor e taninos das
+cascas — objetivo que pede temperatura mais alta.
+:::

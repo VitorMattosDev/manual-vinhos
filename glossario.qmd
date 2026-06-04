@@ -48,6 +48,9 @@ Sauvignon Blanc, Moscato), por oposição às castas neutras.
 **Cepa** — a videira individual, da raiz ao ramo; por extensão, sinônimo de
 casta.
 
+**Chaptalização** — adição de açúcar ao mosto antes da fermentação para elevar o
+álcool final; permitida em regiões frias, proibida em outras.
+
 **Climat** — na Borgonha, parcela de vinhedo delimitada e nomeada, com caráter
 próprio; expressão fina da ideia de terroir.
 
@@ -107,6 +110,12 @@ grupos vagos de castas). Oposto de **sinonímia**.
 
 **Levedura** — micro-organismo (sobretudo *Saccharomyces cerevisiae*)
 responsável pela fermentação alcoólica.
+
+**Levedura indígena** (nativa) — levedura naturalmente presente na uva e na
+adega; fermentação menos previsível, porém potencialmente mais complexa.
+
+**Levedura selecionada** — cepa cultivada e inoculada pelo enólogo, que dá
+fermentação previsível e de perfil escolhido.
 
 **Maceração** — contato do mosto com as cascas, sementes e/ou engaços para
 extrair cor, taninos e aromas.

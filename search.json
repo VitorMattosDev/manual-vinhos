@@ -921,13 +921,310 @@
     ]
   },
   {
+    "objectID": "volumes/v4-principios-vinificacao/01-composicao-do-mosto.html",
+    "href": "volumes/v4-principios-vinificacao/01-composicao-do-mosto.html",
+    "title": "17  A composição do mosto",
+    "section": "",
+    "text": "17.1 Motivação\nA vinificação começa quando a uva esmagada vira mosto — e o vinho que se pode fazer dele já está, em boa parte, decidido ali. Antes de adicionar qualquer levedura, o enólogo “lê” o mosto: quanto açúcar (logo, quanto álcool potencial), quanta acidez, que pH, quantos taninos, nutrientes suficientes para a fermentação.\nEste capítulo abre o Volume IV inventariando o que há num mosto e por que cada componente importa. É a matéria-prima da química que veremos nos capítulos seguintes — fermentação alcoólica, malolática, estabilização.",
+    "crumbs": [
+      "Volume IV — Princípios da Vinificação",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>A composição do mosto</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v4-principios-vinificacao/01-composicao-do-mosto.html#o-que-há-num-mosto",
+    "href": "volumes/v4-principios-vinificacao/01-composicao-do-mosto.html#o-que-há-num-mosto",
+    "title": "17  A composição do mosto",
+    "section": "17.2 O que há num mosto",
+    "text": "17.2 O que há num mosto\nO mosto é uma solução aquosa surpreendentemente rica. A Figura 17.1 organiza seus componentes em grupos; vejamos cada um.\n\nDefinição 17.1 (Mosto) Mosto é o suco de uva destinado a fermentar (ou já fermentando). Além de água (a maior parte), contém açúcares, ácidos, compostos fenólicos, compostos nitrogenados e minerais — a matéria de que o vinho será feito.\n\n\nAçúcares — sobretudo glicose e frutose, em proporções semelhantes. São o combustível da fermentação: determinam o álcool potencial do vinho (lembrando a regra: ~17 g/L de açúcar por 1% de álcool).\nÁcidos — principalmente o tartárico (típico da uva) e o málico (que cai na maturação), além do cítrico. Definem a acidez total e o pH, e dão frescor e proteção.\nCompostos fenólicos — taninos (cascas, sementes, engaço) e antocianinas (os pigmentos da cor, nas cascas). Só entram no mosto se houver maceração com as partes sólidas.\nCompostos nitrogenados — aminoácidos e amônio, o nitrogênio assimilável (YAN): o “alimento” das leveduras. Sua falta trava a fermentação.\nMinerais e aromáticos — potássio e outros sais; precursores de aroma que a fermentação revelará.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 17.1: Os grupos de componentes do mosto. A água domina o volume; os açúcares viram álcool; os ácidos dão frescor e pH; os fenólicos trazem cor e estrutura; e os compostos nitrogenados alimentam as leveduras.",
+    "crumbs": [
+      "Volume IV — Princípios da Vinificação",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>A composição do mosto</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v4-principios-vinificacao/01-composicao-do-mosto.html#acidez-total-e-ph-não-são-a-mesma-coisa",
+    "href": "volumes/v4-principios-vinificacao/01-composicao-do-mosto.html#acidez-total-e-ph-não-são-a-mesma-coisa",
+    "title": "17  A composição do mosto",
+    "section": "17.3 Acidez total e pH não são a mesma coisa",
+    "text": "17.3 Acidez total e pH não são a mesma coisa\nDois mostos podem ter a mesma acidez total (a quantidade de ácidos) e pH diferentes — e o pH é o que mais importa para a estabilidade. Um pH baixo (vinho mais ácido) protege contra micro-organismos, realça a cor e ajuda o vinho a durar; um pH alto deixa o vinho mais frágil. Por isso o enólogo acompanha os dois números, não só um.\n\n\n\n\n\n\nAvisoErro comum\n\n\n\nMais açúcar não significa “vinho mais doce” no produto final. Se a fermentação for completa, todo o açúcar vira álcool e o vinho fica seco — apenas mais alcoólico. O açúcar do mosto prevê o álcool, não a doçura, a menos que a fermentação seja interrompida.",
+    "crumbs": [
+      "Volume IV — Princípios da Vinificação",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>A composição do mosto</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v4-principios-vinificacao/01-composicao-do-mosto.html#exemplos",
+    "href": "volumes/v4-principios-vinificacao/01-composicao-do-mosto.html#exemplos",
+    "title": "17  A composição do mosto",
+    "section": "17.4 Exemplos",
+    "text": "17.4 Exemplos\n\nExemplo 17.1 (Lendo o álcool potencial) Um mosto com 210 g de açúcar por litro aponta, pela regra dos 17 g/L por 1%, para \\(210/17 \\approx 12{,}4\\%\\) de álcool, se fermentar até o fim. Medir o açúcar do mosto é, na prática, decidir o teor alcoólico do futuro vinho — uma das primeiras leituras do enólogo.\n\n\nExemplo 17.2 (Quando falta alimento à levedura) Um mosto pobre em nitrogênio assimilável (YAN) pode levar a uma fermentação lenta ou travada, e até a cheiros de “ovo podre” (gás sulfídrico). Por isso, em mostos deficientes, adicionam-se nutrientes às leveduras. A composição do mosto, de novo, condiciona o sucesso da etapa seguinte.",
+    "crumbs": [
+      "Volume IV — Princípios da Vinificação",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>A composição do mosto</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v4-principios-vinificacao/01-composicao-do-mosto.html#exercícios",
+    "href": "volumes/v4-principios-vinificacao/01-composicao-do-mosto.html#exercícios",
+    "title": "17  A composição do mosto",
+    "section": "17.5 Exercícios",
+    "text": "17.5 Exercícios\n\nExercício 17.1 Associe cada componente do mosto (Figura 17.1) ao seu papel: (1) açúcares, (2) ácidos, (3) antocianinas, (4) compostos nitrogenados. Papéis: (a) nutrição das leveduras; (b) cor do vinho; (c) álcool potencial; (d) acidez e pH.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n1→c (açúcares · álcool); 2→d (ácidos · acidez e pH); 3→b (antocianinas · cor); 4→a (nitrogenados · nutrição das leveduras).\n\n\n\n\nExercício 17.2 Um mosto tem 190 g de açúcar por litro. Estime o teor alcoólico do vinho se a fermentação for completa (Exemplo 17.1).\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\\(190 / 17 \\approx 11{,}2\\%\\) de álcool em volume, aproximadamente.\n\n\n\n\nExercício 17.3 Por que o enólogo acompanha pH e acidez total separadamente, e qual deles mais influencia a estabilidade e a conservação do vinho?\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nPorque não são a mesma medida: mostos de mesma acidez total podem ter pH diferentes. O pH é o que mais importa para a estabilidade — um pH baixo protege contra micro-organismos, realça a cor e favorece a longevidade.",
+    "crumbs": [
+      "Volume IV — Princípios da Vinificação",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>A composição do mosto</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v4-principios-vinificacao/02-fermentacao-alcoolica.html",
+    "href": "volumes/v4-principios-vinificacao/02-fermentacao-alcoolica.html",
+    "title": "18  A fermentação alcoólica",
+    "section": "",
+    "text": "18.1 Motivação\nSe há um instante em que o suco de uva vira vinho, é a fermentação alcoólica. É a reação que define o produto: converte o açúcar do mosto em álcool, libera gás carbônico e calor, e desperta os aromas. Tudo o que veio antes — vinhedo, casta, colheita — foi preparação para esta transformação; tudo o que vem depois é ajuste.\nNeste capítulo vemos a química da fermentação, quem a realiza (as leveduras) e como ela evolui no tempo, com o açúcar caindo enquanto o álcool sobe. É o capítulo central do Volume IV.",
+    "crumbs": [
+      "Volume IV — Princípios da Vinificação",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>A fermentação alcoólica</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v4-principios-vinificacao/02-fermentacao-alcoolica.html#a-reação",
+    "href": "volumes/v4-principios-vinificacao/02-fermentacao-alcoolica.html#a-reação",
+    "title": "18  A fermentação alcoólica",
+    "section": "18.2 A reação",
+    "text": "18.2 A reação\n\nDefinição 18.1 (A equação da fermentação) Na fermentação alcoólica, as leveduras convertem os açúcares (glicose e frutose) em etanol e gás carbônico, liberando calor. De forma simplificada (Gay-Lussac): \\[\n\\underbrace{\\text{C}_6\\text{H}_{12}\\text{O}_6}_{\\text{açúcar}}\n\\;\\longrightarrow\\;\n2\\,\\underbrace{\\text{C}_2\\text{H}_5\\text{OH}}_{\\text{etanol}}\n\\;+\\;\n2\\,\\text{CO}_2 .\n\\]\n\nTrês produtos importam na prática: o etanol (o álcool do vinho), o CO₂ (que borbulha e, num espaço fechado, é perigoso) e o calor (que precisa ser controlado, sob risco de a fermentação “ferver” e perder aromas).",
+    "crumbs": [
+      "Volume IV — Princípios da Vinificação",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>A fermentação alcoólica</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v4-principios-vinificacao/02-fermentacao-alcoolica.html#quem-fermenta-as-leveduras",
+    "href": "volumes/v4-principios-vinificacao/02-fermentacao-alcoolica.html#quem-fermenta-as-leveduras",
+    "title": "18  A fermentação alcoólica",
+    "section": "18.3 Quem fermenta: as leveduras",
+    "text": "18.3 Quem fermenta: as leveduras\nA fermentação é obra de leveduras, sobretudo Saccharomyces cerevisiae. O enólogo escolhe entre duas filosofias:\n\nDefinição 18.2 (Leveduras indígenas × selecionadas) Leveduras indígenas (ou nativas) são as que já vivem na uva e na adega; fermentam de forma menos previsível, mas podem dar mais complexidade. Leveduras selecionadas são cepas cultivadas, inoculadas pelo enólogo, que dão fermentação segura e previsível, com perfil escolhido.\n\nAs leveduras toleram álcool só até certo ponto: por volta de 15–16% elas morrem. Por isso vinhos de mesa raramente passam disso por fermentação — acima desse teor, ou se fortifica (adicionando álcool), ou sobra açúcar.",
+    "crumbs": [
+      "Volume IV — Princípios da Vinificação",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>A fermentação alcoólica</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v4-principios-vinificacao/02-fermentacao-alcoolica.html#a-curva-da-fermentação",
+    "href": "volumes/v4-principios-vinificacao/02-fermentacao-alcoolica.html#a-curva-da-fermentação",
+    "title": "18  A fermentação alcoólica",
+    "section": "18.4 A curva da fermentação",
+    "text": "18.4 A curva da fermentação\nAcompanhada dia a dia, a fermentação desenha a Figura 18.1: o açúcar despenca enquanto o álcool sobe, espelhando a equação. O enólogo monitora a queda pela densidade do mosto, que diminui à medida que o açúcar (denso) vira álcool (leve).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 18.1: A curva da fermentação: o açúcar (vermelho) cai enquanto o álcool (azul) sobe — os dois lados da mesma equação. Quando o açúcar se esgota, a fermentação termina e o vinho fica seco; interrompê-la antes deixa açúcar residual (vinho mais doce).",
+    "crumbs": [
+      "Volume IV — Princípios da Vinificação",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>A fermentação alcoólica</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v4-principios-vinificacao/02-fermentacao-alcoolica.html#controlar-a-temperatura",
+    "href": "volumes/v4-principios-vinificacao/02-fermentacao-alcoolica.html#controlar-a-temperatura",
+    "title": "18  A fermentação alcoólica",
+    "section": "18.5 Controlar a temperatura",
+    "text": "18.5 Controlar a temperatura\nA fermentação esquenta. Controlar essa temperatura é decisivo para o estilo: brancos e rosés fermentam frios (12–18 °C) para preservar aromas frutados e florais; tintos fermentam mais quentes (22–30 °C) para extrair cor e taninos das cascas. Sem controle, o calor pode matar as leveduras e travar tudo.\n\n\n\n\n\n\nAvisoCO₂ não é brincadeira\n\n\n\nA fermentação libera grandes volumes de gás carbônico, mais pesado que o ar, que se acumula no chão de adegas e tanques. É um risco real de asfixia: tanques e cubas só devem ser acessados com ventilação e procedimentos de segurança. O charme do borbulhar esconde um perigo concreto.",
+    "crumbs": [
+      "Volume IV — Princípios da Vinificação",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>A fermentação alcoólica</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v4-principios-vinificacao/02-fermentacao-alcoolica.html#exemplos",
+    "href": "volumes/v4-principios-vinificacao/02-fermentacao-alcoolica.html#exemplos",
+    "title": "18  A fermentação alcoólica",
+    "section": "18.6 Exemplos",
+    "text": "18.6 Exemplos\n\nExemplo 18.1 (Frio para o aroma, calor para a cor) Um Sauvignon Blanc aromático é fermentado a frio, perto de 14 °C, para reter seus voláteis delicados. Um Cabernet tinto fermenta a 28 °C: o calor e o contato com as cascas extraem cor e taninos. A mesma reação, em temperaturas diferentes, serve a objetivos opostos.\n\n\nExemplo 18.2 (Quando a fermentação para no meio) Se as leveduras ficam sem nitrogênio (YAN, do capítulo anterior) ou sofrem calor excessivo, a fermentação pode travar com açúcar ainda no tanque — um problema sério, pois o vinho fica vulnerável a contaminações. Liga-se aqui o que vimos sobre a composição do mosto: nutrir as leveduras é prevenir o travamento.",
+    "crumbs": [
+      "Volume IV — Princípios da Vinificação",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>A fermentação alcoólica</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v4-principios-vinificacao/02-fermentacao-alcoolica.html#exercícios",
+    "href": "volumes/v4-principios-vinificacao/02-fermentacao-alcoolica.html#exercícios",
+    "title": "18  A fermentação alcoólica",
+    "section": "18.7 Exercícios",
+    "text": "18.7 Exercícios\n\nExercício 18.1 Segundo a Definição 18.1, quais são os três resultados da fermentação alcoólica que importam na prática da adega? Para cada um, diga uma consequência.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nEtanol (o álcool do vinho), CO₂ (borbulha e pode asfixiar em espaço fechado) e calor (precisa ser controlado para não travar a fermentação nem perder aromas).\n\n\n\n\nExercício 18.2 Descreva, com base na Figura 18.1, o que acontece com açúcar e álcool ao longo dos dias, e o que caracteriza o fim da fermentação.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nO açúcar cai e o álcool sobe ao longo do tempo. A fermentação termina quando o açúcar se esgota: o vinho fica seco. Se for interrompida antes, sobra açúcar residual e o vinho fica mais doce.\n\n\n\n\nExercício 18.3 Por que brancos aromáticos costumam fermentar a temperaturas mais baixas que os tintos? Relacione com o objetivo de cada estilo (Exemplo 18.1).\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nPorque a fermentação fria preserva os aromas voláteis e delicados desejados nos brancos. Os tintos fermentam mais quentes para extrair cor e taninos das cascas — objetivo que pede temperatura mais alta.",
+    "crumbs": [
+      "Volume IV — Princípios da Vinificação",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>A fermentação alcoólica</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v4-principios-vinificacao/03-fermentacao-malolatica.html",
+    "href": "volumes/v4-principios-vinificacao/03-fermentacao-malolatica.html",
+    "title": "19  A fermentação malolática",
+    "section": "",
+    "text": "19.1 Motivação\nDepois da fermentação alcoólica, muitos vinhos passam por uma segunda transformação — a fermentação malolática — que, a rigor, nem é uma fermentação: é a ação de bactérias, não de leveduras. Seu efeito, porém, é inconfundível: o vinho fica mais macio, menos ácido e, às vezes, com um toque amanteigado. Quase todo tinto a faz; muitos brancos também.\nEste capítulo explica o que acontece nessa etapa, quem a realiza e quando ela é desejada ou evitada. É a peça que falta para entender por que dois vinhos da mesma uva podem ter texturas tão diferentes.",
+    "crumbs": [
+      "Volume IV — Princípios da Vinificação",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>A fermentação malolática</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v4-principios-vinificacao/03-fermentacao-malolatica.html#a-conversão-málico-lático",
+    "href": "volumes/v4-principios-vinificacao/03-fermentacao-malolatica.html#a-conversão-málico-lático",
+    "title": "19  A fermentação malolática",
+    "section": "19.2 A conversão málico → lático",
+    "text": "19.2 A conversão málico → lático\n\nDefinição 19.1 (Fermentação malolática) A fermentação malolática (FML) é a conversão do ácido málico (duro, de sabor “maçã verde”) em ácido lático (macio, lácteo), com liberação de CO₂, realizada por bactérias láticas (sobretudo Oenococcus oeni). O resultado é menos acidez, pH um pouco mais alto e textura mais redonda.\n\nO ácido málico é o mesmo da maçã verde — anguloso e cortante. O ácido lático é o do leite — suave. Trocar um pelo outro abranda o vinho. A Figura 19.1 resume a transformação.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 19.1: A fermentação malolática troca um ácido duro (málico) por um ácido macio (lático), liberando CO₂. O vinho perde acidez, ganha textura e fica microbiologicamente mais estável.",
+    "crumbs": [
+      "Volume IV — Princípios da Vinificação",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>A fermentação malolática</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v4-principios-vinificacao/03-fermentacao-malolatica.html#quando-se-quer-e-quando-não",
+    "href": "volumes/v4-principios-vinificacao/03-fermentacao-malolatica.html#quando-se-quer-e-quando-não",
+    "title": "19  A fermentação malolática",
+    "section": "19.3 Quando se quer (e quando não)",
+    "text": "19.3 Quando se quer (e quando não)\nA FML faz três coisas: suaviza a acidez, traz estabilidade microbiológica (consome um açúcar-ácido que bactérias indesejadas poderiam atacar depois) e pode acrescentar aromas amanteigados — via uma substância chamada diacetil.\n\nTintos — quase sempre a fazem: a maciez e a estabilidade são desejadas.\nBrancos encorpados (muito Chardonnay) — frequentemente a fazem, buscando textura cremosa e nota de manteiga.\nBrancos aromáticos e crocantes (Riesling, Sauvignon Blanc) — em geral a evitam: aqui a acidez vibrante é a graça, e suavizá-la seria perder o estilo.\n\n\n\n\n\n\n\nNotaComo se bloqueia a malolática\n\n\n\nPara impedir a FML, o enólogo mantém o vinho frio, adiciona SO₂ (que inibe as bactérias — assunto do próximo capítulo) e filtra. Para favorecê-la, faz o oposto: temperatura amena e, muitas vezes, inoculação de bactérias selecionadas.",
+    "crumbs": [
+      "Volume IV — Princípios da Vinificação",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>A fermentação malolática</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v4-principios-vinificacao/03-fermentacao-malolatica.html#exemplos",
+    "href": "volumes/v4-principios-vinificacao/03-fermentacao-malolatica.html#exemplos",
+    "title": "19  A fermentação malolática",
+    "section": "19.4 Exemplos",
+    "text": "19.4 Exemplos\n\nExemplo 19.1 (A manteiga do Chardonnay) Aquela nota “amanteigada” típica de certos Chardonnays não vem da uva nem da madeira sozinha: vem do diacetil, produzido na fermentação malolática. Um Chardonnay que passou por FML completa tende ao cremoso e amanteigado; um que a evitou fica mais tenso e cítrico. A escolha do enólogo molda a textura.\n\n\nExemplo 19.2 (Resgatando vinhos muito ácidos) Em climas frios, a uva chega com muito ácido málico — o vinho sairia agressivamente ácido. A FML é então especialmente bem-vinda: ao converter o málico em lático, devolve equilíbrio. É uma ferramenta de clima, não só de estilo.",
+    "crumbs": [
+      "Volume IV — Princípios da Vinificação",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>A fermentação malolática</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v4-principios-vinificacao/03-fermentacao-malolatica.html#exercícios",
+    "href": "volumes/v4-principios-vinificacao/03-fermentacao-malolatica.html#exercícios",
+    "title": "19  A fermentação malolática",
+    "section": "19.5 Exercícios",
+    "text": "19.5 Exercícios\n\nExercício 19.1 Segundo a Definição 19.1, o que acontece com a acidez e a textura do vinho na fermentação malolática, e quem realiza essa conversão?\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nA acidez diminui (o málico duro vira lático macio) e a textura fica mais redonda; o pH sobe um pouco. A conversão é feita por bactérias láticas (sobretudo Oenococcus oeni), não por leveduras.\n\n\n\n\nExercício 19.2 Para cada vinho, diga se normalmente se faz ou se evita a malolática, e por quê: (a) um tinto encorpado; (b) um Riesling seco e crocante.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\nFaz — busca maciez e estabilidade; (b) Evita — a acidez vibrante é o charme do estilo, e a FML a suavizaria.\n\n\n\n\n\nExercício 19.3 De onde vem a nota amanteigada de certos Chardonnays, e o que ela indica sobre a vinificação do vinho (Exemplo 19.1)?\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nVem do diacetil, produzido na fermentação malolática. A presença marcante dessa nota indica que o vinho passou por FML (completa), buscando textura cremosa.",
+    "crumbs": [
+      "Volume IV — Princípios da Vinificação",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>A fermentação malolática</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v4-principios-vinificacao/04-so2-e-estabilizacao.html",
+    "href": "volumes/v4-principios-vinificacao/04-so2-e-estabilizacao.html",
+    "title": "20  SO₂ e estabilização",
+    "section": "",
+    "text": "20.1 Motivação\nTerminadas as fermentações, o vinho está vivo — e frágil. Exposto ao ar, ele oxida; deixado sem proteção, pode ser atacado por bactérias e leveduras indesejadas. Estabilizar o vinho é protegê-lo dessas duas ameaças até (e depois de) chegar à garrafa. A ferramenta central dessa proteção é um velho conhecido da enologia: o dióxido de enxofre, o SO₂.\nEste capítulo trata do SO₂ — o que faz, onde se adiciona — e das demais operações de estabilização e limpeza do vinho: clarificação, filtração e estabilização tartárica.",
+    "crumbs": [
+      "Volume IV — Princípios da Vinificação",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>SO₂ e estabilização</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v4-principios-vinificacao/04-so2-e-estabilizacao.html#o-so₂-e-seus-dois-papéis",
+    "href": "volumes/v4-principios-vinificacao/04-so2-e-estabilizacao.html#o-so₂-e-seus-dois-papéis",
+    "title": "20  SO₂ e estabilização",
+    "section": "20.2 O SO₂ e seus dois papéis",
+    "text": "20.2 O SO₂ e seus dois papéis\n\nDefinição 20.1 (Dióxido de enxofre (SO₂)) O SO₂ é o principal aditivo da enologia, com dois papéis: é antioxidante (protege o vinho do oxigênio) e antisséptico (inibe bactérias e leveduras indesejadas). Parte dele fica “livre” (a fração que realmente protege) e parte se combina com outras substâncias.\n\nO SO₂ é usado desde a Antiguidade (queimava-se enxofre nas ânforas) e está em praticamente todo vinho — por isso os rótulos trazem “contém sulfitos”. As adições são feitas em pontos estratégicos do processo, mostrados na Figura 20.1: ao receber a uva, após as fermentações e no engarrafamento.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n \n \n \n \n \n\n\n\n\n\n\n\n\n \n \n \n \n \n \n\n\n\n\n\n\n\n\n \n \n \n \n \n \n\n\n\n\n\n\n\n\n \n \n \n \n \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n \n \n \n \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n \n \n \n \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n \n \n \n \n \n\n\n\n\n\n\n\n\n\n\nFigura 20.1: Pontos típicos de adição de SO₂: no esmagamento (proteger o mosto), no estágio (após as fermentações, contra oxidação e micróbios) e no engarrafamento (proteção final). As doses e os momentos variam com o estilo.",
+    "crumbs": [
+      "Volume IV — Princípios da Vinificação",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>SO₂ e estabilização</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v4-principios-vinificacao/04-so2-e-estabilizacao.html#clarificar-e-estabilizar",
+    "href": "volumes/v4-principios-vinificacao/04-so2-e-estabilizacao.html#clarificar-e-estabilizar",
+    "title": "20  SO₂ e estabilização",
+    "section": "20.3 Clarificar e estabilizar",
+    "text": "20.3 Clarificar e estabilizar\nRecém-fermentado, o vinho é turvo e instável. Três operações o preparam para a garrafa:\n\nTrasfega — transferir o vinho de um recipiente a outro, deixando para trás a borra (leveduras mortas e sedimentos) depositada no fundo.\nColagem (clarificação) — adicionar um agente (bentonita, clara de ovo, proteínas) que se liga a partículas em suspensão e as arrasta para o fundo, deixando o vinho límpido; também pode suavizar taninos.\nFiltração — passar o vinho por filtros que retêm partículas e micro-organismos, dando limpidez e estabilidade.\n\nHá ainda a estabilização tartárica: resfria-se o vinho para precipitar cristais de tartarato (os inofensivos “diamantes do vinho”) antes do engarrafamento, evitando que se formem depois, na garrafa.\n\n\n\n\n\n\nAviso“Vinho sem sulfito” não existe (quase)\n\n\n\nA fermentação produz um pouco de SO₂ naturalmente, então praticamente todo vinho contém sulfitos. O que existe é vinho sem adição de SO₂ — diferente de “sem sulfito”. E a ideia de que o sulfito causa dor de cabeça é, na maioria dos casos, mito: a sensibilidade real atinge uma minoria. (Como sempre, o consumo de álcool pede moderação.)",
+    "crumbs": [
+      "Volume IV — Princípios da Vinificação",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>SO₂ e estabilização</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v4-principios-vinificacao/04-so2-e-estabilizacao.html#exemplos",
+    "href": "volumes/v4-principios-vinificacao/04-so2-e-estabilizacao.html#exemplos",
+    "title": "20  SO₂ e estabilização",
+    "section": "20.4 Exemplos",
+    "text": "20.4 Exemplos\n\nExemplo 20.1 (Por que brancos costumam levar mais proteção) Os tintos têm taninos, que são antioxidantes naturais e ajudam a proteger o vinho. Brancos e rosés, pobres em tanino, ficam mais expostos à oxidação — por isso costumam depender mais do SO₂ e do manejo cuidadoso do oxigênio. A composição do vinho determina o quanto de proteção ele exige.\n\n\nExemplo 20.2 (Clara de ovo nos tintos) Uma colagem tradicional de tintos finos usa clara de ovo: a proteína (albumina) liga-se aos taninos mais ásperos e os precipita, deixando o vinho mais límpido e macio. É uma técnica centenária — química de cozinha a serviço da textura do vinho.",
+    "crumbs": [
+      "Volume IV — Princípios da Vinificação",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>SO₂ e estabilização</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v4-principios-vinificacao/04-so2-e-estabilizacao.html#exercícios",
+    "href": "volumes/v4-principios-vinificacao/04-so2-e-estabilizacao.html#exercícios",
+    "title": "20  SO₂ e estabilização",
+    "section": "20.5 Exercícios",
+    "text": "20.5 Exercícios\n\nExercício 20.1 Quais são os dois papéis do SO₂ no vinho (Definição 20.1)? Dê um exemplo de ameaça que cada papel combate.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAntioxidante (combate a oxidação pelo oxigênio) e antisséptico (inibe bactérias e leveduras indesejadas). Um protege a cor e os aromas da oxidação; o outro evita contaminações microbianas.\n\n\n\n\nExercício 20.2 Cite, com base na Figura 20.1, dois momentos do processo em que o SO₂ é tipicamente adicionado, e diga o que ele protege em cada um.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nPor exemplo: no esmagamento (protege o mosto da oxidação e de micróbios logo de início) e no engarrafamento (proteção final antes do fechamento). Também é comum adicionar no estágio, após as fermentações.\n\n\n\n\nExercício 20.3 Por que a expressão “vinho sem sulfito” é tecnicamente imprecisa? O que seria mais correto dizer?\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nPorque a própria fermentação produz um pouco de SO₂: quase todo vinho contém sulfitos. O correto é “vinho sem adição de SO₂” — o que não é o mesmo que “sem sulfito”.",
+    "crumbs": [
+      "Volume IV — Princípios da Vinificação",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>SO₂ e estabilização</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v4-principios-vinificacao/05-higiene-e-controle.html",
+    "href": "volumes/v4-principios-vinificacao/05-higiene-e-controle.html",
+    "title": "21  Higiene e controle da vinificação",
+    "section": "",
+    "text": "21.1 Motivação\nBoa parte da enologia moderna não é “fazer”, é controlar: o oxigênio, a temperatura, a limpeza. O vinho é um alimento vivo, e os mesmos micro-organismos e reações que podem enriquecê-lo também podem arruiná-lo. A diferença entre um vinho limpo e um vinho defeituoso costuma estar nesses controles invisíveis.\nEste capítulo fecha o Volume IV tratando dos três grandes eixos de controle — oxigênio, temperatura e higiene — e das contaminações que eles previnem. É a ponte para os defeitos do vinho, que estudaremos em detalhe mais adiante.",
+    "crumbs": [
+      "Volume IV — Princípios da Vinificação",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Higiene e controle da vinificação</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v4-principios-vinificacao/05-higiene-e-controle.html#o-oxigênio-aliado-e-inimigo",
+    "href": "volumes/v4-principios-vinificacao/05-higiene-e-controle.html#o-oxigênio-aliado-e-inimigo",
+    "title": "21  Higiene e controle da vinificação",
+    "section": "21.2 O oxigênio: aliado e inimigo",
+    "text": "21.2 O oxigênio: aliado e inimigo\nNenhuma variável resume melhor a arte do controle do que o oxigênio. Em pequenas doses, é ferramenta; em excesso, é destruidor. A Figura 21.1 mostra essa dupla face.\n\nDefinição 21.1 (Oxidação × microxigenação) A oxidação é o dano causado pelo excesso de oxigênio: o vinho perde aroma frutado, escurece e pode “acetificar” (virar vinagre). A microxigenação é a exposição controlada a doses mínimas de oxigênio — no estágio em barrica, por exemplo —, que amacia taninos e estabiliza a cor.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n\n\nFigura 21.1: O balanço do oxigênio. A mesma molécula é ferramenta ou veneno conforme a dose: pouca e controlada, melhora o vinho; em excesso, oxida e estraga. Gerir o oxigênio é gerir essa fronteira.\n\n\n\nNa prática, controla-se o oxigênio atestando os recipientes (completando o nível para não deixar espaço de ar), usando gases inertes (nitrogênio, CO₂) sobre o vinho e limitando o contato com o ar nas trasfegas.",
+    "crumbs": [
+      "Volume IV — Princípios da Vinificação",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Higiene e controle da vinificação</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v4-principios-vinificacao/05-higiene-e-controle.html#temperatura-e-higiene",
+    "href": "volumes/v4-principios-vinificacao/05-higiene-e-controle.html#temperatura-e-higiene",
+    "title": "21  Higiene e controle da vinificação",
+    "section": "21.3 Temperatura e higiene",
+    "text": "21.3 Temperatura e higiene\nA temperatura já apareceu na fermentação; ela importa também na conservação (adega fresca e estável retarda reações e protege o vinho). E a higiene é a base silenciosa de tudo: tanques, mangueiras e barricas mal limpos são porta de entrada para micro-organismos que produzem defeitos.\nDuas contaminações ligadas à falta de controle merecem nome:\n\nAcidez volátil — quando bactérias acéticas (com oxigênio) convertem álcool em ácido acético: surgem cheiros de vinagre e de esmalte. Em pequena quantidade é normal; em excesso, é defeito.\nBrettanomyces (“Brett”) — uma levedura que, em adega pouco higienizada, produz aromas de “estábulo”, suor e curral. Em traços, alguns apreciam; em excesso, domina e estraga.\n\n\n\n\n\n\n\nNotaAtestar: a guerra contra o espaço vazio\n\n\n\nÀ medida que o vinho evapora na barrica, forma-se um espaço de ar no topo (o ullage) — convite à oxidação e às bactérias acéticas. Por isso o enólogo atesta as barricas regularmente, completando o nível. Pequeno gesto, grande efeito sobre a sanidade do vinho.",
+    "crumbs": [
+      "Volume IV — Princípios da Vinificação",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Higiene e controle da vinificação</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v4-principios-vinificacao/05-higiene-e-controle.html#exemplos",
+    "href": "volumes/v4-principios-vinificacao/05-higiene-e-controle.html#exemplos",
+    "title": "21  Higiene e controle da vinificação",
+    "section": "21.4 Exemplos",
+    "text": "21.4 Exemplos\n\nExemplo 21.1 (Dois jeitos de conduzir o mesmo vinho) Um branco conduzido de modo redutivo (protegido do ar, em aço, com gases inertes) preserva aromas frutados e frescor. O mesmo vinho conduzido de modo oxidativo (mais contato com o ar) ganha notas de fruta madura e castanhas, mas perde frescor. O oxigênio é uma alavanca de estilo, não só um risco.\n\n\nExemplo 21.2 (Brett é, antes de tudo, higiene) Quando um tinto cheira a “cavalo” ou “curativo”, em geral houve Brettanomyces — quase sempre ligado a barricas velhas mal higienizadas e a pH alto. Prevenir é mais barato que remediar: limpeza rigorosa, SO₂ adequado e controle de pH. O defeito nasce de um descontrole na adega.",
+    "crumbs": [
+      "Volume IV — Princípios da Vinificação",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Higiene e controle da vinificação</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v4-principios-vinificacao/05-higiene-e-controle.html#exercícios",
+    "href": "volumes/v4-principios-vinificacao/05-higiene-e-controle.html#exercícios",
+    "title": "21  Higiene e controle da vinificação",
+    "section": "21.5 Exercícios",
+    "text": "21.5 Exercícios\n\nExercício 21.1 Explique, com base na Definição 21.1, por que o oxigênio é ao mesmo tempo aliado e inimigo do vinho. Dê um exemplo de cada papel.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nEm dose controlada (microxigenação) ele amacia taninos e estabiliza a cor — aliado. Em excesso (oxidação) faz o vinho perder fruta, escurecer e até virar vinagre — inimigo. Tudo depende da dose e do controle.\n\n\n\n\nExercício 21.2 O que é atestar uma barrica, e por que isso protege o vinho?\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nÉ completar o nível do vinho na barrica à medida que ele evapora, eliminando o espaço de ar (ullage) no topo. Sem esse espaço, reduz-se o contato com o oxigênio e o risco de oxidação e de bactérias acéticas.\n\n\n\n\nExercício 21.3 Um tinto apresenta forte cheiro de “estábulo/curral”. Qual contaminação é a suspeita mais provável e a que falha de adega ela costuma estar associada?\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nBrettanomyces (“Brett”), em geral associada à falta de higiene (barricas mal limpas), pH alto e SO₂ insuficiente. É um problema de controle na adega.",
+    "crumbs": [
+      "Volume IV — Princípios da Vinificação",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Higiene e controle da vinificação</span>"
+    ]
+  },
+  {
     "objectID": "glossario.html",
     "href": "glossario.html",
-    "title": "17  Glossário",
+    "title": "22  Glossário",
     "section": "",
-    "text": "Glossário vivo de termos do vinho. Acrescente termos conforme aparecem nos capítulos, em ordem alfabética.\nAçúcar residual — açúcar da uva que não foi convertido em álcool e permanece no vinho; define a escala do seco ao doce.\nAmpelografia — estudo e identificação das castas, pela forma da folha e do cacho (clássica) ou por análise de DNA (molecular).\nÂnfora — jarro de barro usado na Antiguidade para transportar e conservar vinho; hoje retomada por produtores em estilos de longa maceração.\nAutóctone (casta) — variedade nativa de uma região, a ela historicamente ligada e pouco cultivada fora dali; oposta às castas internacionais.\nBaga — o fruto da videira (o “bago”), formado por película, polpa e grainhas; é onde se concentram água, açúcares, ácidos, cor e taninos.\nBotrytis (Botrytis cinerea) — fungo de duas faces: arruína a uva (podridão cinzenta) ou, em clima preciso, a concentra (podridão nobre). Ver podridão nobre.\nBrix (°Brix) — escala que mede o açúcar dissolvido no mosto; serve para prever o teor alcoólico do futuro vinho.\nBrotação — fase do ciclo em que as gemas abrem na primavera e surgem os primeiros pâmpanos; momento de risco diante das geadas tardias.\nCalda bordalesa — mistura de sulfato de cobre e cal usada desde o século XIX para tratar o míldio e outros fungos da videira.\nCasta — variedade de videira (sinônimo de cultivar/uva). Ex.: Cabernet Sauvignon, Chardonnay.\nCasta aromática — casta cujos aromas intensos vêm da própria uva (Riesling, Sauvignon Blanc, Moscato), por oposição às castas neutras.\nCepa — a videira individual, da raiz ao ramo; por extensão, sinônimo de casta.\nClimat — na Borgonha, parcela de vinhedo delimitada e nomeada, com caráter próprio; expressão fina da ideia de terroir.\nClone — linhagem dentro de uma casta, originada de uma única planta-mãe e com características próprias estáveis; há dezenas de clones de castas como Pinot Noir e Chardonnay.\nComposto fenólico — família de substâncias das cascas, sementes e madeira que inclui os taninos e os pigmentos responsáveis pela cor.\nCondução (sistema de) — arranjo físico dado à videira (espaldeira, taça, latada) que define como folhas e cachos se distribuem no espaço.\nCorte (assemblage, blend) — mistura de duas ou mais castas ou lotes num mesmo vinho, buscando que se complementem (ex.: Cabernet com Merlot em Bordeaux).\nCultivar — sinônimo de casta/variedade de videira.\nDormência — repouso invernal da videira, sem folhas; período em que se faz a poda que definirá a safra seguinte.\nEngaço — a estrutura ramificada do cacho que sustenta as bagas; rica em taninos verdes, costuma ser removida no desengace.\nEnxertia — união de um porta-enxerto (raiz resistente à filoxera) com um garfo de Vitis vinifera (a casta); base de quase toda videira moderna.\nEspaldeira (VSP) — sistema de condução em que os ramos são amarrados a arames e sobem na vertical, formando uma parede de folhas; favorece exposição e mecanização.\nEtanol — álcool etílico, o álcool do vinho, produzido pelas leveduras na fermentação a partir dos açúcares da uva.\nExposição solar — orientação de uma encosta em relação ao sol; em climas frios, determina se a uva amadurece. Componente do relevo no terroir.\nFermentação alcoólica — processo pelo qual as leveduras convertem os açúcares do mosto em etanol e dióxido de carbono; é o que transforma mosto em vinho.\nFiloxera — inseto (Daktulosphaira vitifolium) que ataca as raízes da videira; devastou os vinhedos europeus no fim do século XIX. A Vitis vinifera não resiste a ela; videiras americanas, sim.\nFloração — fase em que as flores se abrem nos cachos embrionários; chuva e frio podem comprometer a polinização e a futura safra.\nGlicerol — álcool de sabor levemente adocicado formado na fermentação; contribui para a maciez e a sensação de corpo.\nGrainha — a semente da uva, rica em taninos amargos e óleos; evita-se esmagá-la para não extrair adstringência excessiva.\nHomonímia — uso do mesmo nome para castas geneticamente diferentes (ou para grupos vagos de castas). Oposto de sinonímia.\nLevedura — micro-organismo (sobretudo Saccharomyces cerevisiae) responsável pela fermentação alcoólica.\nMaceração — contato do mosto com as cascas, sementes e/ou engaços para extrair cor, taninos e aromas.\nMacroclima — clima geral de uma região vitícola inteira. Ver mesoclima e microclima.\nMalolática — fermentação secundária que converte o ácido málico (duro) em ácido lático (macio), reduzindo a acidez.\nMaturação fenólica — amadurecimento de taninos, cor e aromas na película e nas grainhas, distinta da maturação de açúcar e acidez; o ponto ideal de colheita busca conciliar as duas.\nMesoclima — clima de um sítio específico (uma encosta, um vale), moldado por relevo e água próxima. Ver macroclima e microclima.\nMicroclima — ambiente imediato em torno das folhas e cachos, alterável pelo próprio manejo da planta. Ver macroclima e mesoclima.\nMíldio (downy mildew) — doença fúngica favorecida pela umidade, com manchas oleosas nas folhas; tratada classicamente com calda bordalesa.\nMosto — suco de uva, antes ou durante a fermentação.\nNovo Mundo — regiões vitícolas que receberam a vinha pela expansão colonial europeia (Américas, África do Sul, Oceania). Distinção histórica, não de qualidade. Ver Velho Mundo.\nOídio (powdery mildew) — doença fúngica em pó branco acinzentado sobre folhas e bagas, favorecida pelo calor e pela sombra; tratada com enxofre.\nPelícula — a casca da baga, onde se concentram cor, taninos e muitos aromas; o contato com ela define tinto, branco ou rosé.\nPintor (véraison) — início da maturação: a baga muda de cor, amolece e passa a acumular açúcar e perder acidez.\nPoda — corte dos ramos na dormência que define o número de gemas e, com isso, a carga de uva e o rendimento da safra; pode ser longa (Guyot) ou curta (cordão esporonado).\nPodridão nobre — ação benéfica do Botrytis sobre uva madura e sã, sob névoa de manhã e sol à tarde, que concentra açúcar e aromas; base de vinhos doces como Sauternes e Tokaji.\nPolpa — a parte carnosa e quase sempre incolor da baga; fonte de água, açúcares e ácidos do mosto.\nPorta-enxerto — raiz (de espécie americana ou híbrida, resistente à filoxera) sobre a qual se enxerta a Vitis vinifera; base de quase toda videira cultivada desde a crise da filoxera.\nQvevri — grande pote de barro enterrado, usado na Geórgia há milênios para fermentar e conservar vinho; técnica reconhecida como patrimônio cultural.\nRendimento — quantidade de uva ou vinho colhida por área (t/ha ou hl/ha); rendimentos moderados costumam favorecer a concentração e a qualidade.\nSafra (vintage, millésime) — o ano de colheita das uvas; como o clima varia a cada ano, define o caráter e a qualidade daquela produção.\nSarmento — o ramo do ano da videira; verde e flexível chama-se pâmpano, e lignifica-se no outono. Nele se formam folhas, gavinhas e cachos.\nSeleção massal — propagação a partir de muitas plantas selecionadas de um vinhedo antigo, preservando diversidade genética; oposta à seleção clonal, que usa poucos clones certificados e uniformes.\nSinonímia — uso de nomes diferentes para a mesma casta (ex.: Syrah/Shiraz, Garnacha/Grenache). Oposto de homonímia.\nTanino — composto fenólico das cascas, sementes e madeira; responsável pela adstringência e pela estrutura dos tintos.\nTerroir — conjunto de solo, clima, relevo e tradição que dá identidade ao vinho de um lugar.\nVelho Mundo — regiões vitícolas históricas da Europa e do Mediterrâneo, berço das tradições do vinho. Ver Novo Mundo.\nVindima — colheita das uvas.\nVindima mecânica — colheita feita por colhedora, que sacode a planta e recolhe as bagas; rápida e econômica, exige vinhedo plano em espaldeira e não seleciona a uva. Pode ser noturna para preservar acidez e aromas.\nVindima verde (green harvest) — corte de parte dos cachos ainda verdes para reduzir o rendimento e concentrar os cachos restantes.\nVingamento (fruit set) — fase em que as flores fecundadas se transformam em bagas; determina quantas bagas cada cacho terá.\nVitis vinifera — espécie de videira de origem caucasiana que dá quase todo o vinho fino do mundo; tronco de onde derivam as castas cultivadas.",
+    "text": "Glossário vivo de termos do vinho. Acrescente termos conforme aparecem nos capítulos, em ordem alfabética.\nAcidez total — quantidade de ácidos do mosto ou vinho (tartárico, málico, cítrico etc.); distinta do pH, dá frescor e estrutura.\nAcidez volátil — ácidos voláteis (sobretudo o acético) produzidos por bactérias acéticas; em excesso, dão cheiro de vinagre e esmalte. Defeito.\nAçúcar residual — açúcar da uva que não foi convertido em álcool e permanece no vinho; define a escala do seco ao doce.\nAmpelografia — estudo e identificação das castas, pela forma da folha e do cacho (clássica) ou por análise de DNA (molecular).\nÂnfora — jarro de barro usado na Antiguidade para transportar e conservar vinho; hoje retomada por produtores em estilos de longa maceração.\nAntocianina — pigmento das cascas das uvas tintas, responsável pela cor do vinho; extraído por maceração. É um composto fenólico.\nAutóctone (casta) — variedade nativa de uma região, a ela historicamente ligada e pouco cultivada fora dali; oposta às castas internacionais.\nBactéria lática — micro-organismo (sobretudo Oenococcus oeni) que realiza a fermentação malolática, convertendo ácido málico em lático.\nBaga — o fruto da videira (o “bago”), formado por película, polpa e grainhas; é onde se concentram água, açúcares, ácidos, cor e taninos.\nBotrytis (Botrytis cinerea) — fungo de duas faces: arruína a uva (podridão cinzenta) ou, em clima preciso, a concentra (podridão nobre). Ver podridão nobre.\nBrettanomyces (“Brett”) — levedura contaminante que, em adega pouco higienizada, produz aromas de estábulo, suor e curral; defeito em excesso.\nBrix (°Brix) — escala que mede o açúcar dissolvido no mosto; serve para prever o teor alcoólico do futuro vinho.\nBrotação — fase do ciclo em que as gemas abrem na primavera e surgem os primeiros pâmpanos; momento de risco diante das geadas tardias.\nCalda bordalesa — mistura de sulfato de cobre e cal usada desde o século XIX para tratar o míldio e outros fungos da videira.\nCasta — variedade de videira (sinônimo de cultivar/uva). Ex.: Cabernet Sauvignon, Chardonnay.\nCasta aromática — casta cujos aromas intensos vêm da própria uva (Riesling, Sauvignon Blanc, Moscato), por oposição às castas neutras.\nCepa — a videira individual, da raiz ao ramo; por extensão, sinônimo de casta.\nChaptalização — adição de açúcar ao mosto antes da fermentação para elevar o álcool final; permitida em regiões frias, proibida em outras.\nClarificação — conjunto de operações que tornam o vinho límpido (trasfega, colagem, filtração), removendo partículas em suspensão.\nClimat — na Borgonha, parcela de vinhedo delimitada e nomeada, com caráter próprio; expressão fina da ideia de terroir.\nClone — linhagem dentro de uma casta, originada de uma única planta-mãe e com características próprias estáveis; há dezenas de clones de castas como Pinot Noir e Chardonnay.\nColagem (fining) — clarificação por um agente (bentonita, clara de ovo, proteínas) que liga partículas em suspensão e as precipita; pode suavizar taninos.\nComposto fenólico — família de substâncias das cascas, sementes e madeira que inclui os taninos e os pigmentos responsáveis pela cor.\nCondução (sistema de) — arranjo físico dado à videira (espaldeira, taça, latada) que define como folhas e cachos se distribuem no espaço.\nCorte (assemblage, blend) — mistura de duas ou mais castas ou lotes num mesmo vinho, buscando que se complementem (ex.: Cabernet com Merlot em Bordeaux).\nCultivar — sinônimo de casta/variedade de videira.\nDiacetil — composto produzido na fermentação malolática, responsável pela nota amanteigada de certos vinhos (sobretudo Chardonnay).\nDormência — repouso invernal da videira, sem folhas; período em que se faz a poda que definirá a safra seguinte.\nEngaço — a estrutura ramificada do cacho que sustenta as bagas; rica em taninos verdes, costuma ser removida no desengace.\nEnxertia — união de um porta-enxerto (raiz resistente à filoxera) com um garfo de Vitis vinifera (a casta); base de quase toda videira moderna.\nEspaldeira (VSP) — sistema de condução em que os ramos são amarrados a arames e sobem na vertical, formando uma parede de folhas; favorece exposição e mecanização.\nEstabilização tartárica — resfriamento do vinho para precipitar cristais de tartarato (os “diamantes do vinho”) antes do engarrafamento, evitando que se formem depois na garrafa.\nEtanol — álcool etílico, o álcool do vinho, produzido pelas leveduras na fermentação a partir dos açúcares da uva.\nExposição solar — orientação de uma encosta em relação ao sol; em climas frios, determina se a uva amadurece. Componente do relevo no terroir.\nFermentação alcoólica — processo pelo qual as leveduras convertem os açúcares do mosto em etanol e dióxido de carbono; é o que transforma mosto em vinho.\nFiloxera — inseto (Daktulosphaira vitifolium) que ataca as raízes da videira; devastou os vinhedos europeus no fim do século XIX. A Vitis vinifera não resiste a ela; videiras americanas, sim.\nFloração — fase em que as flores se abrem nos cachos embrionários; chuva e frio podem comprometer a polinização e a futura safra.\nGlicerol — álcool de sabor levemente adocicado formado na fermentação; contribui para a maciez e a sensação de corpo.\nGrainha — a semente da uva, rica em taninos amargos e óleos; evita-se esmagá-la para não extrair adstringência excessiva.\nHomonímia — uso do mesmo nome para castas geneticamente diferentes (ou para grupos vagos de castas). Oposto de sinonímia.\nLevedura — micro-organismo (sobretudo Saccharomyces cerevisiae) responsável pela fermentação alcoólica.\nLevedura indígena (nativa) — levedura naturalmente presente na uva e na adega; fermentação menos previsível, porém potencialmente mais complexa.\nLevedura selecionada — cepa cultivada e inoculada pelo enólogo, que dá fermentação previsível e de perfil escolhido.\nMaceração — contato do mosto com as cascas, sementes e/ou engaços para extrair cor, taninos e aromas.\nMacroclima — clima geral de uma região vitícola inteira. Ver mesoclima e microclima.\nMalolática — fermentação secundária que converte o ácido málico (duro) em ácido lático (macio), reduzindo a acidez.\nMaturação fenólica — amadurecimento de taninos, cor e aromas na película e nas grainhas, distinta da maturação de açúcar e acidez; o ponto ideal de colheita busca conciliar as duas.\nMesoclima — clima de um sítio específico (uma encosta, um vale), moldado por relevo e água próxima. Ver macroclima e microclima.\nMicroclima — ambiente imediato em torno das folhas e cachos, alterável pelo próprio manejo da planta. Ver macroclima e mesoclima.\nMicroxigenação — exposição controlada do vinho a doses mínimas de oxigênio (no estágio), que amacia taninos e estabiliza a cor. Oposto da oxidação.\nMíldio (downy mildew) — doença fúngica favorecida pela umidade, com manchas oleosas nas folhas; tratada classicamente com calda bordalesa.\nMosto — suco de uva, antes ou durante a fermentação.\nNovo Mundo — regiões vitícolas que receberam a vinha pela expansão colonial europeia (Américas, África do Sul, Oceania). Distinção histórica, não de qualidade. Ver Velho Mundo.\nOídio (powdery mildew) — doença fúngica em pó branco acinzentado sobre folhas e bagas, favorecida pelo calor e pela sombra; tratada com enxofre.\nOxidação — dano causado pelo excesso de oxigênio: perda de aroma frutado, escurecimento e risco de acetificação. Oposto da microxigenação.\nPelícula — a casca da baga, onde se concentram cor, taninos e muitos aromas; o contato com ela define tinto, branco ou rosé.\npH — medida de acidez do mosto/vinho; quanto menor, mais ácido. Um pH baixo protege contra micro-organismos, realça a cor e favorece a longevidade. Distinto da acidez total.\nPintor (véraison) — início da maturação: a baga muda de cor, amolece e passa a acumular açúcar e perder acidez.\nPoda — corte dos ramos na dormência que define o número de gemas e, com isso, a carga de uva e o rendimento da safra; pode ser longa (Guyot) ou curta (cordão esporonado).\nPodridão nobre — ação benéfica do Botrytis sobre uva madura e sã, sob névoa de manhã e sol à tarde, que concentra açúcar e aromas; base de vinhos doces como Sauternes e Tokaji.\nPolpa — a parte carnosa e quase sempre incolor da baga; fonte de água, açúcares e ácidos do mosto.\nPorta-enxerto — raiz (de espécie americana ou híbrida, resistente à filoxera) sobre a qual se enxerta a Vitis vinifera; base de quase toda videira cultivada desde a crise da filoxera.\nQvevri — grande pote de barro enterrado, usado na Geórgia há milênios para fermentar e conservar vinho; técnica reconhecida como patrimônio cultural.\nRendimento — quantidade de uva ou vinho colhida por área (t/ha ou hl/ha); rendimentos moderados costumam favorecer a concentração e a qualidade.\nSafra (vintage, millésime) — o ano de colheita das uvas; como o clima varia a cada ano, define o caráter e a qualidade daquela produção.\nSarmento — o ramo do ano da videira; verde e flexível chama-se pâmpano, e lignifica-se no outono. Nele se formam folhas, gavinhas e cachos.\nSeleção massal — propagação a partir de muitas plantas selecionadas de um vinhedo antigo, preservando diversidade genética; oposta à seleção clonal, que usa poucos clones certificados e uniformes.\nSinonímia — uso de nomes diferentes para a mesma casta (ex.: Syrah/Shiraz, Garnacha/Grenache). Oposto de homonímia.\nSO₂ (dióxido de enxofre, sulfitos) — principal aditivo da enologia, com papel antioxidante e antisséptico; presente em quase todo vinho (“contém sulfitos”).\nTanino — composto fenólico das cascas, sementes e madeira; responsável pela adstringência e pela estrutura dos tintos.\nTerroir — conjunto de solo, clima, relevo e tradição que dá identidade ao vinho de um lugar.\nTrasfega — transferência do vinho de um recipiente a outro, deixando para trás a borra depositada no fundo; clarifica e areia o vinho de forma controlada.\nVelho Mundo — regiões vitícolas históricas da Europa e do Mediterrâneo, berço das tradições do vinho. Ver Novo Mundo.\nVindima — colheita das uvas.\nVindima mecânica — colheita feita por colhedora, que sacode a planta e recolhe as bagas; rápida e econômica, exige vinhedo plano em espaldeira e não seleciona a uva. Pode ser noturna para preservar acidez e aromas.\nVindima verde (green harvest) — corte de parte dos cachos ainda verdes para reduzir o rendimento e concentrar os cachos restantes.\nVingamento (fruit set) — fase em que as flores fecundadas se transformam em bagas; determina quantas bagas cada cacho terá.\nVitis vinifera — espécie de videira de origem caucasiana que dá quase todo o vinho fino do mundo; tronco de onde derivam as castas cultivadas.\nYAN (nitrogênio assimilável) — compostos nitrogenados do mosto que nutrem as leveduras; sua falta causa fermentação lenta, travada ou cheiros de enxofre.",
     "crumbs": [
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Glossário</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Glossário</span>"
     ]
   }
 ]

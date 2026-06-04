@@ -33,6 +33,9 @@ XIX para tratar o míldio e outros fungos da videira.
 **Casta** — variedade de videira (sinônimo de cultivar/uva). Ex.: Cabernet
 Sauvignon, Chardonnay.
 
+**Casta aromática** — casta cujos aromas intensos vêm da própria uva (Riesling,
+Sauvignon Blanc, Moscato), por oposição às castas neutras.
+
 **Cepa** — a videira individual, da raiz ao ramo; por extensão, sinônimo de
 casta.
 

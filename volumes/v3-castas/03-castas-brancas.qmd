@@ -2,4 +2,140 @@
 title: "As grandes castas brancas"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Se as tintas se descrevem bem por tanino e estrutura, as brancas pedem outro eixo
+de leitura: o **aroma** e a **acidez**. Algumas brancas são quase neutras, telas
+em branco que recebem o caráter da vinificação; outras explodem em flores e
+frutas já na taça. Saber onde cada casta cai nesse espectro é a chave para
+escolher — e para entender por que dois vinhos brancos podem ser tão diferentes.
+
+Este capítulo apresenta as grandes brancas internacionais, organizadas do mais
+**neutro** ao mais **aromático**, e mostra como acidez e corpo completam o
+retrato de cada uma.
+
+## Como ler uma casta branca
+
+Os eixos úteis aqui são a **intensidade aromática** (de neutra a muito
+aromática), a **acidez** (do macio ao cortante), o **corpo** e a afinidade com
+**madeira**. A tabela resume as principais; a @fig-espectro-aromatico as dispõe no
+espectro de aroma.
+
+| Casta | Corpo | Acidez | Aromas típicos | Observação |
+|---|---|---|---|---|
+| Pinot Grigio/Gris | Leve | Média | Cítrico discreto, pera | Em geral neutra e fácil |
+| Chardonnay | Médio a cheio | Média | Maçã, frutas, manteiga (se madeira) | Camaleão: depende da vinificação |
+| Chenin Blanc | Médio | Alta | Maçã, marmelo, mel | Versátil: do seco ao doce |
+| Sauvignon Blanc | Leve a médio | Alta | Maracujá, capim, pimentão verde | Herbácea e vibrante |
+| Riesling | Leve | Muito alta | Lima, flores, mel, "querosene" | Muito aromática; envelhece bem |
+
+::: {#def-casta-aromatica}
+## Casta aromática × neutra
+Uma **casta aromática** (como Riesling, Sauvignon Blanc, Moscato) traz aromas
+intensos e reconhecíveis vindos da própria uva. Uma casta **neutra** (como Pinot
+Grigio ou a base de muitos espumantes) tem aroma discreto e expressa sobretudo o
+terroir e as escolhas de vinificação.
+:::
+
+::: {#fig-espectro-aromatico}
+```{.tikz}
+%%| filename: espectro-aromatico-brancas
+%%| alt: Eixo horizontal do mais neutro ao mais aromático, com cinco castas brancas posicionadas — Pinot Grigio (mais neutra), Chardonnay, Chenin Blanc, Sauvignon Blanc e Riesling (mais aromática).
+\begin{tikzpicture}[font=\sffamily\scriptsize,
+    casta/.style={draw=manualyellow!70!black, very thick, rounded corners=2pt,
+      fill=manualyellow!30, align=center, text width=21mm, minimum height=7mm}]
+  \draw[{Stealth[length=2.5mm]}-{Stealth[length=2.5mm]}, very thick, manualgray]
+     (0,0) -- (13,0);
+  \node[manualgray] at (0.6,-0.5) {mais neutro};
+  \node[manualgray] at (12.4,-0.5) {mais aromático};
+  \foreach \x in {1.1,3.8,6.5,9.2,11.9}{\draw[very thick, manualgray] (\x,-0.16) -- (\x,0.16);}
+  \node[casta] at (1.1,0.85)  {Pinot Grigio};
+  \node[casta] at (3.8,0.85)  {Chardonnay};
+  \node[casta] at (6.5,0.85)  {Chenin Blanc};
+  \node[casta] at (9.2,0.85)  {Sauvignon Blanc};
+  \node[casta] at (11.9,0.85) {Riesling};
+  \node[align=center] at (3.8,-0.7) {\tiny modelada\\\tiny pela vinificação};
+  \node[align=center] at (9.2,-0.7) {\tiny herbácea};
+  \node[align=center] at (11.9,-0.7) {\tiny floral · lima};
+\end{tikzpicture}
+```
+
+As grandes brancas no espectro do aroma. **Pinot Grigio** tende ao neutro;
+**Riesling** e **Sauvignon Blanc**, ao muito aromático. **Chardonnay** ocupa o
+meio porque seu caráter vem em boa parte da **vinificação** (madeira, malolática),
+não só da uva.
+:::
+
+## As castas, uma a uma
+
+**Chardonnay** é a branca mais versátil do mundo: relativamente neutra na uva,
+ela assume a forma que o produtor quiser. Sem madeira e em clima frio (Chablis),
+sai tensa e mineral; com barrica e malolática, ganha corpo, manteiga e notas
+tostadas. É a base, também, dos grandes espumantes.
+
+**Sauvignon Blanc** é o contrário: inconfundível, herbácea, com maracujá e capim,
+de acidez vibrante — brilha no Vale do Loire e na Nova Zelândia. **Riesling** é,
+para muitos, a maior branca: aromática, de acidez altíssima, capaz de vinhos do
+seco ao doce e de envelhecer por décadas, ganhando a curiosa nota de "querosene".
+
+**Chenin Blanc** (Loire, África do Sul) é a campeã da **versatilidade**: faz
+espumante, branco seco, doce botritizado e tudo no meio. **Pinot Grigio/Gris**
+encerra o grupo no polo neutro, leve e de consumo fácil — embora, na Alsácia
+(como Pinot Gris), ganhe corpo e riqueza.
+
+## Exemplos
+
+::: {#exm-chardonnay-camaleao}
+## O camaleão Chardonnay
+Dois Chardonnays podem não se reconhecer como parentes. Um Chablis (Borgonha, sem
+madeira) é magro, cítrico e mineral; um Chardonnay da Califórnia com barrica nova
+e malolática é amanteigado, encorpado e tostado. A **uva é a mesma**: a diferença
+está no clima e, sobretudo, na vinificação — por isso a casta fica no meio do
+espectro da @fig-espectro-aromatico.
+:::
+
+::: {#exm-riesling-versatil}
+## Um Riesling para cada doçura
+A altíssima acidez do Riesling lhe permite equilibrar açúcar sem enjoar. A mesma
+casta, na Alemanha, faz desde o **seco** (Trocken) até o doce concentrado de
+colheita tardia: a acidez sustenta a doçura, mantendo o vinho fresco. Poucas
+castas cobrem um leque tão amplo de estilos.
+:::
+
+## Exercícios
+
+::: {#exr-neutra-aromatica}
+Classifique cada casta como **aromática** ou **neutra** (@def-casta-aromatica) e
+justifique: (a) Riesling; (b) Pinot Grigio.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) **Aromática** — aromas intensos de flores, lima e mel vindos da própria uva;
+(b) **Neutra** — aroma discreto, expressando mais o terroir e a vinificação do que
+a casta.
+:::
+
+::: {#exr-porque-chardonnay-meio}
+Por que a Chardonnay aparece no **meio** do espectro aromático
+(@fig-espectro-aromatico), e não num extremo?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque é relativamente **neutra na uva**: seu caráter final vem em grande parte da
+**vinificação** (madeira, malolática, clima). Pode soar mineral e contida ou rica
+e amanteigada — por isso não se fixa num extremo do espectro.
+:::
+
+::: {#exr-acidez-doce}
+Explique por que a alta **acidez** do Riesling é justamente o que lhe permite
+fazer bons vinhos **doces** (@exm-riesling-versatil).
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+A acidez **contrabalança** o açúcar: sem ela, um vinho doce fica enjoativo. A
+acidez altíssima do Riesling sustenta a doçura e mantém o vinho fresco e
+equilibrado, em vez de pesado.
+:::

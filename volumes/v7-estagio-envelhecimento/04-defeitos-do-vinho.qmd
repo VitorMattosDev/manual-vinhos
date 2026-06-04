@@ -2,4 +2,129 @@
 title: "Defeitos do vinho"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Saber reconhecer um **defeito** é parte essencial de entender vinho — e, muitas
+vezes, de não culpar a si mesmo (ou ao restaurante) por algo que veio da garrafa.
+Vários defeitos têm causa, cheiro e prevenção bem conhecidos, que já encontramos
+ao longo do manual: agora os reunimos num mapa único.
+
+Este capítulo fecha o Volume VII catalogando os principais defeitos do vinho,
+ligando cada um à sua **causa** e ao seu **cheiro** característico — e discutindo a
+fronteira, às vezes tênue, entre defeito e estilo.
+
+## Os principais defeitos
+
+A @fig-mapa-defeitos associa cada defeito comum à sua causa e ao descritor que o
+denuncia no nariz.
+
+::: {#def-reducao}
+## Redução
+A **redução** é o oposto da oxidação: surge da **falta de oxigênio** e de
+compostos de enxofre formados pelas leveduras. Cheira a **ovo podre, fósforo
+queimado ou repolho**. Ao contrário de outros defeitos, costuma **"abrir"** com
+aeração: decantar ou agitar a taça pode dissipá-la.
+:::
+
+::: {#fig-mapa-defeitos}
+```{.tikz}
+%%| filename: mapa-defeitos
+%%| alt: Mapa de defeitos do vinho, cada um ligado à sua causa e ao seu cheiro — TCA (cortiça, mofo), oxidação (excesso de oxigênio, maçã passada), redução (falta de oxigênio, ovo podre), Brettanomyces (higiene, estábulo) e acidez volátil (bactérias acéticas, vinagre).
+\begin{tikzpicture}[font=\sffamily\scriptsize,
+    def/.style={draw=manualred, very thick, rounded corners=2pt, fill=manualred!12,
+      align=center, text width=26mm, minimum height=8mm},
+    che/.style={draw=manualgray, very thick, rounded corners=2pt, fill=manualgray!10,
+      align=center, text width=40mm, minimum height=8mm},
+    fl/.style={-{Stealth[length=2mm]}, very thick, manualgray}]
+  \foreach \i/\xnome/\xcausa/\xcheiro in {
+      0/{TCA}/{cortiça}/{mofo, papelão úmido},
+      1/{Oxidação}/{excesso de O$_2$}/{maçã passada, cor parda},
+      2/{Redução}/{falta de O$_2$ / enxofre}/{ovo podre, fósforo},
+      3/{\emph{Brettanomyces}}/{higiene, pH alto}/{estábulo, suor, curral},
+      4/{Acidez volátil}/{bactérias acéticas}/{vinagre, esmalte}}{
+    \node[def] (d\i) at (0,-\i*1.15) {\xnome};
+    \node[che] (c\i) at (6,-\i*1.15) {\xcheiro};
+    \draw[fl] (d\i) -- (c\i) node[midway, above, font=\tiny, manualgray]{\xcausa};}
+\end{tikzpicture}
+```
+
+Mapa dos principais defeitos: o **defeito** (esquerda), sua **causa** (sobre a
+seta) e o **cheiro** que o revela (direita). Reconhecer o descritor é o primeiro
+passo para identificar a causa.
+:::
+
+## Defeito ou estilo?
+
+Nem tudo o que foge ao "limpo e frutado" é defeito. A fronteira depende da
+**intensidade** e da **intenção**:
+
+- traços de **Brettanomyces** são tolerados (até apreciados) em alguns tintos
+  clássicos; em excesso, são defeito;
+- a **oxidação** é defeito num branco fresco, mas é **deliberada e desejada** num
+  Jerez oloroso ou num Madeira;
+- a **redução** leve pode ser confundida com defeito, mas muitas vezes se dissipa
+  com aeração.
+
+::: {.callout-tip}
+## Quando arejar resolve
+Se um vinho recém-aberto cheira a fósforo ou ovo, antes de condená-lo, **areje-o**
+(decante ou agite a taça). Se o cheiro some e a fruta aparece, era **redução** —
+e o vinho está bom. Se persiste, ou se é mofo (TCA), aí sim há um problema sem
+volta naquela garrafa.
+:::
+
+## Exemplos
+
+::: {#exm-reducao-abre}
+## A redução que evapora
+Um tinto jovem, recém-aberto, traz um leve cheiro de **fósforo**. Decantado por
+vinte minutos, o cheiro desaparece e surgem frutas e especiarias. Era
+**redução** — um excesso de compostos de enxofre num ambiente sem oxigênio —, e o
+contato com o ar a resolveu. Nem todo cheiro estranho é sentença.
+:::
+
+::: {#exm-oxidacao-estilo}
+## A mesma oxidação, defeito e virtude
+Notas de **maçã passada e nozes** num Sauvignon Blanc jovem indicam **oxidação** —
+um defeito, ali. As mesmíssimas notas num **Jerez oloroso** são a assinatura do
+estilo, buscada de propósito. O que muda não é a química, é a **intenção** e o
+contexto.
+:::
+
+## Exercícios
+
+::: {#exr-defeito-causa}
+Associe cada defeito à sua causa (@fig-mapa-defeitos): (1) TCA, (2) redução,
+(3) acidez volátil, (4) oxidação. Causas: (a) excesso de oxigênio; (b) cortiça
+contaminada; (c) bactérias acéticas; (d) falta de oxigênio / enxofre.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+1→b (TCA · cortiça); 2→d (redução · falta de O₂/enxofre); 3→c (acidez volátil ·
+bactérias acéticas); 4→a (oxidação · excesso de O₂).
+:::
+
+::: {#exr-arejar}
+Um vinho recém-aberto cheira a **ovo podre/fósforo**. Que defeito você suspeita, e
+qual atitude simples pode resolvê-lo (@def-reducao)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Suspeita-se de **redução**. A atitude é **arejar** o vinho (decantar ou agitar a
+taça): se o cheiro se dissipa e a fruta aparece, era redução e o vinho está bom.
+:::
+
+::: {#exr-defeito-vs-estilo}
+Explique, com base no @exm-oxidacao-estilo, por que a **oxidação** pode ser um
+defeito num vinho e uma virtude em outro.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque o que define o defeito não é só a química, mas a **intenção** do estilo. A
+oxidação é indesejada num branco fresco (que deveria ser frutado), mas é
+**buscada de propósito** num Jerez oloroso ou Madeira, onde faz parte da
+identidade do vinho.
+:::

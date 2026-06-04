@@ -2,4 +2,167 @@
 title: "Maturação e vindima"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+De todas as decisões do ano no vinhedo, talvez a mais carregada seja a última:
+**quando colher**. Uma semana a mais ou a menos pode separar um vinho fresco e
+elegante de um vinho pesado e mole — ou ácido e magro. É na reta final da
+maturação que açúcar, acidez, cor e taninos chegam (ou não) ao equilíbrio, e é o
+viticultor quem aperta o gatilho.
+
+Este capítulo fecha o Volume II ligando o que vimos — o ciclo, o terroir, o
+manejo — ao instante da **vindima**. Veremos o que muda na uva durante a
+maturação, como se decide o ponto de colheita e o que distingue a colheita manual
+da mecânica.
+
+## O que acontece na maturação
+
+Do **pintor** à colheita, a baga vive transformações simultâneas e em sentidos
+opostos, resumidas na @fig-curva-maturacao:
+
+- o **açúcar sobe** — a folha continua enviando açúcares para a baga (futuro
+  álcool);
+- a **acidez cai** — os ácidos (sobretudo o málico) são consumidos e diluídos;
+- os **compostos fenólicos amadurecem** — taninos perdem a aspereza verde, a cor
+  se fixa, os aromas se desenvolvem.
+
+::: {#def-maturacao-fenolica}
+## Maturação tecnológica × fenólica
+A **maturação tecnológica** é o equilíbrio entre **açúcar e acidez** — fácil de
+medir. A **maturação fenólica** é o amadurecimento de **taninos, cor e aromas**
+na película e nas grainhas. O ponto ideal de colheita é quando **as duas
+coincidem**; em climas quentes, o açúcar pode disparar antes de os taninos
+amadurecerem.
+:::
+
+::: {#fig-curva-maturacao}
+```{.tikz}
+%%| filename: curva-maturacao
+%%| alt: Gráfico do pintor à colheita com duas curvas que se cruzam — o açúcar subindo e a acidez caindo — e uma faixa vertical marcando a janela de colheita, quando os dois atingem equilíbrio.
+\begin{tikzpicture}[font=\sffamily\small]
+  % janela de colheita
+  \fill[manualgreen!16] (3.9,0) rectangle (4.9,5.4);
+  \node[manualgreen!50!black, font=\scriptsize, align=center] at (4.4,5.15) {janela de\\colheita};
+  % eixos
+  \draw[-{Stealth[length=2.5mm]}, thick, manualgray] (0,0) -- (6.8,0)
+    node[right, font=\scriptsize]{tempo};
+  \draw[-{Stealth[length=2.5mm]}, thick, manualgray] (0,0) -- (0,5.7)
+    node[above, font=\scriptsize]{concentração};
+  \node[manualgray, font=\scriptsize] at (0.2,-0.4) {pintor};
+  \node[manualgray, font=\scriptsize] at (6.0,-0.4) {colheita tardia};
+  % curva açúcar (sobe)
+  \draw[manualred, very thick] (0,0.8) .. controls (2.6,1.5) and (3.6,3.6) .. (6,4.95)
+    node[right, manualred, font=\footnotesize]{açúcar};
+  % curva acidez (desce)
+  \draw[manualblue, very thick] (0,5.0) .. controls (2.6,3.7) and (3.6,1.7) .. (6,1.1)
+    node[right, manualblue, font=\footnotesize]{acidez};
+  % cruzamento aproximado
+  \fill[manualgray] (3.05,3.0) circle (1.4pt);
+  \node[manualgray, font=\scriptsize] at (2.55,3.45) {equilíbrio};
+\end{tikzpicture}
+```
+
+Da maturação: o **açúcar** (vermelho) sobe enquanto a **acidez** (azul) cai. A
+colheita busca a **janela** em que ambos estão equilibrados — antes, o vinho sai
+ácido e magro; muito depois, doce, mole e alcoólico. A maturação **fenólica**
+(taninos e aromas) precisa caber nessa mesma janela.
+:::
+
+## Como se decide o ponto de colheita
+
+Mede-se o açúcar pela densidade do mosto — em **graus Brix** (°Brix) ou Baumé — e
+a acidez por titulação e pelo **pH**. Mas nenhum número decide sozinho: prova-se a
+uva, mastiga-se a grainha (de verde a "torrada"), observa-se a casca. A escolha
+também depende do **estilo desejado** — um espumante quer uva menos madura e mais
+ácida; um tinto encorpado quer maturação plena.
+
+A regra prática que vimos no panorama inicial reaparece aqui: cerca de **17 g de
+açúcar por litro** geram 1% de álcool. Por isso medir o açúcar é, na verdade,
+**prever o teor alcoólico** do futuro vinho.
+
+::: {.callout-warning}
+## Erro comum
+Colher olhando **só o açúcar** é uma armadilha, sobretudo em clima quente. O
+açúcar pode atingir o alvo enquanto os taninos ainda estão **verdes** e
+adstringentes: o resultado é um vinho alcoólico, mas amargo e herbáceo. Açúcar
+pronto não significa **uva** pronta.
+:::
+
+## A vindima: manual ou mecânica
+
+Chegado o ponto, colhe-se. Há dois caminhos:
+
+- **Vindima manual** — cara e lenta, mas **seletiva**: permite escolher cacho a
+  cacho (ou bago a bago, na podridão nobre), preserva a uva inteira e alcança
+  encostas íngremes que nenhuma máquina sobe. É obrigatória para muitos
+  espumantes e grandes vinhos.
+- **Vindima mecânica** — rápida e barata: a colhedora sacode a planta e recolhe
+  as bagas. Não seleciona e exige vinhedo plano em espaldeira, mas pode colher à
+  **noite**, no frescor, preservando aromas e acidez em regiões quentes.
+
+::: {.callout-note}
+## A condução volta a importar
+A escolha entre manual e mecânica não é livre: depende do que se decidiu lá atrás.
+Encostas e taças pedem mão humana; a colheita mecânica só funciona no vinhedo
+plano e conduzido em **espaldeira**. As decisões do vinhedo se encadeiam até o
+último dia.
+:::
+
+## Exemplos
+
+::: {#exm-brix-alcool}
+## Do °Brix ao álcool
+Um mosto a 22 °Brix tem aproximadamente 220 g de açúcar por litro. Pela regra dos
+17 g/L por 1%, isso aponta para um vinho de cerca de $220/17 \approx 13\%$ de
+álcool, se a fermentação for completa. Medir o açúcar na vinha é, na prática,
+**estimar o álcool** na taça.
+:::
+
+::: {#exm-colheita-noturna}
+## Por que colher de madrugada
+Em regiões quentes (partes da Austrália, Califórnia, Vale do São Francisco), é
+comum a **vindima mecânica noturna**. Com a uva fria, preservam-se aromas
+voláteis e acidez, e o mosto chega à adega sem o calor que aceleraria oxidações e
+fermentações indesejadas. É a máquina aproveitando a única vantagem que a noite
+oferece.
+:::
+
+## Exercícios
+
+::: {#exr-ler-curva}
+Observando a @fig-curva-maturacao, descreva o que acontece com o **açúcar** e com
+a **acidez** entre o pintor e a colheita, e explique por que a "janela de
+colheita" fica onde está.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+O **açúcar sobe** e a **acidez cai** ao longo da maturação. A janela fica na
+região em que ambos estão **equilibrados**: colher antes daria um vinho ácido e
+pouco alcoólico; colher muito depois, um vinho doce, mole e excessivamente
+alcoólico.
+:::
+
+::: {#exr-estimar-alcool-brix}
+Um mosto foi medido em 20 °Brix (≈ 200 g de açúcar por litro). Estime o teor
+alcoólico do vinho se a fermentação for completa, usando a regra do
+@exm-brix-alcool.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+$200 / 17 \approx 11{,}8\%$ de álcool em volume, aproximadamente.
+:::
+
+::: {#exr-manual-ou-mecanica}
+Para cada caso, indique se a vindima tende a ser **manual** ou **mecânica** e por
+quê: (a) vinhedo de encosta íngreme; (b) colheita de uvas com podridão nobre, bago
+a bago; (c) grande propriedade plana em espaldeira, em região quente.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) **Manual** — a máquina não sobe encostas íngremes; (b) **Manual** — exige
+seleção bago a bago; (c) **Mecânica** (possivelmente **noturna**) — terreno plano
+e espaldeira permitem, e a noite preserva acidez e aromas no calor.
+:::

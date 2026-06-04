@@ -18,6 +18,9 @@ grainhas; é onde se concentram água, açúcares, ácidos, cor e taninos.
 (podridão cinzenta) ou, em clima preciso, a concentra (podridão nobre). Ver
 **podridão nobre**.
 
+**Brix** (°Brix) — escala que mede o açúcar dissolvido no mosto; serve para
+prever o teor alcoólico do futuro vinho.
+
 **Brotação** — fase do ciclo em que as gemas abrem na primavera e surgem os
 primeiros pâmpanos; momento de risco diante das geadas tardias.
 
@@ -87,6 +90,10 @@ extrair cor, taninos e aromas.
 **Malolática** — fermentação secundária que converte o ácido málico (duro) em
 ácido lático (macio), reduzindo a acidez.
 
+**Maturação fenólica** — amadurecimento de taninos, cor e aromas na película e
+nas grainhas, distinta da maturação de açúcar e acidez; o ponto ideal de colheita
+busca conciliar as duas.
+
 **Mesoclima** — clima de um sítio específico (uma encosta, um vale), moldado por
 relevo e água próxima. Ver **macroclima** e **microclima**.
 
@@ -148,6 +155,10 @@ vinho de um lugar.
 berço das tradições do vinho. Ver **Novo Mundo**.
 
 **Vindima** — colheita das uvas.
+
+**Vindima mecânica** — colheita feita por colhedora, que sacode a planta e
+recolhe as bagas; rápida e econômica, exige vinhedo plano em espaldeira e não
+seleciona a uva. Pode ser noturna para preservar acidez e aromas.
 
 **Vindima verde** (*green harvest*) — corte de parte dos cachos ainda verdes
 para reduzir o rendimento e concentrar os cachos restantes.

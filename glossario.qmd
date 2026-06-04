@@ -14,6 +14,9 @@ vinho; hoje retomada por produtores em estilos de longa maceração.
 **Casta** — variedade de videira (sinônimo de cultivar/uva). Ex.: Cabernet
 Sauvignon, Chardonnay.
 
+**Climat** — na Borgonha, parcela de vinhedo delimitada e nomeada, com caráter
+próprio; expressão fina da ideia de terroir.
+
 **Composto fenólico** — família de substâncias das cascas, sementes e madeira
 que inclui os taninos e os pigmentos responsáveis pela cor.
 
@@ -23,6 +26,10 @@ fermentação a partir dos açúcares da uva.
 **Fermentação alcoólica** — processo pelo qual as leveduras convertem os
 açúcares do mosto em etanol e dióxido de carbono; é o que transforma mosto em
 vinho.
+
+**Filoxera** — inseto (*Daktulosphaira vitifolium*) que ataca as raízes da
+videira; devastou os vinhedos europeus no fim do século XIX. A *Vitis vinifera*
+não resiste a ela; videiras americanas, sim.
 
 **Glicerol** — álcool de sabor levemente adocicado formado na fermentação;
 contribui para a maciez e a sensação de corpo.
@@ -38,6 +45,14 @@ extrair cor, taninos e aromas.
 
 **Mosto** — suco de uva, antes ou durante a fermentação.
 
+**Novo Mundo** — regiões vitícolas que receberam a vinha pela expansão colonial
+europeia (Américas, África do Sul, Oceania). Distinção histórica, não de
+qualidade. Ver **Velho Mundo**.
+
+**Porta-enxerto** — raiz (de espécie americana ou híbrida, resistente à
+filoxera) sobre a qual se enxerta a *Vitis vinifera*; base de quase toda videira
+cultivada desde a crise da filoxera.
+
 **Qvevri** — grande pote de barro enterrado, usado na Geórgia há milênios para
 fermentar e conservar vinho; técnica reconhecida como patrimônio cultural.
 
@@ -46,6 +61,9 @@ adstringência e pela estrutura dos tintos.
 
 **Terroir** — conjunto de solo, clima, relevo e tradição que dá identidade ao
 vinho de um lugar.
+
+**Velho Mundo** — regiões vitícolas históricas da Europa e do Mediterrâneo,
+berço das tradições do vinho. Ver **Novo Mundo**.
 
 **Vindima** — colheita das uvas.
 

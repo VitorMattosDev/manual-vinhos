@@ -4,33 +4,190 @@ title: "Do medievo ao Novo Mundo"
 
 ## Motivação
 
-<!-- Como o vinho chegou ao mapa atual: mosteiros, expansão colonial, filoxera e
-a era moderna. -->
+Quando Roma caiu, o vinho não caiu com ela. Atravessou a Idade Média protegido
+nos mosteiros, embarcou nas caravelas para cruzar oceanos, quase desapareceu
+diante de um pulgão microscópico no século XIX e renasceu como a indústria
+global de hoje. Cada um desses episódios deixou marca no que bebemos: o conceito
+de *cru*, o mapa do **Novo Mundo**, e até a estrutura física de quase toda
+videira cultivada hoje.
+
+Este capítulo fecha o arco histórico iniciado no capítulo anterior, levando o
+vinho da queda de Roma à era moderna. Onde antes a vinha seguia
+para **oeste** pelo Mediterrâneo, aqui ela cruza o **Atlântico** e os demais
+oceanos — e, num episódio decisivo, faz o caminho de volta.
 
 ## Idade Média e os mosteiros
 
-<!-- Conservação do saber vitícola; Borgonha, climats. -->
+Com a fragmentação do Império Romano, foram os **mosteiros** que preservaram e
+refinaram o saber vitícola na Europa. Beneditinos e cistercienses, que
+precisavam de vinho para a liturgia, mantiveram vinhedos, registraram a colheita
+ano a ano e observaram, parcela por parcela, quais davam o melhor vinho.
+
+Foi dessa observação metódica que nasceu, na **Borgonha**, a ideia de **climat**:
+parcelas de vinhedo delimitadas, cada uma com nome e caráter próprios. É a
+expressão mais fina da intuição de **terroir** — a mesma que, séculos depois,
+estrutura as denominações de origem europeias.
 
 ## Expansão colonial e o Novo Mundo
 
-<!-- Américas, África do Sul, Oceania. -->
+A era dos Descobrimentos levou a vinha para fora da Europa. Onde colonizadores
+europeus se fixavam — e o clima permitia —, plantava-se *Vitis vinifera*, em
+geral por exigência religiosa (vinho de missa) antes de virar negócio.
+
+::: {#def-velho-novo-mundo}
+## Velho Mundo e Novo Mundo
+Chamam-se **Velho Mundo** as regiões vitícolas históricas da Europa e do
+Mediterrâneo, e **Novo Mundo** as regiões onde a viticultura chegou pela
+expansão colonial — Américas, África do Sul e Oceania. A distinção é
+**histórica e estilística**, não de qualidade: não diz qual vinho é melhor, e
+sim de onde vem a tradição.
+:::
+
+O calendário da difusão é conhecido: as **Américas** receberam a vinha no século
+XVI (México, depois Peru, Chile e Argentina); a **África do Sul** plantou seu
+primeiro vinhedo no Cabo em **1655**; a **Austrália** começou em **1788**, com a
+chegada da primeira frota; e a **Nova Zelândia**, no século XIX. A
+@fig-rotas-difusao resume essas rotas.
+
+::: {.callout-warning}
+## Erro comum
+"Novo Mundo" não quer dizer "vinho recente" nem "vinho industrial". Muitas
+dessas regiões fazem vinho há **séculos**, e algumas das vinhas mais antigas
+ainda em produção estão justamente na Austrália e no Chile — sobreviventes,
+inclusive, da praga que devastou a Europa.
+:::
 
 ## A filoxera e a reconstrução
 
-<!-- A praga do século XIX, o enxerto em porta-enxertos americanos, o impacto
-duradouro. -->
+No fim do século XIX, um pulgão das raízes vindo da América do Norte cruzou o
+Atlântico e quase destruiu a viticultura europeia.
+
+::: {#def-filoxera}
+## Filoxera
+A **filoxera** (*Daktulosphaira vitifolium*) é um inseto que ataca as raízes da
+videira. A *Vitis vinifera* europeia não tem defesa contra ela; videiras
+americanas, com que o inseto coevoluiu, resistem. A praga destruiu a maior parte
+dos vinhedos europeus entre 1860 e 1900.
+:::
+
+A solução veio, ironicamente, da mesma América que exportou a praga: enxertar a
+videira europeia sobre uma **raiz americana resistente**.
+
+::: {#def-porta-enxerto}
+## Porta-enxerto
+**Porta-enxerto** é a raiz (de espécie americana ou híbrida, resistente à
+filoxera) sobre a qual se enxerta a parte aérea da *Vitis vinifera*. Desde a
+crise da filoxera, quase toda videira cultivada no mundo é, na verdade, **duas
+plantas unidas**: copa europeia, raiz americana.
+:::
+
+A @fig-rotas-difusao mostra esse retorno: a vinha foi da Europa para o mundo, mas
+foi do Novo Mundo que veio tanto a praga quanto sua cura.
+
+::: {#fig-rotas-difusao}
+```{.tikz}
+%%| filename: rotas-difusao
+%%| alt: Diagrama de rotas. À esquerda, um nó Europa (Velho Mundo); à direita, quatro destinos do Novo Mundo — Américas no século XVI, África do Sul em 1655, Austrália em 1788 e Nova Zelândia no século XIX — ligados por setas verdes de difusão da vinha. Um grande arco vermelho tracejado retorna do Novo Mundo à Europa, marcando a filoxera e os porta-enxertos americanos no século XIX.
+\begin{tikzpicture}[font=\sffamily\small,
+    hub/.style={draw=manualred, very thick, rounded corners=3pt,
+      fill=manualred!10, text width=22mm, align=center, minimum height=16mm},
+    dest/.style={draw=manualblue, very thick, rounded corners=2pt,
+      fill=manualblue!8, text width=34mm, align=center,
+      font=\footnotesize, minimum height=11mm},
+    rota/.style={-{Stealth[length=2.5mm]}, very thick, manualgreen},
+  ]
+  \node[hub] (eu) at (0,0) {Europa\\\footnotesize Velho Mundo};
+  \node[dest] (am) at (7,2.7)  {Américas\\\scriptsize México, Chile, Argentina — séc. XVI};
+  \node[dest] (af) at (7,0.9)  {África do Sul\\\scriptsize Cabo, 1655};
+  \node[dest] (au) at (7,-0.9) {Austrália\\\scriptsize 1788};
+  \node[dest] (nz) at (7,-2.7) {Nova Zelândia\\\scriptsize séc. XIX};
+
+  \draw[rota] (eu.east) -- (am.west);
+  \draw[rota] (eu.east) -- (af.west);
+  \draw[rota] (eu.east) -- (au.west);
+  \draw[rota] (eu.east) -- (nz.west);
+
+  % retorno: filoxera e porta-enxertos, do Novo Mundo de volta à Europa
+  \draw[-{Stealth[length=2.5mm]}, very thick, manualred, dashed]
+    (am.north) to[out=90, in=90, looseness=1.2]
+    node[above, midway, font=\scriptsize, manualred, align=center]
+      {filoxera e porta-enxertos\\(séc. XIX)} (eu.north);
+\end{tikzpicture}
+```
+
+A difusão da vinha pelo Novo Mundo (setas verdes) e o retorno decisivo do século
+XIX (arco vermelho): a praga da **filoxera** e, com ela, os **porta-enxertos**
+americanos que salvaram a viticultura europeia.
+:::
 
 ## A era moderna
 
-<!-- Enologia científica, globalização, vinhos de garagem, naturais. -->
+Reconstruída sobre porta-enxertos, a viticultura do século XX se tornou
+**ciência**. A enologia passou a controlar temperatura de fermentação, higiene e
+seleção de leveduras; o transporte refrigerado e o comércio global puseram
+vinhos do Chile, da Austrália e da Califórnia nas mesmas prateleiras dos
+europeus. No fim do século surgiram contracorrentes — vinhos **naturais**,
+**biodinâmicos**, o retorno à ânfora — que dialogam, não por acaso, com as
+técnicas mais antigas que vimos nos capítulos anteriores.
+
+## Exemplos
+
+::: {#exm-duas-plantas}
+## A videira que são duas plantas
+Pé de Cabernet Sauvignon num vinhedo moderno: acima do solo, é *Vitis vinifera*
+europeia, que dá as uvas; abaixo, a raiz é de espécie americana, imune à
+filoxera. As duas foram unidas por enxertia (@def-porta-enxerto). Quase todo
+vinho que você bebe vem de uma planta assim — uma consequência direta, e
+permanente, da crise do século XIX.
+:::
+
+::: {#exm-vinhas-pre-filoxera}
+## As sobreviventes
+Alguns terrenos escaparam da filoxera — solos muito arenosos, onde o inseto não
+prospera, e regiões isoladas do Novo Mundo. Por isso sobrevivem, no Chile e na
+Austrália, vinhas **pé-franco** (sem enxerto) plantadas no século XIX, hoje
+raríssimas e valiosíssimas: um vínculo vivo com o vinho de antes da praga.
+:::
 
 ## Exercícios
 
-::: {#exr-placeholder-03}
-<!-- Exercício a definir. -->
+::: {#exr-papel-mosteiros}
+Explique, em duas ou três frases, por que os **mosteiros** foram decisivos para a
+viticultura europeia após a queda de Roma, e que ideia moderna nasceu de sua
+observação metódica dos vinhedos.
 :::
 
 ::: {.callout-tip collapse="true"}
 ## Solução
-<!-- Solução a definir. -->
+Os mosteiros precisavam de vinho para a liturgia e tinham estabilidade e registro
+escrito para cuidar de vinhedos ao longo de gerações. Observando parcela por
+parcela qual dava o melhor vinho, criaram a noção de **climat** (Borgonha) —
+expressão precoce da ideia de **terroir**.
+:::
+
+::: {#exr-ironia-filoxera}
+Qual é a "ironia" da crise da filoxera mencionada no capítulo? Cite a origem da
+praga e a origem da solução.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+A praga veio da **América do Norte** (onde a videira europeia não tinha defesa),
+e a solução também: enxertar a *Vitis vinifera* sobre **porta-enxertos
+americanos** resistentes (@def-porta-enxerto). O mesmo continente trouxe o
+problema e a cura.
+:::
+
+::: {#exr-novo-mundo-mito}
+Um amigo afirma: "Vinho de Novo Mundo é tudo recente e industrial; tradição mesmo
+só no Velho Mundo." Usando a @def-velho-novo-mundo e o @exm-vinhas-pre-filoxera,
+aponte dois erros nessa frase.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+(1) "Novo Mundo" é uma distinção **histórica** (de onde veio a tradição), não de
+qualidade nem de data recente — várias regiões fazem vinho há séculos. (2) Há no
+Novo Mundo (Chile, Austrália) vinhas **pé-franco** do século XIX, anteriores à
+filoxera e mais antigas que muitos vinhedos europeus replantados após a praga.
 :::

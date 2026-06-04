@@ -15,7 +15,7 @@ fotos entram como imagem embutida — ver `PLANO.md`).
 ## Fase 1 — Fundamentos
 
 ### Volume I — O Mundo do Vinho
-- [ ] `v1-mundo-do-vinho/01-o-que-e-vinho.qmd` — definição, composição, recorte do manual. *fig.: composição do vinho (pizza/blocos).*
+- [x] `v1-mundo-do-vinho/01-o-que-e-vinho.qmd` — definição, composição, recorte do manual. *fig.: composição do vinho (pizza/blocos).*
 - [ ] `v1-mundo-do-vinho/02-historia-origens.qmd` — Cáucaso, Egito, Grécia, Roma. *fig.: linha do tempo da Antiguidade.*
 - [ ] `v1-mundo-do-vinho/03-historia-novo-mundo.qmd` — medievo, colônias, filoxera, era moderna. *fig.: linha do tempo / rotas de difusão.*
 - [x] `v1-mundo-do-vinho/04-da-uva-a-taca.qmd` — panorama da produção (**GABARITO**). *fig.: fluxograma da uva à taça.*

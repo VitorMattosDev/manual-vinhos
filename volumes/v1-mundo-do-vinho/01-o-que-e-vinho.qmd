@@ -4,32 +4,197 @@ title: "O que é vinho"
 
 ## Motivação
 
-<!-- Por que começar definindo vinho? O que distingue vinho de outras bebidas
-fermentadas? Conectar com a experiência cotidiana do leitor. -->
+Quase todo mundo já bebeu — ou ao menos viu alguém beber — uma taça de vinho.
+Poucos, porém, conseguem dizer o que de fato há dentro dela. À primeira vista o
+vinho parece simples: suco de uva que fermentou. E essa intuição não está
+errada. O que surpreende é o quanto cabe nesse "simples": mais de oitocentos
+compostos químicos diferentes convivem num líquido que é, em sua maior parte,
+apenas água.
+
+Começar pela definição e pela composição não é preciosismo. Quase todo conceito
+do manual — por que o tinto tem taninos, por que o álcool aquece a boca, por que
+um vinho é "ácido" ou "doce" — se explica a partir do que está dissolvido na
+taça. Ter esse inventário na cabeça é ter a chave de leitura de tudo que vem
+depois.
 
 ## O que é vinho
 
-<!-- Definição legal e técnica; vinho como mosto de uva fermentado. Composição
-básica: água, álcool, ácidos, açúcares residuais, taninos, compostos
-aromáticos. Diferença para fermentados de outras frutas. -->
+Comecemos pela definição que organiza todo o resto do manual. Ela é, ao mesmo
+tempo, técnica e legal: a maioria dos países define vinho em lei praticamente
+nesses termos.
 
 ::: {#def-vinho-detalhe}
 ## Vinho (definição técnica)
-<!-- Enunciado a desenvolver. -->
+**Vinho** é a bebida obtida exclusivamente pela fermentação alcoólica, total ou
+parcial, do **mosto** de uvas frescas (espécie *Vitis vinifera* e híbridos
+aparentados). A fermentação converte os açúcares da uva em **álcool etílico** e
+**dióxido de carbono**, pela ação de leveduras.
+:::
+
+Duas palavras dessa definição merecem destaque. A primeira é **uvas**: pela
+norma, "vinho" sem qualificativo vem de uva. Bebidas fermentadas de maçã, arroz
+ou mel também existem — sidra, saquê, hidromel —, mas levam nome próprio. A
+segunda é **fermentação**: é ela, e não a fruta em si, que faz o vinho. Uma uva
+esmagada e estabilizada continua sendo suco; só vira vinho quando as leveduras
+entram em ação.
+
+::: {.callout-note}
+## Suco, mosto e vinho
+Os três são estágios de um mesmo líquido. O **suco** é o que escorre da uva
+esmagada. Chamamos de **mosto** esse suco enquanto ele está prestes a fermentar
+ou fermentando — é o mosto, não o suco, que vira vinho. Quando a fermentação
+termina, temos o **vinho**.
+:::
+
+### Do que o vinho é feito
+
+Se pudéssemos separar uma taça em seus componentes, a divisão seria a da
+@fig-composicao-vinho. O resultado costuma surpreender: a esmagadora maioria do
+volume é **água** — em torno de 85% —, vinda da própria uva. O **álcool** (etanol)
+responde por algo entre 11% e 15%. Tudo o que dá ao vinho sua personalidade —
+acidez, doçura, cor, estrutura, aroma — está espremido nos poucos por cento
+restantes.
+
+Esse "resto" minúsculo é o que torna o vinho infinitamente variável. Ele reúne:
+
+- **ácidos** (tartárico, málico, lático, cítrico), que dão frescor e sustentam o
+  vinho ao longo dos anos;
+- **glicerol**, um álcool de sabor levemente adocicado que contribui para a
+  sensação de maciez e "corpo";
+- **açúcares residuais** — o que sobra quando a fermentação não consome tudo —,
+  que vão do seco ao doce;
+- **compostos fenólicos**, entre eles os **taninos** e os pigmentos da cor;
+- **sais minerais** e traços diversos;
+- **compostos aromáticos** voláteis, presentes em quantidades ínfimas, mas
+  responsáveis por todo o aroma.
+
+::: {#fig-composicao-vinho}
+```{.tikz}
+%%| filename: composicao-do-vinho
+%%| alt: Barra horizontal mostrando a composição do vinho — cerca de 85 por cento de água, 12 por cento de álcool e 3 por cento de outros compostos — com a fatia de outros compostos ampliada abaixo em ácidos, glicerol, açúcares, fenólicos, minerais e aromáticos.
+\begin{tikzpicture}[font=\sffamily\small]
+  % --- Barra principal: 10 cm = 100% ---
+  \fill[manualblue!25, draw=manualblue, very thick] (0,0) rectangle (8.5,1.3);
+  \fill[manualred!30, draw=manualred, very thick]   (8.5,0) rectangle (9.7,1.3);
+  \fill[manualyellow!60, draw=manualgray, very thick](9.7,0) rectangle (10,1.3);
+
+  \node at (4.25,0.65) {Água \;$\approx 85\%$};
+  \node[manualred] at (8.5,1.65) {\footnotesize Álcool $\approx 12\%$};
+  \draw[manualred, thick] (9.1,1.5) -- (9.1,1.3);
+
+  % --- Zoom da fatia "outros" (~3%) ---
+  \draw[manualgray, dashed] (9.7,0) -- (1,-1);
+  \draw[manualgray, dashed] (10,0)  -- (10,-1);
+  \node[manualgray] at (9.85,1.95) {\footnotesize Outros};
+  \node[manualgray] at (9.85,2.35) {\footnotesize $\approx 3\%$};
+  \draw[manualgray, thick] (9.85,1.7) -- (9.85,1.3);
+
+  % barra ampliada
+  \def\y{-2.3}
+  \fill[manualgreen!30, draw=manualgray, thick] (1,\y)   rectangle (3.2,-1);
+  \fill[manualyellow!40, draw=manualgray, thick](3.2,\y) rectangle (5,-1);
+  \fill[manualred!15, draw=manualgray, thick]   (5,\y)   rectangle (6.6,-1);
+  \fill[manualblue!20, draw=manualgray, thick]  (6.6,\y) rectangle (8.2,-1);
+  \fill[manualgray!25, draw=manualgray, thick]  (8.2,\y) rectangle (9.3,-1);
+  \fill[manualgray!45, draw=manualgray, thick]  (9.3,\y) rectangle (10,-1);
+
+  \node[align=center, font=\scriptsize] at (2.1,-1.65)  {Ácidos};
+  \node[align=center, font=\scriptsize] at (4.1,-1.65)  {Glicerol};
+  \node[align=center, font=\scriptsize] at (5.8,-1.65)  {Açúcares\\residuais};
+  \node[align=center, font=\scriptsize] at (7.4,-1.65)  {Fenólicos\\e taninos};
+  \node[align=center, font=\scriptsize] at (8.75,-1.95) {Minerais};
+  \node[align=center, font=\scriptsize] at (9.65,-1.95) {Aromas};
+\end{tikzpicture}
+```
+
+A composição típica de um vinho seco, em proporção de volume. A água domina e o
+álcool vem em seguida; é nos poucos por cento de **outros compostos** (ampliados
+abaixo, em proporções esquemáticas) que mora toda a diversidade de sabor, cor e
+aroma. Os compostos aromáticos, apesar de decisivos, são quantitativamente
+ínfimos.
 :::
 
 ## Por que estudar vinho
 
-<!-- O vinho como cruzamento de biologia, química, geografia, história e
-cultura. O recorte deste manual. -->
+O vinho é um objeto de estudo incomum porque cruza várias ciências de uma só
+vez. A **biologia** explica a videira e as leveduras; a **química** explica a
+fermentação, a acidez e o envelhecimento; a **geografia** e a **climatologia**
+explicam por que a mesma casta dá vinhos diferentes em lugares diferentes — o
+**terroir**; a **história** explica por que bebemos o que bebemos; e a **análise
+sensorial** transforma tudo isso em prazer descritível.
+
+Este manual percorre esse cruzamento em ordem didática, da matéria-prima ao
+serviço. O recorte é deliberado: tratamos sobretudo do **vinho de uva** feito por
+fermentação, e abordamos espumantes, fortificados e doces como variações desse
+tronco comum. Bebidas correlatas (destilados de vinho, vermutes, fermentados de
+outras frutas) aparecem apenas quando ajudam a iluminar o vinho propriamente
+dito.
+
+::: {.callout-tip}
+## Sobre moderação
+Vinho é assunto adulto e envolve álcool. Estudá-lo com profundidade técnica e
+cultural não é o mesmo que consumi-lo em quantidade: a apreciação que este manual
+cultiva valoriza a atenção, não o volume.
+:::
+
+## Exemplos
+
+::: {#exm-agua-no-vinho}
+## A água que não foi adicionada
+Pode parecer estranho dizer que o vinho é 85% água sendo que nada de água é
+acrescentado na produção — em muitos países, aliás, adicionar água é fraude. A
+explicação está na uva: a baga madura é, ela própria, cerca de 75% a 80% de
+água. Ao esmagar e fermentar, essa água da fruta passa quase inteira para o
+vinho. A água do vinho é, portanto, **água de uva**.
+:::
+
+::: {#exm-mesmo-liquido}
+## Por que o teor de açúcar e álcool se relacionam
+Como a @fig-composicao-vinho sugere, álcool e açúcares residuais ocupam
+"compartimentos" ligados: o álcool vem justamente do açúcar consumido na
+fermentação. Se as leveduras fermentam **todo** o açúcar, sobra pouco açúcar
+residual e o vinho fica seco e mais alcoólico; se a fermentação é interrompida
+antes do fim, sobra açúcar (vinho mais doce) e o álcool fica mais baixo. Os dois
+números contam a mesma história por dois ângulos.
+:::
 
 ## Exercícios
 
-::: {#exr-placeholder-01}
-<!-- Exercício a definir. -->
+::: {#exr-vinho-ou-nao}
+Para cada bebida, diga se ela se enquadra na definição técnica de **vinho**
+(@def-vinho-detalhe) e justifique em uma frase: (a) sidra de maçã; (b) suco de
+uva integral pasteurizado; (c) espumante feito de uva Chardonnay; (d) saquê.
 :::
 
 ::: {.callout-tip collapse="true"}
 ## Solução
-<!-- Solução a definir. -->
+(a) **Não** — é fermentada, mas de maçã, não de uva. (b) **Não** — é de uva, mas
+não fermentou; é suco, não vinho. (c) **Sim** — é mosto de uva fermentado; o gás
+vem de uma segunda fermentação, mas continua sendo vinho. (d) **Não** — é
+fermentado de arroz.
+:::
+
+::: {#exr-fracao-aroma}
+Com base na @fig-composicao-vinho, comente a seguinte afirmação: "Como os
+compostos aromáticos são uma fração ínfima do vinho, eles têm pouca importância."
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+A afirmação confunde **quantidade** com **importância**. Os aromáticos são
+quantitativamente mínimos, mas o olfato humano detecta muitos deles em
+concentrações de partes por bilhão. São eles que distinguem um vinho de outro no
+nariz; sua pequena fração de volume não reflete seu peso sensorial.
+:::
+
+::: {#exr-seco-vs-doce}
+Dois vinhos partem do mesmo mosto. No vinho A a fermentação vai até o fim; no
+vinho B ela é interrompida na metade. Usando o @exm-mesmo-liquido, diga qual
+tende a ser mais doce e qual tende a ter mais álcool.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+O vinho **B** tende a ser mais **doce** (sobrou açúcar não fermentado) e o vinho
+**A** tende a ter mais **álcool** (todo o açúcar virou etanol).
 :::

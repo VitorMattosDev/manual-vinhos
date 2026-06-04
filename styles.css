@@ -3,6 +3,8 @@
    Para retintar também as FIGURAS, edite os \definecolor no template do
    _extensions/danmackinlay/tikz/tikz.lua (manualblue, manualred, ...). */
 
+/*-- scss:rules --*/
+
 :root {
   --vinho-bordeaux: #6b1f2a;
   --vinho-bordeaux-claro: #8e3340;

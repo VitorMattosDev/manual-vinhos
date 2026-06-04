@@ -73,6 +73,10 @@ taninos.
 **Chaptalização** — adição de açúcar ao mosto antes da fermentação para elevar o
 álcool final; permitida em regiões frias, proibida em outras.
 
+**Charmat** (autoclave) — método de espumante com a segunda fermentação num
+tanque pressurizado, depois engarrafado sob pressão; rápido, preserva o frutado
+(ex.: Prosecco).
+
 **Clarificação** — conjunto de operações que tornam o vinho límpido (trasfega,
 colagem, filtração), removendo partículas em suspensão.
 
@@ -181,6 +185,10 @@ busca conciliar as duas.
 
 **Mesoclima** — clima de um sítio específico (uma encosta, um vale), moldado por
 relevo e água próxima. Ver **macroclima** e **microclima**.
+
+**Método ancestral** (*pét-nat*) — método de espumante com uma só fermentação: o
+vinho é engarrafado ainda fermentando e o CO₂ fica preso; dá espumantes rústicos
+e turvos.
 
 **Método tradicional** (champenoise) — método de espumante com segunda
 fermentação dentro da garrafa e estágio sobre borras; usado em Champagne, Cava,

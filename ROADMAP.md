@@ -54,7 +54,7 @@ fotos entram como imagem embutida — ver `PLANO.md`).
 
 ### Volume VI — Espumantes, Fortificados e Doces
 - [x] `v6-espumantes-fortificados/01-metodo-tradicional.qmd` — champenoise, segunda fermentação, dégorgement. *fig.: etapas do método tradicional.*
-- [ ] `v6-espumantes-fortificados/02-charmat-e-outros.qmd` — autoclave, ancestral, transfer. *fig.: Charmat × tradicional.*
+- [x] `v6-espumantes-fortificados/02-charmat-e-outros.qmd` — autoclave, ancestral, transfer. *fig.: Charmat × tradicional.*
 - [ ] `v6-espumantes-fortificados/03-fortificados.qmd` — Porto, Jerez (solera), Madeira. *fig.: sistema de solera.*
 - [ ] `v6-espumantes-fortificados/04-doces-naturais.qmd` — botrytis, colheita tardia, ice wine, passito. *fig.: vias de concentração de açúcar.*
 

@@ -2,4 +2,145 @@
 title: "Charmat e outros métodos de espumante"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Nem todo espumante quer cheirar a brioche. Muitos — o **Prosecco**, os
+**moscatéis** — buscam justamente o oposto: fruta fresca, flores, leveza,
+aromas primários da uva. Para esses, fazer a segunda fermentação na garrafa,
+sobre borras por anos, seria contraproducente. A resposta é o método **Charmat**,
+e suas variantes.
+
+Este capítulo apresenta os métodos alternativos ao tradicional: o **Charmat** (em
+tanque), o **ancestral** (de uma só fermentação) e o **transfer**. Cada um serve a
+um estilo diferente de borbulha.
+
+## O método Charmat
+
+::: {#def-charmat}
+## Método Charmat (tanque / autoclave)
+No **método Charmat**, a segunda fermentação ocorre num **grande tanque
+pressurizado** (autoclave), não na garrafa; depois o vinho é engarrafado **sob
+pressão**. É mais rápido e barato que o tradicional e, por não haver longo
+contato com borras, **preserva os aromas frutados e florais** da uva.
+:::
+
+Por isso o Charmat é o método de eleição para **castas aromáticas**: a Glera (do
+Prosecco) e o Moscato dão espumantes que celebram a fruta e a flor. A
+@fig-charmat-tradicional contrasta onde acontece a segunda fermentação em cada
+método.
+
+::: {#fig-charmat-tradicional}
+```{.tikz}
+%%| filename: charmat-tradicional
+%%| alt: Comparação entre método Charmat e tradicional. No Charmat, a segunda fermentação ocorre num grande tanque pressurizado e depois engarrafa sob pressão. No tradicional, ocorre dentro de cada garrafa.
+\begin{tikzpicture}[font=\sffamily\scriptsize]
+  % ----- Charmat -----
+  \node[font=\sffamily\small\bfseries, manualgreen!50!black] at (1.8,3.3) {Charmat};
+  % tanque
+  \draw[manualgreen!60!black, very thick, rounded corners=3pt] (0.4,0.3) rectangle (2.2,2.7);
+  \foreach \bx/\by in {0.8/1.0,1.2/1.6,1.6/1.1,1.0/2.0,1.7/1.9,1.4/0.7}{
+    \fill[manualgreen!55] (\bx,\by) circle (0.5mm);}
+  \node[align=center, font=\tiny] at (1.3,-0.15) {2.ª fermentação\\no tanque};
+  % seta para garrafa
+  \draw[-{Stealth[length=2mm]}, very thick, manualgray] (2.4,1.5) -- (3.2,1.5);
+  % garrafa engarrafada
+  \draw[manualgreen!60!black, very thick] (3.7,0.3) -- (3.7,1.8) -- (3.85,2.2) -- (3.85,2.8)
+        -- (4.15,2.8) -- (4.15,2.2) -- (4.3,1.8) -- (4.3,0.3) -- cycle;
+  \node[align=center, font=\tiny] at (4.0,-0.15) {engarrafa\\sob pressão};
+
+  % divisória
+  \draw[manualgray!40, dashed] (5.1,-0.4) -- (5.1,3.4);
+
+  % ----- Tradicional -----
+  \node[font=\sffamily\small\bfseries, manualred!70!black] at (7.3,3.3) {Tradicional};
+  \foreach \gx in {6.4,7.3,8.2}{
+    \draw[manualred, very thick] (\gx,0.3) -- (\gx,1.8) -- (\gx+0.15,2.2) -- (\gx+0.15,2.8)
+          -- (\gx+0.45,2.8) -- (\gx+0.45,2.2) -- (\gx+0.6,1.8) -- (\gx+0.6,0.3) -- cycle;
+    \fill[manualred!55] (\gx+0.3,1.0) circle (0.5mm);
+    \fill[manualred!55] (\gx+0.2,1.4) circle (0.5mm);
+    \fill[manualred!55] (\gx+0.4,0.8) circle (0.5mm);}
+  \node[align=center, font=\tiny] at (7.6,-0.15) {2.ª fermentação\\em cada garrafa};
+\end{tikzpicture}
+```
+
+Onde nasce a bolha em cada método. No **Charmat** (esquerda), num grande
+**tanque**, com posterior engarrafamento sob pressão — rápido e frutado. No
+**tradicional** (direita), dentro de **cada garrafa** — lento e complexo.
+:::
+
+## Ancestral e transfer
+
+Dois outros métodos completam o quadro:
+
+- **Método ancestral** (*pét-nat*) — o mais antigo e simples: engarrafa-se o vinho
+  com a **fermentação ainda em curso**, sem segunda fermentação. O CO₂ da
+  **própria** fermentação inicial fica preso. Dá espumantes rústicos, muitas vezes
+  turvos, hoje em alta entre os vinhos naturais.
+- **Método transfer** — faz a segunda fermentação na garrafa (como o tradicional),
+  mas, em vez do dégorgement individual, transfere o vinho a um tanque sob pressão,
+  filtra e reengarrafa. Um meio-termo industrial.
+
+::: {.callout-warning}
+## Prosecco não é "champanhe italiano"
+O **Prosecco** é feito pelo método **Charmat**, em tanque — não pelo método
+tradicional. Seu charme é a **fruta fresca**, não o brioche da autólise. Compará-lo
+ao champanhe é comparar dois métodos e dois estilos distintos, não um "melhor" e
+um "pior".
+:::
+
+## Exemplos
+
+::: {#exm-prosecco}
+## Por que o Charmat combina com Glera e Moscato
+Castas aromáticas perdem seus aromas delicados se ficarem anos sobre borras. O
+**Charmat**, rápido e sem autólise longa, **preserva** esse frutado e floral — por
+isso o Prosecco (Glera) e os moscatéis o adotam. O método é escolhido para
+**servir à uva**, não para sobrepor-se a ela.
+:::
+
+::: {#exm-pet-nat}
+## A volta do ancestral
+O **pét-nat** (método ancestral) era quase esquecido e voltou com o movimento dos
+vinhos naturais: uma única fermentação, engarrafada antes do fim, sem dosagem nem
+filtragem. Resulta num espumante rústico e turvo, de borbulha irregular — charme
+que parte do público hoje aprecia justamente por ser "imperfeito".
+:::
+
+## Exercícios
+
+::: {#exr-onde-fermenta}
+Qual é a diferença central entre o método **Charmat** e o **tradicional**, segundo
+a @fig-charmat-tradicional? Que tipo de aroma cada um favorece?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+No **Charmat**, a segunda fermentação ocorre num **tanque** (e engarrafa-se sob
+pressão); no **tradicional**, ocorre **na garrafa**, com longo estágio sobre
+borras. O Charmat favorece aromas **frutados e florais**; o tradicional, notas de
+**brioche** (autólise).
+:::
+
+::: {#exr-metodo-para-moscato}
+Um produtor quer um espumante de **Moscato**, bem aromático e frutado. Que método
+ele deve preferir, e por quê (@exm-prosecco)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+O **Charmat**: por ser rápido e sem longo contato com borras, **preserva** os
+aromas delicados da casta aromática. O método tradicional, com sua autólise,
+mascararia esse frutado.
+:::
+
+::: {#exr-ancestral}
+O que distingue o **método ancestral** (pét-nat) do tradicional quanto ao número
+de fermentações?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+O **ancestral** usa **uma só** fermentação: o vinho é engarrafado ainda
+fermentando, e o CO₂ dessa fermentação fica preso. O tradicional faz uma
+**segunda** fermentação na garrafa, provocada pelo licor de tiragem.
+:::

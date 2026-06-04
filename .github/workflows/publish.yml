@@ -1,0 +1,44 @@
+name: Publicar no GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Instalar Quarto (com TinyTeX)
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          tinytex: true
+
+      # O grafo `mermaid` do index.qmd vira imagem no PDF e precisa de
+      # Chromium headless no runner Ubuntu (a ferramenta correta é
+      # chrome-headless-shell, não chromium).
+      - name: Instalar Chrome headless (mermaid no PDF)
+        run: quarto install chrome-headless-shell
+
+      # As figuras TikZ são compiladas por pdflatex/dvisvgm DIRETO (fora do
+      # latexmk do Quarto), então o TinyTeX do runner precisa destes pacotes.
+      - name: Instalar pacotes LaTeX das figuras TikZ
+        run: |
+          TLMGR="$(find / -name tlmgr 2>/dev/null | head -1)"
+          test -n "$TLMGR" || { echo "tlmgr nao encontrado"; exit 1; }
+          echo "$(dirname "$TLMGR")" >> "$GITHUB_PATH"
+          "$TLMGR" install standalone pgf pgfplots dvisvgm xcolor amsmath amsfonts
+
+      - name: Renderizar e publicar
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

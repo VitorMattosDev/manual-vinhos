@@ -1,0 +1,36 @@
+---
+title: "Do medievo ao Novo Mundo"
+---
+
+## Motivação
+
+<!-- Como o vinho chegou ao mapa atual: mosteiros, expansão colonial, filoxera e
+a era moderna. -->
+
+## Idade Média e os mosteiros
+
+<!-- Conservação do saber vitícola; Borgonha, climats. -->
+
+## Expansão colonial e o Novo Mundo
+
+<!-- Américas, África do Sul, Oceania. -->
+
+## A filoxera e a reconstrução
+
+<!-- A praga do século XIX, o enxerto em porta-enxertos americanos, o impacto
+duradouro. -->
+
+## A era moderna
+
+<!-- Enologia científica, globalização, vinhos de garagem, naturais. -->
+
+## Exercícios
+
+::: {#exr-placeholder-03}
+<!-- Exercício a definir. -->
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+<!-- Solução a definir. -->
+:::

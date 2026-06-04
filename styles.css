@@ -1,0 +1,41 @@
+/* Manual do Vinho — identidade visual (HTML).
+   Mantida centralizada; ajuste aqui para mudar a aparência do site inteiro.
+   Para retintar também as FIGURAS, edite os \definecolor no template do
+   _extensions/danmackinlay/tikz/tikz.lua (manualblue, manualred, ...). */
+
+:root {
+  --vinho-bordeaux: #6b1f2a;
+  --vinho-bordeaux-claro: #8e3340;
+  --vinho-dourado: #b8862f;
+}
+
+h1, h2, h3, h4 {
+  color: var(--vinho-bordeaux);
+}
+
+a {
+  color: var(--vinho-bordeaux-claro);
+}
+
+a:hover {
+  color: var(--vinho-bordeaux);
+}
+
+/* Barra lateral e título do livro com acento do vinho */
+.sidebar-title,
+.quarto-title .title {
+  color: var(--vinho-bordeaux);
+}
+
+/* Legendas de figura um pouco mais discretas */
+figcaption,
+.figure-caption {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Numeração de teoremas/definições com cor de destaque suave */
+.theorem .theorem-title,
+.definition .definition-title {
+  color: var(--vinho-bordeaux);
+}

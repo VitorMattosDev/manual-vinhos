@@ -1,0 +1,66 @@
+---
+title: "Manual do Vinho"
+---
+
+# Apresentação {.unnumbered}
+
+Este é um **livro aberto sobre vinho** — quinto título da série *Manuais de
+Ciências*, agora aplicada a um saber que mistura biologia, química, geografia,
+história e prazer sensorial. A proposta é a mesma dos manuais irmãos
+(Matemática, Física, Química e Filosofia): partir do absolutamente básico e
+chegar, capítulo a capítulo, ao avançado, sempre **motivando antes de definir**.
+
+O percurso vai da **videira no vinhedo** até a **taça na mesa**: o que é vinho e
+de onde veio; como a uva cresce e vira mosto; o que acontece na fermentação e no
+estágio; quais são os grandes estilos e as regiões que os consagraram; como
+degustar, servir, harmonizar e guardar; e, por fim, o vinho como cultura,
+mercado e ofício.
+
+::: {.callout-note}
+## Como ler este manual
+Cada capítulo segue a mesma estrutura: **motivação → conceitos → exemplos →
+exercícios → soluções selecionadas**. Não é preciso ler tudo em ordem, mas a
+sequência dos volumes respeita pré-requisitos: entender a vinificação (Vol. IV–V)
+fica muito mais fácil depois de conhecer a uva (Vol. II–III).
+:::
+
+## Mapa de pré-requisitos
+
+O grafo abaixo mostra como os volumes se apoiam uns nos outros. As setas indicam
+"convém ler antes".
+
+```{mermaid}
+flowchart TD
+  V1[I · O Mundo do Vinho] --> V2[II · Videira e Viticultura]
+  V1 --> V8[VIII · Estilos e Tipos]
+  V2 --> V3[III · Castas e Variedades]
+  V3 --> V4[IV · Princípios da Vinificação]
+  V4 --> V5[V · Vinificação por Estilo]
+  V5 --> V6[VI · Espumantes, Fortificados e Doces]
+  V5 --> V7[VII · Estágio e Envelhecimento]
+  V6 --> V8
+  V7 --> V8
+  V8 --> V9[IX · Regiões do Velho Mundo]
+  V8 --> V10[X · Regiões do Novo Mundo]
+  V8 --> V11[XI · Degustação e Análise Sensorial]
+  V11 --> V12[XII · Serviço, Harmonização e Guarda]
+  V9 --> V13[XIII · Vinho, Cultura e Mercado]
+  V10 --> V13
+  V12 --> V13
+```
+
+## O que você vai encontrar
+
+- **Figuras didáticas** desenhadas em TikZ (fluxogramas da vinificação, ciclo da
+  videira, anatomia da taça, cortes de terroir, roda de aromas), renderizadas
+  como SVG no site e PDF no livro.
+- **Glossário** vivo de termos técnicos (em apêndice), atualizado conforme novos
+  termos aparecem.
+- Boxes de **observação**, **erro comum** e **dica**, além de **exercícios** com
+  solução colapsável.
+
+::: {.callout-tip}
+## Sobre beber com responsabilidade
+Este é um manual técnico e cultural sobre vinho. O consumo de bebidas alcoólicas
+é assunto adulto e exige moderação; nada aqui incentiva o consumo excessivo.
+:::

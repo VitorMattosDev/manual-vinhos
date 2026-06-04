@@ -1,0 +1,29 @@
+---
+title: "História do vinho: origens e Antiguidade"
+---
+
+## Motivação
+
+<!-- O vinho acompanha a civilização há milênios. Por que essa história importa
+para entender o vinho de hoje (castas, técnicas, geografia)? -->
+
+## As origens (Cáucaso e Crescente Fértil)
+
+<!-- Geórgia/Armênia, qvevri, domesticação da Vitis vinifera. Evidências
+arqueológicas. -->
+
+## Egito, Grécia e Roma
+
+<!-- Difusão pelo Mediterrâneo; o papel de Roma na expansão da viticultura
+europeia; ânforas, primeiras "denominações". -->
+
+## Exercícios
+
+::: {#exr-placeholder-02}
+<!-- Exercício a definir. -->
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+<!-- Solução a definir. -->
+:::

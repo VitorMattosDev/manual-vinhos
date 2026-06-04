@@ -1,0 +1,4 @@
+/_book/
+/.quarto/
+*.tikz-tex/
+.DS_Store

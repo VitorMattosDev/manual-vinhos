@@ -1,0 +1,35 @@
+---
+title: "O que é vinho"
+---
+
+## Motivação
+
+<!-- Por que começar definindo vinho? O que distingue vinho de outras bebidas
+fermentadas? Conectar com a experiência cotidiana do leitor. -->
+
+## O que é vinho
+
+<!-- Definição legal e técnica; vinho como mosto de uva fermentado. Composição
+básica: água, álcool, ácidos, açúcares residuais, taninos, compostos
+aromáticos. Diferença para fermentados de outras frutas. -->
+
+::: {#def-vinho-detalhe}
+## Vinho (definição técnica)
+<!-- Enunciado a desenvolver. -->
+:::
+
+## Por que estudar vinho
+
+<!-- O vinho como cruzamento de biologia, química, geografia, história e
+cultura. O recorte deste manual. -->
+
+## Exercícios
+
+::: {#exr-placeholder-01}
+<!-- Exercício a definir. -->
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+<!-- Solução a definir. -->
+:::

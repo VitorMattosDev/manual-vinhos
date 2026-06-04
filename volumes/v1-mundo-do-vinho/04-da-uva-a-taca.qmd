@@ -1,0 +1,160 @@
+---
+title: "Da uva à taça: panorama"
+---
+
+> **Capítulo-gabarito.** Este capítulo é o modelo de estilo do manual. Ao
+> escrever qualquer outro, espelhe a estrutura: motivação → conceitos →
+> figura(s) → exemplos → exercícios → soluções. Use-o como referência viva.
+
+## Motivação
+
+Antes de mergulhar na botânica da videira, na química da fermentação ou na
+geografia das regiões, vale ter o mapa inteiro na cabeça. Vinho é, na essência,
+**suco de uva fermentado** — mas entre o cacho no vinhedo e o líquido na taça há
+uma cadeia de decisões, cada uma capaz de mudar radicalmente o resultado. Saber
+onde cada etapa se encaixa torna todo o resto do manual mais fácil de seguir.
+
+Neste capítulo percorremos essa cadeia de uma ponta à outra, em alto nível. Os
+detalhes de cada elo virão nos volumes seguintes; aqui interessa o **fio
+condutor**.
+
+## A cadeia de produção
+
+A produção de vinho pode ser resumida em sete etapas encadeadas, da planta ao
+consumo. A @fig-cadeia-vinho mostra esse fluxo e onde se ramificam os grandes
+estilos.
+
+::: {#fig-cadeia-vinho}
+```{.tikz}
+%%| filename: cadeia-da-uva-a-taca
+%%| alt: Fluxograma vertical com sete etapas da produção do vinho, do vinhedo até a taça, com ramificações para os estilos branco, tinto e rosé na etapa de fermentação.
+\begin{tikzpicture}[
+    node distance=9mm and 14mm,
+    etapa/.style={
+      draw=manualblue, very thick, rounded corners=2pt,
+      fill=manualblue!8, text width=34mm, align=center,
+      minimum height=10mm, font=\sffamily\small},
+    ramo/.style={
+      draw=manualgray, thick, rounded corners=2pt,
+      fill=manualgray!8, text width=22mm, align=center,
+      minimum height=8mm, font=\sffamily\footnotesize},
+    fluxo/.style={-{Stealth[length=2.5mm]}, very thick, manualgray},
+  ]
+  \node[etapa] (vinhedo) {1. Vinhedo\\\footnotesize viticultura};
+  \node[etapa, below=of vinhedo] (vindima) {2. Vindima\\\footnotesize colheita};
+  \node[etapa, below=of vindima] (preparo) {3. Esmagamento\\e desengace};
+  \node[etapa, below=of preparo] (ferment) {4. Fermentação\\\footnotesize do mosto};
+  \node[etapa, below=of ferment] (estagio) {5. Estágio\\\footnotesize barrica ou tanque};
+  \node[etapa, below=of estagio] (garrafa) {6. Engarrafamento};
+  \node[etapa, below=of garrafa, fill=manualred!10, draw=manualred] (taca) {7. Taça\\\footnotesize serviço e consumo};
+
+  \draw[fluxo] (vinhedo) -- (vindima);
+  \draw[fluxo] (vindima) -- (preparo);
+  \draw[fluxo] (preparo) -- (ferment);
+  \draw[fluxo] (ferment) -- (estagio);
+  \draw[fluxo] (estagio) -- (garrafa);
+  \draw[fluxo] (garrafa) -- (taca);
+
+  % Ramificações de estilo, ao lado da fermentação
+  \node[ramo, right=of ferment, yshift=10mm] (branco) {Branco\\\footnotesize sem cascas};
+  \node[ramo, right=of ferment] (tinto) {Tinto\\\footnotesize com cascas};
+  \node[ramo, right=of ferment, yshift=-10mm] (rose) {Rosé\\\footnotesize contato breve};
+  \draw[fluxo, manualgreen] (ferment.east) -- (branco.west);
+  \draw[fluxo, manualgreen] (ferment.east) -- (tinto.west);
+  \draw[fluxo, manualgreen] (ferment.east) -- (rose.west);
+\end{tikzpicture}
+```
+
+As sete etapas da produção do vinho, da videira à taça. É na **fermentação**
+que se decidem os três grandes estilos de cor, conforme o contato do mosto com
+as cascas da uva.
+:::
+
+Cada etapa é o tema de um ou mais volumes adiante. O vinhedo e a vindima ocupam
+o Volume II; as uvas em si, o Volume III; a fermentação e o estágio, os Volumes
+IV a VII; e o serviço, o Volume XII.
+
+## Conceitos centrais
+
+::: {#def-vinho}
+## Vinho
+**Vinho** é a bebida obtida pela fermentação alcoólica, total ou parcial, do
+mosto de uvas frescas. A fermentação converte os açúcares da uva em álcool
+etílico e dióxido de carbono, pela ação de leveduras.
+:::
+
+::: {#def-terroir}
+## Terroir
+**Terroir** é o conjunto de fatores naturais e humanos de um local — solo,
+clima, relevo, exposição solar e tradição de cultivo — que imprime caráter
+próprio ao vinho ali produzido.
+:::
+
+A cor do vinho não vem da polpa, que é quase incolor na maioria das uvas, mas do
+**contato do mosto com as cascas** durante a fermentação. Daí a ramificação na
+@fig-cadeia-vinho: tinto fermenta com as cascas; branco, sem elas; rosé, com um
+contato breve.
+
+::: {.callout-warning}
+## Erro comum
+"Uvas brancas dão vinho branco e uvas tintas dão vinho tinto" é só metade da
+história. É perfeitamente possível fazer vinho **branco a partir de uvas
+tintas** (basta prensar e fermentar sem as cascas) — é exatamente o que ocorre
+em muitos espumantes do tipo *blanc de noirs*.
+:::
+
+## Exemplos
+
+::: {#exm-tinto-vs-branco}
+## Por que o mesmo vinhedo dá tinto e branco
+Imagine uma parcela plantada com Pinot Noir, uma uva de casca escura e polpa
+clara. Se as uvas forem prensadas e o suco fermentar **sem as cascas**, obtém-se
+um vinho de base claro (usado em champagne). Se fermentarem **com as cascas**,
+o mesmo fruto produz um Pinot Noir tinto. A diferença está na etapa 4 da
+@fig-cadeia-vinho, não na uva.
+:::
+
+::: {#exm-acucar-alcool}
+## De açúcar a álcool
+Uma uva madura concentra por volta de 200 g de açúcar por litro de mosto. Como
+regra prática, cerca de 17 g de açúcar por litro geram 1% de álcool em volume.
+Assim, um mosto a 200 g/L tende a um vinho de aproximadamente
+$200 / 17 \approx 11{,}8\%$ de álcool — desde que a fermentação vá até o fim.
+:::
+
+## Exercícios
+
+::: {#exr-etapas}
+Sem olhar a figura, liste as sete etapas da produção do vinho na ordem correta,
+da planta ao consumo.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Vinhedo → Vindima → Esmagamento/desengace → Fermentação → Estágio →
+Engarrafamento → Taça. (Veja a @fig-cadeia-vinho.)
+:::
+
+::: {#exr-blanc-de-noirs}
+Um produtor quer fazer um espumante branco usando apenas uvas Pinot Noir (casca
+escura). Em que etapa da cadeia ele precisa intervir, e como, para que o vinho
+saia claro?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Na etapa de **fermentação** (4). Ele deve prensar as uvas e separar o mosto das
+cascas **antes** que a cor seja extraída, fermentando só o suco. Como a polpa do
+Pinot Noir é clara, o resultado é um vinho de base branco — um *blanc de noirs*.
+:::
+
+::: {#exr-estimar-alcool}
+Um mosto tem 170 g de açúcar por litro. Usando a regra prática do
+@exm-acucar-alcool, estime o teor alcoólico do vinho se a fermentação for
+completa.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+$170 / 17 = 10\%$ de álcool em volume, aproximadamente.
+:::

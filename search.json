@@ -1,0 +1,284 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Manual do Vinho",
+    "section": "",
+    "text": "Apresentação\nEste é um livro aberto sobre vinho — quinto título da série Manuais de Ciências, agora aplicada a um saber que mistura biologia, química, geografia, história e prazer sensorial. A proposta é a mesma dos manuais irmãos (Matemática, Física, Química e Filosofia): partir do absolutamente básico e chegar, capítulo a capítulo, ao avançado, sempre motivando antes de definir.\nO percurso vai da videira no vinhedo até a taça na mesa: o que é vinho e de onde veio; como a uva cresce e vira mosto; o que acontece na fermentação e no estágio; quais são os grandes estilos e as regiões que os consagraram; como degustar, servir, harmonizar e guardar; e, por fim, o vinho como cultura, mercado e ofício.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Manual do Vinho</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#mapa-de-pré-requisitos",
+    "href": "index.html#mapa-de-pré-requisitos",
+    "title": "Manual do Vinho",
+    "section": "0.1 Mapa de pré-requisitos",
+    "text": "0.1 Mapa de pré-requisitos\nO grafo abaixo mostra como os volumes se apoiam uns nos outros. As setas indicam “convém ler antes”.\n\n\n\n\n\nflowchart TD\n  V1[I · O Mundo do Vinho] --&gt; V2[II · Videira e Viticultura]\n  V1 --&gt; V8[VIII · Estilos e Tipos]\n  V2 --&gt; V3[III · Castas e Variedades]\n  V3 --&gt; V4[IV · Princípios da Vinificação]\n  V4 --&gt; V5[V · Vinificação por Estilo]\n  V5 --&gt; V6[VI · Espumantes, Fortificados e Doces]\n  V5 --&gt; V7[VII · Estágio e Envelhecimento]\n  V6 --&gt; V8\n  V7 --&gt; V8\n  V8 --&gt; V9[IX · Regiões do Velho Mundo]\n  V8 --&gt; V10[X · Regiões do Novo Mundo]\n  V8 --&gt; V11[XI · Degustação e Análise Sensorial]\n  V11 --&gt; V12[XII · Serviço, Harmonização e Guarda]\n  V9 --&gt; V13[XIII · Vinho, Cultura e Mercado]\n  V10 --&gt; V13\n  V12 --&gt; V13",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Manual do Vinho</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#o-que-você-vai-encontrar",
+    "href": "index.html#o-que-você-vai-encontrar",
+    "title": "Manual do Vinho",
+    "section": "0.2 O que você vai encontrar",
+    "text": "0.2 O que você vai encontrar\n\nFiguras didáticas desenhadas em TikZ (fluxogramas da vinificação, ciclo da videira, anatomia da taça, cortes de terroir, roda de aromas), renderizadas como SVG no site e PDF no livro.\nGlossário vivo de termos técnicos (em apêndice), atualizado conforme novos termos aparecem.\nBoxes de observação, erro comum e dica, além de exercícios com solução colapsável.\n\n\n\n\n\n\n\nDicaSobre beber com responsabilidade\n\n\n\nEste é um manual técnico e cultural sobre vinho. O consumo de bebidas alcoólicas é assunto adulto e exige moderação; nada aqui incentiva o consumo excessivo.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Manual do Vinho</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v1-mundo-do-vinho/01-o-que-e-vinho.html",
+    "href": "volumes/v1-mundo-do-vinho/01-o-que-e-vinho.html",
+    "title": "2  O que é vinho",
+    "section": "",
+    "text": "2.1 Motivação\nQuase todo mundo já bebeu — ou ao menos viu alguém beber — uma taça de vinho. Poucos, porém, conseguem dizer o que de fato há dentro dela. À primeira vista o vinho parece simples: suco de uva que fermentou. E essa intuição não está errada. O que surpreende é o quanto cabe nesse “simples”: mais de oitocentos compostos químicos diferentes convivem num líquido que é, em sua maior parte, apenas água.\nComeçar pela definição e pela composição não é preciosismo. Quase todo conceito do manual — por que o tinto tem taninos, por que o álcool aquece a boca, por que um vinho é “ácido” ou “doce” — se explica a partir do que está dissolvido na taça. Ter esse inventário na cabeça é ter a chave de leitura de tudo que vem depois.",
+    "crumbs": [
+      "Volume I — O Mundo do Vinho",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>O que é vinho</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v1-mundo-do-vinho/01-o-que-e-vinho.html#o-que-é-vinho",
+    "href": "volumes/v1-mundo-do-vinho/01-o-que-e-vinho.html#o-que-é-vinho",
+    "title": "2  O que é vinho",
+    "section": "2.2 O que é vinho",
+    "text": "2.2 O que é vinho\nComecemos pela definição que organiza todo o resto do manual. Ela é, ao mesmo tempo, técnica e legal: a maioria dos países define vinho em lei praticamente nesses termos.\n\nDefinição 2.1 (Vinho (definição técnica)) Vinho é a bebida obtida exclusivamente pela fermentação alcoólica, total ou parcial, do mosto de uvas frescas (espécie Vitis vinifera e híbridos aparentados). A fermentação converte os açúcares da uva em álcool etílico e dióxido de carbono, pela ação de leveduras.\n\nDuas palavras dessa definição merecem destaque. A primeira é uvas: pela norma, “vinho” sem qualificativo vem de uva. Bebidas fermentadas de maçã, arroz ou mel também existem — sidra, saquê, hidromel —, mas levam nome próprio. A segunda é fermentação: é ela, e não a fruta em si, que faz o vinho. Uma uva esmagada e estabilizada continua sendo suco; só vira vinho quando as leveduras entram em ação.\n\n\n\n\n\n\nNotaSuco, mosto e vinho\n\n\n\nOs três são estágios de um mesmo líquido. O suco é o que escorre da uva esmagada. Chamamos de mosto esse suco enquanto ele está prestes a fermentar ou fermentando — é o mosto, não o suco, que vira vinho. Quando a fermentação termina, temos o vinho.\n\n\n\n2.2.1 Do que o vinho é feito\nSe pudéssemos separar uma taça em seus componentes, a divisão seria a da Figura 2.1. O resultado costuma surpreender: a esmagadora maioria do volume é água — em torno de 85% —, vinda da própria uva. O álcool (etanol) responde por algo entre 11% e 15%. Tudo o que dá ao vinho sua personalidade — acidez, doçura, cor, estrutura, aroma — está espremido nos poucos por cento restantes.\nEsse “resto” minúsculo é o que torna o vinho infinitamente variável. Ele reúne:\n\nácidos (tartárico, málico, lático, cítrico), que dão frescor e sustentam o vinho ao longo dos anos;\nglicerol, um álcool de sabor levemente adocicado que contribui para a sensação de maciez e “corpo”;\naçúcares residuais — o que sobra quando a fermentação não consome tudo —, que vão do seco ao doce;\ncompostos fenólicos, entre eles os taninos e os pigmentos da cor;\nsais minerais e traços diversos;\ncompostos aromáticos voláteis, presentes em quantidades ínfimas, mas responsáveis por todo o aroma.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 2.1: A composição típica de um vinho seco, em proporção de volume. A água domina e o álcool vem em seguida; é nos poucos por cento de outros compostos (ampliados abaixo, em proporções esquemáticas) que mora toda a diversidade de sabor, cor e aroma. Os compostos aromáticos, apesar de decisivos, são quantitativamente ínfimos.",
+    "crumbs": [
+      "Volume I — O Mundo do Vinho",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>O que é vinho</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v1-mundo-do-vinho/01-o-que-e-vinho.html#por-que-estudar-vinho",
+    "href": "volumes/v1-mundo-do-vinho/01-o-que-e-vinho.html#por-que-estudar-vinho",
+    "title": "2  O que é vinho",
+    "section": "2.3 Por que estudar vinho",
+    "text": "2.3 Por que estudar vinho\nO vinho é um objeto de estudo incomum porque cruza várias ciências de uma só vez. A biologia explica a videira e as leveduras; a química explica a fermentação, a acidez e o envelhecimento; a geografia e a climatologia explicam por que a mesma casta dá vinhos diferentes em lugares diferentes — o terroir; a história explica por que bebemos o que bebemos; e a análise sensorial transforma tudo isso em prazer descritível.\nEste manual percorre esse cruzamento em ordem didática, da matéria-prima ao serviço. O recorte é deliberado: tratamos sobretudo do vinho de uva feito por fermentação, e abordamos espumantes, fortificados e doces como variações desse tronco comum. Bebidas correlatas (destilados de vinho, vermutes, fermentados de outras frutas) aparecem apenas quando ajudam a iluminar o vinho propriamente dito.\n\n\n\n\n\n\nDicaSobre moderação\n\n\n\nVinho é assunto adulto e envolve álcool. Estudá-lo com profundidade técnica e cultural não é o mesmo que consumi-lo em quantidade: a apreciação que este manual cultiva valoriza a atenção, não o volume.",
+    "crumbs": [
+      "Volume I — O Mundo do Vinho",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>O que é vinho</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v1-mundo-do-vinho/01-o-que-e-vinho.html#exemplos",
+    "href": "volumes/v1-mundo-do-vinho/01-o-que-e-vinho.html#exemplos",
+    "title": "2  O que é vinho",
+    "section": "2.4 Exemplos",
+    "text": "2.4 Exemplos\n\nExemplo 2.1 (A água que não foi adicionada) Pode parecer estranho dizer que o vinho é 85% água sendo que nada de água é acrescentado na produção — em muitos países, aliás, adicionar água é fraude. A explicação está na uva: a baga madura é, ela própria, cerca de 75% a 80% de água. Ao esmagar e fermentar, essa água da fruta passa quase inteira para o vinho. A água do vinho é, portanto, água de uva.\n\n\nExemplo 2.2 (Por que o teor de açúcar e álcool se relacionam) Como a Figura 2.1 sugere, álcool e açúcares residuais ocupam “compartimentos” ligados: o álcool vem justamente do açúcar consumido na fermentação. Se as leveduras fermentam todo o açúcar, sobra pouco açúcar residual e o vinho fica seco e mais alcoólico; se a fermentação é interrompida antes do fim, sobra açúcar (vinho mais doce) e o álcool fica mais baixo. Os dois números contam a mesma história por dois ângulos.",
+    "crumbs": [
+      "Volume I — O Mundo do Vinho",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>O que é vinho</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v1-mundo-do-vinho/01-o-que-e-vinho.html#exercícios",
+    "href": "volumes/v1-mundo-do-vinho/01-o-que-e-vinho.html#exercícios",
+    "title": "2  O que é vinho",
+    "section": "2.5 Exercícios",
+    "text": "2.5 Exercícios\n\nExercício 2.1 Para cada bebida, diga se ela se enquadra na definição técnica de vinho (Definição 2.1) e justifique em uma frase: (a) sidra de maçã; (b) suco de uva integral pasteurizado; (c) espumante feito de uva Chardonnay; (d) saquê.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\nNão — é fermentada, mas de maçã, não de uva. (b) Não — é de uva, mas não fermentou; é suco, não vinho. (c) Sim — é mosto de uva fermentado; o gás vem de uma segunda fermentação, mas continua sendo vinho. (d) Não — é fermentado de arroz.\n\n\n\n\n\nExercício 2.2 Com base na Figura 2.1, comente a seguinte afirmação: “Como os compostos aromáticos são uma fração ínfima do vinho, eles têm pouca importância.”\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nA afirmação confunde quantidade com importância. Os aromáticos são quantitativamente mínimos, mas o olfato humano detecta muitos deles em concentrações de partes por bilhão. São eles que distinguem um vinho de outro no nariz; sua pequena fração de volume não reflete seu peso sensorial.\n\n\n\n\nExercício 2.3 Dois vinhos partem do mesmo mosto. No vinho A a fermentação vai até o fim; no vinho B ela é interrompida na metade. Usando o Exemplo 2.2, diga qual tende a ser mais doce e qual tende a ter mais álcool.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nO vinho B tende a ser mais doce (sobrou açúcar não fermentado) e o vinho A tende a ter mais álcool (todo o açúcar virou etanol).",
+    "crumbs": [
+      "Volume I — O Mundo do Vinho",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>O que é vinho</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v1-mundo-do-vinho/02-historia-origens.html",
+    "href": "volumes/v1-mundo-do-vinho/02-historia-origens.html",
+    "title": "3  História do vinho: origens e Antiguidade",
+    "section": "",
+    "text": "3.1 Motivação\nO vinho é mais velho que a escrita. Quando os primeiros povos começaram a registrar suas contas e suas leis em tabuinhas, o vinho já era bebida antiga, com ritos e comércio próprios. Essa profundidade histórica não é só curiosidade: muito do vinho de hoje — as castas que plantamos, as regiões que reverenciamos, a própria ideia de que um vinho “pertence” a um lugar — é herança direta da Antiguidade.\nNeste capítulo seguimos o vinho da sua provável origem, no Cáucaso, até o Império Romano, que o espalhou por quase toda a Europa onde ele é feito até hoje. O fio condutor é geográfico e cronológico: ver por onde o vinho passou ajuda a entender por que o mapa vitícola é o que é.",
+    "crumbs": [
+      "Volume I — O Mundo do Vinho",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>História do vinho: origens e Antiguidade</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v1-mundo-do-vinho/02-historia-origens.html#as-origens-cáucaso-e-crescente-fértil",
+    "href": "volumes/v1-mundo-do-vinho/02-historia-origens.html#as-origens-cáucaso-e-crescente-fértil",
+    "title": "3  História do vinho: origens e Antiguidade",
+    "section": "3.2 As origens (Cáucaso e Crescente Fértil)",
+    "text": "3.2 As origens (Cáucaso e Crescente Fértil)\nA evidência arqueológica mais antiga de vinificação vem do Cáucaso — atuais Geórgia, Armênia e norte do Irã —, com resíduos de ácido tartárico em potes de cerâmica datados de cerca de 6000 a.C. O ácido tartárico é, na prática, uma “impressão digital” da uva: encontrá-lo no fundo de um pote antigo é forte indício de que ali houve vinho.\nA protagonista dessa história tem nome:\n\nDefinição 3.1 (Vitis vinifera) Vitis vinifera é a espécie de videira responsável por praticamente todo o vinho fino do mundo. Domesticada no Cáucaso e no Crescente Fértil a partir de uma parente silvestre, é a origem das milhares de castas cultivadas hoje (Cabernet, Pinot, Riesling e todas as outras).\n\nNa Geórgia, o vinho era — e ainda é — feito em grandes potes de barro enterrados no chão, os qvevri. A técnica tem milhares de anos e foi reconhecida pela UNESCO como patrimônio cultural; vinhedos do mundo todo a revisitam hoje, no movimento dos chamados vinhos de ânfora.\n\n\n\n\n\n\nNotaPor que o Cáucaso leva o crédito\n\n\n\nVinho não “se inventa” num único dia. O crédito ao Cáucaso vem de três coisas que ali coincidem: a parente silvestre da Vitis vinifera crescia na região; os vestígios químicos mais antigos foram achados lá; e a domesticação da uva deixou marcas genéticas que apontam para esse berço. É um consenso de evidências, não um certificado de nascimento.",
+    "crumbs": [
+      "Volume I — O Mundo do Vinho",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>História do vinho: origens e Antiguidade</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v1-mundo-do-vinho/02-historia-origens.html#egito-grécia-e-roma",
+    "href": "volumes/v1-mundo-do-vinho/02-historia-origens.html#egito-grécia-e-roma",
+    "title": "3  História do vinho: origens e Antiguidade",
+    "section": "3.3 Egito, Grécia e Roma",
+    "text": "3.3 Egito, Grécia e Roma\nDo Cáucaso, a vinha desceu pelo Crescente Fértil até o Egito, onde por volta de 3000 a.C. o vinho já era bebida de elite, ligada à religião e aos funerais. As paredes de tumbas trazem cenas detalhadas de colheita, prensagem e armazenamento — verdadeiros manuais ilustrados de vinificação antiga — e algumas ânforas chegaram a ser “rotuladas” com ano, vinhedo e produtor.\nForam os gregos (e, antes deles, os fenícios) que transformaram o vinho em fenômeno mediterrâneo. A Grécia plantou vinha em suas colônias da Sicília à Gália, fez do vinho centro do symposion — o banquete onde se bebia, diluído em água, enquanto se discutia filosofia — e deu a ele um deus, Dionísio. O recipiente universal do comércio antigo era a ânfora, jarro de barro que ao mesmo tempo transportava e conservava o vinho.\nCoube a Roma levar a viticultura a escala industrial e geográfica. Ao expandir o império, os romanos plantaram vinha em Hispânia, Gália, Germânia e Britânia — fundando, na prática, as regiões de Bordeaux, Borgonha, Rhône, Mosela e tantas outras. Desenvolveram técnicas de poda e de envelhecimento, e reconheciam crus célebres, como o Falerno: a semente da ideia moderna de que certos lugares dão vinhos superiores.\nA Figura 3.1 resume esse percurso de oito milênios.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 3.1: Oito milênios de vinho, do Cáucaso a Roma (linha não em escala: os intervalos entre marcos não são proporcionais ao tempo). Cada civilização herdou a videira da anterior e a empurrou um pouco mais para o oeste.",
+    "crumbs": [
+      "Volume I — O Mundo do Vinho",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>História do vinho: origens e Antiguidade</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v1-mundo-do-vinho/02-historia-origens.html#exemplos",
+    "href": "volumes/v1-mundo-do-vinho/02-historia-origens.html#exemplos",
+    "title": "3  História do vinho: origens e Antiguidade",
+    "section": "3.4 Exemplos",
+    "text": "3.4 Exemplos\n\nExemplo 3.1 (O rótulo tem 5000 anos) Ânforas egípcias e, mais tarde, romanas eram marcadas com informações que qualquer enófilo reconheceria hoje: o ano da colheita, o vinhedo de origem e até o nome do produtor. A ideia de que importa de onde e de quando o vinho vem — base de toda a rotulagem e das denominações modernas — nasceu na Antiguidade, muito antes de existir a palavra terroir.\n\n\nExemplo 3.2 (Por que Bordeaux fala latim) Quando os romanos plantaram vinha ao longo de seus rios e estradas para abastecer as legiões, escolheram justamente os vales que hoje associamos ao grande vinho europeu: Garona (Bordeaux), Saône e Ródano (Borgonha e Rhône), Reno e Mosela. O mapa vitícola da Europa é, em boa parte, o mapa do Império Romano — uma herança de dois mil anos visível em cada rótulo francês ou alemão.",
+    "crumbs": [
+      "Volume I — O Mundo do Vinho",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>História do vinho: origens e Antiguidade</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v1-mundo-do-vinho/02-historia-origens.html#exercícios",
+    "href": "volumes/v1-mundo-do-vinho/02-historia-origens.html#exercícios",
+    "title": "3  História do vinho: origens e Antiguidade",
+    "section": "3.5 Exercícios",
+    "text": "3.5 Exercícios\n\nExercício 3.1 Coloque em ordem cronológica, da mais antiga para a mais recente, as seguintes etapas da história do vinho: expansão romana, vinho em qvevri no Cáucaso, symposion grego, vinho funerário egípcio. Confira com a Figura 3.1.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nVinho em qvevri no Cáucaso ($\\(6000 a.C.) → vinho funerário egípcio\n(\\)\\(3000 a.C.) → symposion grego (\\)\\(500 a.C.) → expansão romana\n(\\)$100 d.C.).\n\n\n\n\nExercício 3.2 Arqueólogos encontram resíduos de ácido tartárico no fundo de um pote de cerâmica de 7000 anos. Por que esse achado é tratado como indício de vinho, e não de qualquer outra bebida?\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nPorque o ácido tartárico é abundante na uva e raro em outros frutos. Sua presença em quantidade aponta especificamente para suco de uva — e, num pote de armazenamento, muito provavelmente suco de uva fermentado, isto é, vinho.\n\n\n\n\nExercício 3.3 Escolha uma região vitícola europeia famosa (Bordeaux, Borgonha, Mosela…) e explique, com base no Exemplo 3.2, por que sua existência é, em grande medida, herança de Roma.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nResposta-modelo (Bordeaux): os romanos plantaram vinha ao longo do rio Garona para abastecer suas tropas e cidades na Gália. A via fluvial que escolheram por conveniência logística é exatamente o eixo da região de Bordeaux atual; a viticultura local descende, sem grande interrupção, daquela implantação romana.",
+    "crumbs": [
+      "Volume I — O Mundo do Vinho",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>História do vinho: origens e Antiguidade</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v1-mundo-do-vinho/03-historia-novo-mundo.html",
+    "href": "volumes/v1-mundo-do-vinho/03-historia-novo-mundo.html",
+    "title": "4  Do medievo ao Novo Mundo",
+    "section": "",
+    "text": "4.1 Motivação\nQuando Roma caiu, o vinho não caiu com ela. Atravessou a Idade Média protegido nos mosteiros, embarcou nas caravelas para cruzar oceanos, quase desapareceu diante de um pulgão microscópico no século XIX e renasceu como a indústria global de hoje. Cada um desses episódios deixou marca no que bebemos: o conceito de cru, o mapa do Novo Mundo, e até a estrutura física de quase toda videira cultivada hoje.\nEste capítulo fecha o arco histórico iniciado no capítulo anterior, levando o vinho da queda de Roma à era moderna. Onde antes a vinha seguia para oeste pelo Mediterrâneo, aqui ela cruza o Atlântico e os demais oceanos — e, num episódio decisivo, faz o caminho de volta.",
+    "crumbs": [
+      "Volume I — O Mundo do Vinho",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Do medievo ao Novo Mundo</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v1-mundo-do-vinho/03-historia-novo-mundo.html#idade-média-e-os-mosteiros",
+    "href": "volumes/v1-mundo-do-vinho/03-historia-novo-mundo.html#idade-média-e-os-mosteiros",
+    "title": "4  Do medievo ao Novo Mundo",
+    "section": "4.2 Idade Média e os mosteiros",
+    "text": "4.2 Idade Média e os mosteiros\nCom a fragmentação do Império Romano, foram os mosteiros que preservaram e refinaram o saber vitícola na Europa. Beneditinos e cistercienses, que precisavam de vinho para a liturgia, mantiveram vinhedos, registraram a colheita ano a ano e observaram, parcela por parcela, quais davam o melhor vinho.\nFoi dessa observação metódica que nasceu, na Borgonha, a ideia de climat: parcelas de vinhedo delimitadas, cada uma com nome e caráter próprios. É a expressão mais fina da intuição de terroir — a mesma que, séculos depois, estrutura as denominações de origem europeias.",
+    "crumbs": [
+      "Volume I — O Mundo do Vinho",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Do medievo ao Novo Mundo</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v1-mundo-do-vinho/03-historia-novo-mundo.html#expansão-colonial-e-o-novo-mundo",
+    "href": "volumes/v1-mundo-do-vinho/03-historia-novo-mundo.html#expansão-colonial-e-o-novo-mundo",
+    "title": "4  Do medievo ao Novo Mundo",
+    "section": "4.3 Expansão colonial e o Novo Mundo",
+    "text": "4.3 Expansão colonial e o Novo Mundo\nA era dos Descobrimentos levou a vinha para fora da Europa. Onde colonizadores europeus se fixavam — e o clima permitia —, plantava-se Vitis vinifera, em geral por exigência religiosa (vinho de missa) antes de virar negócio.\n\nDefinição 4.1 (Velho Mundo e Novo Mundo) Chamam-se Velho Mundo as regiões vitícolas históricas da Europa e do Mediterrâneo, e Novo Mundo as regiões onde a viticultura chegou pela expansão colonial — Américas, África do Sul e Oceania. A distinção é histórica e estilística, não de qualidade: não diz qual vinho é melhor, e sim de onde vem a tradição.\n\nO calendário da difusão é conhecido: as Américas receberam a vinha no século XVI (México, depois Peru, Chile e Argentina); a África do Sul plantou seu primeiro vinhedo no Cabo em 1655; a Austrália começou em 1788, com a chegada da primeira frota; e a Nova Zelândia, no século XIX. A Figura 4.1 resume essas rotas.\n\n\n\n\n\n\nAvisoErro comum\n\n\n\n“Novo Mundo” não quer dizer “vinho recente” nem “vinho industrial”. Muitas dessas regiões fazem vinho há séculos, e algumas das vinhas mais antigas ainda em produção estão justamente na Austrália e no Chile — sobreviventes, inclusive, da praga que devastou a Europa.",
+    "crumbs": [
+      "Volume I — O Mundo do Vinho",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Do medievo ao Novo Mundo</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v1-mundo-do-vinho/03-historia-novo-mundo.html#a-filoxera-e-a-reconstrução",
+    "href": "volumes/v1-mundo-do-vinho/03-historia-novo-mundo.html#a-filoxera-e-a-reconstrução",
+    "title": "4  Do medievo ao Novo Mundo",
+    "section": "4.4 A filoxera e a reconstrução",
+    "text": "4.4 A filoxera e a reconstrução\nNo fim do século XIX, um pulgão das raízes vindo da América do Norte cruzou o Atlântico e quase destruiu a viticultura europeia.\n\nDefinição 4.2 (Filoxera) A filoxera (Daktulosphaira vitifolium) é um inseto que ataca as raízes da videira. A Vitis vinifera europeia não tem defesa contra ela; videiras americanas, com que o inseto coevoluiu, resistem. A praga destruiu a maior parte dos vinhedos europeus entre 1860 e 1900.\n\nA solução veio, ironicamente, da mesma América que exportou a praga: enxertar a videira europeia sobre uma raiz americana resistente.\n\nDefinição 4.3 (Porta-enxerto) Porta-enxerto é a raiz (de espécie americana ou híbrida, resistente à filoxera) sobre a qual se enxerta a parte aérea da Vitis vinifera. Desde a crise da filoxera, quase toda videira cultivada no mundo é, na verdade, duas plantas unidas: copa europeia, raiz americana.\n\nA Figura 4.1 mostra esse retorno: a vinha foi da Europa para o mundo, mas foi do Novo Mundo que veio tanto a praga quanto sua cura.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 4.1: A difusão da vinha pelo Novo Mundo (setas verdes) e o retorno decisivo do século XIX (arco vermelho): a praga da filoxera e, com ela, os porta-enxertos americanos que salvaram a viticultura europeia.",
+    "crumbs": [
+      "Volume I — O Mundo do Vinho",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Do medievo ao Novo Mundo</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v1-mundo-do-vinho/03-historia-novo-mundo.html#a-era-moderna",
+    "href": "volumes/v1-mundo-do-vinho/03-historia-novo-mundo.html#a-era-moderna",
+    "title": "4  Do medievo ao Novo Mundo",
+    "section": "4.5 A era moderna",
+    "text": "4.5 A era moderna\nReconstruída sobre porta-enxertos, a viticultura do século XX se tornou ciência. A enologia passou a controlar temperatura de fermentação, higiene e seleção de leveduras; o transporte refrigerado e o comércio global puseram vinhos do Chile, da Austrália e da Califórnia nas mesmas prateleiras dos europeus. No fim do século surgiram contracorrentes — vinhos naturais, biodinâmicos, o retorno à ânfora — que dialogam, não por acaso, com as técnicas mais antigas que vimos nos capítulos anteriores.",
+    "crumbs": [
+      "Volume I — O Mundo do Vinho",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Do medievo ao Novo Mundo</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v1-mundo-do-vinho/03-historia-novo-mundo.html#exemplos",
+    "href": "volumes/v1-mundo-do-vinho/03-historia-novo-mundo.html#exemplos",
+    "title": "4  Do medievo ao Novo Mundo",
+    "section": "4.6 Exemplos",
+    "text": "4.6 Exemplos\n\nExemplo 4.1 (A videira que são duas plantas) Pé de Cabernet Sauvignon num vinhedo moderno: acima do solo, é Vitis vinifera europeia, que dá as uvas; abaixo, a raiz é de espécie americana, imune à filoxera. As duas foram unidas por enxertia (Definição 4.3). Quase todo vinho que você bebe vem de uma planta assim — uma consequência direta, e permanente, da crise do século XIX.\n\n\nExemplo 4.2 (As sobreviventes) Alguns terrenos escaparam da filoxera — solos muito arenosos, onde o inseto não prospera, e regiões isoladas do Novo Mundo. Por isso sobrevivem, no Chile e na Austrália, vinhas pé-franco (sem enxerto) plantadas no século XIX, hoje raríssimas e valiosíssimas: um vínculo vivo com o vinho de antes da praga.",
+    "crumbs": [
+      "Volume I — O Mundo do Vinho",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Do medievo ao Novo Mundo</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v1-mundo-do-vinho/03-historia-novo-mundo.html#exercícios",
+    "href": "volumes/v1-mundo-do-vinho/03-historia-novo-mundo.html#exercícios",
+    "title": "4  Do medievo ao Novo Mundo",
+    "section": "4.7 Exercícios",
+    "text": "4.7 Exercícios\n\nExercício 4.1 Explique, em duas ou três frases, por que os mosteiros foram decisivos para a viticultura europeia após a queda de Roma, e que ideia moderna nasceu de sua observação metódica dos vinhedos.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nOs mosteiros precisavam de vinho para a liturgia e tinham estabilidade e registro escrito para cuidar de vinhedos ao longo de gerações. Observando parcela por parcela qual dava o melhor vinho, criaram a noção de climat (Borgonha) — expressão precoce da ideia de terroir.\n\n\n\n\nExercício 4.2 Qual é a “ironia” da crise da filoxera mencionada no capítulo? Cite a origem da praga e a origem da solução.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nA praga veio da América do Norte (onde a videira europeia não tinha defesa), e a solução também: enxertar a Vitis vinifera sobre porta-enxertos americanos resistentes (Definição 4.3). O mesmo continente trouxe o problema e a cura.\n\n\n\n\nExercício 4.3 Um amigo afirma: “Vinho de Novo Mundo é tudo recente e industrial; tradição mesmo só no Velho Mundo.” Usando a Definição 4.1 e o Exemplo 4.2, aponte dois erros nessa frase.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\n“Novo Mundo” é uma distinção histórica (de onde veio a tradição), não de qualidade nem de data recente — várias regiões fazem vinho há séculos. (2) Há no Novo Mundo (Chile, Austrália) vinhas pé-franco do século XIX, anteriores à filoxera e mais antigas que muitos vinhedos europeus replantados após a praga.",
+    "crumbs": [
+      "Volume I — O Mundo do Vinho",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Do medievo ao Novo Mundo</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v1-mundo-do-vinho/04-da-uva-a-taca.html",
+    "href": "volumes/v1-mundo-do-vinho/04-da-uva-a-taca.html",
+    "title": "5  Da uva à taça: panorama",
+    "section": "",
+    "text": "5.1 Motivação\nAntes de mergulhar na botânica da videira, na química da fermentação ou na geografia das regiões, vale ter o mapa inteiro na cabeça. Vinho é, na essência, suco de uva fermentado — mas entre o cacho no vinhedo e o líquido na taça há uma cadeia de decisões, cada uma capaz de mudar radicalmente o resultado. Saber onde cada etapa se encaixa torna todo o resto do manual mais fácil de seguir.\nNeste capítulo percorremos essa cadeia de uma ponta à outra, em alto nível. Os detalhes de cada elo virão nos volumes seguintes; aqui interessa o fio condutor.",
+    "crumbs": [
+      "Volume I — O Mundo do Vinho",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Da uva à taça: panorama</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v1-mundo-do-vinho/04-da-uva-a-taca.html#a-cadeia-de-produção",
+    "href": "volumes/v1-mundo-do-vinho/04-da-uva-a-taca.html#a-cadeia-de-produção",
+    "title": "5  Da uva à taça: panorama",
+    "section": "5.2 A cadeia de produção",
+    "text": "5.2 A cadeia de produção\nA produção de vinho pode ser resumida em sete etapas encadeadas, da planta ao consumo. A Figura 5.1 mostra esse fluxo e onde se ramificam os grandes estilos.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n\n\n\nFigura 5.1: As sete etapas da produção do vinho, da videira à taça. É na fermentação que se decidem os três grandes estilos de cor, conforme o contato do mosto com as cascas da uva.\n\n\n\nCada etapa é o tema de um ou mais volumes adiante. O vinhedo e a vindima ocupam o Volume II; as uvas em si, o Volume III; a fermentação e o estágio, os Volumes IV a VII; e o serviço, o Volume XII.",
+    "crumbs": [
+      "Volume I — O Mundo do Vinho",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Da uva à taça: panorama</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v1-mundo-do-vinho/04-da-uva-a-taca.html#conceitos-centrais",
+    "href": "volumes/v1-mundo-do-vinho/04-da-uva-a-taca.html#conceitos-centrais",
+    "title": "5  Da uva à taça: panorama",
+    "section": "5.3 Conceitos centrais",
+    "text": "5.3 Conceitos centrais\n\nDefinição 5.1 (Vinho) Vinho é a bebida obtida pela fermentação alcoólica, total ou parcial, do mosto de uvas frescas. A fermentação converte os açúcares da uva em álcool etílico e dióxido de carbono, pela ação de leveduras.\n\n\nDefinição 5.2 (Terroir) Terroir é o conjunto de fatores naturais e humanos de um local — solo, clima, relevo, exposição solar e tradição de cultivo — que imprime caráter próprio ao vinho ali produzido.\n\nA cor do vinho não vem da polpa, que é quase incolor na maioria das uvas, mas do contato do mosto com as cascas durante a fermentação. Daí a ramificação na Figura 5.1: tinto fermenta com as cascas; branco, sem elas; rosé, com um contato breve.\n\n\n\n\n\n\nAvisoErro comum\n\n\n\n“Uvas brancas dão vinho branco e uvas tintas dão vinho tinto” é só metade da história. É perfeitamente possível fazer vinho branco a partir de uvas tintas (basta prensar e fermentar sem as cascas) — é exatamente o que ocorre em muitos espumantes do tipo blanc de noirs.",
+    "crumbs": [
+      "Volume I — O Mundo do Vinho",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Da uva à taça: panorama</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v1-mundo-do-vinho/04-da-uva-a-taca.html#exemplos",
+    "href": "volumes/v1-mundo-do-vinho/04-da-uva-a-taca.html#exemplos",
+    "title": "5  Da uva à taça: panorama",
+    "section": "5.4 Exemplos",
+    "text": "5.4 Exemplos\n\nExemplo 5.1 (Por que o mesmo vinhedo dá tinto e branco) Imagine uma parcela plantada com Pinot Noir, uma uva de casca escura e polpa clara. Se as uvas forem prensadas e o suco fermentar sem as cascas, obtém-se um vinho de base claro (usado em champagne). Se fermentarem com as cascas, o mesmo fruto produz um Pinot Noir tinto. A diferença está na etapa 4 da Figura 5.1, não na uva.\n\n\nExemplo 5.2 (De açúcar a álcool) Uma uva madura concentra por volta de 200 g de açúcar por litro de mosto. Como regra prática, cerca de 17 g de açúcar por litro geram 1% de álcool em volume. Assim, um mosto a 200 g/L tende a um vinho de aproximadamente \\(200 / 17 \\approx 11{,}8\\%\\) de álcool — desde que a fermentação vá até o fim.",
+    "crumbs": [
+      "Volume I — O Mundo do Vinho",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Da uva à taça: panorama</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/v1-mundo-do-vinho/04-da-uva-a-taca.html#exercícios",
+    "href": "volumes/v1-mundo-do-vinho/04-da-uva-a-taca.html#exercícios",
+    "title": "5  Da uva à taça: panorama",
+    "section": "5.5 Exercícios",
+    "text": "5.5 Exercícios\n\nExercício 5.1 Sem olhar a figura, liste as sete etapas da produção do vinho na ordem correta, da planta ao consumo.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nVinhedo → Vindima → Esmagamento/desengace → Fermentação → Estágio → Engarrafamento → Taça. (Veja a Figura 5.1.)\n\n\n\n\nExercício 5.2 Um produtor quer fazer um espumante branco usando apenas uvas Pinot Noir (casca escura). Em que etapa da cadeia ele precisa intervir, e como, para que o vinho saia claro?\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nNa etapa de fermentação (4). Ele deve prensar as uvas e separar o mosto das cascas antes que a cor seja extraída, fermentando só o suco. Como a polpa do Pinot Noir é clara, o resultado é um vinho de base branco — um blanc de noirs.\n\n\n\n\nExercício 5.3 Um mosto tem 170 g de açúcar por litro. Usando a regra prática do Exemplo 5.2, estime o teor alcoólico do vinho se a fermentação for completa.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\\(170 / 17 = 10\\%\\) de álcool em volume, aproximadamente.",
+    "crumbs": [
+      "Volume I — O Mundo do Vinho",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Da uva à taça: panorama</span>"
+    ]
+  },
+  {
+    "objectID": "glossario.html",
+    "href": "glossario.html",
+    "title": "6  Glossário",
+    "section": "",
+    "text": "Glossário vivo de termos do vinho. Acrescente termos conforme aparecem nos capítulos, em ordem alfabética.\nAçúcar residual — açúcar da uva que não foi convertido em álcool e permanece no vinho; define a escala do seco ao doce.\nÂnfora — jarro de barro usado na Antiguidade para transportar e conservar vinho; hoje retomada por produtores em estilos de longa maceração.\nCasta — variedade de videira (sinônimo de cultivar/uva). Ex.: Cabernet Sauvignon, Chardonnay.\nClimat — na Borgonha, parcela de vinhedo delimitada e nomeada, com caráter próprio; expressão fina da ideia de terroir.\nComposto fenólico — família de substâncias das cascas, sementes e madeira que inclui os taninos e os pigmentos responsáveis pela cor.\nEtanol — álcool etílico, o álcool do vinho, produzido pelas leveduras na fermentação a partir dos açúcares da uva.\nFermentação alcoólica — processo pelo qual as leveduras convertem os açúcares do mosto em etanol e dióxido de carbono; é o que transforma mosto em vinho.\nFiloxera — inseto (Daktulosphaira vitifolium) que ataca as raízes da videira; devastou os vinhedos europeus no fim do século XIX. A Vitis vinifera não resiste a ela; videiras americanas, sim.\nGlicerol — álcool de sabor levemente adocicado formado na fermentação; contribui para a maciez e a sensação de corpo.\nLevedura — micro-organismo (sobretudo Saccharomyces cerevisiae) responsável pela fermentação alcoólica.\nMaceração — contato do mosto com as cascas, sementes e/ou engaços para extrair cor, taninos e aromas.\nMalolática — fermentação secundária que converte o ácido málico (duro) em ácido lático (macio), reduzindo a acidez.\nMosto — suco de uva, antes ou durante a fermentação.\nNovo Mundo — regiões vitícolas que receberam a vinha pela expansão colonial europeia (Américas, África do Sul, Oceania). Distinção histórica, não de qualidade. Ver Velho Mundo.\nPorta-enxerto — raiz (de espécie americana ou híbrida, resistente à filoxera) sobre a qual se enxerta a Vitis vinifera; base de quase toda videira cultivada desde a crise da filoxera.\nQvevri — grande pote de barro enterrado, usado na Geórgia há milênios para fermentar e conservar vinho; técnica reconhecida como patrimônio cultural.\nTanino — composto fenólico das cascas, sementes e madeira; responsável pela adstringência e pela estrutura dos tintos.\nTerroir — conjunto de solo, clima, relevo e tradição que dá identidade ao vinho de um lugar.\nVelho Mundo — regiões vitícolas históricas da Europa e do Mediterrâneo, berço das tradições do vinho. Ver Novo Mundo.\nVindima — colheita das uvas.\nVitis vinifera — espécie de videira de origem caucasiana que dá quase todo o vinho fino do mundo; tronco de onde derivam as castas cultivadas.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Glossário</span>"
+    ]
+  }
+]

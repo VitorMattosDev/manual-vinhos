@@ -2,4 +2,135 @@
 title: "Higiene e controle da vinificação"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Boa parte da enologia moderna não é "fazer", é **controlar**: o oxigênio, a
+temperatura, a limpeza. O vinho é um alimento vivo, e os mesmos micro-organismos e
+reações que podem enriquecê-lo também podem arruiná-lo. A diferença entre um vinho
+limpo e um vinho defeituoso costuma estar nesses controles invisíveis.
+
+Este capítulo fecha o Volume IV tratando dos três grandes eixos de controle —
+**oxigênio**, **temperatura** e **higiene** — e das contaminações que eles
+previnem. É a ponte para os defeitos do vinho, que estudaremos em detalhe mais
+adiante.
+
+## O oxigênio: aliado e inimigo
+
+Nenhuma variável resume melhor a arte do controle do que o oxigênio. Em pequenas
+doses, é ferramenta; em excesso, é destruidor. A @fig-balanco-oxigenio mostra essa
+dupla face.
+
+::: {#def-oxidacao}
+## Oxidação × microxigenação
+A **oxidação** é o dano causado pelo **excesso** de oxigênio: o vinho perde aroma
+frutado, escurece e pode "acetificar" (virar vinagre). A **microxigenação** é a
+exposição **controlada** a doses mínimas de oxigênio — no estágio em barrica, por
+exemplo —, que **amacia taninos** e **estabiliza a cor**.
+:::
+
+::: {#fig-balanco-oxigenio}
+```{.tikz}
+%%| filename: balanco-oxigenio
+%%| alt: Diagrama do oxigênio com duas saídas — à esquerda, em dose controlada, é aliado (amacia taninos, estabiliza cor); à direita, em excesso, é inimigo (perda de fruta, escurecimento, acetificação).
+\begin{tikzpicture}[font=\sffamily\scriptsize]
+  \node[draw=manualyellow!80!black, very thick, circle, fill=manualyellow!35,
+        minimum size=13mm, font=\sffamily\small\bfseries] (o2) at (0,2.2) {O$_2$};
+  \node[draw=manualgreen, very thick, rounded corners=3pt, fill=manualgreen!12,
+        align=left, text width=42mm, minimum height=18mm] (bom) at (-3.3,0)
+        {\textbf{Aliado} (dose controlada)\\[1mm]
+         \tiny• amacia os taninos\\\tiny• estabiliza a cor\\\tiny• microxigenação no estágio};
+  \node[draw=manualred, very thick, rounded corners=3pt, fill=manualred!10,
+        align=left, text width=42mm, minimum height=18mm] (mau) at (3.3,0)
+        {\textbf{Inimigo} (excesso)\\[1mm]
+         \tiny• perda do aroma frutado\\\tiny• escurecimento\\\tiny• acetificação (vinagre)};
+  \draw[-{Stealth[length=2.5mm]}, very thick, manualgreen] (o2) -- (bom);
+  \draw[-{Stealth[length=2.5mm]}, very thick, manualred] (o2) -- (mau);
+\end{tikzpicture}
+```
+
+O balanço do oxigênio. A **mesma** molécula é ferramenta ou veneno conforme a
+dose: pouca e controlada, melhora o vinho; em excesso, oxida e estraga. Gerir o
+oxigênio é gerir essa fronteira.
+:::
+
+Na prática, controla-se o oxigênio **atestando** os recipientes (completando o
+nível para não deixar espaço de ar), usando gases inertes (nitrogênio, CO₂) sobre
+o vinho e limitando o contato com o ar nas trasfegas.
+
+## Temperatura e higiene
+
+A **temperatura** já apareceu na fermentação; ela importa também na conservação
+(adega fresca e estável retarda reações e protege o vinho). E a **higiene** é a
+base silenciosa de tudo: tanques, mangueiras e barricas mal limpos são porta de
+entrada para micro-organismos que produzem defeitos.
+
+Duas contaminações ligadas à falta de controle merecem nome:
+
+- **Acidez volátil** — quando bactérias acéticas (com oxigênio) convertem álcool
+  em **ácido acético**: surgem cheiros de vinagre e de esmalte. Em pequena
+  quantidade é normal; em excesso, é defeito.
+- **Brettanomyces** ("Brett") — uma levedura que, em adega pouco higienizada,
+  produz aromas de "estábulo", suor e curral. Em traços, alguns apreciam; em
+  excesso, domina e estraga.
+
+::: {.callout-note}
+## Atestar: a guerra contra o espaço vazio
+À medida que o vinho evapora na barrica, forma-se um espaço de ar no topo (o
+*ullage*) — convite à oxidação e às bactérias acéticas. Por isso o enólogo
+**atesta** as barricas regularmente, completando o nível. Pequeno gesto, grande
+efeito sobre a sanidade do vinho.
+:::
+
+## Exemplos
+
+::: {#exm-reduzido-vs-oxidativo}
+## Dois jeitos de conduzir o mesmo vinho
+Um branco conduzido de modo **redutivo** (protegido do ar, em aço, com gases
+inertes) preserva aromas frutados e frescor. O mesmo vinho conduzido de modo
+**oxidativo** (mais contato com o ar) ganha notas de fruta madura e castanhas,
+mas perde frescor. O oxigênio é uma alavanca de **estilo**, não só um risco.
+:::
+
+::: {#exm-brett-higiene}
+## Brett é, antes de tudo, higiene
+Quando um tinto cheira a "cavalo" ou "curativo", em geral houve **Brettanomyces**
+— quase sempre ligado a barricas velhas mal higienizadas e a pH alto. Prevenir é
+mais barato que remediar: limpeza rigorosa, SO₂ adequado e controle de pH. O
+defeito nasce de um descontrole na adega.
+:::
+
+## Exercícios
+
+::: {#exr-duas-faces-o2}
+Explique, com base na @def-oxidacao, por que o oxigênio é ao mesmo tempo
+**aliado** e **inimigo** do vinho. Dê um exemplo de cada papel.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Em **dose controlada** (microxigenação) ele amacia taninos e estabiliza a cor —
+aliado. Em **excesso** (oxidação) faz o vinho perder fruta, escurecer e até virar
+vinagre — inimigo. Tudo depende da dose e do controle.
+:::
+
+::: {#exr-atestar}
+O que é **atestar** uma barrica, e por que isso protege o vinho?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+É **completar o nível** do vinho na barrica à medida que ele evapora, eliminando o
+espaço de ar (*ullage*) no topo. Sem esse espaço, reduz-se o contato com o
+oxigênio e o risco de oxidação e de bactérias acéticas.
+:::
+
+::: {#exr-defeito-higiene}
+Um tinto apresenta forte cheiro de "estábulo/curral". Qual contaminação é a
+suspeita mais provável e a que falha de adega ela costuma estar associada?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Brettanomyces** ("Brett"), em geral associada à **falta de higiene** (barricas
+mal limpas), pH alto e SO₂ insuficiente. É um problema de controle na adega.
+:::

@@ -8,6 +8,9 @@ capítulos, em ordem alfabética.
 **Acidez total** — quantidade de ácidos do mosto ou vinho (tartárico, málico,
 cítrico etc.); distinta do pH, dá frescor e estrutura.
 
+**Acidez volátil** — ácidos voláteis (sobretudo o acético) produzidos por
+bactérias acéticas; em excesso, dão cheiro de vinagre e esmalte. Defeito.
+
 **Açúcar residual** — açúcar da uva que não foi convertido em álcool e
 permanece no vinho; define a escala do seco ao doce.
 
@@ -32,6 +35,9 @@ grainhas; é onde se concentram água, açúcares, ácidos, cor e taninos.
 **Botrytis** (*Botrytis cinerea*) — fungo de duas faces: arruína a uva
 (podridão cinzenta) ou, em clima preciso, a concentra (podridão nobre). Ver
 **podridão nobre**.
+
+**Brettanomyces** ("Brett") — levedura contaminante que, em adega pouco
+higienizada, produz aromas de estábulo, suor e curral; defeito em excesso.
 
 **Brix** (°Brix) — escala que mede o açúcar dissolvido no mosto; serve para
 prever o teor alcoólico do futuro vinho.
@@ -153,6 +159,9 @@ relevo e água próxima. Ver **macroclima** e **microclima**.
 **Microclima** — ambiente imediato em torno das folhas e cachos, alterável pelo
 próprio manejo da planta. Ver **macroclima** e **mesoclima**.
 
+**Microxigenação** — exposição controlada do vinho a doses mínimas de oxigênio
+(no estágio), que amacia taninos e estabiliza a cor. Oposto da **oxidação**.
+
 **Míldio** (*downy mildew*) — doença fúngica favorecida pela umidade, com
 manchas oleosas nas folhas; tratada classicamente com calda bordalesa.
 
@@ -164,6 +173,9 @@ qualidade. Ver **Velho Mundo**.
 
 **Oídio** (*powdery mildew*) — doença fúngica em pó branco acinzentado sobre
 folhas e bagas, favorecida pelo calor e pela sombra; tratada com enxofre.
+
+**Oxidação** — dano causado pelo excesso de oxigênio: perda de aroma frutado,
+escurecimento e risco de acetificação. Oposto da **microxigenação**.
 
 **Película** — a casca da baga, onde se concentram cor, taninos e muitos
 aromas; o contato com ela define tinto, branco ou rosé.

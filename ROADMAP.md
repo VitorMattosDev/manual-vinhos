@@ -44,7 +44,7 @@ fotos entram como imagem embutida — ver `PLANO.md`).
 - [x] `v4-principios-vinificacao/02-fermentacao-alcoolica.qmd` — química, leveduras, curva. *fig.: curva de fermentação (açúcar↓/álcool↑).*
 - [x] `v4-principios-vinificacao/03-fermentacao-malolatica.qmd` — málico→lático. *fig.: esquema da conversão.*
 - [x] `v4-principios-vinificacao/04-so2-e-estabilizacao.qmd` — SO₂, clarificação, filtração. *fig.: pontos de adição de SO₂.*
-- [ ] `v4-principios-vinificacao/05-higiene-e-controle.qmd` — oxigênio, temperatura, contaminações. *fig.: balanço de oxigênio.*
+- [x] `v4-principios-vinificacao/05-higiene-e-controle.qmd` — oxigênio, temperatura, contaminações. *fig.: balanço de oxigênio.*
 
 ### Volume V — Vinificação por Estilo
 - [ ] `v5-vinificacao/01-vinificacao-tinto.qmd` — maceração, remontagem, prensagem. *fig.: fluxograma do tinto.*

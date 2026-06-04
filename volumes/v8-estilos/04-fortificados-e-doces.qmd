@@ -2,4 +2,129 @@
 title: "Estilos de fortificados e doces"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Fortificados e doces habitam as **regiões extremas** do mapa do vinho: muito
+álcool, muito açúcar, ou ambos. Organizá-los em dois eixos — **álcool** e **açúcar
+residual** — esclarece de uma vez por que o Porto é tão diferente de um Sauternes,
+embora os dois sejam "doces", e por que um Jerez fino é seco apesar de fortíssimo.
+
+Este capítulo fecha a tipologia dos estilos reunindo, num único mapa, o que vimos
+no Volume VI (fortificados e doces) sob a ótica do consumidor.
+
+## O mapa álcool × açúcar
+
+A @fig-alcool-acucar posiciona os grandes estilos por **teor alcoólico**
+(horizontal) e **açúcar residual** (vertical). As três famílias se separam
+claramente.
+
+::: {#def-licoroso}
+## Fortificado (licoroso) × doce natural
+Um **doce natural** tem álcool **normal** (12–14%) e açúcar alto (concentrado na
+uva). Um **fortificado** (ou **licoroso**) tem álcool **alto** (15–22%) por adição
+de aguardente, e pode ser **seco** (Jerez fino) ou **doce** (Porto). Os eixos do
+mapa separam essas três situações.
+:::
+
+::: {#fig-alcool-acucar}
+```{.tikz}
+%%| filename: alcool-acucar
+%%| alt: Gráfico com álcool no eixo horizontal e açúcar residual no vertical, posicionando estilos — vinho seco de mesa no canto baixo, doces naturais (Sauternes, ice wine) no alto à esquerda, Jerez fino seco à direita embaixo, e fortificados doces (Porto, Pedro Ximénez) no alto à direita.
+\begin{tikzpicture}[font=\sffamily\scriptsize]
+  \draw[-{Stealth[length=2.5mm]}, thick, manualgray] (0,0) -- (6.6,0)
+    node[right, font=\scriptsize]{álcool};
+  \draw[-{Stealth[length=2.5mm]}, thick, manualgray] (0,0) -- (0,6.2)
+    node[above, font=\scriptsize]{açúcar};
+  \node[manualgray, font=\tiny] at (0.6,-0.35) {12\%};
+  \node[manualgray, font=\tiny] at (5.6,-0.35) {22\%};
+  \node[manualgray, font=\tiny, rotate=90] at (-0.35,0.7) {seco};
+  \node[manualgray, font=\tiny, rotate=90] at (-0.35,5.3) {muito doce};
+  \foreach \px/\py/\nome/\anc in {
+      0.7/0.5/{seco de mesa}/right,
+      1.0/2.2/{espumante demi-sec}/right,
+      1.8/5.0/{Sauternes}/right,
+      0.6/5.6/{ice wine}/right,
+      3.6/0.5/{Jerez fino}/left,
+      5.0/4.4/{Porto}/left,
+      3.7/5.6/{Pedro Ximénez}/left}{
+    \fill[manualred] (\px,\py) circle (1.6pt);
+    \node[\anc, font=\tiny, manualred!70!black, inner sep=2pt] at (\px,\py) {\nome};}
+\end{tikzpicture}
+```
+
+O mapa álcool × açúcar. **Doces naturais** (Sauternes, ice wine) ficam no alto à
+**esquerda** (açúcar alto, álcool normal); **fortificados secos** (Jerez fino) à
+direita embaixo; e **fortificados doces** (Porto, Pedro Ximénez) no alto à
+**direita** (álcool e açúcar altos).
+:::
+
+## As famílias do mapa
+
+- **Doces naturais** (Sauternes, ice wine, passito) — álcool moderado, açúcar
+  alto, acidez que sustenta a doçura; sobremesa por excelência.
+- **Fortificados secos** (Jerez fino e amontillado, Madeira Sercial) — álcool alto,
+  açúcar baixo; aperitivos intensos e salinos.
+- **Fortificados doces** (Porto, Pedro Ximénez, Moscatel, Madeira Malmsey) — álcool
+  e açúcar altos; densos, longevos, para o fim da refeição.
+
+::: {.callout-note}
+## Três origens da doçura (revisão)
+O mapa não mostra **como** o açúcar chegou ali. Vale lembrar (Volume VI): no doce
+natural ele foi **concentrado na uva**; no fortificado doce, **sobrou** porque a
+aguardente interrompeu a fermentação; e adicioná-lo diretamente é proibido em
+vinhos finos.
+:::
+
+## Exemplos
+
+::: {#exm-porto-vs-sauternes}
+## Porto e Sauternes: ambos doces, bem diferentes
+Os dois são doces, mas ocupam pontos distintos da @fig-alcool-acucar. O
+**Sauternes** tem álcool normal (~13%) e açúcar altíssimo, da podridão nobre — fica
+à esquerda. O **Porto** soma açúcar **e** álcool alto (~20%), por fortificação —
+fica à direita. Daí o Porto ser mais "quente" e potente na boca.
+:::
+
+::: {#exm-jerez-fino}
+## Forte, porém seco
+O **Jerez fino** desafia a intuição: é **fortificado** (cerca de 15%), mas
+**seco**, porque a aguardente entrou **depois** da fermentação completa. No mapa,
+fica à direita (álcool alto) e embaixo (sem açúcar) — um aperitivo cortante, não
+uma sobremesa.
+:::
+
+## Exercícios
+
+::: {#exr-classificar-estilo}
+Classifique cada vinho como **doce natural**, **fortificado seco** ou
+**fortificado doce** (@def-licoroso): (a) Porto; (b) Jerez fino; (c) ice wine.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) **Fortificado doce**; (b) **Fortificado seco**; (c) **Doce natural**.
+:::
+
+::: {#exr-porto-sauternes-mapa}
+Pela @fig-alcool-acucar, o que distingue o **Porto** do **Sauternes**, já que ambos
+são doces?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+O **álcool**: o Sauternes tem álcool **normal** (doce natural, açúcar concentrado
+na uva), enquanto o Porto tem álcool **alto** por **fortificação**. No mapa, ambos
+estão no alto (doces), mas o Porto fica bem à direita (mais álcool).
+:::
+
+::: {#exr-fino-seco}
+Como um vinho pode ser **fortificado** e ainda assim **seco**, como o Jerez fino
+(@exm-jerez-fino)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Quando a aguardente é adicionada **depois** de a fermentação ter consumido todo o
+açúcar. O álcool sobe (fortificado), mas não sobra açúcar (seco) — caso do Jerez
+fino.
+:::

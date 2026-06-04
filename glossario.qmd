@@ -200,6 +200,9 @@ adega; fermentação menos previsível, porém potencialmente mais complexa.
 **Levedura selecionada** — cepa cultivada e inoculada pelo enólogo, que dá
 fermentação previsível e de perfil escolhido.
 
+**Licoroso** — sinônimo de vinho fortificado (álcool elevado por adição de
+aguardente); pode ser seco (Jerez fino) ou doce (Porto).
+
 **Maceração** — contato do mosto com as cascas, sementes e/ou engaços para
 extrair cor, taninos e aromas.
 

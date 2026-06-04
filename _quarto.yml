@@ -60,12 +60,12 @@ book:
         - volumes/v4-principios-vinificacao/04-so2-e-estabilizacao.qmd
         - volumes/v4-principios-vinificacao/05-higiene-e-controle.qmd
 
-    # - part: "Volume V — Vinificação por Estilo"
-    #   chapters:
-    #     - volumes/v5-vinificacao/01-vinificacao-tinto.qmd
-    #     - volumes/v5-vinificacao/02-vinificacao-branco.qmd
-    #     - volumes/v5-vinificacao/03-vinificacao-rose.qmd
-    #     - volumes/v5-vinificacao/04-tecnicas-especiais.qmd
+    - part: "Volume V — Vinificação por Estilo"
+      chapters:
+        - volumes/v5-vinificacao/01-vinificacao-tinto.qmd
+        - volumes/v5-vinificacao/02-vinificacao-branco.qmd
+        - volumes/v5-vinificacao/03-vinificacao-rose.qmd
+        - volumes/v5-vinificacao/04-tecnicas-especiais.qmd
 
     # - part: "Volume VI — Espumantes, Fortificados e Doces"
     #   chapters:

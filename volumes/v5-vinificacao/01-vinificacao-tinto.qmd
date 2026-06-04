@@ -1,0 +1,137 @@
+---
+title: "Vinificação em tinto"
+---
+
+## Motivação
+
+O que faz um vinho ser tinto não é a cor da uva, mas uma decisão de adega:
+**fermentar o mosto junto com as cascas**. É dessa convivência entre o líquido em
+fermentação e as partes sólidas da uva que vêm a cor, os taninos e a estrutura que
+reconhecemos num tinto. Toda a vinificação tinta gira em torno de **extrair** —
+com medida — o que está nas cascas.
+
+Este capítulo abre o Volume V seguindo o tinto da uva à barrica. A sequência tem
+uma marca registrada: no tinto, **fermenta-se primeiro e prensa-se depois** — o
+oposto do branco, que veremos no próximo capítulo.
+
+## O fluxo do tinto
+
+A @fig-fluxo-tinto resume as etapas. A diferença essencial está no passo 3: a
+fermentação ocorre **em contato com as cascas** (a maceração), e só depois se
+prensa.
+
+::: {#fig-fluxo-tinto}
+```{.tikz}
+%%| filename: fluxo-tinto
+%%| alt: Fluxograma vertical da vinificação em tinto — vindima, desengace e esmagamento, maceração com fermentação (destacada), prensagem, fermentação malolática, estágio e engarrafamento.
+\begin{tikzpicture}[node distance=7mm,
+    et/.style={draw=manualred, very thick, rounded corners=2pt, fill=manualred!8,
+      text width=46mm, align=center, minimum height=9mm, font=\sffamily\small},
+    dest/.style={draw=manualred, very thick, rounded corners=2pt, fill=manualred!20,
+      text width=46mm, align=center, minimum height=11mm, font=\sffamily\small},
+    fl/.style={-{Stealth[length=2.5mm]}, very thick, manualgray}]
+  \node[et] (a) {1. Vindima (uvas tintas)};
+  \node[et, below=of a] (b) {2. Desengace e esmagamento};
+  \node[dest, below=of b] (c) {3. Maceração + fermentação\\\footnotesize (com as cascas)};
+  \node[et, below=of c] (d) {4. Prensagem\\\footnotesize separa o vinho das cascas};
+  \node[et, below=of d] (e) {5. Fermentação malolática};
+  \node[et, below=of e] (f) {6. Estágio (barrica/tanque)};
+  \node[et, below=of f] (g) {7. Engarrafamento};
+  \foreach \x/\y in {a/b,b/c,c/d,d/e,e/f,f/g}{\draw[fl] (\x) -- (\y);}
+  \node[align=left, font=\sffamily\scriptsize, manualred, text width=30mm]
+    at (5.6,0.0) (note) {extrai \textbf{cor} e \textbf{taninos} das cascas};
+  \draw[-{Stealth[length=2mm]}, manualred] (note) -- (c.east);
+\end{tikzpicture}
+```
+
+O fluxo da vinificação tinta. O passo decisivo é a **maceração** (3): a
+fermentação acontece junto às cascas, extraindo cor e taninos. Só depois vem a
+**prensagem** (4) — diferença central em relação ao branco.
+:::
+
+## Maceração: extrair das cascas
+
+Durante a fermentação tinta, as cascas sobem e formam uma camada flutuante: o
+**chapéu**. Como a extração acontece no contato líquido–casca, é preciso
+**molhar** o chapéu constantemente.
+
+::: {#def-remontagem}
+## Chapéu, remontagem e pigeage
+O **chapéu** é a camada de cascas que flutua sobre o mosto em fermentação. Para
+extrair cor e taninos, mistura-se o chapéu com o líquido: a **remontagem**
+(bombear o mosto do fundo por cima das cascas) ou a **pigeage** (afundar o chapéu
+com força). Mais contato e mais tempo → mais extração.
+:::
+
+O **tempo de maceração** governa o estilo: poucos dias dão um tinto leve e
+frutado; duas a três semanas dão um tinto encorpado, tânico e de guarda.
+
+## Prensagem: gota e prensa
+
+Terminada a maceração, separa-se o líquido das cascas. O que escorre sozinho é o
+**vinho-gota** (mais fino e elegante); o que se extrai prensando as cascas é o
+**vinho de prensa** (mais tânico e concentrado). O enólogo decide quanto de cada
+um entra no corte final.
+
+::: {.callout-warning}
+## Erro comum
+Macerar **mais** nem sempre é melhor. Passado o ponto, a extração começa a trazer
+taninos amargos das partes mais duras (sementes, engaço) e o vinho fica áspero. A
+arte está em parar na hora — extração é equilíbrio, não maximização.
+:::
+
+## Exemplos
+
+::: {#exm-tempo-maceracao}
+## Dois tintos da mesma uva
+Da mesma Merlot, uma maceração de 4–5 dias dá um tinto leve, de fruta fresca, para
+beber jovem. Uma maceração de 3 semanas, com remontagens frequentes, dá um tinto
+encorpado, de taninos firmes e potencial de guarda. A casta é a mesma; o **tempo
+de contato com as cascas** define o estilo.
+:::
+
+::: {#exm-gota-e-prensa}
+## Montando o corte com gota e prensa
+O **vinho-gota** costuma formar a espinha elegante do vinho final; o **vinho de
+prensa**, mais estruturado, é adicionado em pequena proporção quando se quer mais
+corpo e tanino. Saber dosar os dois é parte do ofício — dois "líquidos" do mesmo
+tanque, com personalidades diferentes.
+:::
+
+## Exercícios
+
+::: {#exr-tinto-vs-branco-fluxo}
+Qual é a diferença central, na **ordem** das etapas, entre vinificar tinto e
+branco, segundo a @fig-fluxo-tinto?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+No **tinto**, fermenta-se **com as cascas** (maceração) e só depois se **prensa**.
+No branco (próximo capítulo), prensa-se **antes** e fermenta-se o mosto **sem
+cascas**. A ordem "fermenta → prensa" é a marca do tinto.
+:::
+
+::: {#exr-remontagem}
+Por que é necessário fazer **remontagem** ou **pigeage** durante a fermentação
+tinta (@def-remontagem)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque as cascas flutuam e formam o **chapéu**, fora de contato com o líquido. Sem
+molhá-lo (remontagem) ou afundá-lo (pigeage), a extração de cor e taninos seria
+fraca e desigual — e o chapéu poderia secar e contaminar.
+:::
+
+::: {#exr-gota-prensa}
+Diferencie **vinho-gota** e **vinho de prensa** e diga qual tende a ser mais
+tânico.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+O **vinho-gota** escorre sozinho, é mais fino e elegante; o **vinho de prensa** é
+extraído prensando as cascas e é mais **tânico** e concentrado. O de prensa é o
+mais tânico dos dois.
+:::

@@ -57,6 +57,10 @@ Sauvignon Blanc, Moscato), por oposição às castas neutras.
 **Cepa** — a videira individual, da raiz ao ramo; por extensão, sinônimo de
 casta.
 
+**Chapéu** — camada de cascas que flutua sobre o mosto na fermentação tinta;
+precisa ser molhada (remontagem) ou afundada (pigeage) para extrair cor e
+taninos.
+
 **Chaptalização** — adição de açúcar ao mosto antes da fermentação para elevar o
 álcool final; permitida em regiões frias, proibida em outras.
 
@@ -205,6 +209,10 @@ cultivada desde a crise da filoxera.
 **Qvevri** — grande pote de barro enterrado, usado na Geórgia há milênios para
 fermentar e conservar vinho; técnica reconhecida como patrimônio cultural.
 
+**Remontagem** — bombear o mosto em fermentação do fundo do tanque por cima do
+chapéu de cascas, para extrair cor e taninos; alternativa à pigeage (afundar o
+chapéu).
+
 **Rendimento** — quantidade de uva ou vinho colhida por área (t/ha ou hl/ha);
 rendimentos moderados costumam favorecer a concentração e a qualidade.
 
@@ -248,6 +256,10 @@ para reduzir o rendimento e concentrar os cachos restantes.
 
 **Vingamento** (*fruit set*) — fase em que as flores fecundadas se transformam
 em bagas; determina quantas bagas cada cacho terá.
+
+**Vinho-gota** — vinho que escorre sozinho das cascas após a maceração, mais
+fino e elegante; distinto do **vinho de prensa**, mais tânico, extraído ao
+prensar as cascas.
 
 **_Vitis vinifera_** — espécie de videira de origem caucasiana que dá quase
 todo o vinho fino do mundo; tronco de onde derivam as castas cultivadas.

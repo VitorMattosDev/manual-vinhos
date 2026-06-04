@@ -54,12 +54,19 @@ casta.
 **Chaptalização** — adição de açúcar ao mosto antes da fermentação para elevar o
 álcool final; permitida em regiões frias, proibida em outras.
 
+**Clarificação** — conjunto de operações que tornam o vinho límpido (trasfega,
+colagem, filtração), removendo partículas em suspensão.
+
 **Climat** — na Borgonha, parcela de vinhedo delimitada e nomeada, com caráter
 próprio; expressão fina da ideia de terroir.
 
 **Clone** — linhagem dentro de uma casta, originada de uma única planta-mãe e
 com características próprias estáveis; há dezenas de clones de castas como Pinot
 Noir e Chardonnay.
+
+**Colagem** (*fining*) — clarificação por um agente (bentonita, clara de ovo,
+proteínas) que liga partículas em suspensão e as precipita; pode suavizar
+taninos.
 
 **Composto fenólico** — família de substâncias das cascas, sementes e madeira
 que inclui os taninos e os pigmentos responsáveis pela cor.
@@ -87,6 +94,10 @@ garfo de *Vitis vinifera* (a casta); base de quase toda videira moderna.
 **Espaldeira** (VSP) — sistema de condução em que os ramos são amarrados a
 arames e sobem na vertical, formando uma parede de folhas; favorece exposição e
 mecanização.
+
+**Estabilização tartárica** — resfriamento do vinho para precipitar cristais de
+tartarato (os "diamantes do vinho") antes do engarrafamento, evitando que se
+formem depois na garrafa.
 
 **Etanol** — álcool etílico, o álcool do vinho, produzido pelas leveduras na
 fermentação a partir dos açúcares da uva.
@@ -198,11 +209,18 @@ usa poucos clones certificados e uniformes.
 **Sinonímia** — uso de nomes diferentes para a mesma casta (ex.: Syrah/Shiraz,
 Garnacha/Grenache). Oposto de **homonímia**.
 
+**SO₂** (dióxido de enxofre, sulfitos) — principal aditivo da enologia, com
+papel antioxidante e antisséptico; presente em quase todo vinho ("contém
+sulfitos").
+
 **Tanino** — composto fenólico das cascas, sementes e madeira; responsável pela
 adstringência e pela estrutura dos tintos.
 
 **Terroir** — conjunto de solo, clima, relevo e tradição que dá identidade ao
 vinho de um lugar.
+
+**Trasfega** — transferência do vinho de um recipiente a outro, deixando para
+trás a borra depositada no fundo; clarifica e areia o vinho de forma controlada.
 
 **Velho Mundo** — regiões vitícolas históricas da Europa e do Mediterrâneo,
 berço das tradições do vinho. Ver **Novo Mundo**.

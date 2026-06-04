@@ -2,4 +2,138 @@
 title: "SO₂ e estabilização"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Terminadas as fermentações, o vinho está vivo — e frágil. Exposto ao ar, ele
+**oxida**; deixado sem proteção, pode ser atacado por bactérias e leveduras
+indesejadas. Estabilizar o vinho é protegê-lo dessas duas ameaças até (e depois
+de) chegar à garrafa. A ferramenta central dessa proteção é um velho conhecido da
+enologia: o **dióxido de enxofre**, o **SO₂**.
+
+Este capítulo trata do SO₂ — o que faz, onde se adiciona — e das demais operações
+de estabilização e limpeza do vinho: clarificação, filtração e estabilização
+tartárica.
+
+## O SO₂ e seus dois papéis
+
+::: {#def-so2}
+## Dióxido de enxofre (SO₂)
+O **SO₂** é o principal aditivo da enologia, com **dois papéis**: é
+**antioxidante** (protege o vinho do oxigênio) e **antisséptico** (inibe
+bactérias e leveduras indesejadas). Parte dele fica "livre" (a fração que
+realmente protege) e parte se combina com outras substâncias.
+:::
+
+O SO₂ é usado desde a Antiguidade (queimava-se enxofre nas ânforas) e está em
+**praticamente todo vinho** — por isso os rótulos trazem "contém sulfitos". As
+adições são feitas em **pontos estratégicos** do processo, mostrados na
+@fig-pontos-so2: ao receber a uva, após as fermentações e no engarrafamento.
+
+::: {#fig-pontos-so2}
+```{.tikz}
+%%| filename: pontos-so2
+%%| alt: Linha de produção com cinco etapas — esmagamento, fermentação alcoólica, malolática, estágio e engarrafamento — e marcadores de SO2 acima do esmagamento, do estágio e do engarrafamento, indicando os pontos típicos de adição.
+\begin{tikzpicture}[font=\sffamily\scriptsize,
+    et/.style={draw=manualgray, very thick, rounded corners=2pt, fill=manualgray!10,
+      align=center, text width=20mm, minimum height=11mm},
+    fluxo/.style={-{Stealth[length=2mm]}, very thick, manualgray}]
+  \node[et] (e1) at (0,0)    {Esmagamento};
+  \node[et] (e2) at (2.9,0)  {Fermentação alcoólica};
+  \node[et] (e3) at (5.8,0)  {Malolática};
+  \node[et] (e4) at (8.7,0)  {Estágio};
+  \node[et] (e5) at (11.6,0) {Engarra\-famento};
+  \foreach \a/\b in {e1/e2,e2/e3,e3/e4,e4/e5}{\draw[fluxo] (\a) -- (\b);}
+  % marcadores de SO2 (coordenadas explícitas das etapas e1, e4, e5)
+  \foreach \n/\mx in {e1/0, e4/8.7, e5/11.6}{
+    \node[draw=manualyellow!80!black, very thick, fill=manualyellow!35,
+          circle, inner sep=1pt, font=\tiny\bfseries] (s\n) at (\mx,1.5) {SO$_2$};
+    \draw[-{Stealth[length=1.6mm]}, manualyellow!70!black, thick] (s\n) -- (\n);}
+\end{tikzpicture}
+```
+
+Pontos típicos de adição de SO₂: no **esmagamento** (proteger o mosto), no
+**estágio** (após as fermentações, contra oxidação e micróbios) e no
+**engarrafamento** (proteção final). As doses e os momentos variam com o estilo.
+:::
+
+## Clarificar e estabilizar
+
+Recém-fermentado, o vinho é turvo e instável. Três operações o preparam para a
+garrafa:
+
+- **Trasfega** — transferir o vinho de um recipiente a outro, deixando para trás
+  a borra (leveduras mortas e sedimentos) depositada no fundo.
+- **Colagem** (clarificação) — adicionar um agente (bentonita, clara de ovo,
+  proteínas) que se liga a partículas em suspensão e as arrasta para o fundo,
+  deixando o vinho límpido; também pode suavizar taninos.
+- **Filtração** — passar o vinho por filtros que retêm partículas e
+  micro-organismos, dando limpidez e estabilidade.
+
+Há ainda a **estabilização tartárica**: resfria-se o vinho para precipitar
+cristais de tartarato (os inofensivos "diamantes do vinho") antes do
+engarrafamento, evitando que se formem depois, na garrafa.
+
+::: {.callout-warning}
+## "Vinho sem sulfito" não existe (quase)
+A fermentação **produz** um pouco de SO₂ naturalmente, então praticamente todo
+vinho contém sulfitos. O que existe é vinho **sem adição** de SO₂ — diferente de
+"sem sulfito". E a ideia de que o sulfito causa dor de cabeça é, na maioria dos
+casos, mito: a sensibilidade real atinge uma minoria. (Como sempre, o consumo de
+álcool pede moderação.)
+:::
+
+## Exemplos
+
+::: {#exm-branco-mais-so2}
+## Por que brancos costumam levar mais proteção
+Os tintos têm **taninos**, que são antioxidantes naturais e ajudam a proteger o
+vinho. Brancos e rosés, pobres em tanino, ficam mais expostos à oxidação — por
+isso costumam depender mais do **SO₂** e do manejo cuidadoso do oxigênio. A
+composição do vinho determina o quanto de proteção ele exige.
+:::
+
+::: {#exm-clara-de-ovo}
+## Clara de ovo nos tintos
+Uma colagem tradicional de tintos finos usa **clara de ovo**: a proteína (albumina)
+liga-se aos taninos mais ásperos e os precipita, deixando o vinho mais límpido e
+macio. É uma técnica centenária — química de cozinha a serviço da textura do
+vinho.
+:::
+
+## Exercícios
+
+::: {#exr-papeis-so2}
+Quais são os **dois papéis** do SO₂ no vinho (@def-so2)? Dê um exemplo de ameaça
+que cada papel combate.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Antioxidante** (combate a oxidação pelo oxigênio) e **antisséptico** (inibe
+bactérias e leveduras indesejadas). Um protege a cor e os aromas da oxidação; o
+outro evita contaminações microbianas.
+:::
+
+::: {#exr-pontos-adicao}
+Cite, com base na @fig-pontos-so2, dois momentos do processo em que o SO₂ é
+tipicamente adicionado, e diga o que ele protege em cada um.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Por exemplo: no **esmagamento** (protege o mosto da oxidação e de micróbios logo
+de início) e no **engarrafamento** (proteção final antes do fechamento). Também é
+comum adicionar no **estágio**, após as fermentações.
+:::
+
+::: {#exr-sem-sulfito}
+Por que a expressão "vinho sem sulfito" é tecnicamente imprecisa? O que seria mais
+correto dizer?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque a própria fermentação produz um pouco de SO₂: quase todo vinho contém
+sulfitos. O correto é "vinho **sem adição** de SO₂" — o que não é o mesmo que
+"sem sulfito".
+:::

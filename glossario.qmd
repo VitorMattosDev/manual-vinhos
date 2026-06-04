@@ -14,6 +14,9 @@ vinho; hoje retomada por produtores em estilos de longa maceração.
 **Baga** — o fruto da videira (o "bago"), formado por película, polpa e
 grainhas; é onde se concentram água, açúcares, ácidos, cor e taninos.
 
+**Brotação** — fase do ciclo em que as gemas abrem na primavera e surgem os
+primeiros pâmpanos; momento de risco diante das geadas tardias.
+
 **Casta** — variedade de videira (sinônimo de cultivar/uva). Ex.: Cabernet
 Sauvignon, Chardonnay.
 
@@ -25,6 +28,9 @@ próprio; expressão fina da ideia de terroir.
 
 **Composto fenólico** — família de substâncias das cascas, sementes e madeira
 que inclui os taninos e os pigmentos responsáveis pela cor.
+
+**Dormência** — repouso invernal da videira, sem folhas; período em que se faz a
+poda que definirá a safra seguinte.
 
 **Engaço** — a estrutura ramificada do cacho que sustenta as bagas; rica em
 taninos verdes, costuma ser removida no desengace.
@@ -39,6 +45,9 @@ vinho.
 **Filoxera** — inseto (*Daktulosphaira vitifolium*) que ataca as raízes da
 videira; devastou os vinhedos europeus no fim do século XIX. A *Vitis vinifera*
 não resiste a ela; videiras americanas, sim.
+
+**Floração** — fase em que as flores se abrem nos cachos embrionários; chuva e
+frio podem comprometer a polinização e a futura safra.
 
 **Glicerol** — álcool de sabor levemente adocicado formado na fermentação;
 contribui para a maciez e a sensação de corpo.
@@ -64,6 +73,9 @@ qualidade. Ver **Velho Mundo**.
 **Película** — a casca da baga, onde se concentram cor, taninos e muitos
 aromas; o contato com ela define tinto, branco ou rosé.
 
+**Pintor** (*véraison*) — início da maturação: a baga muda de cor, amolece e
+passa a acumular açúcar e perder acidez.
+
 **Polpa** — a parte carnosa e quase sempre incolor da baga; fonte de água,
 açúcares e ácidos do mosto.
 
@@ -73,6 +85,9 @@ cultivada desde a crise da filoxera.
 
 **Qvevri** — grande pote de barro enterrado, usado na Geórgia há milênios para
 fermentar e conservar vinho; técnica reconhecida como patrimônio cultural.
+
+**Safra** (*vintage*, *millésime*) — o ano de colheita das uvas; como o clima
+varia a cada ano, define o caráter e a qualidade daquela produção.
 
 **Sarmento** — o ramo do ano da videira; verde e flexível chama-se pâmpano, e
 lignifica-se no outono. Nele se formam folhas, gavinhas e cachos.
@@ -87,6 +102,9 @@ vinho de um lugar.
 berço das tradições do vinho. Ver **Novo Mundo**.
 
 **Vindima** — colheita das uvas.
+
+**Vingamento** (*fruit set*) — fase em que as flores fecundadas se transformam
+em bagas; determina quantas bagas cada cacho terá.
 
 **_Vitis vinifera_** — espécie de videira de origem caucasiana que dá quase
 todo o vinho fino do mundo; tronco de onde derivam as castas cultivadas.

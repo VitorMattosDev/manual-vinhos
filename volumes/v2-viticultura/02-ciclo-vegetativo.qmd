@@ -2,4 +2,158 @@
 title: "O ciclo vegetativo da videira"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+A videira é perene — vive décadas —, mas trabalha em **ciclos de um ano**. A cada
+volta do calendário ela acorda, brota, floresce, dá frutos, amadurece a uva e
+volta a dormir. Esse relógio anual comanda tudo no vinhedo: quando podar, quando
+temer a geada, quando colher. E porque cada ano traz um clima diferente, é esse
+ciclo que faz uma **safra** ser distinta da outra.
+
+Entender as fases do ciclo é entender o calendário do viticultor — e por que a
+mesma vinha dá vinhos diferentes a cada ano. Neste capítulo seguimos a videira ao
+longo de uma temporada completa, da brotação à dormência.
+
+## As fases do ciclo anual
+
+O ciclo da videira costuma ser dividido em fases bem marcadas, que a
+@fig-ciclo-anual organiza em roda. Começando na saída do inverno:
+
+- **Brotação** — na primavera, as gemas incham e abrem; surgem os primeiros
+  pâmpanos verdes. A planta sai da dormência e fica vulnerável às **geadas**
+  tardias.
+- **Floração** — pequenas flores se abrem nos cachos embrionários. É uma fase
+  sensível: chuva e frio podem prejudicar a polinização.
+- **Vingamento** (*fruit set*) — as flores fecundadas viram bagas minúsculas.
+  Define quantas bagas cada cacho terá.
+- **Pintor** (*véraison*) — a virada do verão: as bagas param de crescer só em
+  tamanho e começam a **mudar de cor** (do verde ao púrpura, nos tintos) e a
+  acumular açúcar.
+
+::: {#def-pintor}
+## Pintor (*véraison*)
+O **pintor** é o início da maturação: o momento em que a baga muda de cor, amolece
+e passa a **acumular açúcar e perder acidez**. Marca a transição do crescimento
+para o amadurecimento.
+:::
+
+- **Maturação** — entre o pintor e a colheita, a baga acumula açúcares, perde
+  ácidos e desenvolve cor, taninos e aromas. É a fase que decide o estilo
+  possível do vinho.
+- **Vindima** — a colheita: o viticultor escolhe o momento de equilíbrio entre
+  açúcar e acidez (tema do capítulo de maturação e vindima).
+- **Queda das folhas** — no outono, as folhas amarelam e caem; a planta recolhe
+  reservas para o tronco e as raízes.
+- **Dormência** — no inverno, a videira repousa, sem folhas. É quando se faz a
+  **poda** que definirá a safra seguinte.
+
+::: {#fig-ciclo-anual}
+```{.tikz}
+%%| filename: ciclo-anual-videira
+%%| alt: Roda do ciclo anual da videira com oito fases dispostas em círculo e setas no sentido horário — brotação, floração, vingamento, pintor, maturação, vindima, queda das folhas e dormência.
+\begin{tikzpicture}[font=\sffamily,
+    fase/.style={draw=manualgreen, very thick, rounded corners=2pt,
+      fill=manualgreen!10, align=center, font=\scriptsize,
+      text width=20mm, minimum height=9mm},
+    giro/.style={-{Stealth[length=2.2mm]}, very thick, manualgray}]
+  \def\R{3.1}
+  \node[fase, fill=manualgreen!18] (f1) at (90:\R)   {Brotação\\\tiny primavera};
+  \node[fase] (f2) at (45:\R)   {Floração};
+  \node[fase] (f3) at (0:\R)    {Vingamento};
+  \node[fase, fill=manualred!12, draw=manualred] (f4) at (-45:\R) {Pintor\\\tiny (véraison)};
+  \node[fase, fill=manualred!12, draw=manualred] (f5) at (-90:\R)  {Maturação\\\tiny verão–outono};
+  \node[fase, fill=manualyellow!30] (f6) at (-135:\R) {Vindima\\\tiny colheita};
+  \node[fase, fill=manualyellow!30] (f7) at (180:\R) {Queda das\\folhas};
+  \node[fase, fill=manualblue!12, draw=manualblue] (f8) at (135:\R) {Dormência\\\tiny inverno · poda};
+
+  \foreach \a/\b in {f1/f2,f2/f3,f3/f4,f4/f5,f5/f6,f6/f7,f7/f8,f8/f1}{
+    \draw[giro] (\a) to[bend right=12] (\b);}
+
+  \node[align=center, font=\footnotesize\bfseries, manualgray] at (0,0)
+    {Ciclo anual\\da videira};
+\end{tikzpicture}
+```
+
+O ciclo vegetativo anual, no sentido horário. As fases verdes são de
+**crescimento**; a partir do **pintor** (em vermelho) começa a **maturação**; o
+inverno (em azul) é o repouso, quando se poda para a safra seguinte.
+:::
+
+## Um ciclo, dois hemisférios
+
+As fases são as mesmas em toda parte, mas o calendário **se inverte entre os
+hemisférios**. No Hemisfério Norte (Europa, Califórnia) a vindima ocorre entre
+agosto e outubro; no Hemisfério Sul (Brasil, Argentina, Chile, África do Sul,
+Austrália), entre fevereiro e abril.
+
+::: {.callout-note}
+## Por que a safra do Sul "adianta" o ano
+Um vinho do Hemisfério Sul com safra 2024 foi colhido no **começo** de 2024,
+enquanto um europeu de 2024 só foi colhido no segundo semestre. As duas uvas
+amadureceram sob o verão de seus respectivos hemisférios — apenas em meses
+diferentes do calendário.
+:::
+
+::: {.callout-warning}
+## Erro comum
+**Pintor não é uva madura.** Quando a baga muda de cor, a maturação apenas
+*começou*: faltam semanas de acúmulo de açúcar e queda de acidez. Colher no
+pintor daria um vinho magro e ácido. A cor é o **sinal de largada** da maturação,
+não a linha de chegada.
+:::
+
+## Exemplos
+
+::: {#exm-da-flor-a-colheita}
+## Da flor à colheita
+Como regra grosseira, vão-se cerca de **90 a 110 dias** da floração à vindima, e
+algo entre **40 e 60 dias** do pintor à colheita. Por isso o viticultor observa o
+pintor com atenção: ele dá a senha para estimar a data de colheita e organizar a
+adega.
+:::
+
+::: {#exm-geada-de-primavera}
+## O risco da geada na brotação
+Logo após a **brotação**, os pâmpanos são tecidos verdes e tenros: uma geada de
+primavera pode queimá-los e destruir boa parte da safra antes mesmo da floração.
+É por isso que regiões frias temem o frio *fora de época* — não o inverno (quando
+a planta dorme protegida), mas o frio que chega **depois** que ela acordou.
+:::
+
+## Exercícios
+
+::: {#exr-ordenar-ciclo}
+Ordene as fases a seguir conforme a @fig-ciclo-anual, partindo da brotação:
+*maturação, dormência, pintor, floração, vindima, vingamento, queda das folhas*.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Brotação → floração → vingamento → pintor → maturação → vindima → queda das
+folhas → dormência (e recomeça).
+:::
+
+::: {#exr-safra-sul}
+Um rótulo argentino traz "Safra 2023". Em que período aproximado do calendário
+essa uva foi colhida, e por quê?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+No **começo de 2023** (entre fevereiro e abril). A Argentina fica no Hemisfério
+Sul, onde o verão de maturação cai na virada do ano e a vindima acontece no
+primeiro trimestre.
+:::
+
+::: {#exr-por-que-podar-no-inverno}
+Por que a **poda** é feita durante a dormência, e não em pleno crescimento?
+Relacione à fase do ciclo.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Na **dormência** a planta está sem folhas e com a seiva recolhida, então a poda
+não interrompe a fotossíntese nem provoca grande perda de seiva; além disso,
+define a estrutura de gemas de onde brotará a safra seguinte. Podar em pleno
+crescimento desperdiçaria a energia já investida nos ramos.
+:::

@@ -23,7 +23,7 @@ fotos entram como imagem embutida — ver `PLANO.md`).
 ## Fase 2 — A matéria-prima
 
 ### Volume II — A Videira e a Viticultura
-- [ ] `v2-viticultura/01-botanica-da-videira.qmd` — Vitis vinifera, anatomia. *fig.: anatomia da videira (raiz→cacho).*
+- [x] `v2-viticultura/01-botanica-da-videira.qmd` — Vitis vinifera, anatomia. *fig.: anatomia da videira (raiz→cacho).*
 - [ ] `v2-viticultura/02-ciclo-vegetativo.qmd` — brotação a dormência. *fig.: roda do ciclo anual.*
 - [ ] `v2-viticultura/03-terroir.qmd` — clima, solo, relevo, exposição. *fig.: corte de terroir (solo/encosta/sol).*
 - [ ] `v2-viticultura/04-manejo-do-vinhedo.qmd` — condução, poda, rendimento, irrigação. *fig.: sistemas de condução (espaldeira etc.).*

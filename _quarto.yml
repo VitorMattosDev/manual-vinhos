@@ -35,14 +35,14 @@ book:
     # A fila completa de capítulos está em ROADMAP.md.
     # ────────────────────────────────────────────────────────────────
 
-    # - part: "Volume II — A Videira e a Viticultura"
-    #   chapters:
-    #     - volumes/v2-viticultura/01-botanica-da-videira.qmd
-    #     - volumes/v2-viticultura/02-ciclo-vegetativo.qmd
-    #     - volumes/v2-viticultura/03-terroir.qmd
-    #     - volumes/v2-viticultura/04-manejo-do-vinhedo.qmd
-    #     - volumes/v2-viticultura/05-pragas-e-doencas.qmd
-    #     - volumes/v2-viticultura/06-maturacao-e-vindima.qmd
+    - part: "Volume II — A Videira e a Viticultura"
+      chapters:
+        - volumes/v2-viticultura/01-botanica-da-videira.qmd
+        - volumes/v2-viticultura/02-ciclo-vegetativo.qmd
+        - volumes/v2-viticultura/03-terroir.qmd
+        - volumes/v2-viticultura/04-manejo-do-vinhedo.qmd
+        - volumes/v2-viticultura/05-pragas-e-doencas.qmd
+        - volumes/v2-viticultura/06-maturacao-e-vindima.qmd
 
     # - part: "Volume III — Castas e Variedades"
     #   chapters:

@@ -1,0 +1,200 @@
+---
+title: "Botânica da videira"
+---
+
+## Motivação
+
+Todo vinho começa numa planta. Antes de qualquer técnica de adega, é a videira
+que fabrica o açúcar que virará álcool, a água que será a maior parte do vinho,
+os ácidos que lhe darão frescor e os compostos da casca que darão cor e tanino.
+Conhecer a anatomia da planta é, portanto, saber **de onde vem cada coisa** que
+encontramos na taça.
+
+Neste capítulo dissecamos a videira de baixo para cima — da raiz ao cacho — e
+identificamos qual parte da planta produz qual componente do vinho. É um mapa
+botânico que vai sustentar todos os capítulos de viticultura que se seguem.
+
+## A planta: *Vitis vinifera*
+
+A videira do vinho é uma **trepadeira lenhosa e perene**: vive décadas, perde as
+folhas no inverno e, deixada à própria sorte, sobe agarrada a árvores em busca de
+luz. No vinhedo, o ser humano substitui a árvore por arames e podas, mas a
+natureza trepadeira da planta explica boa parte do seu manejo (que veremos
+adiante, no capítulo de manejo do vinhedo).
+
+::: {#def-cepa}
+## Cepa (videira)
+**Cepa** é a videira individual — a planta inteira, da raiz ao ramo. O termo é
+usado também, por extensão, como sinônimo de **casta** ("cepa Merlot"); aqui,
+salvo aviso, "cepa" designa a planta física.
+:::
+
+A videira do vinho pertence à espécie **_Vitis vinifera_** (@def-vitis-vinifera),
+domesticada no Cáucaso. É dela que vêm quase todas as castas finas; outras
+espécies do gênero *Vitis*, sobretudo americanas, entram hoje sobretudo como
+**porta-enxerto** (@def-porta-enxerto) resistente à filoxera.
+
+## Anatomia, de baixo para cima
+
+Podemos percorrer a planta em camadas, cada uma com um papel na economia do
+vinho. A @fig-anatomia-videira reúne todas as partes.
+
+- **Raízes** — fixam a planta e absorvem **água e minerais** do solo. Em vinhas
+  adultas mergulham vários metros, o que liga o vinho à composição do subsolo —
+  base física do **terroir**.
+- **Tronco** — o caule lenhoso perene, que armazena reservas de um ano para o
+  outro.
+- **Braços** (ou **cordões**) — as ramificações permanentes que a poda mantém,
+  de onde brotam os ramos de cada ano.
+- **Sarmento** — o ramo do ano. Verde e flexível durante o crescimento (quando se
+  chama **pâmpano**), lignifica-se no outono e passa a sarmento. É nele que se
+  formam folhas, gavinhas e cachos.
+- **Folha** — a fábrica de açúcar: pela **fotossíntese**, converte luz, água e
+  CO₂ em açúcares que migram para as bagas.
+- **Gavinha** — órgão preênsil com que a planta trepadeira se agarra a suportes.
+- **Gema** (ou gomo) — o broto dormente que guarda, em miniatura, o ramo do ano
+  seguinte.
+- **Cacho** — a infrutescência, composta pelo **engaço** (a estrutura ramificada
+  que sustenta as bagas) e pelas **bagas** (os frutos).
+
+::: {#fig-anatomia-videira}
+```{.tikz}
+%%| filename: anatomia-videira
+%%| alt: Esquema de uma videira com partes rotuladas — raízes abaixo do solo, tronco, braço ou cordão, sarmento verde, folhas, gavinha e um cacho de bagas pendurado.
+\begin{tikzpicture}[font=\sffamily\footnotesize,
+    rot/.style={font=\sffamily\scriptsize, align=center},
+    seta/.style={-{Stealth[length=2mm]}, manualgray}]
+  % solo
+  \fill[manualyellow!18] (-3.1,0) rectangle (3.1,-2.3);
+  \draw[manualgray, thick] (-3.1,0) -- (3.1,0);
+  \node[manualgray, font=\scriptsize] at (2.6,0.22) {solo};
+
+  % raízes
+  \foreach \a in {250,262,274,286,298}{\draw[manualgray, thick] (0,0) -- (\a:1.9);}
+
+  % tronco e braço
+  \draw[manualgray, line width=2.2pt] (0,0) -- (0,2);
+  \draw[manualgray, line width=2.2pt] (0,2) -- (2.3,2);
+
+  % sarmentos verdes
+  \draw[manualgreen, very thick] (0.8,2) .. controls (0.6,2.8) .. (0.95,3.5);
+  \draw[manualgreen, very thick] (1.9,2) .. controls (2.1,2.7) .. (1.7,3.4);
+
+  % folhas
+  \fill[manualgreen!55, draw=manualgreen, thick] (0.55,3.05) ellipse (6mm and 4mm);
+  \fill[manualgreen!55, draw=manualgreen, thick] (1.95,3.0) ellipse (6mm and 4mm);
+
+  % gavinha
+  \draw[manualgreen, thick] (0.95,3.5) .. controls (1.25,3.7) and (0.85,3.85) .. (1.2,4.0);
+
+  % cacho: bagas em triângulo invertido, penduradas do cordão
+  \draw[manualgreen, thick] (1.4,2) -- (1.4,1.85);
+  \foreach \p in {{1.18/1.78},{1.4/1.78},{1.62/1.78},
+                  {1.25/1.58},{1.48/1.58},{1.7/1.6},
+                  {1.33/1.4},{1.56/1.4},
+                  {1.45/1.22}}{
+    \fill[manualred!70, draw=manualred] (\p) circle (1.2mm);}
+
+  % rótulos
+  \node[rot] (lr) at (-2.4,-1.3) {raiz};        \draw[seta] (lr) -- (-0.55,-1.15);
+  \node[rot] (lt) at (-2.4,1.0) {tronco};        \draw[seta] (lt) -- (-0.08,1.0);
+  \node[rot] (lb) at (-2.3,2.55) {braço\\(cordão)}; \draw[seta] (lb) -- (0.25,2.05);
+  \node[rot] (ls) at (2.95,2.55) {sarmento};     \draw[seta] (ls) -- (1.95,2.7);
+  \node[rot] (lf) at (3.0,3.45) {folha};         \draw[seta] (lf) -- (2.45,3.05);
+  \node[rot] (lg) at (0.25,4.05) {gavinha};      \draw[seta] (lg) -- (1.0,4.0);
+  \node[rot] (lc) at (3.0,1.55) {cacho};         \draw[seta] (lc) -- (1.72,1.6);
+  \node[rot] (lba) at (3.0,0.9) {baga};          \draw[seta] (lba) -- (1.45,1.22);
+\end{tikzpicture}
+```
+
+Anatomia da videira, da raiz ao cacho. Cada órgão contribui para o vinho: as
+**raízes** trazem água e minerais; as **folhas** fabricam o açúcar; e o **cacho**
+concentra tudo nas **bagas**.
+:::
+
+## Dentro da baga
+
+A baga (o "bago" de uva) é onde o vinho está, em potencial. Sua estrutura tem
+quatro partes, e cada uma carrega componentes distintos:
+
+::: {#def-baga}
+## Baga e suas partes
+A **baga** é o fruto da videira, formado por: **película** (a casca, que guarda
+cor, taninos e aromas), **polpa** (a parte carnosa, fonte de água, açúcares e
+ácidos — quase sempre incolor), **grainhas** (as sementes, ricas em taninos
+amargos e óleos) e a ligação ao **engaço**.
+:::
+
+Essa anatomia explica diretamente decisões de vinificação. Como a cor mora na
+**película** e não na polpa, fermentar com ou sem cascas decide se o vinho é
+tinto ou branco (como vimos no panorama da uva à taça). Como as **grainhas** trazem
+taninos ásperos, evita-se esmagá-las. E como o **engaço** tem taninos verdes, ele
+costuma ser removido — o **desengace** — antes da fermentação.
+
+::: {.callout-warning}
+## Erro comum
+Não é a polpa que dá cor ao vinho tinto. Na esmagadora maioria das castas a polpa
+é **incolor**; a cor está na **película**. As raras uvas de polpa tingida são
+chamadas *tintureiras* e são a exceção, não a regra.
+:::
+
+## Exemplos
+
+::: {#exm-de-onde-vem}
+## De onde vem cada componente do vinho
+Seguindo a @fig-anatomia-videira: a **água** do vinho foi absorvida pelas
+**raízes**; o **açúcar** (futuro álcool) foi fabricado pelas **folhas** e
+estocado na **polpa**; a **cor** e boa parte do **tanino** vieram da
+**película**; e os **ácidos** estavam dissolvidos na polpa. Toda a taça pode ser
+"mapeada" de volta às partes da planta.
+:::
+
+::: {#exm-proporcoes-baga}
+## Quanto pesa cada parte
+Numa baga típica, a **polpa** responde por cerca de 80% a 85% do peso, a
+**película** por 8% a 15% e as **grainhas** pelo restante. Ou seja: o que dá
+volume ao vinho (polpa) é a maior parte, mas o que dá identidade ao tinto
+(película) é uma fração pequena — o mesmo padrão "muito volume, pouca
+personalidade" que vimos na composição química do vinho.
+:::
+
+## Exercícios
+
+::: {#exr-funcao-orgaos}
+Associe cada órgão da videira à sua principal contribuição para o vinho:
+(1) raiz, (2) folha, (3) película, (4) grainha. Opções: (a) cor e taninos da
+casca; (b) água e minerais; (c) taninos amargos das sementes; (d) açúcar via
+fotossíntese.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+1→b (raiz: água e minerais); 2→d (folha: açúcar); 3→a (película: cor e taninos da
+casca); 4→c (grainha: taninos amargos). Veja a @fig-anatomia-videira.
+:::
+
+::: {#exr-tinto-de-polpa-clara}
+Uma casca de uva tinta tem polpa incolor. Explique, com base na @def-baga, como é
+possível obter dela tanto um vinho tinto quanto um branco.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+A cor está na **película**. Fermentando o mosto **em contato com as cascas**,
+extrai-se a cor e obtém-se um tinto; prensando e fermentando **só a polpa**
+(incolor), obtém-se um branco. A mesma uva dá os dois estilos conforme se use ou
+não a película.
+:::
+
+::: {#exr-por-que-desengace}
+Por que muitas vinificações removem o **engaço** antes de fermentar? Relacione
+sua resposta à composição dessa parte do cacho.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque o engaço carrega **taninos verdes/herbáceos** e pode trazer amargor e
+notas vegetais ao vinho. Removê-lo (desengace) evita esse caráter; alguns
+produtores, porém, mantêm parte dos engaços de propósito, buscando estrutura e
+frescor.
+:::

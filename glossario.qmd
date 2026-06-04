@@ -11,14 +11,23 @@ permanece no vinho; define a escala do seco ao doce.
 **Ânfora** — jarro de barro usado na Antiguidade para transportar e conservar
 vinho; hoje retomada por produtores em estilos de longa maceração.
 
+**Baga** — o fruto da videira (o "bago"), formado por película, polpa e
+grainhas; é onde se concentram água, açúcares, ácidos, cor e taninos.
+
 **Casta** — variedade de videira (sinônimo de cultivar/uva). Ex.: Cabernet
 Sauvignon, Chardonnay.
+
+**Cepa** — a videira individual, da raiz ao ramo; por extensão, sinônimo de
+casta.
 
 **Climat** — na Borgonha, parcela de vinhedo delimitada e nomeada, com caráter
 próprio; expressão fina da ideia de terroir.
 
 **Composto fenólico** — família de substâncias das cascas, sementes e madeira
 que inclui os taninos e os pigmentos responsáveis pela cor.
+
+**Engaço** — a estrutura ramificada do cacho que sustenta as bagas; rica em
+taninos verdes, costuma ser removida no desengace.
 
 **Etanol** — álcool etílico, o álcool do vinho, produzido pelas leveduras na
 fermentação a partir dos açúcares da uva.
@@ -33,6 +42,9 @@ não resiste a ela; videiras americanas, sim.
 
 **Glicerol** — álcool de sabor levemente adocicado formado na fermentação;
 contribui para a maciez e a sensação de corpo.
+
+**Grainha** — a semente da uva, rica em taninos amargos e óleos; evita-se
+esmagá-la para não extrair adstringência excessiva.
 
 **Levedura** — micro-organismo (sobretudo *Saccharomyces cerevisiae*)
 responsável pela fermentação alcoólica.
@@ -49,12 +61,21 @@ extrair cor, taninos e aromas.
 europeia (Américas, África do Sul, Oceania). Distinção histórica, não de
 qualidade. Ver **Velho Mundo**.
 
+**Película** — a casca da baga, onde se concentram cor, taninos e muitos
+aromas; o contato com ela define tinto, branco ou rosé.
+
+**Polpa** — a parte carnosa e quase sempre incolor da baga; fonte de água,
+açúcares e ácidos do mosto.
+
 **Porta-enxerto** — raiz (de espécie americana ou híbrida, resistente à
 filoxera) sobre a qual se enxerta a *Vitis vinifera*; base de quase toda videira
 cultivada desde a crise da filoxera.
 
 **Qvevri** — grande pote de barro enterrado, usado na Geórgia há milênios para
 fermentar e conservar vinho; técnica reconhecida como patrimônio cultural.
+
+**Sarmento** — o ramo do ano da videira; verde e flexível chama-se pâmpano, e
+lignifica-se no outono. Nele se formam folhas, gavinhas e cachos.
 
 **Tanino** — composto fenólico das cascas, sementes e madeira; responsável pela
 adstringência e pela estrutura dos tintos.

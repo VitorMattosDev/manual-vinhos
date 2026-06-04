@@ -81,13 +81,13 @@ book:
         - volumes/v7-estagio-envelhecimento/03-engarrafamento-e-vedantes.qmd
         - volumes/v7-estagio-envelhecimento/04-defeitos-do-vinho.qmd
 
-    # - part: "Volume VIII — Estilos e Tipos de Vinho"
-    #   chapters:
-    #     - volumes/v8-estilos/01-tintos.qmd
-    #     - volumes/v8-estilos/02-brancos.qmd
-    #     - volumes/v8-estilos/03-roses-e-espumantes.qmd
-    #     - volumes/v8-estilos/04-fortificados-e-doces.qmd
-    #     - volumes/v8-estilos/05-laranja-naturais-biodinamicos.qmd
+    - part: "Volume VIII — Estilos e Tipos de Vinho"
+      chapters:
+        - volumes/v8-estilos/01-tintos.qmd
+        - volumes/v8-estilos/02-brancos.qmd
+        - volumes/v8-estilos/03-roses-e-espumantes.qmd
+        - volumes/v8-estilos/04-fortificados-e-doces.qmd
+        - volumes/v8-estilos/05-laranja-naturais-biodinamicos.qmd
 
     # - part: "Volume IX — Regiões do Velho Mundo"
     #   chapters:

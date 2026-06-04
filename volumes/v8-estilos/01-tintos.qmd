@@ -1,0 +1,128 @@
+---
+title: "Estilos de vinho tinto"
+---
+
+## Motivação
+
+Diante de uma carta de tintos, como escolher? Um bom atalho é situar cada vinho em
+dois eixos: **corpo** (quão "pesado" é na boca) e **tanino** (quão estruturado e
+adstringente). Esses dois números organizam quase todo o universo dos tintos, do
+Pinot Noir etéreo ao Cabernet musculoso — e orientam tanto a expectativa quanto a
+harmonização.
+
+Este capítulo abre o Volume VIII propondo esse mapa dos tintos e povoando-o com as
+castas que já conhecemos do Volume III.
+
+## Os dois eixos: corpo e tanino
+
+::: {#def-corpo}
+## Corpo
+**Corpo** é a sensação de peso e densidade do vinho na boca — de leve (sensação
+"de água") a encorpado (sensação "de leite integral"). Resulta sobretudo do
+**álcool** e do **extrato** (matéria dissolvida). É distinto do **tanino**, que é a
+adstringência vinda das cascas e sementes.
+:::
+
+A @fig-corpo-tanino dispõe alguns tintos típicos nesses eixos: corpo na
+horizontal, tanino na vertical.
+
+::: {#fig-corpo-tanino}
+```{.tikz}
+%%| filename: corpo-tanino
+%%| alt: Gráfico com corpo no eixo horizontal (leve a encorpado) e tanino no vertical (baixo a alto), posicionando tintos — Pinot Noir e Gamay no canto leve/pouco tânico, Merlot e Malbec no meio, Sangiovese, Syrah, Cabernet Sauvignon e Nebbiolo na zona encorpada e tânica.
+\begin{tikzpicture}[font=\sffamily\scriptsize]
+  \draw[-{Stealth[length=2.5mm]}, thick, manualgray] (0,0) -- (6.6,0)
+    node[right, font=\scriptsize]{corpo};
+  \draw[-{Stealth[length=2.5mm]}, thick, manualgray] (0,0) -- (0,6.2)
+    node[above, font=\scriptsize]{tanino};
+  \node[manualgray, font=\tiny] at (0.7,-0.35) {leve};
+  \node[manualgray, font=\tiny] at (5.8,-0.35) {encorpado};
+  \node[manualgray, font=\tiny, rotate=90] at (-0.35,0.8) {baixo};
+  \node[manualgray, font=\tiny, rotate=90] at (-0.35,5.4) {alto};
+  \foreach \px/\py/\nome/\anc in {
+      1.2/1.2/{Pinot Noir}/right,
+      1.0/0.6/{Gamay}/right,
+      3.6/2.6/{Merlot}/left,
+      4.7/3.0/{Malbec}/left,
+      3.1/4.4/{Sangiovese}/right,
+      4.9/4.4/{Syrah}/left,
+      5.3/5.2/{Cabernet}/left,
+      3.0/5.5/{Nebbiolo}/right}{
+    \fill[manualred] (\px,\py) circle (1.6pt);
+    \node[\anc, font=\tiny, manualred!70!black, inner sep=2pt] at (\px,\py) {\nome};}
+\end{tikzpicture}
+```
+
+Um mapa dos tintos por **corpo** e **tanino**. No canto leve e pouco tânico ficam
+Pinot Noir e Gamay; na zona encorpada e tânica, Cabernet, Syrah e o pálido mas
+firmíssimo Nebbiolo. Merlot e Malbec ocupam o meio.
+:::
+
+## Do leve ao encorpado
+
+Os tintos **leves** (Pinot Noir, Gamay) são pálidos, frutados, de tanino discreto,
+ótimos levemente frescos e com pratos delicados. Os de **corpo médio** (Merlot,
+Sangiovese, Tempranillo) equilibram fruta e estrutura. Os **encorpados e tânicos**
+(Cabernet, Syrah, Nebbiolo) pedem comida gordurosa ou proteica e, muitas vezes,
+guarda.
+
+::: {.callout-warning}
+## Erro comum
+**Corpo não é qualidade.** Um tinto leve como um grande Pinot Noir pode ser
+infinitamente mais profundo e caro que um tinto encorpado qualquer. "Encorpado" é
+um **estilo**, não um certificado de excelência — e nem combina com todos os
+pratos.
+:::
+
+## Exemplos
+
+::: {#exm-pinot-vs-cabernet}
+## Dois extremos do mapa
+Pinot Noir e Cabernet Sauvignon ocupam cantos opostos da @fig-corpo-tanino. O
+Pinot é leve, sedoso, de tanino baixo — brilha com aves e pratos delicados. O
+Cabernet é encorpado e tânico — pede um corte de carne suculento, cuja gordura
+"amacia" os taninos. O mapa antecipa a harmonização.
+:::
+
+::: {#exm-nebbiolo-mapa}
+## O caso Nebbiolo
+O Nebbiolo aparece num ponto curioso: **corpo médio**, mas **tanino altíssimo**.
+Isso explica por que um Barolo, apesar de não ser dos mais "pesados", é tão
+estruturado e longevo — e por que parece tão diferente de um Cabernet, embora
+ambos sejam tintos sérios. Os dois eixos capturam essa distinção.
+:::
+
+## Exercícios
+
+::: {#exr-posicionar-tinto}
+Usando a @fig-corpo-tanino, ordene do **mais leve** ao **mais encorpado**: Cabernet
+Sauvignon, Pinot Noir, Merlot.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Pinot Noir (leve) → Merlot (médio a encorpado) → Cabernet Sauvignon (encorpado).
+:::
+
+::: {#exr-corpo-tanino-distintos}
+Por que **corpo** e **tanino** são eixos **distintos**? Dê um exemplo de vinho de
+corpo médio mas tanino alto (@exm-nebbiolo-mapa).
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque medem coisas diferentes: corpo é **peso/densidade** (álcool, extrato);
+tanino é **adstringência/estrutura** (cascas, sementes). O **Nebbiolo** é o
+exemplo: corpo médio, mas tanino altíssimo.
+:::
+
+::: {#exr-corpo-qualidade}
+Comente: "quanto mais encorpado o tinto, melhor". Use o caso do Pinot Noir.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+A afirmação é falsa. **Corpo é estilo, não qualidade.** Um Pinot Noir leve pode ser
+um dos maiores (e mais caros) vinhos do mundo. Encorpado não significa melhor —
+significa apenas mais pesado na boca.
+:::

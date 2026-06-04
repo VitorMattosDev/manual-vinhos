@@ -2,4 +2,154 @@
 title: "Clones e porta-enxertos"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Escolher a casta é só o primeiro nível de decisão. Dentro de uma mesma casta há
+variação — os **clones** —, e toda videira moderna é, na verdade, duas plantas
+unidas: a casta enxertada sobre um **porta-enxerto**. Esses dois "ajustes finos"
+não aparecem no rótulo, mas influenciam profundamente o vinho: vigor, sanidade,
+adaptação ao solo e ao clima.
+
+Este capítulo fecha o Volume III descendo abaixo do nível da casta, para os clones
+e os porta-enxertos — as decisões silenciosas que o viticultor toma ao plantar e
+que durarão décadas no vinhedo.
+
+## Clones: variação dentro da casta
+
+Como a casta se propaga por estacas (clonagem), em tese todos os pés seriam
+idênticos. Mas, ao longo de séculos de multiplicação, surgem pequenas mutações
+estáveis: variantes ligeiramente diferentes da mesma casta. Cada uma dessas
+variantes é um **clone**.
+
+::: {#def-clone}
+## Clone
+**Clone** é uma linhagem dentro de uma casta, originada de uma única planta-mãe e
+com características próprias estáveis (produtividade, tamanho de cacho, época de
+maturação, intensidade aromática). Existem dezenas de clones certificados de
+castas como Pinot Noir e Chardonnay.
+:::
+
+Na hora de plantar, há duas filosofias:
+
+::: {#def-selecao}
+## Seleção clonal × massal
+Na **seleção clonal**, planta-se um (ou poucos) clones certificados — ganha-se
+**uniformidade e sanidade**, mas perde-se diversidade. Na **seleção massal**,
+multiplica-se a partir de muitas plantas selecionadas do próprio vinhedo antigo —
+preserva-se a **diversidade genética**, buscando mais complexidade, ao custo de
+maior irregularidade.
+:::
+
+## Porta-enxertos: a escolha da raiz
+
+Vimos no Volume II que a enxertia uniu a casta europeia a uma raiz americana
+resistente à **filoxera**. Mas o porta-enxerto faz muito mais do que escapar da
+praga: ele é escolhido para **ajustar a planta ao terreno**. A
+@fig-esquema-enxertia mostra como garfo e porta-enxerto se encaixam.
+
+Um porta-enxerto pode dar mais ou menos **vigor**, tolerar a **seca**, suportar
+solos **calcários** (que, sem o porta-enxerto certo, causariam clorose — o
+amarelamento das folhas) ou resistir a nematoides. É uma decisão técnica tão
+relevante quanto a casta: a mesma Cabernet, sobre raízes diferentes, comporta-se
+de modos distintos.
+
+::: {#fig-esquema-enxertia}
+```{.tikz}
+%%| filename: esquema-enxertia
+%%| alt: Esquema da técnica de enxertia. À esquerda, o garfo da casta com uma gema e um corte diagonal; ao centro, o porta-enxerto com corte diagonal complementar e raízes; à direita, os dois encaixados formando o enxerto soldado, com a junção destacada.
+\begin{tikzpicture}[font=\sffamily\scriptsize]
+  % ---- garfo (casta) ----
+  \fill[manualred!75] (0.86,2.7) -- (1.14,2.7) -- (1.14,1.30) -- (0.86,1.05) -- cycle;
+  \fill[manualgreen] (1.32,2.15) circle (1.3mm);
+  \draw[manualgreen, thick] (1.14,2.15) -- (1.27,2.15);
+  \node[font=\tiny, manualgreen!50!black] at (1.75,2.15) {gema};
+  \node[align=center] at (1.0,-0.55) {garfo (casta)\\\tiny + 1 gema};
+
+  % "+"
+  \node[manualgray] at (2.05,0.9) {\large $+$};
+
+  % ---- porta-enxerto ----
+  \fill[manualblue!75] (2.86,1.55) -- (3.14,1.30) -- (3.14,0.0) -- (2.86,0.0) -- cycle;
+  \foreach \a in {250,270,290}{\draw[manualblue, very thick] (3.0,0.0) -- (\a:0.7);}
+  \node[align=center] at (3.0,-0.55) {porta-enxerto\\\tiny raiz resistente};
+
+  % seta
+  \draw[-{Stealth[length=3mm]}, very thick, manualgray] (3.9,0.9) -- (5.0,0.9)
+    node[midway, above, font=\tiny]{enxertia};
+
+  % ---- enxerto soldado ----
+  % parte de baixo (porta-enxerto, azul)
+  \fill[manualblue!75] (5.86,1.30) -- (6.14,1.05) -- (6.14,0.0) -- (5.86,0.0) -- cycle;
+  % parte de cima (garfo, vermelho)
+  \fill[manualred!75] (5.86,2.7) -- (6.14,2.7) -- (6.14,1.05) -- (5.86,1.30) -- cycle;
+  % junção (ponto de enxertia)
+  \draw[manualyellow!85, line width=2pt] (5.86,1.30) -- (6.14,1.05);
+  \fill[manualgreen] (6.32,2.15) circle (1.3mm);
+  \draw[manualgreen, thick] (6.14,2.15) -- (6.27,2.15);
+  \foreach \a in {250,270,290}{\draw[manualblue, very thick] (6.0,0.0) -- (\a:0.7);}
+  \node[font=\tiny, manualgray] at (7.25,1.18) {ponto de enxertia};
+  \draw[-{Stealth[length=1.6mm]}, manualgray] (7.25,1.0) -- (6.2,1.15);
+  \node[align=center] at (6.0,-0.55) {enxerto soldado};
+\end{tikzpicture}
+```
+
+A técnica de enxertia: o **garfo** da casta (com uma gema) e o **porta-enxerto**
+(com a raiz) recebem cortes complementares e são unidos no **ponto de enxertia**,
+formando uma só planta — copa europeia sobre raiz resistente.
+:::
+
+## Exemplos
+
+::: {#exm-clones-pinot}
+## Por que tantos clones de Pinot Noir
+A Pinot Noir é geneticamente instável e acumulou, ao longo dos séculos, muitas
+variantes. Hoje há dezenas de **clones certificados**, alguns voltados a maior
+produtividade, outros a cachos pequenos e mais concentrados. Um produtor de
+qualidade costuma plantar **vários clones** (ou recorrer à seleção massal) para
+somar nuances e reduzir o risco de uma safra uniforme demais.
+:::
+
+::: {#exm-porta-enxerto-calcario}
+## Raiz certa para solo calcário
+Em solos muito calcários, um porta-enxerto inadequado causa **clorose**: a folha
+amarela, a planta definha. Escolhendo um porta-enxerto tolerante ao calcário, a
+mesma casta prospera onde antes adoeceria. A decisão da raiz "destrava" terroirs
+que, de outro modo, seriam impróprios.
+:::
+
+## Exercícios
+
+::: {#exr-clonal-massal}
+Um produtor quer **máxima uniformidade e sanidade**; outro quer **máxima
+diversidade e complexidade**. Qual tipo de seleção (@def-selecao) cada um deve
+preferir, e por quê?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+O primeiro deve preferir a **seleção clonal** (poucos clones certificados,
+uniformes e sadios); o segundo, a **seleção massal** (muitas plantas do vinhedo
+antigo, preservando diversidade genética em troca de mais irregularidade).
+:::
+
+::: {#exr-funcao-porta-enxerto}
+Cite, além da resistência à filoxera, **duas** funções do porta-enxerto na
+adaptação da planta ao terreno.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Entre outras: controlar o **vigor** da planta, tolerar a **seca**, suportar solos
+**calcários** (evitando a clorose) e resistir a nematoides. Bastam duas dessas.
+:::
+
+::: {#exr-clone-vs-casta}
+Qual a diferença entre **casta** e **clone**? Use Pinot Noir como exemplo.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+A **casta** é a variedade (Pinot Noir); o **clone** é uma linhagem específica
+dentro dela, com características próprias estáveis. Há um só Pinot Noir como
+casta, mas dezenas de clones de Pinot Noir.
+:::

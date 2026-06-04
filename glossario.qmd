@@ -45,6 +45,10 @@ casta.
 **Climat** — na Borgonha, parcela de vinhedo delimitada e nomeada, com caráter
 próprio; expressão fina da ideia de terroir.
 
+**Clone** — linhagem dentro de uma casta, originada de uma única planta-mãe e
+com características próprias estáveis; há dezenas de clones de castas como Pinot
+Noir e Chardonnay.
+
 **Composto fenólico** — família de substâncias das cascas, sementes e madeira
 que inclui os taninos e os pigmentos responsáveis pela cor.
 
@@ -161,6 +165,10 @@ varia a cada ano, define o caráter e a qualidade daquela produção.
 
 **Sarmento** — o ramo do ano da videira; verde e flexível chama-se pâmpano, e
 lignifica-se no outono. Nele se formam folhas, gavinhas e cachos.
+
+**Seleção massal** — propagação a partir de muitas plantas selecionadas de um
+vinhedo antigo, preservando diversidade genética; oposta à seleção clonal, que
+usa poucos clones certificados e uniformes.
 
 **Sinonímia** — uso de nomes diferentes para a mesma casta (ex.: Syrah/Shiraz,
 Garnacha/Grenache). Oposto de **homonímia**.

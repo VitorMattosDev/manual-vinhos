@@ -35,7 +35,7 @@ fotos entram como imagem embutida — ver `PLANO.md`).
 - [x] `v3-castas/02-castas-tintas.qmd` — Cabernet, Merlot, Pinot Noir, Syrah, Tempranillo, Sangiovese, Malbec. *fig.: mapa casta × região.*
 - [x] `v3-castas/03-castas-brancas.qmd` — Chardonnay, Sauvignon Blanc, Riesling, Pinot Grigio, Chenin. *fig.: espectro aromático por casta.*
 - [x] `v3-castas/04-castas-autoctones.qmd` — Touriga Nacional, Nebbiolo, Garnacha, Carmenère. *fig.: mapa de castas autóctones.*
-- [ ] `v3-castas/05-clones-e-porta-enxertos.qmd` — clones, seleção, porta-enxertos. *fig.: esquema de enxertia.*
+- [x] `v3-castas/05-clones-e-porta-enxertos.qmd` — clones, seleção, porta-enxertos. *fig.: esquema de enxertia.*
 
 ## Fase 3 — Vinificação
 

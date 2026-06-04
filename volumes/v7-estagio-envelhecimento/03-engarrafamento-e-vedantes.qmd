@@ -2,4 +2,130 @@
 title: "Engarrafamento e vedantes"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+A última decisão da produção é também uma das mais subestimadas: **como fechar a
+garrafa**. O vedante não é mero detalhe — ele governa quanto oxigênio entra ao
+longo dos anos (e, portanto, como o vinho evolui) e carrega riscos próprios, como
+o temido "gosto de rolha". Escolher o fecho é escolher o futuro do vinho.
+
+Este capítulo trata do engarrafamento e, sobretudo, dos **tipos de vedante**:
+cortiça, rosca, vidro e sintéticos, cada um com suas virtudes e seus defeitos.
+
+## O que um vedante faz
+
+Um vedante cumpre duas tarefas em tensão: **vedar** (impedir vazamento e excesso
+de ar) e, em muitos casos, permitir uma **troca mínima de oxigênio** que ajuda o
+vinho a evoluir devagar na garrafa (Volume VII, cap. anterior). A
+@fig-vedantes compara os principais.
+
+::: {#def-vedante-tca}
+## Vedante e o "gosto de rolha"
+**Vedante** é o fecho da garrafa. A **cortiça natural** é o tradicional, mas pode
+trazer o defeito do **TCA** (tricloroanisol): o "gosto de rolha" — aroma de mofo e
+papelão úmido que abafa a fruta. Vedantes alternativos (rosca, vidro, sintéticos)
+surgiram em grande parte para **eliminar esse risco**.
+:::
+
+::: {#fig-vedantes}
+```{.tikz}
+%%| filename: tipos-vedante
+%%| alt: Quatro tipos de vedante de garrafa lado a lado — cortiça natural, rolha técnica, tampa de rosca (screwcap) e vidro/sintético — cada um com uma nota sobre troca de oxigênio e risco de TCA.
+\begin{tikzpicture}[font=\sffamily\scriptsize]
+  \foreach \cx/\nome/\nota/\cor in {
+      0/{Cortiça\\natural}/{micro-O$_2$;\\risco de TCA}/{manualred!35},
+      2.4/{Rolha\\técnica}/{previsível;\\TCA reduzido}/{manualred!22},
+      4.8/{Rosca\\(screwcap)}/{pouco O$_2$;\\sem TCA}/{manualgray!45},
+      7.2/{Vidro /\\sintético}/{vedação\\consistente}/{manualblue!30}}{
+    % gargalo
+    \fill[manualgreen!12] (\cx-0.34,0) rectangle (\cx+0.34,1.5);
+    \draw[manualgreen!50!black, very thick] (\cx-0.34,0) -- (\cx-0.34,1.5);
+    \draw[manualgreen!50!black, very thick] (\cx+0.34,0) -- (\cx+0.34,1.5);
+    % vedante
+    \fill[\cor, draw=manualgray, thick] (\cx-0.32,0.95) rectangle (\cx+0.32,1.62);
+    % rótulos
+    \node[align=center, font=\scriptsize, manualgray] at (\cx,2.15) {\nome};
+    \node[align=center, font=\tiny, manualgray] at (\cx,-0.55) {\nota};}
+\end{tikzpicture}
+```
+
+Os principais vedantes. Da **cortiça natural** (tradicional, micro-oxigenação, mas
+com risco de TCA) à **rosca** (consistente, sem TCA, pouca troca de oxigênio),
+cada fecho equilibra de forma diferente **evolução** e **risco**.
+:::
+
+## Cada vedante, um perfil
+
+A **cortiça natural** é insuperável em prestígio e funciona bem para vinhos de
+guarda, pela micro-oxigenação. Seu calcanhar é o **TCA**, que afeta uma fração
+pequena mas real das garrafas. A **rolha técnica** (aglomerada, ou tratada como a
+DIAM) reduz esse risco e padroniza o desempenho.
+
+A **rosca** (*screwcap*) veda de forma muito consistente, deixa entrar
+pouquíssimo oxigênio e **elimina o TCA** — ideal para brancos aromáticos que
+querem frescor. O **vidro** (Vinolok) e os fechos **sintéticos** completam o
+leque, cada um buscando o equilíbrio entre vedação e troca de ar.
+
+::: {.callout-warning}
+## Erro comum
+**Rosca não é sinal de vinho barato.** Em países como Austrália e Nova Zelândia, a
+rosca domina inclusive vinhos finos, justamente por proteger o frescor e evitar o
+gosto de rolha. O estigma é cultural, não técnico.
+:::
+
+## Exemplos
+
+::: {#exm-rosca-sauvignon}
+## Rosca para o Sauvignon Blanc
+Um Sauvignon Blanc neozelandês vive de aromas vibrantes e frescor — e teme tanto a
+oxidação quanto o TCA. A **rosca** é quase perfeita para ele: veda firme, deixa
+entrar pouco oxigênio e nunca dá gosto de rolha. Não à toa, virou padrão por lá,
+mesmo nos rótulos caros.
+:::
+
+::: {#exm-tca}
+## Uma garrafa "bouchonné"
+Abrir um vinho e sentir cheiro de **papelão úmido e porão mofado**, com a fruta
+apagada, é o sinal clássico do **TCA** — o vinho está "bouchonné". Não é culpa do
+produtor nem do armazenamento: é um contaminante que pode vir da cortiça. Trocar a
+garrafa resolve; o vinho em si não tem conserto.
+:::
+
+## Exercícios
+
+::: {#exr-funcoes-vedante}
+Quais são as duas tarefas em tensão que um vedante cumpre (@def-vedante-tca), e por
+que isso faz a escolha do fecho importar para a **evolução** do vinho?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Vedar** (impedir vazamento e excesso de ar) e, em muitos casos, permitir uma
+**troca mínima de oxigênio**. Como o oxigênio que entra molda a evolução na
+garrafa, o vedante influencia diretamente **como e por quanto tempo** o vinho
+evolui.
+:::
+
+::: {#exr-vedante-branco-fresco}
+Para um branco aromático que se quer **fresco e sem risco de gosto de rolha**, qual
+vedante é mais indicado e por quê (@exm-rosca-sauvignon)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+A **rosca** (*screwcap*): veda de forma consistente, deixa entrar pouco oxigênio
+(preserva frescor) e **elimina o TCA**. É por isso o vedante preferido para muitos
+brancos aromáticos.
+:::
+
+::: {#exr-tca-causa}
+Um vinho cheira a papelão úmido e mofo, com a fruta apagada. Qual defeito é esse,
+de onde costuma vir, e o que fazer (@exm-tca)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+É o **TCA** ("gosto de rolha"), que costuma vir da **cortiça** contaminada. O vinho
+não tem conserto; a solução prática é **trocar a garrafa**. O uso de vedantes
+alternativos previne o problema.
+:::

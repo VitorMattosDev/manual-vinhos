@@ -302,6 +302,9 @@ restante.
 **Sarmento** — o ramo do ano da videira; verde e flexível chama-se pâmpano, e
 lignifica-se no outono. Nele se formam folhas, gavinhas e cachos.
 
+**Screwcap** (rosca) — vedante de rosca metálica; veda de forma consistente,
+deixa entrar pouco oxigênio e elimina o risco de TCA.
+
 **Seleção massal** — propagação a partir de muitas plantas selecionadas de um
 vinhedo antigo, preservando diversidade genética; oposta à seleção clonal, que
 usa poucos clones certificados e uniformes.
@@ -320,6 +323,10 @@ jovem, dando estilo constante sem safra.
 **Tanino** — composto fenólico das cascas, sementes e madeira; responsável pela
 adstringência e pela estrutura dos tintos.
 
+**TCA** (tricloroanisol) — contaminante que causa o "gosto de rolha"
+(*bouchonné*): aroma de mofo e papelão úmido que abafa a fruta; pode vir da
+cortiça.
+
 **Terroir** — conjunto de solo, clima, relevo e tradição que dá identidade ao
 vinho de um lugar.
 
@@ -331,6 +338,9 @@ forte) regula as notas torradas e de baunilha que o vinho absorve.
 
 **Trasfega** — transferência do vinho de um recipiente a outro, deixando para
 trás a borra depositada no fundo; clarifica e areia o vinho de forma controlada.
+
+**Vedante** — fecho da garrafa (cortiça natural, rolha técnica, rosca, vidro ou
+sintético); regula a entrada de oxigênio e o risco de defeitos como o TCA.
 
 **Velho Mundo** — regiões vitícolas históricas da Europa e do Mediterrâneo,
 berço das tradições do vinho. Ver **Novo Mundo**.

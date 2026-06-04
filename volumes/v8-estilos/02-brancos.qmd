@@ -2,4 +2,121 @@
 title: "Estilos de vinho branco"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Se os tintos se organizam por corpo e tanino, os brancos pedem outros dois eixos:
+**acidez** e **intensidade aromática**. Com eles — e mais a presença ou ausência
+de **madeira** — quase todo branco encontra seu lugar, do Pinot Grigio neutro ao
+Riesling explosivo, passando pelo Chardonnay que muda de figura conforme a
+vinificação.
+
+Este capítulo mapeia os estilos de branco, retomando as castas do Volume III e a
+discussão sobre madeira do Volume VII.
+
+## Os eixos: acidez e aroma
+
+A @fig-acidez-aroma posiciona os brancos por **intensidade aromática** (horizontal)
+e **acidez** (vertical). Um terceiro fator — o **carvalho** — desloca o vinho para
+mais corpo e menos frescor aparente, como mostra o caso do Chardonnay.
+
+::: {#fig-acidez-aroma}
+```{.tikz}
+%%| filename: acidez-aroma
+%%| alt: Gráfico com intensidade aromática no eixo horizontal (neutro a aromático) e acidez no vertical (baixa a alta), posicionando brancos — Pinot Grigio neutro, Chardonnay com madeira e Viognier de baixa acidez, Chardonnay em inox, Chenin, Sauvignon Blanc e Riesling no alto da acidez e do aroma.
+\begin{tikzpicture}[font=\sffamily\scriptsize]
+  \draw[-{Stealth[length=2.5mm]}, thick, manualgray] (0,0) -- (6.6,0)
+    node[right, font=\scriptsize]{aroma};
+  \draw[-{Stealth[length=2.5mm]}, thick, manualgray] (0,0) -- (0,6.2)
+    node[above, font=\scriptsize]{acidez};
+  \node[manualgray, font=\tiny] at (0.7,-0.35) {neutro};
+  \node[manualgray, font=\tiny] at (5.8,-0.35) {aromático};
+  \node[manualgray, font=\tiny, rotate=90] at (-0.35,0.8) {baixa};
+  \node[manualgray, font=\tiny, rotate=90] at (-0.35,5.4) {alta};
+  \foreach \px/\py/\nome/\anc in {
+      1.3/2.6/{Pinot Grigio}/right,
+      2.3/1.5/{Chardonnay (madeira)}/right,
+      4.8/1.3/{Viognier}/left,
+      2.7/4.3/{Chardonnay (inox)}/right,
+      3.6/4.6/{Chenin}/left,
+      4.7/4.9/{Sauvignon Blanc}/left,
+      5.4/5.6/{Riesling}/left}{
+    \fill[manualyellow!70!black] (\px,\py) circle (1.6pt);
+    \node[\anc, font=\tiny, manualyellow!45!black, inner sep=2pt] at (\px,\py) {\nome};}
+\end{tikzpicture}
+```
+
+Um mapa dos brancos por **aroma** e **acidez**. Riesling e Sauvignon Blanc reinam
+no alto (muito aromáticos e ácidos); o Viognier é aromático mas macio; o Pinot
+Grigio é neutro. O **Chardonnay** aparece **duas vezes**: tenso em inox, encorpado
+e menos ácido com madeira.
+:::
+
+## Três grandes famílias
+
+- **Leves e neutros** (Pinot Grigio, muitos brancos de consumo diário) — discretos,
+  refrescantes, para beber jovens e sem cerimônia.
+- **Aromáticos e crocantes** (Sauvignon Blanc, Riesling, Chenin) — explosão de
+  aroma e acidez vibrante; frescor é a palavra de ordem.
+- **Encorpados, com madeira** (Chardonnay de barrica, Viognier) — mais peso,
+  textura cremosa, notas tostadas; aproximam-se de um "tinto branco" em estrutura.
+
+::: {.callout-note}
+## A madeira muda o mapa
+O mesmo Chardonnay ocupa dois pontos da @fig-acidez-aroma: em **inox**, fica tenso
+e ácido; em **barrica**, ganha corpo e perde frescor aparente (a malolática e a
+madeira o arredondam — Volumes IV e VII). A vinificação, não só a casta, define o
+estilo do branco.
+:::
+
+## Exemplos
+
+::: {#exm-chablis-vs-california}
+## Dois Chardonnays, dois mundos
+Um Chablis (Borgonha fria, sem madeira) é magro, cítrico e mineral — alto na
+acidez, contido no aroma. Um Chardonnay californiano com barrica é encorpado,
+amanteigado e tostado — mais baixo na acidez aparente. Mesma casta, lados opostos
+do estilo, como mostra a @fig-acidez-aroma.
+:::
+
+::: {#exm-riesling-canto}
+## Por que o Riesling fica no topo
+O Riesling combina aroma intenso (lima, flores, mel) com **acidez altíssima** — daí
+seu lugar no canto superior direito do mapa. É essa acidez que o torna tão
+versátil e longevo, equilibrando inclusive versões doces (Volume III).
+:::
+
+## Exercícios
+
+::: {#exr-mapa-brancos}
+Pela @fig-acidez-aroma, qual branco é **mais aromático e mais ácido**, e qual é
+**mais neutro**?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+O mais aromático e ácido é o **Riesling** (canto superior direito); o mais neutro
+é o **Pinot Grigio** (à esquerda).
+:::
+
+::: {#exr-chardonnay-dois-pontos}
+Por que o Chardonnay aparece em **dois pontos** do mapa? O que move o vinho de uma
+posição à outra?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque seu estilo depende da **vinificação**. Em **inox** fica tenso e ácido; com
+**barrica** (e malolática) ganha corpo e perde frescor aparente. A madeira e o
+manejo deslocam o vinho no mapa, mesmo sendo a mesma casta.
+:::
+
+::: {#exr-familia-branco}
+A que família (leve/neutro, aromático/crocante, encorpado/com madeira) pertence:
+(a) Sauvignon Blanc; (b) Chardonnay de barrica; (c) Pinot Grigio?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) **Aromático e crocante**; (b) **Encorpado, com madeira**; (c) **Leve e
+neutro**.
+:::

@@ -38,6 +38,9 @@ taninos verdes, costuma ser removida no desengace.
 **Etanol** — álcool etílico, o álcool do vinho, produzido pelas leveduras na
 fermentação a partir dos açúcares da uva.
 
+**Exposição solar** — orientação de uma encosta em relação ao sol; em climas
+frios, determina se a uva amadurece. Componente do relevo no terroir.
+
 **Fermentação alcoólica** — processo pelo qual as leveduras convertem os
 açúcares do mosto em etanol e dióxido de carbono; é o que transforma mosto em
 vinho.
@@ -61,8 +64,17 @@ responsável pela fermentação alcoólica.
 **Maceração** — contato do mosto com as cascas, sementes e/ou engaços para
 extrair cor, taninos e aromas.
 
+**Macroclima** — clima geral de uma região vitícola inteira. Ver **mesoclima** e
+**microclima**.
+
 **Malolática** — fermentação secundária que converte o ácido málico (duro) em
 ácido lático (macio), reduzindo a acidez.
+
+**Mesoclima** — clima de um sítio específico (uma encosta, um vale), moldado por
+relevo e água próxima. Ver **macroclima** e **microclima**.
+
+**Microclima** — ambiente imediato em torno das folhas e cachos, alterável pelo
+próprio manejo da planta. Ver **macroclima** e **mesoclima**.
 
 **Mosto** — suco de uva, antes ou durante a fermentação.
 

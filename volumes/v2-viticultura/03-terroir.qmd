@@ -2,4 +2,170 @@
 title: "Terroir: clima, solo e relevo"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Plante a mesma casta — digamos, Pinot Noir — em dois lugares diferentes e você
+obterá dois vinhos diferentes, às vezes irreconhecíveis entre si. Por quê? Porque
+a uva não traduz só a sua genética: traduz o **lugar** onde cresceu. Esse "lugar",
+tomado como o conjunto de todos os fatores naturais e humanos que moldam a uva, é
+o que se chama **terroir** — talvez a ideia mais central, e mais debatida, do
+mundo do vinho.
+
+Já encontramos o termo no panorama inicial (@def-terroir). Aqui o destrinchamos:
+quais são, concretamente, os fatores que compõem um terroir, e como cada um
+imprime sua marca na uva. É o que explica por que o mapa do vinho é, antes de
+tudo, um mapa de **lugares**.
+
+## Os pilares do terroir
+
+O terroir costuma ser decomposto em quatro grupos de fatores. A
+@fig-corte-terroir mostra como eles se combinam numa encosta típica.
+
+### Clima
+
+O clima é, de longe, o fator dominante — define quais castas amadurecem e em que
+estilo. Costuma-se distingui-lo em três escalas:
+
+::: {#def-escalas-clima}
+## Macro, meso e microclima
+O **macroclima** é o clima geral de uma região (uma denominação inteira). O
+**mesoclima** é o clima de um sítio específico — uma encosta, um vale —,
+influenciado por relevo e água próxima. O **microclima** é o ambiente imediato em
+torno das folhas e cachos, alterável pelo próprio manejo da planta.
+:::
+
+### Solo
+
+Mais do que "nutrir" a planta, o solo importa pela **drenagem**, pela capacidade
+de **reter e irradiar calor** e por forçar a raiz a se aprofundar. Vinhas de
+qualidade costumam preferir solos **pobres e bem drenados**: água em excesso
+incha a baga e dilui o vinho; um solo pobre faz a planta concentrar energia nos
+frutos, não na folhagem.
+
+### Relevo e exposição
+
+Altitude, inclinação e **exposição solar** moldam quanto calor e luz a vinha
+recebe. Em climas frios, uma **encosta** voltada para o sol amadurece a uva que o
+vale plano não amadureceria; a inclinação ainda drena a água e escoa o ar frio. A
+altitude, por sua vez, **resfria** o vinhedo — recurso precioso em regiões
+quentes.
+
+### Fator humano
+
+Terroir não é só natureza: inclui a **escolha da casta** adaptada ao lugar, o
+sistema de condução, a época de colheita e a tradição local. É a parte do terroir
+que o ser humano decide.
+
+::: {#fig-corte-terroir}
+```{.tikz}
+%%| filename: corte-terroir
+%%| alt: Corte esquemático de uma encosta de vinhedo, com o sol iluminando o declive, vinhas plantadas na encosta, três camadas de solo (solo superficial, subsolo e rocha-mãe) e um rio ao pé do vale que modera o clima.
+\begin{tikzpicture}[font=\sffamily\footnotesize,
+    rot/.style={font=\sffamily\scriptsize, align=left},
+    seta/.style={-{Stealth[length=2mm]}, manualgray}]
+  % rocha-mãe
+  \fill[manualgray!35] (0,2.3) -- (2.2,1.8) -- (4.2,0.8) -- (6,-0.2) -- (9,-0.2)
+        -- (9,-1.6) -- (0,-1.6) -- cycle;
+  % subsolo
+  \fill[manualgray!16] (0,2.9) -- (2.2,2.4) -- (4.2,1.4) -- (6,0.4) -- (9,0.4)
+        -- (9,-0.2) -- (6,-0.2) -- (4.2,0.8) -- (2.2,1.8) -- (0,2.3) -- cycle;
+  % solo superficial
+  \fill[manualyellow!45] (0,3.2) -- (2.2,2.7) -- (4.2,1.7) -- (6,0.7) -- (9,0.7)
+        -- (9,0.4) -- (6,0.4) -- (4.2,1.4) -- (2.2,2.4) -- (0,2.9) -- cycle;
+  % superfície
+  \draw[manualgray, very thick] (0,3.2) -- (2.2,2.7) -- (4.2,1.7) -- (6,0.7) -- (9,0.7);
+
+  % rio
+  \fill[manualblue!40] (6.3,0.7) rectangle (9,0.5);
+  \draw[manualblue, thick] (6.3,0.7) -- (9,0.7);
+
+  % sol e raios
+  \fill[manualyellow] (1.2,4.0) circle (4mm);
+  \foreach \a in {-15,-32,-49,-66,-83}{
+    \draw[manualyellow!85, thick, -{Stealth[length=1.6mm]}] (1.2,4.0) ++(\a:5.5mm) -- ++(\a:7mm);}
+
+  % vinhas na encosta
+  \foreach \x/\y in {1.5/2.95,2.5/2.55,3.4/2.1,4.4/1.45,5.3/1.0}{
+    \filldraw[manualgreen, thick] (\x,\y) -- ++(0,0.22) circle (0.6mm);}
+
+  % rótulos
+  \node[rot] at (2.1,4.5) {sol — exposição};
+  \node[rot, align=center] (le) at (5.0,3.3) {vinhas na encosta\\(boa drenagem)};
+    \draw[seta] (le) -- (3.4,2.15);
+  \node[rot] (ss) at (-2.0,2.85) {solo superficial};  \draw[seta] (ss) -- (0.05,2.78);
+  \node[rot] (sb) at (-1.5,1.7) {subsolo};             \draw[seta] (sb) -- (0.05,2.05);
+  \node[rot] (rm) at (-1.5,0.2) {rocha-mãe};           \draw[seta] (rm) -- (0.05,0.4);
+  \node[rot, align=center] (ri) at (8.0,1.7) {rio modera\\o clima};
+    \draw[seta] (ri) -- (7.6,0.75);
+\end{tikzpicture}
+```
+
+Um corte de terroir. A **exposição** ao sol e a **inclinação** da encosta
+governam o calor e a drenagem; as **camadas de solo** condicionam a raiz e a
+água; e o **rio** ao pé do vale ameniza temperaturas extremas. A combinação
+desses fatores, mais a mão humana, é o terroir.
+:::
+
+## Exemplos
+
+::: {#exm-encosta-mosela}
+## Por que as melhores vinhas ficam na encosta
+No vale do Mosela (Alemanha), as parcelas mais valiosas são as de **encostas
+íngremes voltadas ao sol**, à beira do rio. O clima é frio demais para amadurecer
+a uva no plano; na encosta exposta, porém, a vinha recebe luz direta, drena a
+água da chuva e ainda aproveita o calor refletido pela água do rio. O mesmo solo,
+em terreno plano e sombreado, não daria grande vinho.
+:::
+
+::: {#exm-altitude-mendoza}
+## Altitude como ar-condicionado
+Mendoza, na Argentina, fica numa latitude quente, mas seus melhores vinhedos
+estão a **900–1500 m de altitude**, aos pés dos Andes. A cada centena de metros a
+temperatura cai alguns graus; a altitude também amplia a diferença entre o dia
+quente e a noite fria, o que preserva a **acidez** e a cor. É o relevo
+compensando o clima — terroir em ação.
+:::
+
+## Exercícios
+
+::: {#exr-solo-pobre}
+Por que, para vinho de qualidade, costuma-se preferir um **solo pobre e bem
+drenado** a um solo rico e úmido? Explique em termos do que a planta faz com a
+água e a energia.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Solo rico e úmido leva a planta a produzir muita folhagem e bagas grandes e
+aguadas, diluindo o vinho. Um solo **pobre e drenado** limita a água, faz a raiz
+se aprofundar e induz a planta a concentrar açúcar, cor e aroma em bagas menores —
+favorecendo concentração e qualidade.
+:::
+
+::: {#exr-escalas-clima}
+Classifique cada situação como **macro**, **meso** ou **microclima**
+(@def-escalas-clima): (a) o clima mediterrâneo de toda uma região; (b) uma
+encosta específica protegida do vento por um morro; (c) o ar úmido retido entre
+as folhas de uma planta muito densa.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) **macroclima** (região inteira); (b) **mesoclima** (sítio específico, moldado
+pelo relevo); (c) **microclima** (entorno imediato de folhas e cachos, alterável
+pelo manejo).
+:::
+
+::: {#exr-terroir-humano}
+Cite, com base na seção sobre o **fator humano**, duas decisões humanas que fazem
+parte do terroir — e explique por que não seria correto chamar o terroir de algo
+"puramente natural".
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Exemplos: a **escolha da casta** adaptada ao lugar e a **época de colheita** (ou o
+sistema de condução, a poda etc.). O terroir inclui a tradição e as escolhas de
+cultivo: o mesmo sítio natural, trabalhado de outra forma, daria outro vinho —
+por isso não é "puramente natural".
+:::

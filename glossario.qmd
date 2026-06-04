@@ -5,6 +5,9 @@ title: "Glossário"
 Glossário vivo de termos do vinho. Acrescente termos conforme aparecem nos
 capítulos, em ordem alfabética.
 
+**Acidez total** — quantidade de ácidos do mosto ou vinho (tartárico, málico,
+cítrico etc.); distinta do pH, dá frescor e estrutura.
+
 **Açúcar residual** — açúcar da uva que não foi convertido em álcool e
 permanece no vinho; define a escala do seco ao doce.
 
@@ -13,6 +16,9 @@ cacho (clássica) ou por análise de DNA (molecular).
 
 **Ânfora** — jarro de barro usado na Antiguidade para transportar e conservar
 vinho; hoje retomada por produtores em estilos de longa maceração.
+
+**Antocianina** — pigmento das cascas das uvas tintas, responsável pela cor do
+vinho; extraído por maceração. É um composto fenólico.
 
 **Autóctone** (casta) — variedade nativa de uma região, a ela historicamente
 ligada e pouco cultivada fora dali; oposta às castas internacionais.
@@ -136,6 +142,10 @@ folhas e bagas, favorecida pelo calor e pela sombra; tratada com enxofre.
 **Película** — a casca da baga, onde se concentram cor, taninos e muitos
 aromas; o contato com ela define tinto, branco ou rosé.
 
+**pH** — medida de acidez do mosto/vinho; quanto menor, mais ácido. Um pH baixo
+protege contra micro-organismos, realça a cor e favorece a longevidade. Distinto
+da **acidez total**.
+
 **Pintor** (*véraison*) — início da maturação: a baga muda de cor, amolece e
 passa a acumular açúcar e perder acidez.
 
@@ -196,3 +206,6 @@ em bagas; determina quantas bagas cada cacho terá.
 
 **_Vitis vinifera_** — espécie de videira de origem caucasiana que dá quase
 todo o vinho fino do mundo; tronco de onde derivam as castas cultivadas.
+
+**YAN** (nitrogênio assimilável) — compostos nitrogenados do mosto que nutrem as
+leveduras; sua falta causa fermentação lenta, travada ou cheiros de enxofre.

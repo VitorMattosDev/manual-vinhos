@@ -52,13 +52,13 @@ book:
         - volumes/v3-castas/04-castas-autoctones.qmd
         - volumes/v3-castas/05-clones-e-porta-enxertos.qmd
 
-    # - part: "Volume IV — Princípios da Vinificação"
-    #   chapters:
-    #     - volumes/v4-principios-vinificacao/01-composicao-do-mosto.qmd
-    #     - volumes/v4-principios-vinificacao/02-fermentacao-alcoolica.qmd
-    #     - volumes/v4-principios-vinificacao/03-fermentacao-malolatica.qmd
-    #     - volumes/v4-principios-vinificacao/04-so2-e-estabilizacao.qmd
-    #     - volumes/v4-principios-vinificacao/05-higiene-e-controle.qmd
+    - part: "Volume IV — Princípios da Vinificação"
+      chapters:
+        - volumes/v4-principios-vinificacao/01-composicao-do-mosto.qmd
+        - volumes/v4-principios-vinificacao/02-fermentacao-alcoolica.qmd
+        - volumes/v4-principios-vinificacao/03-fermentacao-malolatica.qmd
+        - volumes/v4-principios-vinificacao/04-so2-e-estabilizacao.qmd
+        - volumes/v4-principios-vinificacao/05-higiene-e-controle.qmd
 
     # - part: "Volume V — Vinificação por Estilo"
     #   chapters:

@@ -1,0 +1,137 @@
+---
+title: "A composição do mosto"
+---
+
+## Motivação
+
+A vinificação começa quando a uva esmagada vira **mosto** — e o vinho que se pode
+fazer dele já está, em boa parte, decidido ali. Antes de adicionar qualquer
+levedura, o enólogo "lê" o mosto: quanto açúcar (logo, quanto álcool potencial),
+quanta acidez, que pH, quantos taninos, nutrientes suficientes para a fermentação.
+
+Este capítulo abre o Volume IV inventariando o que há num mosto e por que cada
+componente importa. É a matéria-prima da química que veremos nos capítulos
+seguintes — fermentação alcoólica, malolática, estabilização.
+
+## O que há num mosto
+
+O mosto é uma solução aquosa surpreendentemente rica. A @fig-composicao-mosto
+organiza seus componentes em grupos; vejamos cada um.
+
+::: {#def-mosto-composicao}
+## Mosto
+**Mosto** é o suco de uva destinado a fermentar (ou já fermentando). Além de
+**água** (a maior parte), contém **açúcares**, **ácidos**, **compostos
+fenólicos**, **compostos nitrogenados** e **minerais** — a matéria de que o vinho
+será feito.
+:::
+
+- **Açúcares** — sobretudo **glicose** e **frutose**, em proporções semelhantes.
+  São o combustível da fermentação: determinam o **álcool potencial** do vinho
+  (lembrando a regra: ~17 g/L de açúcar por 1% de álcool).
+- **Ácidos** — principalmente o **tartárico** (típico da uva) e o **málico** (que
+  cai na maturação), além do **cítrico**. Definem a **acidez total** e o **pH**, e
+  dão frescor e proteção.
+- **Compostos fenólicos** — **taninos** (cascas, sementes, engaço) e
+  **antocianinas** (os pigmentos da cor, nas cascas). Só entram no mosto se houver
+  **maceração** com as partes sólidas.
+- **Compostos nitrogenados** — aminoácidos e amônio, o **nitrogênio assimilável**
+  (YAN): o "alimento" das leveduras. Sua falta trava a fermentação.
+- **Minerais e aromáticos** — potássio e outros sais; precursores de aroma que a
+  fermentação revelará.
+
+::: {#fig-composicao-mosto}
+```{.tikz}
+%%| filename: composicao-mosto
+%%| alt: Diagrama em árvore com o mosto ao centro e cinco grupos de componentes — água, açúcares (glicose e frutose), ácidos (tartárico, málico, cítrico), compostos fenólicos (taninos e antocianinas), compostos nitrogenados (nutrição das leveduras) e minerais.
+\begin{tikzpicture}[font=\sffamily\scriptsize,
+    centro/.style={draw=manualred, very thick, rounded corners=3pt,
+      fill=manualred!12, align=center, text width=18mm, minimum height=12mm,
+      font=\sffamily\small\bfseries},
+    comp/.style={draw=manualgray, very thick, rounded corners=2pt,
+      align=left, text width=44mm, minimum height=9mm},
+    liga/.style={manualgray, thick}]
+  \node[centro] (m) at (0,0) {MOSTO};
+  \node[comp, fill=manualblue!12] (ag) at (5.6,3.0)  {\textbf{Água} — a maior parte};
+  \node[comp, fill=manualred!10]  (ac) at (5.6,1.5)  {\textbf{Açúcares} — glicose, frutose \\\tiny → álcool potencial};
+  \node[comp, fill=manualgreen!12] (ax) at (5.6,0.0) {\textbf{Ácidos} — tartárico, málico, cítrico \\\tiny → acidez, pH, frescor};
+  \node[comp, fill=manualgray!18] (fe) at (5.6,-1.5) {\textbf{Fenólicos} — taninos, antocianinas \\\tiny → cor e estrutura (se maceração)};
+  \node[comp, fill=manualyellow!25] (ni) at (5.6,-3.0){\textbf{Nitrogenados} — YAN \\\tiny → nutrição das leveduras};
+  \foreach \n in {ag,ac,ax,fe,ni}{\draw[liga] (m.east) -- (\n.west);}
+\end{tikzpicture}
+```
+
+Os grupos de componentes do mosto. A **água** domina o volume; os **açúcares**
+viram álcool; os **ácidos** dão frescor e pH; os **fenólicos** trazem cor e
+estrutura; e os compostos **nitrogenados** alimentam as leveduras.
+:::
+
+## Acidez total e pH não são a mesma coisa
+
+Dois mostos podem ter a mesma **acidez total** (a quantidade de ácidos) e **pH**
+diferentes — e o pH é o que mais importa para a estabilidade. Um pH baixo
+(vinho mais ácido) protege contra micro-organismos, realça a cor e ajuda o vinho a
+durar; um pH alto deixa o vinho mais frágil. Por isso o enólogo acompanha os dois
+números, não só um.
+
+::: {.callout-warning}
+## Erro comum
+Mais açúcar **não** significa "vinho mais doce" no produto final. Se a fermentação
+for completa, todo o açúcar vira álcool e o vinho fica **seco** — apenas mais
+alcoólico. O açúcar do mosto prevê o **álcool**, não a doçura, a menos que a
+fermentação seja interrompida.
+:::
+
+## Exemplos
+
+::: {#exm-alcool-potencial}
+## Lendo o álcool potencial
+Um mosto com 210 g de açúcar por litro aponta, pela regra dos 17 g/L por 1%, para
+$210/17 \approx 12{,}4\%$ de álcool, se fermentar até o fim. Medir o açúcar do
+mosto é, na prática, **decidir o teor alcoólico** do futuro vinho — uma das
+primeiras leituras do enólogo.
+:::
+
+::: {#exm-yan-baixo}
+## Quando falta alimento à levedura
+Um mosto pobre em **nitrogênio assimilável** (YAN) pode levar a uma fermentação
+**lenta ou travada**, e até a cheiros de "ovo podre" (gás sulfídrico). Por isso,
+em mostos deficientes, adicionam-se nutrientes às leveduras. A composição do
+mosto, de novo, condiciona o sucesso da etapa seguinte.
+:::
+
+## Exercícios
+
+::: {#exr-componentes-papel}
+Associe cada componente do mosto (@fig-composicao-mosto) ao seu papel: (1)
+açúcares, (2) ácidos, (3) antocianinas, (4) compostos nitrogenados. Papéis: (a)
+nutrição das leveduras; (b) cor do vinho; (c) álcool potencial; (d) acidez e pH.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+1→c (açúcares · álcool); 2→d (ácidos · acidez e pH); 3→b (antocianinas · cor);
+4→a (nitrogenados · nutrição das leveduras).
+:::
+
+::: {#exr-alcool-mosto}
+Um mosto tem 190 g de açúcar por litro. Estime o teor alcoólico do vinho se a
+fermentação for completa (@exm-alcool-potencial).
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+$190 / 17 \approx 11{,}2\%$ de álcool em volume, aproximadamente.
+:::
+
+::: {#exr-ph-acidez}
+Por que o enólogo acompanha **pH** e **acidez total** separadamente, e qual deles
+mais influencia a estabilidade e a conservação do vinho?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque não são a mesma medida: mostos de mesma acidez total podem ter pH
+diferentes. O **pH** é o que mais importa para a estabilidade — um pH baixo
+protege contra micro-organismos, realça a cor e favorece a longevidade.
+:::

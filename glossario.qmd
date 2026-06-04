@@ -29,11 +29,18 @@ próprio; expressão fina da ideia de terroir.
 **Composto fenólico** — família de substâncias das cascas, sementes e madeira
 que inclui os taninos e os pigmentos responsáveis pela cor.
 
+**Condução** (sistema de) — arranjo físico dado à videira (espaldeira, taça,
+latada) que define como folhas e cachos se distribuem no espaço.
+
 **Dormência** — repouso invernal da videira, sem folhas; período em que se faz a
 poda que definirá a safra seguinte.
 
 **Engaço** — a estrutura ramificada do cacho que sustenta as bagas; rica em
 taninos verdes, costuma ser removida no desengace.
+
+**Espaldeira** (VSP) — sistema de condução em que os ramos são amarrados a
+arames e sobem na vertical, formando uma parede de folhas; favorece exposição e
+mecanização.
 
 **Etanol** — álcool etílico, o álcool do vinho, produzido pelas leveduras na
 fermentação a partir dos açúcares da uva.
@@ -88,6 +95,10 @@ aromas; o contato com ela define tinto, branco ou rosé.
 **Pintor** (*véraison*) — início da maturação: a baga muda de cor, amolece e
 passa a acumular açúcar e perder acidez.
 
+**Poda** — corte dos ramos na dormência que define o número de gemas e, com
+isso, a carga de uva e o rendimento da safra; pode ser longa (Guyot) ou curta
+(cordão esporonado).
+
 **Polpa** — a parte carnosa e quase sempre incolor da baga; fonte de água,
 açúcares e ácidos do mosto.
 
@@ -97,6 +108,9 @@ cultivada desde a crise da filoxera.
 
 **Qvevri** — grande pote de barro enterrado, usado na Geórgia há milênios para
 fermentar e conservar vinho; técnica reconhecida como patrimônio cultural.
+
+**Rendimento** — quantidade de uva ou vinho colhida por área (t/ha ou hl/ha);
+rendimentos moderados costumam favorecer a concentração e a qualidade.
 
 **Safra** (*vintage*, *millésime*) — o ano de colheita das uvas; como o clima
 varia a cada ano, define o caráter e a qualidade daquela produção.
@@ -114,6 +128,9 @@ vinho de um lugar.
 berço das tradições do vinho. Ver **Novo Mundo**.
 
 **Vindima** — colheita das uvas.
+
+**Vindima verde** (*green harvest*) — corte de parte dos cachos ainda verdes
+para reduzir o rendimento e concentrar os cachos restantes.
 
 **Vingamento** (*fruit set*) — fase em que as flores fecundadas se transformam
 em bagas; determina quantas bagas cada cacho terá.

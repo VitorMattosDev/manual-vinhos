@@ -2,4 +2,181 @@
 title: "Manejo do vinhedo"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Deixada à própria sorte, a videira faz o que toda trepadeira faz: cresce sem
+parar atrás de luz, vira um emaranhado de ramos e produz muita folha e pouca uva
+de qualidade. O vinhedo é, do começo ao fim, uma série de **decisões humanas**
+que disciplinam essa exuberância — como sustentar a planta, quanto deixá-la
+produzir, quanta folha manter, quando dar água. É a parte do terroir que o
+viticultor controla.
+
+Neste capítulo reunimos as principais alavancas do manejo: a **condução**, a
+**poda**, o **rendimento**, o manejo da copa e a **irrigação**. São as escolhas
+que, ano após ano, traduzem o potencial do lugar numa colheita concreta.
+
+## Condução: como sustentar a planta
+
+**Conduzir** a videira é dar-lhe uma forma e um suporte. Uma boa condução
+distribui as folhas ao sol, areja os cachos (reduzindo doenças) e — não menos
+importante — permite trabalhar e, às vezes, mecanizar o vinhedo. A
+@fig-conducao mostra três sistemas clássicos, cada um adaptado a um contexto.
+
+::: {#def-conducao}
+## Sistema de condução
+**Sistema de condução** é o arranjo físico dado à videira — em espaldeira sobre
+arames, em taça livre, em latada elevada etc. — que define como folhas e cachos
+se distribuem no espaço.
+:::
+
+- **Espaldeira** (VSP, *vertical shoot positioning*) — a planta é amarrada a
+  arames e os ramos sobem na vertical, formando uma "parede" de folhas. Domina o
+  vinho moderno: boa exposição, fácil mecanização.
+- **Taça** (*gobelet*) — videira **livre**, sem arames, com tronco baixo e braços
+  abertos como um vaso. Tradicional em regiões quentes, secas e ventosas, onde a
+  própria folhagem sombreia os cachos.
+- **Latada** (pérgola) — a vegetação cresce numa estrutura **elevada e
+  horizontal**, com os cachos pendurados embaixo. Favorece a ventilação em climas
+  úmidos e protege a uva do calor excessivo do solo.
+
+::: {#fig-conducao}
+```{.tikz}
+%%| filename: sistemas-conducao
+%%| alt: Comparação de três sistemas de condução da videira — espaldeira em arames com ramos verticais, taça livre sem suporte, e latada elevada com a folhagem no alto e os cachos pendurados embaixo.
+\begin{tikzpicture}[font=\sffamily]
+  % ===== Espaldeira =====
+  \fill[manualgreen!25] (1.55,1.3) rectangle (2.45,2.5);
+  \draw[manualgray] (0.6,0) -- (3.4,0);
+  \draw[manualgray, line width=1.4pt] (2,0) -- (2,2.6);
+  \foreach \wy in {0.9,1.5,2.1,2.55}{\draw[manualgray!70, thin] (1.1,\wy) -- (2.9,\wy);}
+  \draw[manualgray, line width=2.2pt] (2,0) -- (2,0.85);
+  \foreach \sx in {1.72,2.0,2.28}{\draw[manualgreen, very thick] (\sx,0.85) -- (\sx,2.45);}
+  \foreach \cx in {1.85,2.15}{\fill[manualred!70] (\cx,1.12) circle (0.9mm); \fill[manualred!70] (\cx,0.97) circle (0.9mm);}
+  \node at (2,-0.45) {\scriptsize Espaldeira (VSP)};
+
+  % ===== Taça =====
+  \draw[manualgray] (4.6,0) -- (7.4,0);
+  \draw[manualgray, line width=2.2pt] (6,0) -- (6,0.7);
+  \draw[manualgreen, very thick] (6,0.7) .. controls (5.4,1.1) .. (5.15,1.65);
+  \draw[manualgreen, very thick] (6,0.7) .. controls (6.0,1.2) .. (6.0,1.8);
+  \draw[manualgreen, very thick] (6,0.7) .. controls (6.6,1.1) .. (6.85,1.65);
+  \fill[manualgreen!30, draw=manualgreen, thick] (6,1.7) ellipse (1.0 and 0.5);
+  \fill[manualred!70] (5.62,0.95) circle (0.9mm);
+  \fill[manualred!70] (6.38,0.95) circle (0.9mm);
+  \node at (6,-0.45) {\scriptsize Taça (gobelet)};
+
+  % ===== Latada =====
+  \draw[manualgray] (8.6,0) -- (11.4,0);
+  \draw[manualgray, line width=1.4pt] (9.2,0) -- (9.2,2.2);
+  \draw[manualgray, line width=1.4pt] (10.8,0) -- (10.8,2.2);
+  \draw[manualgray!70, thin] (9.0,2.2) -- (11.0,2.2);
+  \foreach \bx in {9.4,9.8,10.2,10.6}{\draw[manualgray!60, thin] (\bx,2.08) -- (\bx,2.32);}
+  \draw[manualgray, line width=2.2pt] (10,0) -- (10,2.2);
+  \fill[manualgreen!30, draw=manualgreen, thick] (10,2.45) ellipse (1.05 and 0.4);
+  \foreach \hx in {9.6,10.0,10.4}{\fill[manualred!70] (\hx,1.92) circle (0.9mm); \fill[manualred!70] (\hx,1.77) circle (0.9mm);}
+  \node at (10,-0.45) {\scriptsize Latada (pérgola)};
+\end{tikzpicture}
+```
+
+Três sistemas de condução. A **espaldeira** alinha as folhas numa parede vertical
+(exposição e mecanização); a **taça** deixa a planta livre, autossombreando-se em
+clima quente; a **latada** ergue a folhagem e pendura os cachos embaixo, arejando
+em clima úmido.
+:::
+
+## Poda e rendimento
+
+Na dormência, a **poda** define quantas gemas a planta carregará — e, com isso,
+quanta uva produzirá. É a principal alavanca sobre o **rendimento**.
+
+::: {#def-rendimento}
+## Rendimento
+**Rendimento** é a quantidade de uva (ou de vinho) colhida por área — medida em
+toneladas por hectare ou hectolitros por hectare. Rendimentos altos tendem a
+diluir a concentração; rendimentos moderados costumam favorecer a qualidade.
+:::
+
+A poda vem em duas famílias: a **poda longa** (deixa varas com várias gemas, como
+no sistema *Guyot*) e a **poda curta** (deixa esporões de poucas gemas, como no
+*cordão esporonado*). Além dela, o manejo da copa durante o verão — **desfolha**
+(tirar folhas para expor cachos), despontes e a **vindima verde** (cortar cachos
+ainda verdes) — ajusta o equilíbrio entre folhas e frutos.
+
+::: {.callout-warning}
+## Erro comum
+"Quanto menor o rendimento, melhor o vinho" é uma meia-verdade. Rendimentos
+exagerados realmente diluem; mas reduzir demais pode desequilibrar a planta sem
+ganho proporcional de qualidade. O que importa é o **equilíbrio** entre a carga
+de uva e a folhagem que a alimenta, não o número baixo pelo número baixo.
+:::
+
+## Irrigação
+
+A água é a linha divisória entre dois mundos. Em boa parte da Europa, irrigar
+vinha de qualidade foi tradicionalmente **proibido ou restrito** — a vinha deve
+"sofrer" um pouco. Já em regiões secas do Novo Mundo (Mendoza, partes da
+Austrália e da Califórnia), sem irrigação simplesmente **não há vinhedo**. A
+técnica moderna busca o meio-termo: a **irrigação por gotejamento** com leve
+déficit hídrico, dando à planta o suficiente para sobreviver, mas pouco bastante
+para concentrar a uva.
+
+## Exemplos
+
+::: {#exm-gobelet-mediterraneo}
+## Por que a taça resiste no Mediterrâneo
+Em regiões quentes, secas e ventosas (Sul da França, Espanha, sul da Itália), a
+condução em **taça** persiste há séculos. Sem arames, a copa baixa e arredondada
+**sombreia os próprios cachos**, protegendo-os do sol forte, e a forma compacta
+resiste ao vento. Onde a luz sobra e a água falta, a parede vertical da
+espaldeira seria contraproducente.
+:::
+
+::: {#exm-latada-umido}
+## Latada onde chove muito
+No Vinho Verde (Portugal) e em parte do Brasil, a tradição da **latada** faz
+sentido pelo clima úmido: erguer a folhagem e os cachos do chão melhora a
+ventilação e reduz o risco de fungos, além de afastar a uva do calor e da umidade
+do solo. A condução responde ao **mesoclima** do lugar.
+:::
+
+## Exercícios
+
+::: {#exr-escolher-conducao}
+Para cada cenário, indique o sistema de condução mais coerente (espaldeira, taça
+ou latada) e justifique: (a) região quente, seca e ventosa; (b) região úmida e
+chuvosa; (c) vinhedo grande e plano que se quer **mecanizar**.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) **Taça** — a copa sombreia os cachos e resiste ao vento; (b) **Latada** —
+ergue e areja a folhagem, reduzindo fungos; (c) **Espaldeira (VSP)** — alinha a
+vinha em paredes, ideal para máquinas. Veja a @fig-conducao.
+:::
+
+::: {#exr-poda-rendimento}
+Explique a relação entre **poda** e **rendimento** (@def-rendimento) e por que a
+afirmação "rendimento baixo é sempre melhor" é imprecisa.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+A poda define o número de gemas e, portanto, de cachos — controlando o
+rendimento. Rendimento muito alto dilui o vinho, mas reduzir demais não garante
+qualidade: o ideal é o **equilíbrio** entre a carga de uva e a folhagem que a
+nutre.
+:::
+
+::: {#exr-irrigacao-mundos}
+Por que a irrigação é proibida ou restrita em muitas regiões europeias, mas
+indispensável em Mendoza? Relacione com a noção de clima e com o objetivo de
+concentração da uva.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Em regiões europeias mais úmidas, a chuva basta e impor um leve estresse hídrico
+ajuda a concentrar a uva — daí a restrição. Mendoza é árida: sem irrigação, a
+planta não sobrevive. O alvo moderno é o **déficit controlado** — água suficiente
+para viver, escassa o bastante para concentrar.
+:::

@@ -8,6 +8,9 @@ capítulos, em ordem alfabética.
 **Açúcar residual** — açúcar da uva que não foi convertido em álcool e
 permanece no vinho; define a escala do seco ao doce.
 
+**Ampelografia** — estudo e identificação das castas, pela forma da folha e do
+cacho (clássica) ou por análise de DNA (molecular).
+
 **Ânfora** — jarro de barro usado na Antiguidade para transportar e conservar
 vinho; hoje retomada por produtores em estilos de longa maceração.
 
@@ -41,6 +44,8 @@ que inclui os taninos e os pigmentos responsáveis pela cor.
 
 **Condução** (sistema de) — arranjo físico dado à videira (espaldeira, taça,
 latada) que define como folhas e cachos se distribuem no espaço.
+
+**Cultivar** — sinônimo de casta/variedade de videira.
 
 **Dormência** — repouso invernal da videira, sem folhas; período em que se faz a
 poda que definirá a safra seguinte.
@@ -77,6 +82,9 @@ contribui para a maciez e a sensação de corpo.
 
 **Grainha** — a semente da uva, rica em taninos amargos e óleos; evita-se
 esmagá-la para não extrair adstringência excessiva.
+
+**Homonímia** — uso do mesmo nome para castas geneticamente diferentes (ou para
+grupos vagos de castas). Oposto de **sinonímia**.
 
 **Levedura** — micro-organismo (sobretudo *Saccharomyces cerevisiae*)
 responsável pela fermentação alcoólica.
@@ -144,6 +152,9 @@ varia a cada ano, define o caráter e a qualidade daquela produção.
 
 **Sarmento** — o ramo do ano da videira; verde e flexível chama-se pâmpano, e
 lignifica-se no outono. Nele se formam folhas, gavinhas e cachos.
+
+**Sinonímia** — uso de nomes diferentes para a mesma casta (ex.: Syrah/Shiraz,
+Garnacha/Grenache). Oposto de **homonímia**.
 
 **Tanino** — composto fenólico das cascas, sementes e madeira; responsável pela
 adstringência e pela estrutura dos tintos.

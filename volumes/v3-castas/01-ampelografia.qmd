@@ -1,0 +1,167 @@
+---
+title: "Ampelografia: o estudo das castas"
+---
+
+## Motivação
+
+Pergunte a alguém qual vinho prefere e a resposta virá quase sempre por uma
+palavra: "gosto de Malbec", "prefiro Chardonnay". Essas palavras são **castas** —
+as variedades de videira. Há milhares delas, cada uma com sua assinatura de cor,
+aroma e estrutura, e conhecê-las é a forma mais prática de navegar o mundo do
+vinho.
+
+Mas o que é, exatamente, uma casta? Como se distingue uma da outra, por que a
+mesma uva tem nomes diferentes em países diferentes, e de onde vêm tantas
+variedades? Estas perguntas são o objeto da **ampelografia**. Este capítulo abre o
+Volume III estabelecendo o vocabulário das castas, que os capítulos seguintes
+preencherão com as variedades concretas.
+
+## O que é uma casta
+
+::: {#def-casta-detalhe}
+## Casta (variedade, cultivar)
+**Casta** é uma variedade de videira: um conjunto de plantas geneticamente
+idênticas, propagadas por estacas e enxertia a partir de um indivíduo original.
+Cabernet Sauvignon, Chardonnay e Malbec são castas — todas da espécie *Vitis
+vinifera* (@def-vitis-vinifera). "Variedade" e "cultivar" são sinônimos de casta.
+:::
+
+Como as castas se propagam por **clonagem** (estacas, não sementes), todos os pés
+de uma casta são, em essência, a mesma planta repetida. Por isso uma casta tem um
+caráter reconhecível onde quer que vá — ainda que o terroir e a vinificação o
+modulem.
+
+## A ampelografia, clássica e molecular
+
+::: {#def-ampelografia}
+## Ampelografia
+**Ampelografia** é o estudo e a identificação das castas. A ampelografia
+**clássica** as distingue pela forma da folha, do cacho e da baga; a
+ampelografia **molecular** (análise de DNA), desde os anos 1990, identifica
+castas e revela seus **parentescos** com precisão.
+:::
+
+A análise de DNA revolucionou o campo ao mostrar que muitas castas célebres são,
+na verdade, **filhas de cruzamentos** entre outras — fruto de polinizações
+naturais ocorridas há séculos. A @fig-parentesco-castas ilustra alguns desses
+laços, hoje bem estabelecidos.
+
+::: {#fig-parentesco-castas}
+```{.tikz}
+%%| filename: parentesco-castas
+%%| alt: Árvore de parentesco de castas. Em cima, quatro castas-pais (Cabernet Franc e Pinot Noir, tintas; Sauvignon Blanc e Gouais Blanc, brancas). Setas indicam que Cabernet Franc cruzado com Sauvignon Blanc gerou Cabernet Sauvignon, e que Pinot Noir cruzado com Gouais Blanc gerou Chardonnay e Gamay.
+\begin{tikzpicture}[font=\sffamily,
+    tinta/.style={draw=manualred, very thick, rounded corners=2pt,
+      fill=manualred!12, align=center, text width=21mm, minimum height=8mm,
+      font=\scriptsize},
+    branca/.style={draw=manualyellow!70!black, very thick, rounded corners=2pt,
+      fill=manualyellow!30, align=center, text width=21mm, minimum height=8mm,
+      font=\scriptsize},
+    cruz/.style={-{Stealth[length=1.8mm]}, manualgray, thick}]
+  % pais
+  \node[tinta]  (cf) at (0,2.6)   {Cabernet Franc};
+  \node[branca] (sb) at (3.2,2.6) {Sauvignon Blanc};
+  \node[tinta]  (pn) at (6.6,2.6) {Pinot Noir};
+  \node[branca] (gb) at (9.8,2.6) {Gouais Blanc};
+  % filhos
+  \node[tinta]  (cs) at (1.6,0)  {Cabernet Sauvignon};
+  \node[branca] (ch) at (6.6,0)  {Chardonnay};
+  \node[tinta]  (ga) at (9.6,0)  {Gamay};
+  % cruzamentos
+  \draw[cruz] (cf) -- (cs);  \draw[cruz] (sb) -- (cs);
+  \draw[cruz] (pn) -- (ch);  \draw[cruz] (gb) -- (ch);
+  \draw[cruz] (pn) -- (ga);  \draw[cruz] (gb) -- (ga);
+  % legenda
+  \node[tinta, text width=4mm, minimum height=4mm] (l1) at (0,-1.5) {};
+  \node[right=1mm of l1, font=\scriptsize] {casta tinta};
+  \node[branca, text width=4mm, minimum height=4mm] (l2) at (4.0,-1.5) {};
+  \node[right=1mm of l2, font=\scriptsize] {casta branca};
+\end{tikzpicture}
+```
+
+Parentescos revelados pelo DNA. **Cabernet Sauvignon** nasceu do cruzamento de
+Cabernet Franc com Sauvignon Blanc; **Chardonnay** e **Gamay** são, ambas,
+filhas de Pinot Noir com a antiga Gouais Blanc. Note que pais brancos e tintos
+geram filhas de qualquer cor.
+:::
+
+## Sinonímia e homonímia
+
+Castas viajam, e seus nomes mudam pelo caminho. Daí dois fenômenos que confundem
+o iniciante:
+
+- **Sinonímia** — a *mesma* casta com nomes diferentes. Syrah e **Shiraz** são
+  idênticas; Garnacha e **Grenache** também; Tempranillo atende por uma dúzia de
+  nomes na Espanha.
+- **Homonímia** — nomes *iguais* (ou parecidos) para castas diferentes, ou grupos
+  de castas distintas reunidos sob um rótulo vago (como vários "Malvasia").
+
+::: {.callout-note}
+## Syrah ou Shiraz?
+São a **mesma casta**. O nome costuma sinalizar o **estilo** pretendido: "Syrah"
+sugere a tradição mais contida do Rhône francês; "Shiraz", o estilo encorpado e
+frutado australiano. A genética é uma só; a palavra escolhida comunica intenção.
+:::
+
+::: {.callout-warning}
+## Erro comum
+"Cada casta tem um sabor fixo" é uma simplificação. A casta dá a **moldura** —
+uma faixa de aromas e de estrutura possíveis —, mas o terroir, o clima da safra e
+a vinificação decidem onde, dentro dessa faixa, o vinho vai cair. A mesma casta
+rende vinhos muito diferentes em lugares diferentes.
+:::
+
+## Exemplos
+
+::: {#exm-cabernet-dna}
+## Como o DNA resolveu um mistério
+Por muito tempo a origem da Cabernet Sauvignon foi incógnita. Em 1997, a análise
+de DNA mostrou, sem ambiguidade, que ela é filha natural de **Cabernet Franc**
+(tinta) com **Sauvignon Blanc** (branca) — um cruzamento espontâneo no sudoeste
+da França. O próprio nome, que une "Cabernet" e "Sauvignon", já guardava a pista
+(@fig-parentesco-castas).
+:::
+
+::: {#exm-zinfandel}
+## Uma casta, três países, três nomes
+A Zinfandel da Califórnia, a **Primitivo** do sul da Itália e a croata
+**Tribidrag** foram reveladas pelo DNA como **a mesma casta**. É um caso clássico
+de sinonímia: três tradições, três nomes, uma única videira de origem.
+:::
+
+## Exercícios
+
+::: {#exr-casta-vs-especie}
+Explique a diferença entre **espécie** e **casta**, usando *Vitis vinifera*,
+Chardonnay e Merlot como exemplos.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+*Vitis vinifera* é a **espécie** de videira; Chardonnay e Merlot são **castas**
+(variedades) dentro dessa espécie. Todas as castas finas pertencem à mesma
+espécie; o que muda entre elas é a variedade, não a espécie.
+:::
+
+::: {#exr-sinonimia}
+Classifique cada situação como **sinonímia** ou **homonímia**: (a) Syrah e Shiraz
+são a mesma uva; (b) duas castas geneticamente distintas vendidas ambas como
+"Malvasia".
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) **Sinonímia** — mesma casta, nomes diferentes; (b) **Homonímia** — o mesmo
+nome cobrindo castas diferentes.
+:::
+
+::: {#exr-parentesco}
+Com base na @fig-parentesco-castas, responda: que duas castas são "irmãs" por
+terem os mesmos pais, e quais são esses pais?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Chardonnay** e **Gamay** são irmãs: ambas nasceram do cruzamento de **Pinot
+Noir** com **Gouais Blanc**.
+:::

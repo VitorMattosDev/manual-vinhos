@@ -44,13 +44,13 @@ book:
         - volumes/v2-viticultura/05-pragas-e-doencas.qmd
         - volumes/v2-viticultura/06-maturacao-e-vindima.qmd
 
-    # - part: "Volume III — Castas e Variedades"
-    #   chapters:
-    #     - volumes/v3-castas/01-ampelografia.qmd
-    #     - volumes/v3-castas/02-castas-tintas.qmd
-    #     - volumes/v3-castas/03-castas-brancas.qmd
-    #     - volumes/v3-castas/04-castas-autoctones.qmd
-    #     - volumes/v3-castas/05-clones-e-porta-enxertos.qmd
+    - part: "Volume III — Castas e Variedades"
+      chapters:
+        - volumes/v3-castas/01-ampelografia.qmd
+        - volumes/v3-castas/02-castas-tintas.qmd
+        - volumes/v3-castas/03-castas-brancas.qmd
+        - volumes/v3-castas/04-castas-autoctones.qmd
+        - volumes/v3-castas/05-clones-e-porta-enxertos.qmd
 
     # - part: "Volume IV — Princípios da Vinificação"
     #   chapters:

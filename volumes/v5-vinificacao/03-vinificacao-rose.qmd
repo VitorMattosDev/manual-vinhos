@@ -2,4 +2,139 @@
 title: "Vinificação em rosé"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+O rosé costuma ser mal compreendido. Não é, em geral, mistura de tinto com
+branco — é um vinho de uva **tinta** cujo contato com as cascas foi **breve**, o
+suficiente para tingir o mosto de rosa, não de vermelho. O rosé é, por assim
+dizer, um tinto **interrompido**: a cor é dosada pelo tempo de maceração.
+
+Este capítulo apresenta os dois caminhos clássicos para fazer rosé — a
+**prensagem direta** e a **sangria** — e mostra como cada um leva a um estilo
+distinto, do rosé pálido provençal ao rosé mais intenso e frutado.
+
+## A cor vem do tempo de contato
+
+Como a cor está na película (Volume II), basta controlar **quanto tempo** o mosto
+fica em contato com as cascas para escolher a intensidade do rosé: de algumas
+horas (rosé bem claro) a um dia ou pouco mais (rosé mais intenso). A
+@fig-metodos-rose compara os dois métodos que exploram esse princípio.
+
+::: {#def-metodos-rose}
+## Prensagem direta × sangria
+Na **prensagem direta**, as uvas tintas são prensadas logo, com contato curto
+durante a prensagem; o mosto sai levemente rosado e fermenta como um branco —
+resultando em rosés **pálidos** (estilo Provence). Na **sangria** (*saignée*),
+deixa-se macerar algumas horas e "sangra-se" parte do mosto rosado, que fermenta à
+parte — rosés mais **intensos**; muitas vezes é subproduto da concentração de um
+tinto.
+:::
+
+::: {#fig-metodos-rose}
+```{.tikz}
+%%| filename: metodos-rose
+%%| alt: Comparação de dois métodos de rosé lado a lado. À esquerda, prensagem direta — uvas tintas, prensagem com contato breve, mosto rosado, fermentação, rosé pálido. À direita, sangria — uvas tintas, maceração de algumas horas, sangra parte do mosto, fermentação, rosé mais intenso.
+\begin{tikzpicture}[node distance=6mm,
+    et/.style={draw=manualgray, very thick, rounded corners=2pt, fill=manualgray!8,
+      text width=38mm, align=center, minimum height=8mm, font=\sffamily\scriptsize},
+    fim/.style={draw=manualred, very thick, rounded corners=2pt, fill=manualred!15,
+      text width=38mm, align=center, minimum height=8mm, font=\sffamily\scriptsize},
+    fl/.style={-{Stealth[length=2mm]}, very thick, manualgray}]
+  % coluna esquerda
+  \node[et] (a1) {Uvas tintas};
+  \node[et, below=of a1] (a2) {Prensagem\\\tiny contato breve};
+  \node[et, below=of a2] (a3) {Mosto rosado};
+  \node[et, below=of a3] (a4) {Fermentação};
+  \node[fim, below=of a4] (a5) {Rosé \textbf{pálido}};
+  \foreach \x/\y in {a1/a2,a2/a3,a3/a4,a4/a5}{\draw[fl] (\x)--(\y);}
+  \node[font=\sffamily\small\bfseries, manualgray] at (0,1.0) {Prensagem direta};
+  % coluna direita
+  \node[et] (b1) at (6,0) {Uvas tintas};
+  \node[et, below=of b1] (b2) {Maceração\\\tiny algumas horas};
+  \node[et, below=of b2] (b3) {Sangra parte\\do mosto};
+  \node[et, below=of b3] (b4) {Fermentação};
+  \node[fim, below=of b4] (b5) {Rosé \textbf{intenso}};
+  \foreach \x/\y in {b1/b2,b2/b3,b3/b4,b4/b5}{\draw[fl] (\x)--(\y);}
+  \node[font=\sffamily\small\bfseries, manualgray] at (6,1.0) {Sangria (\emph{saignée})};
+  % divisória
+  \draw[manualgray!40, dashed] (3,1.3) -- (3,-5.2);
+\end{tikzpicture}
+```
+
+Os dois métodos do rosé. A **prensagem direta** (esquerda) extrai pouquíssima cor
+e dá rosés pálidos; a **sangria** (direita) macera mais e dá rosés mais intensos.
+Em ambos, a uva é tinta e a cor vem do **tempo de contato** com as cascas.
+:::
+
+## Dois estilos, duas intenções
+
+A escolha do método reflete a intenção. A **prensagem direta** é pensada **para o
+rosé**, desde a colheita, visando leveza e palidez — o estilo gastronômico de
+Provence. A **sangria** muitas vezes nasce como **subproduto** de um tinto: ao
+retirar mosto cedo, concentram-se as cascas restantes (um tinto mais estruturado),
+e o mosto sangrado vira um rosé mais encorpado.
+
+::: {.callout-warning}
+## Erro comum
+Salvo exceções (como o **champanhe rosé**), **misturar vinho tinto com branco para
+fazer rosé é proibido** na União Europeia. O rosé legítimo vem da maceração breve
+de uvas tintas, não de uma mistura de cores prontas.
+:::
+
+## Exemplos
+
+::: {#exm-provence}
+## O pálido de Provence
+Os rosés de Provence, pálidos quase como água-de-rosa, nascem de **prensagem
+direta** com contato mínimo. A palidez é deliberada e valorizada — sinal de
+delicadeza e frescor, não de "rosé fraco". A cor clara é um **estilo**, escolhido
+no método.
+:::
+
+::: {#exm-saignee}
+## Dois vinhos de um tanque
+Um produtor de tinto pode "sangrar" 10% do mosto poucas horas após o esmagamento.
+Ganha duas coisas: um **rosé** (do mosto retirado) e um **tinto mais concentrado**
+(porque sobrou proporcionalmente mais casca para o líquido restante). Um único
+tanque, dois vinhos — a lógica da **sangria**.
+:::
+
+## Exercícios
+
+::: {#exr-de-onde-vem-cor-rose}
+De onde vem a cor de um rosé, e o que controla sua intensidade? Por que isso
+explica que rosé não seja, em geral, mistura de tinto e branco?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+A cor vem da **película** das uvas tintas, e sua intensidade é controlada pelo
+**tempo de contato** do mosto com as cascas. Como basta uma maceração breve para
+tingir o mosto, o rosé é feito por extração curta — não por mistura de vinhos
+prontos (proibida, salvo o champanhe rosé).
+:::
+
+::: {#exr-metodo-rose}
+Para cada objetivo, indique o método mais provável (prensagem direta ou sangria)
+(@def-metodos-rose): (a) um rosé bem pálido e leve, pensado desde a colheita;
+(b) um rosé intenso obtido como subproduto de um tinto mais concentrado.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) **Prensagem direta** — contato mínimo, rosé pálido; (b) **Sangria
+(saignée)** — parte do mosto é sangrada, dando rosé intenso e concentrando o
+tinto restante.
+:::
+
+::: {#exr-saignee-dois-vinhos}
+Explique por que a **sangria** pode ser vantajosa para um produtor de **tinto**,
+mesmo que ele não tivesse o rosé como objetivo principal (@exm-saignee).
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Ao sangrar parte do mosto cedo, sobra proporcionalmente mais **casca** para o
+líquido restante, **concentrando o tinto** (mais cor e estrutura). De quebra, o
+mosto retirado vira um rosé. O produtor obtém dois vinhos e melhora o tinto.
+:::

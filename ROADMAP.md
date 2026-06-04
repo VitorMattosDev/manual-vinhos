@@ -49,7 +49,7 @@ fotos entram como imagem embutida — ver `PLANO.md`).
 ### Volume V — Vinificação por Estilo
 - [x] `v5-vinificacao/01-vinificacao-tinto.qmd` — maceração, remontagem, prensagem. *fig.: fluxograma do tinto.*
 - [x] `v5-vinificacao/02-vinificacao-branco.qmd` — prensagem direta, fermentação a frio. *fig.: fluxograma do branco.*
-- [ ] `v5-vinificacao/03-vinificacao-rose.qmd` — sangria × prensagem direta. *fig.: comparação dos dois métodos.*
+- [x] `v5-vinificacao/03-vinificacao-rose.qmd` — sangria × prensagem direta. *fig.: comparação dos dois métodos.*
 - [ ] `v5-vinificacao/04-tecnicas-especiais.qmd` — maceração carbônica, ânfora, talha. *fig.: maceração carbônica.*
 
 ### Volume VI — Espumantes, Fortificados e Doces

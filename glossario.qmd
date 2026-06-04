@@ -225,8 +225,15 @@ chapéu).
 **Rendimento** — quantidade de uva ou vinho colhida por área (t/ha ou hl/ha);
 rendimentos moderados costumam favorecer a concentração e a qualidade.
 
+**Rosé** — vinho de uva tinta com contato breve com as cascas, suficiente para
+tingi-lo de rosa; feito por prensagem direta (pálido) ou sangria (mais intenso).
+
 **Safra** (*vintage*, *millésime*) — o ano de colheita das uvas; como o clima
 varia a cada ano, define o caráter e a qualidade daquela produção.
+
+**Sangria** (*saignée*) — método de rosé em que parte do mosto é "sangrada" após
+uma curta maceração; dá rosés mais intensos e, de quebra, concentra o tinto
+restante.
 
 **Sarmento** — o ramo do ano da videira; verde e flexível chama-se pâmpano, e
 lignifica-se no outono. Nele se formam folhas, gavinhas e cachos.

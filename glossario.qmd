@@ -8,6 +8,9 @@ capítulos, em ordem alfabética.
 **Açúcar residual** — açúcar da uva que não foi convertido em álcool e
 permanece no vinho; define a escala do seco ao doce.
 
+**Ânfora** — jarro de barro usado na Antiguidade para transportar e conservar
+vinho; hoje retomada por produtores em estilos de longa maceração.
+
 **Casta** — variedade de videira (sinônimo de cultivar/uva). Ex.: Cabernet
 Sauvignon, Chardonnay.
 
@@ -35,6 +38,9 @@ extrair cor, taninos e aromas.
 
 **Mosto** — suco de uva, antes ou durante a fermentação.
 
+**Qvevri** — grande pote de barro enterrado, usado na Geórgia há milênios para
+fermentar e conservar vinho; técnica reconhecida como patrimônio cultural.
+
 **Tanino** — composto fenólico das cascas, sementes e madeira; responsável pela
 adstringência e pela estrutura dos tintos.
 
@@ -42,3 +48,6 @@ adstringência e pela estrutura dos tintos.
 vinho de um lugar.
 
 **Vindima** — colheita das uvas.
+
+**_Vitis vinifera_** — espécie de videira de origem caucasiana que dá quase
+todo o vinho fino do mundo; tronco de onde derivam as castas cultivadas.

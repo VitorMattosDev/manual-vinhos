@@ -4,26 +4,170 @@ title: "História do vinho: origens e Antiguidade"
 
 ## Motivação
 
-<!-- O vinho acompanha a civilização há milênios. Por que essa história importa
-para entender o vinho de hoje (castas, técnicas, geografia)? -->
+O vinho é mais velho que a escrita. Quando os primeiros povos começaram a
+registrar suas contas e suas leis em tabuinhas, o vinho já era bebida antiga,
+com ritos e comércio próprios. Essa profundidade histórica não é só curiosidade:
+muito do vinho de hoje — as castas que plantamos, as regiões que reverenciamos, a
+própria ideia de que um vinho "pertence" a um lugar — é herança direta da
+Antiguidade.
+
+Neste capítulo seguimos o vinho da sua provável origem, no **Cáucaso**, até o
+**Império Romano**, que o espalhou por quase toda a Europa onde ele é feito até
+hoje. O fio condutor é geográfico e cronológico: ver por onde o vinho passou
+ajuda a entender por que o mapa vitícola é o que é.
 
 ## As origens (Cáucaso e Crescente Fértil)
 
-<!-- Geórgia/Armênia, qvevri, domesticação da Vitis vinifera. Evidências
-arqueológicas. -->
+A evidência arqueológica mais antiga de vinificação vem do **Cáucaso** — atuais
+Geórgia, Armênia e norte do Irã —, com resíduos de ácido tartárico em potes de
+cerâmica datados de cerca de **6000 a.C.** O ácido tartárico é, na prática, uma
+"impressão digital" da uva: encontrá-lo no fundo de um pote antigo é forte
+indício de que ali houve vinho.
+
+A protagonista dessa história tem nome:
+
+::: {#def-vitis-vinifera}
+## *Vitis vinifera*
+**_Vitis vinifera_** é a espécie de videira responsável por praticamente todo o
+vinho fino do mundo. Domesticada no Cáucaso e no Crescente Fértil a partir de
+uma parente silvestre, é a origem das milhares de **castas** cultivadas hoje
+(Cabernet, Pinot, Riesling e todas as outras).
+:::
+
+Na Geórgia, o vinho era — e ainda é — feito em grandes potes de barro enterrados
+no chão, os **qvevri**. A técnica tem milhares de anos e foi reconhecida pela
+UNESCO como patrimônio cultural; vinhedos do mundo todo a revisitam hoje, no
+movimento dos chamados *vinhos de ânfora*.
+
+::: {.callout-note}
+## Por que o Cáucaso leva o crédito
+Vinho não "se inventa" num único dia. O crédito ao Cáucaso vem de três coisas
+que ali coincidem: a parente silvestre da *Vitis vinifera* crescia na região; os
+vestígios químicos mais antigos foram achados lá; e a domesticação da uva
+deixou marcas genéticas que apontam para esse berço. É um consenso de evidências,
+não um certificado de nascimento.
+:::
 
 ## Egito, Grécia e Roma
 
-<!-- Difusão pelo Mediterrâneo; o papel de Roma na expansão da viticultura
-europeia; ânforas, primeiras "denominações". -->
+Do Cáucaso, a vinha desceu pelo Crescente Fértil até o **Egito**, onde por volta
+de **3000 a.C.** o vinho já era bebida de elite, ligada à religião e aos
+funerais. As paredes de tumbas trazem cenas detalhadas de colheita, prensagem e
+armazenamento — verdadeiros manuais ilustrados de vinificação antiga — e algumas
+ânforas chegaram a ser "rotuladas" com ano, vinhedo e produtor.
+
+Foram os **gregos** (e, antes deles, os fenícios) que transformaram o vinho em
+fenômeno mediterrâneo. A Grécia plantou vinha em suas colônias da Sicília à
+Gália, fez do vinho centro do **symposion** — o banquete onde se bebia, diluído
+em água, enquanto se discutia filosofia — e deu a ele um deus, **Dionísio**. O
+recipiente universal do comércio antigo era a **ânfora**, jarro de barro que ao
+mesmo tempo transportava e conservava o vinho.
+
+Coube a **Roma** levar a viticultura a escala industrial e geográfica. Ao
+expandir o império, os romanos plantaram vinha em Hispânia, Gália, Germânia e
+Britânia — fundando, na prática, as regiões de Bordeaux, Borgonha, Rhône, Mosela
+e tantas outras. Desenvolveram técnicas de poda e de envelhecimento, e
+reconheciam **crus** célebres, como o *Falerno*: a semente da ideia moderna de
+que certos lugares dão vinhos superiores.
+
+A @fig-timeline-antiguidade resume esse percurso de oito milênios.
+
+::: {#fig-timeline-antiguidade}
+```{.tikz}
+%%| filename: timeline-antiguidade
+%%| alt: Linha do tempo horizontal, não em escala, com cinco marcos da história antiga do vinho — Cáucaso por volta de 6000 a.C., Egito por volta de 3000 a.C., difusão fenícia e grega por volta de 1000 a.C., auge grego por volta de 500 a.C. e expansão romana por volta de 100 d.C.
+\begin{tikzpicture}[font=\sffamily,
+    marco/.style={draw=manualblue, very thick, rounded corners=2pt,
+      fill=manualblue!8, text width=24mm, align=center,
+      font=\footnotesize, minimum height=13mm},
+    ano/.style={manualred, font=\footnotesize\bfseries, align=center}]
+  % eixo do tempo
+  \draw[-{Stealth[length=3mm]}, very thick, manualgray] (0,0) -- (15.4,0);
+  \node[manualgray, font=\scriptsize] at (15.4,-0.45) {tempo};
+
+  \foreach \x in {1.5,4.5,7.5,10.5,13.5}{
+    \draw[very thick, manualred] (\x,-0.18) -- (\x,0.18);
+    \draw[manualgray, thin] (\x,0.18) -- (\x,1.0);
+  }
+
+  \node[marco] at (1.5,1.9)  {Cáucaso\\\scriptsize vinho em \emph{qvevri}};
+  \node[marco] at (4.5,1.9)  {Egito\\\scriptsize vinho ritual e funerário};
+  \node[marco] at (7.5,1.9)  {Fenícios e gregos\\\scriptsize difusão mediterrânea};
+  \node[marco] at (10.5,1.9) {Grécia\\\scriptsize \emph{symposion}, colônias};
+  \node[marco] at (13.5,1.9) {Roma\\\scriptsize viticultura por toda a Europa};
+
+  \node[ano] at (1.5,-0.55)  {$\sim$6000\\a.C.};
+  \node[ano] at (4.5,-0.55)  {$\sim$3000\\a.C.};
+  \node[ano] at (7.5,-0.55)  {$\sim$1000\\a.C.};
+  \node[ano] at (10.5,-0.55) {$\sim$500\\a.C.};
+  \node[ano] at (13.5,-0.55) {$\sim$100\\d.C.};
+\end{tikzpicture}
+```
+
+Oito milênios de vinho, do Cáucaso a Roma (**linha não em escala**: os intervalos
+entre marcos não são proporcionais ao tempo). Cada civilização herdou a videira
+da anterior e a empurrou um pouco mais para o oeste.
+:::
+
+## Exemplos
+
+::: {#exm-anfora-rotulo}
+## O rótulo tem 5000 anos
+Ânforas egípcias e, mais tarde, romanas eram marcadas com informações que
+qualquer enófilo reconheceria hoje: o ano da colheita, o vinhedo de origem e até
+o nome do produtor. A ideia de que importa **de onde** e **de quando** o vinho
+vem — base de toda a rotulagem e das denominações modernas — nasceu na
+Antiguidade, muito antes de existir a palavra *terroir*.
+:::
+
+::: {#exm-roma-mapa}
+## Por que Bordeaux fala latim
+Quando os romanos plantaram vinha ao longo de seus rios e estradas para abastecer
+as legiões, escolheram justamente os vales que hoje associamos ao grande vinho
+europeu: Garona (Bordeaux), Saône e Ródano (Borgonha e Rhône), Reno e Mosela. O
+mapa vitícola da Europa é, em boa parte, o mapa do Império Romano — uma herança
+de dois mil anos visível em cada rótulo francês ou alemão.
+:::
 
 ## Exercícios
 
-::: {#exr-placeholder-02}
-<!-- Exercício a definir. -->
+::: {#exr-ordem-civilizacoes}
+Coloque em ordem cronológica, da mais antiga para a mais recente, as seguintes
+etapas da história do vinho: *expansão romana*, *vinho em qvevri no Cáucaso*,
+*symposion grego*, *vinho funerário egípcio*. Confira com a
+@fig-timeline-antiguidade.
 :::
 
 ::: {.callout-tip collapse="true"}
 ## Solução
-<!-- Solução a definir. -->
+Vinho em qvevri no Cáucaso ($\sim$6000 a.C.) → vinho funerário egípcio
+($\sim$3000 a.C.) → symposion grego ($\sim$500 a.C.) → expansão romana
+($\sim$100 d.C.).
+:::
+
+::: {#exr-acido-tartarico}
+Arqueólogos encontram resíduos de **ácido tartárico** no fundo de um pote de
+cerâmica de 7000 anos. Por que esse achado é tratado como indício de vinho, e não
+de qualquer outra bebida?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque o ácido tartárico é abundante na **uva** e raro em outros frutos. Sua
+presença em quantidade aponta especificamente para suco de uva — e, num pote de
+armazenamento, muito provavelmente suco de uva fermentado, isto é, vinho.
+:::
+
+::: {#exr-heranca-romana}
+Escolha uma região vitícola europeia famosa (Bordeaux, Borgonha, Mosela…) e
+explique, com base no @exm-roma-mapa, por que sua existência é, em grande medida,
+herança de Roma.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Resposta-modelo (Bordeaux): os romanos plantaram vinha ao longo do rio Garona
+para abastecer suas tropas e cidades na Gália. A via fluvial que escolheram por
+conveniência logística é exatamente o eixo da região de Bordeaux atual; a
+viticultura local descende, sem grande interrupção, daquela implantação romana.
 :::

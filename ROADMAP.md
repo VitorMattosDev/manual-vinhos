@@ -106,7 +106,7 @@ fotos entram como imagem embutida — ver `PLANO.md`).
 - [x] `v12-servico-harmonizacao/03-conservacao-e-adega.qmd` — temperatura, umidade, posição, guarda. *fig.: condições ideais de adega.*
 - [x] `v12-servico-harmonizacao/04-principios-da-harmonizacao.qmd` — complementar × contrastar. *fig.: matriz de harmonização.*
 - [x] `v12-servico-harmonizacao/05-harmonizacoes-classicas.qmd` — duplas consagradas, regionais. *fig.: prato × estilo.*
-- [ ] `v12-servico-harmonizacao/06-sommellerie-e-carta.qmd` — serviço profissional, carta de vinhos. *fig.: estrutura de uma carta.*
+- [x] `v12-servico-harmonizacao/06-sommellerie-e-carta.qmd` — serviço profissional, carta de vinhos. *fig.: estrutura de uma carta.*
 
 ## Fase 6 — Cultura, mercado e fronteiras
 

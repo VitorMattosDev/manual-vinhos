@@ -97,6 +97,9 @@ escala, *extra dry* é mais doce que *brut*, apesar do nome. Ver **dosagem**.
 **Calda bordalesa** — mistura de sulfato de cobre e cal usada desde o século
 XIX para tratar o míldio e outros fungos da videira.
 
+**Carta de vinhos** — lista organizada dos vinhos de um restaurante, em seções
+(tipo ou região), com produtor, região, safra e preço (por taça e garrafa).
+
 **Casta** — variedade de videira (sinônimo de cultivar/uva). Ex.: Cabernet
 Sauvignon, Chardonnay.
 
@@ -417,6 +420,9 @@ sulfitos").
 **Solera** — sistema de mistura fracionada de fortificados (sobretudo Jerez) em
 barris empilhados por idade; engarrafa-se do mais velho e repõe-se com o mais
 jovem, dando estilo constante sem safra.
+
+**Sommelier** — profissional responsável pelo vinho num restaurante: monta a
+carta, conserva os vinhos, recomenda harmonizações e executa o serviço à mesa.
 
 **Super Toscano** — vinho toscano de alta qualidade que rompeu as regras da DOC
 (usando castas internacionais ou cortes proibidos); levou à criação da categoria

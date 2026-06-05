@@ -2,4 +2,130 @@
 title: "Sommellerie e a carta de vinhos"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+No restaurante, o vinho ganha um profissional dedicado: o **sommelier**. E ganha um
+instrumento: a **carta de vinhos**. Saber o que faz um sommelier — e como **ler** e
+usar uma carta sem intimidação — transforma a experiência de pedir vinho fora de
+casa, de um momento de ansiedade num de prazer.
+
+Este capítulo fecha o Volume XII com o serviço profissional e a anatomia de uma
+carta de vinhos (@fig-carta), além de dicas práticas para o consumidor.
+
+## O sommelier e o serviço
+
+::: {#def-sommelier}
+## Sommelier
+O **sommelier** é o profissional responsável pelo vinho num restaurante: monta e
+gere a **carta** e a adega, **conserva** os vinhos (Volume XII), **recomenda
+harmonizações** (caps. 4–5) e executa o **serviço** à mesa (apresentar, abrir,
+decantar e servir). É um consultor, não um vendedor.
+:::
+
+O serviço à mesa segue um ritual com função prática: **apresenta-se** a garrafa
+(rótulo voltado ao cliente, para conferir), **abre-se**, oferece-se uma **prova** ao
+anfitrião (para detectar defeitos — Volume XI), e então se **serve** aos demais,
+deixando o anfitrião por último. Enche-se a taça só até cerca de um terço.
+
+## A carta de vinhos
+
+::: {#def-carta}
+## Carta de vinhos
+A **carta de vinhos** é a lista organizada dos vinhos disponíveis. Costuma ser
+dividida em **seções** (espumantes, brancos, tintos, doces; ou por região), e cada
+entrada traz **produtor, região, safra e preço** (por taça e/ou garrafa). É um mapa
+— e, como todo mapa, fica fácil depois que se aprende a legenda.
+:::
+
+::: {#fig-carta}
+```{.tikz}
+%%| filename: estrutura-carta
+%%| alt: Estrutura de uma carta de vinhos, com seções (espumantes, brancos, tintos, doces) e, em cada entrada, produtor, região, safra e preço por taça e garrafa.
+\begin{tikzpicture}[font=\sffamily\scriptsize]
+  \draw[manualgray, very thick, rounded corners=3pt, fill=manualyellow!6] (0,0) rectangle (6,5.4);
+  \foreach \y/\sec in {4.7/{ESPUMANTES},3.4/{BRANCOS},2.1/{TINTOS},0.8/{DOCES}}{
+    \fill[manualred!18] (0.2,\y-0.1) rectangle (5.8,\y+0.3);
+    \node[right, font=\tiny\bfseries, manualred!70!black] at (0.3,\y+0.1) {\sec};
+    \draw[manualgray!40, dotted] (0.4,\y-0.45) -- (5.6,\y-0.45);
+    \draw[manualgray!40, dotted] (0.4,\y-0.75) -- (5.6,\y-0.75);}
+  % chamadas
+  \node[right, font=\tiny, align=left] at (6.3,4.85) {seções\\(por tipo/cor};
+  \node[right, font=\tiny, align=left] at (6.3,4.35) {ou região)};
+  \node[right, font=\tiny, align=left] at (6.3,3.0) {cada entrada:\\produtor · região\\· safra · preço\\(taça / garrafa)};
+  \draw[-{Stealth[length=1.6mm]}, manualgray] (6.3,3.0) -- (5.6,2.95);
+\end{tikzpicture}
+```
+
+A estrutura de uma carta: **seções** por tipo (ou região) e, em cada **entrada**,
+produtor, região, safra e preço por taça e garrafa. Conhecer essa anatomia é o que
+torna a carta amigável.
+:::
+
+## Dicas para o consumidor
+
+A carta não é um exame. Algumas práticas ajudam: **peça ajuda** ao sommelier — é a
+função dele —, e indique sua **faixa de preço** de forma discreta (basta **apontar**
+um valor na carta). Conte o que vão comer e deixe-o sugerir. Vinhos por **taça** são
+ótimos para experimentar. E há a opção do *corkage* (a "taxa de rolha") em casas que
+permitem **trazer o próprio** vinho.
+
+::: {.callout-tip}
+## Como dizer o preço sem constrangimento
+Não é preciso anunciar em voz alta quanto quer gastar. **Aponte** na carta um vinho
+na faixa desejada e diga "algo por aqui". O bom sommelier entende na hora e
+recomenda dentro do orçamento, sem expor ninguém.
+:::
+
+## Exemplos
+
+::: {#exm-vinho-taca}
+## A vantagem da taça
+Pedir vinho **por taça** permite **experimentar** mais de um estilo numa refeição —
+um branco para a entrada, um tinto para o prato — sem comprometer-se com uma
+garrafa inteira. É a forma mais econômica de **explorar** e de harmonizar prato a
+prato (Volume XII).
+:::
+
+::: {#exm-sommelier-aliado}
+## O sommelier é seu aliado
+Diga ao sommelier o **prato** escolhido e a **faixa de preço**, e deixe-o trabalhar:
+ele conhece a carta e a adega como ninguém. Longe de "julgar" o cliente, um bom
+profissional adora a chance de **acertar** uma recomendação. Pedir ajuda é sinal de
+esperteza, não de ignorância.
+:::
+
+## Exercícios
+
+::: {#exr-papel-sommelier}
+Cite **três** atribuições do **sommelier** (@def-sommelier) num restaurante.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Entre outras: montar e **gerir a carta/adega**, **conservar** os vinhos,
+**recomendar harmonizações** e executar o **serviço** à mesa (apresentar, abrir,
+decantar, servir). Bastam três.
+:::
+
+::: {#exr-prova-anfitriao}
+Para que serve a **prova** oferecida ao anfitrião antes de servir os demais (Volume
+XI)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Para **verificar se o vinho tem defeito** (por exemplo, TCA/"gosto de rolha" ou
+oxidação) antes de servi-lo a todos. Não é para "aprovar o gosto", e sim para
+checar a **sanidade** da garrafa.
+:::
+
+::: {#exr-faixa-preco}
+Como indicar discretamente ao sommelier a **faixa de preço** desejada (@callout)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Apontando** na carta um vinho no valor pretendido e dizendo algo como "nesta
+faixa". O sommelier entende imediatamente e recomenda dentro do orçamento, sem
+expor o cliente.
+:::

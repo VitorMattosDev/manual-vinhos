@@ -225,6 +225,9 @@ na planta: a água sai como gelo e o açúcar se concentra; depende de frio inte
 **IGP** (Indicação Geográfica Protegida) — faixa europeia intermediária, mais
 flexível que a DOP (IGT, Vin de Pays, Vino de la Tierra, Vinho Regional).
 
+**Lágrimas** (pernas) — filetes que escorrem na taça após girá-la; indicam o teor
+de álcool e glicerol (viscosidade), não a qualidade do vinho.
+
 **Levedura** — micro-organismo (sobretudo *Saccharomyces cerevisiae*)
 responsável pela fermentação alcoólica.
 

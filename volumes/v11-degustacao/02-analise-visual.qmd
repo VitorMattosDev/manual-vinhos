@@ -2,4 +2,126 @@
 title: "Análise visual"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+A degustação começa pelos **olhos**. Antes de cheirar ou provar, a cor do vinho já
+conta uma história: sua **idade**, seu estado de conservação e pistas sobre a casta
+e o estilo. Aprender a ler a cor é antecipar boa parte do que virá no nariz e na
+boca.
+
+Este capítulo trata da **análise visual**: o que a cor, a intensidade, a limpidez e
+as famosas "lágrimas" revelam — e o que **não** revelam.
+
+## O que a cor revela
+
+A cor do vinho **evolui com o tempo**, e em direções opostas para tintos e
+brancos, como mostra a @fig-cores-vinho.
+
+- **Tintos** começam **púrpura/violáceos** (jovens) e, ao envelhecer, passam a
+  rubi, depois **tijolo/granada** e, no declínio, ao acastanhado. A borda
+  (*menisco*) clareia com a idade.
+- **Brancos** fazem o caminho inverso da palidez à riqueza: de **pálido
+  esverdeado** (jovem) a palha, **dourado** e **âmbar** (idade, oxidação, madeira
+  ou doçura).
+
+::: {#fig-cores-vinho}
+```{.tikz}
+%%| filename: cores-vinho
+%%| alt: Dois gradientes de cor — um para tinto (de púrpura jovem a rubi, tijolo e marrom evoluído) e um para branco (de pálido esverdeado a palha, dourado e âmbar) — com a seta indicando o envelhecimento.
+\begin{tikzpicture}[font=\sffamily\scriptsize]
+  % tinto
+  \node[left, font=\tiny] at (0,2.5) {Tinto};
+  \foreach \i/\cor in {0/manualred!55!blue, 1/manualred!75, 2/manualred!55!brown, 3/brown!70}{
+    \fill[\cor, draw=manualgray] (\i*1.5+0.2,2.1) rectangle (\i*1.5+1.6,2.9);}
+  % branco
+  \node[left, font=\tiny] at (0,0.9) {Branco};
+  \foreach \i/\cor in {0/green!25!yellow!60, 1/manualyellow!55, 2/manualyellow!80!brown, 3/brown!45!yellow}{
+    \fill[\cor, draw=manualgray] (\i*1.5+0.2,0.5) rectangle (\i*1.5+1.6,1.3);}
+  % seta de evolução
+  \draw[-{Stealth[length=2.5mm]}, manualgray, thick] (0.3,-0.1) -- (6.0,-0.1);
+  \node[manualgray, font=\tiny] at (0.7,-0.45) {jovem};
+  \node[manualgray, font=\tiny] at (5.6,-0.45) {evoluído};
+\end{tikzpicture}
+```
+
+A evolução da cor. O **tinto** desbota do púrpura ao tijolo e ao marrom; o
+**branco** ganha cor, do pálido esverdeado ao âmbar. Pela cor e pela borda, estima-se
+a **idade** do vinho.
+:::
+
+## Intensidade, limpidez e lágrimas
+
+A **intensidade** (profundidade) da cor dá pistas da casta e do clima: um tinto
+**opaco** sugere casta tânica de clima quente (Syrah, Malbec); um **translúcido**,
+uma casta leve (Pinot Noir). A **limpidez** importa: turbidez pode indicar defeito —
+ou apenas um vinho **não filtrado** (comum em naturais).
+
+E as **lágrimas** (ou "pernas") que escorrem na parede da taça?
+
+::: {#def-lagrimas}
+## Lágrimas (pernas)
+As **lágrimas** são os filetes que escorrem na taça após girá-la. Elas indicam o
+teor de **álcool e glicerol** (viscosidade) do vinho — e **nada mais**. Não medem
+qualidade nem doçura: um vinho ruim e alcoólico também faz lágrimas generosas.
+:::
+
+::: {.callout-warning}
+## Erro comum
+"Quanto mais lágrimas, melhor o vinho" é um mito clássico. As lágrimas refletem
+**álcool e glicerol**, não qualidade. Um vinho leve e excelente pode ter poucas
+lágrimas; um vinho alcoólico e medíocre, muitas.
+:::
+
+## Exemplos
+
+::: {#exm-borda-tijolo}
+## A borda entrega a idade
+Incline a taça de um tinto sobre um fundo branco e observe a **borda**. Se for
+púrpura vibrante, o vinho é **jovem**; se a borda for alaranjada/atijolada, ele já
+tem **anos de garrafa** (Volume VII). A borda envelhece antes do centro — é o
+relógio visual do vinho.
+:::
+
+::: {#exm-branco-ambar}
+## Um branco dourado demais
+Um branco jovem que deveria ser pálido, mas se apresenta **âmbar/dourado escuro**,
+pode estar **oxidado** (Volume VII) — a menos que seja um vinho de guarda, doce ou
+muito amadeirado. A cor, aqui, é o primeiro alerta antes mesmo do cheiro.
+:::
+
+## Exercícios
+
+::: {#exr-cor-idade}
+Pela @fig-cores-vinho, um tinto de borda **atijolada** e um de borda **púrpura**:
+qual é o mais **jovem** e qual o mais **evoluído**?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+O de borda **púrpura** é o mais **jovem**; o de borda **atijolada/alaranjada** é o
+mais **evoluído** (mais tempo de garrafa).
+:::
+
+::: {#exr-lagrimas}
+Um amigo afirma que o vinho "tem muitas pernas, então é de ótima qualidade".
+Corrija-o com base na @def-lagrimas.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+As **lágrimas** indicam apenas o teor de **álcool e glicerol** (viscosidade), não
+qualidade. Um vinho alcoólico e medíocre pode ter muitas pernas, e um vinho leve e
+ótimo, poucas. Pernas ≠ qualidade.
+:::
+
+::: {#exr-intensidade}
+Um tinto **opaco** e profundo e um tinto **translúcido** e claro: o que a
+intensidade da cor sugere sobre a casta de cada um?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+O **opaco** sugere uma casta **tânica e de clima quente** (ex.: Syrah, Malbec); o
+**translúcido**, uma casta **leve** de cor naturalmente baixa (ex.: Pinot Noir,
+Nebbiolo).
+:::

@@ -108,14 +108,14 @@ book:
         - volumes/v10-novo-mundo/05-africa-do-sul-e-fronteiras.qmd
         - volumes/v10-novo-mundo/06-classificacoes-novo-mundo.qmd
 
-    # - part: "Volume XI — Degustação e Análise Sensorial"
-    #   chapters:
-    #     - volumes/v11-degustacao/01-sentidos-e-fisiologia.qmd
-    #     - volumes/v11-degustacao/02-analise-visual.qmd
-    #     - volumes/v11-degustacao/03-analise-olfativa.qmd
-    #     - volumes/v11-degustacao/04-analise-gustativa.qmd
-    #     - volumes/v11-degustacao/05-reconhecer-defeitos.qmd
-    #     - volumes/v11-degustacao/06-avaliacao-e-degustacao-as-cegas.qmd
+    - part: "Volume XI — Degustação e Análise Sensorial"
+      chapters:
+        - volumes/v11-degustacao/01-sentidos-e-fisiologia.qmd
+        - volumes/v11-degustacao/02-analise-visual.qmd
+        - volumes/v11-degustacao/03-analise-olfativa.qmd
+        - volumes/v11-degustacao/04-analise-gustativa.qmd
+        - volumes/v11-degustacao/05-reconhecer-defeitos.qmd
+        - volumes/v11-degustacao/06-avaliacao-e-degustacao-as-cegas.qmd
 
     # - part: "Volume XII — Serviço, Harmonização e Guarda"
     #   chapters:

@@ -93,7 +93,7 @@ fotos entram como imagem embutida — ver `PLANO.md`).
 ## Fase 5 — Degustação e serviço
 
 ### Volume XI — Degustação e Análise Sensorial
-- [ ] `v11-degustacao/01-sentidos-e-fisiologia.qmd` — paladar, olfato retronasal. *fig.: olfato direto × retronasal.*
+- [x] `v11-degustacao/01-sentidos-e-fisiologia.qmd` — paladar, olfato retronasal. *fig.: olfato direto × retronasal.*
 - [ ] `v11-degustacao/02-analise-visual.qmd` — cor, intensidade, lágrimas. *fig.: gradiente de cores do vinho.*
 - [ ] `v11-degustacao/03-analise-olfativa.qmd` — famílias de aromas. *fig.: roda de aromas.*
 - [ ] `v11-degustacao/04-analise-gustativa.qmd` — doçura, acidez, tanino, álcool, equilíbrio. *fig.: estrela de equilíbrio gustativo.*

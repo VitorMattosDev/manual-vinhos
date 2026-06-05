@@ -1,0 +1,125 @@
+---
+title: "Os sentidos e a fisiologia da degustação"
+---
+
+## Motivação
+
+Degustar não é "ter um paladar especial" — é **usar os sentidos com método**. E o
+primeiro passo é entender uma verdade contraintuitiva: o que chamamos de **sabor**
+do vinho é, na maior parte, **olfato**, não gosto. A língua sente apenas um punhado
+de gostos básicos; o resto — toda a riqueza de frutas, flores, especiarias — chega
+pelo **nariz**, inclusive **por dentro** da boca.
+
+Este capítulo abre o Volume XI pela fisiologia da degustação. Saber como os
+sentidos funcionam é o que transforma "beber" em "degustar".
+
+## Gosto, olfato e tato
+
+::: {#def-gostos-paladar}
+## Os gostos básicos
+A **língua** detecta apenas cinco **gostos básicos**: doce, salgado, ácido, amargo
+e umami. No vinho importam sobretudo a **doçura**, a **acidez** e o **amargor**; o
+salgado e o umami são raros. Tudo o mais que "sentimos" não é gosto — é **olfato**.
+:::
+
+O olfato chega por dois caminhos, na @fig-olfato:
+
+::: {#def-retronasal}
+## Olfato direto e retronasal
+O **olfato direto** (ortonasal) acontece ao **cheirar**: o ar entra pelas narinas
+até a região olfativa. O **olfato retronasal** acontece **dentro da boca**: ao
+mastigar, engolir ou expirar, os aromas sobem da boca para o nariz por trás. O
+"sabor" pleno do vinho é a soma de **gosto + olfato retronasal + tato**.
+:::
+
+::: {#fig-olfato}
+```{.tikz}
+%%| filename: olfato-retronasal
+%%| alt: Perfil estilizado de uma cabeça mostrando os dois caminhos do olfato — o direto (ortonasal), com ar entrando pelas narinas até a região olfativa, e o retronasal, com aromas subindo da boca para o nariz por trás.
+\begin{tikzpicture}[font=\sffamily\scriptsize]
+  % perfil da cabeça (voltado à esquerda)
+  \draw[manualgray, very thick] (3.0,4.2) arc (90:300:1.9 and 2.0);
+  % nariz
+  \draw[manualgray, very thick] (1.15,2.2) -- (0.2,1.7) -- (1.1,1.3);
+  % boca
+  \draw[manualgray, very thick] (1.0,0.9) -- (1.9,0.85);
+  % região olfativa
+  \fill[manualyellow!50] (1.7,2.6) circle (3.2mm);
+  \node[font=\tiny, manualgray] at (2.9,2.6) {região\\olfativa};
+  % olfato direto (ortonasal)
+  \draw[-{Stealth[length=2mm]}, very thick, manualblue] (-0.6,1.6) -- (0.3,1.75) .. controls (1.1,2.0) .. (1.5,2.4);
+  \node[manualblue, font=\tiny, align=center] at (-0.7,1.1) {olfato direto\\(cheirar)};
+  % olfato retronasal
+  \draw[-{Stealth[length=2mm]}, very thick, manualred] (1.6,0.95) .. controls (2.1,1.6) and (2.1,2.1) .. (1.85,2.45);
+  \node[manualred, font=\tiny, align=center] at (3.0,1.1) {olfato\\retronasal\\(na boca)};
+\end{tikzpicture}
+```
+
+Os dois caminhos do olfato. O **direto** (azul) entra pelas narinas ao cheirar; o
+**retronasal** (vermelho) sobe da boca por trás, ao degustar. Ambos chegam à mesma
+**região olfativa** — por isso o "sabor" é, no fundo, cheiro.
+:::
+
+Há ainda o **tato** na boca (a quimioestesia): a **adstringência** do tanino, a
+**ardência** do álcool, a temperatura e a efervescência. São sensações físicas, não
+gostos nem aromas.
+
+::: {.callout-note}
+## Por que o nariz entupido "tira o gosto"
+Com o nariz congestionado, o caminho **retronasal** se fecha — e a comida ou o
+vinho parecem "sem gosto". Na verdade, você ainda sente os gostos básicos (doce,
+ácido…); o que sumiu foi o **olfato**, que respondia pela maior parte do sabor.
+:::
+
+## Exemplos
+
+::: {#exm-tape-nariz}
+## O teste do nariz tapado
+Tape o nariz e prove um vinho: sentirá doçura, acidez e a adstringência do tanino,
+mas quase **nenhum aroma de fruta**. Solte o nariz e expire: os aromas "explodem"
+pela via **retronasal**. É a prova caseira de que sabor ≠ gosto.
+:::
+
+::: {#exm-final-retronasal}
+## O "final" é retronasal
+Aquela sensação de aromas que **permanecem** depois de engolir — o **final** ou
+retrogosto — é puro olfato **retronasal**. Um vinho de "final longo" continua
+liberando aromas pela boca após a deglutição; é uma das marcas de qualidade.
+:::
+
+## Exercícios
+
+::: {#exr-gosto-vs-aroma}
+Classifique cada percepção como **gosto** (língua), **aroma** (olfato) ou **tato**
+(boca): (a) acidez; (b) cheiro de framboesa; (c) adstringência do tanino.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) **Gosto** (ácido, na língua); (b) **Aroma** (olfato); (c) **Tato** (a
+adstringência é uma sensação física, quimioestesia).
+:::
+
+::: {#exr-retronasal}
+Por que, ao tapar o nariz, "perdemos o sabor" do vinho, mas ainda sentimos a
+doçura e a acidez (@def-retronasal)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque tapar o nariz bloqueia o olfato **retronasal**, responsável pela maior parte
+do "sabor" (os aromas). Os **gostos básicos** (doce, ácido) continuam sendo
+detectados pela **língua**, que não depende do nariz.
+:::
+
+::: {#exr-final}
+O que é o **final** (retrogosto) de um vinho, e por que ele é uma percepção
+olfativa (@exm-final-retronasal)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+É a persistência dos **aromas** após engolir, percebida pela via **retronasal**.
+Como são aromas (não gostos), trata-se de olfato; um "final longo" é sinal de
+qualidade.
+:::

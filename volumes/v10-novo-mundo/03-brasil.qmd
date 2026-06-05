@@ -2,4 +2,130 @@
 title: "Brasil"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+O Brasil é um produtor **jovem**, mas em franca ascensão — e guarda uma das
+histórias mais curiosas do mundo do vinho: dentro do mesmo país convivem uma
+viticultura **temperada e úmida**, no sul, e uma viticultura **tropical** no
+semiárido nordestino, onde a videira nem chega a dormir e produz **mais de uma
+safra por ano**. Poucos lugares ilustram tão bem como o clima molda tudo.
+
+Este capítulo apresenta as regiões vitícolas brasileiras, da Serra Gaúcha ao Vale
+do São Francisco (@fig-mapa-brasil), e o que cada uma faz de melhor.
+
+## Duas viticulturas num país só
+
+::: {#fig-mapa-brasil}
+```{.tikz}
+%%| filename: mapa-brasil
+%%| alt: Mapa estilizado do Brasil vitícola, com o Vale do São Francisco no nordeste (viticultura tropical, duas safras) e, no sul, a Serra Gaúcha (espumantes), a Campanha e o Planalto Catarinense.
+\begin{tikzpicture}[font=\sffamily\scriptsize]
+  % silhueta muito estilizada do Brasil
+  \draw[manualgray, very thick, fill=manualgreen!8]
+    (2.2,5.0) -- (3.6,4.6) -- (4.2,3.2) -- (3.6,1.8) -- (2.6,0.6)
+    -- (1.7,1.0) -- (1.3,2.4) -- (1.6,3.8) -- cycle;
+  % Vale do São Francisco (nordeste)
+  \fill[manualred] (3.5,3.9) circle (1.6pt);
+  \node[right, font=\tiny, manualred!70!black, align=left] at (3.65,3.9)
+    {Vale do São Francisco\\\tiny(tropical, 2 safras)};
+  % Sul
+  \fill[manualred] (2.3,1.4) circle (1.6pt);
+  \node[right, font=\tiny, manualred!70!black, align=left] at (2.45,1.55)
+    {Serra Gaúcha\\\tiny(espumantes)};
+  \fill[manualred] (2.0,0.95) circle (1.6pt);
+  \node[left, font=\tiny, manualred!70!black] at (1.9,0.85) {Campanha};
+  \fill[manualred] (2.7,1.05) circle (1.6pt);
+  \node[right, font=\tiny, manualred!70!black] at (2.82,1.05) {Planalto SC};
+\end{tikzpicture}
+```
+
+O Brasil vitícola estilizado. No **sul**, a **Serra Gaúcha** (espumantes), a
+Campanha e o Planalto Catarinense de altitude; no **nordeste**, o **Vale do São
+Francisco**, de viticultura tropical com duas safras por ano.
+:::
+
+## Sul: o reino do espumante
+
+A **Serra Gaúcha** (Rio Grande do Sul) é o coração do vinho brasileiro, herança da
+imigração **italiana**. Seu clima **úmido** favorece a condução em **latada**
+(Volume II) e, sobretudo, fez do Brasil um país de **espumantes** de qualidade
+reconhecida internacionalmente — pelos métodos tradicional e Charmat (Volume VI).
+É o melhor cartão de visitas do vinho nacional.
+
+Mais ao sul e a oeste, a **Campanha** e a **Serra do Sudeste**, mais secas, dão
+bons tintos finos; e o **Planalto Catarinense**, em grande **altitude**
+(1.000–1.400 m), aposta em vinhos frescos de clima frio.
+
+## Nordeste: a videira que não dorme
+
+::: {#def-viticultura-tropical}
+## Viticultura tropical
+Na **viticultura tropical** (Vale do São Francisco, semiárido), não há inverno
+frio: a videira **não entra em dormência** (Volume II). Com **irrigação** e poda, o
+produtor induz o ciclo quando quer, colhendo **duas a duas safras e meia por ano** —
+algo impossível no clima temperado.
+:::
+
+::: {.callout-note}
+## O Brasil que mais surpreende
+A viticultura tropical do São Francisco contraria tudo o que se aprende sobre o
+ciclo anual da videira (Volume II): sem dormência, a planta produz quase o ano
+todo. É um caso extremo de como o **clima** redefine as regras — e um laboratório
+para o futuro do vinho em zonas quentes.
+:::
+
+## Exemplos
+
+::: {#exm-espumante-br}
+## Por que o espumante é o destaque
+O clima fresco e úmido da **Serra Gaúcha** dá uvas de **alta acidez** — exatamente
+o que um bom espumante pede (Volume VI). Em vez de lutar contra o clima para fazer
+tintos potentes, o Brasil **abraçou** sua vocação e se destacou justamente nos
+espumantes. Jogar a favor do terroir, não contra.
+:::
+
+::: {#exm-duas-safras}
+## Duas colheitas, um ano
+No **Vale do São Francisco**, um mesmo vinhedo pode ser podado e colhido em
+calendários escalonados, rendendo **mais de uma safra por ano**. A "safra" deixa de
+ser um marco anual e vira uma decisão de manejo — uma quebra radical da lógica do
+Velho Mundo.
+:::
+
+## Exercícios
+
+::: {#exr-serra-gaucha}
+Por que a **Serra Gaúcha** se destacou nos **espumantes**, e como isso ilustra
+"jogar a favor do terroir" (@exm-espumante-br)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque seu clima fresco e úmido dá uvas de **alta acidez**, ideais para espumante.
+Em vez de forçar estilos que o clima não favorece, o Brasil explorou sua **vocação**
+natural — daí o destaque internacional nos espumantes.
+:::
+
+::: {#exr-viticultura-tropical}
+O que torna a **viticultura tropical** do São Francisco tão diferente
+(@def-viticultura-tropical)? Relacione com o ciclo da videira (Volume II).
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Não há inverno frio, então a videira **não entra em dormência**. Com irrigação e
+poda, induz-se o ciclo à vontade, colhendo **duas ou mais safras por ano** — algo
+impossível no clima temperado, onde a planta dorme no inverno.
+:::
+
+::: {#exr-altitude-sc}
+Que recurso o **Planalto Catarinense** usa para fazer vinhos frescos, e a que outro
+caso já visto isso se assemelha?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+A **altitude** (1.000–1.400 m), que resfria o vinhedo. Assemelha-se a **Mendoza**
+(Argentina) e às vinhas de altitude que usam a elevação para ganhar frescor e
+amplitude térmica.
+:::

@@ -114,7 +114,7 @@ fotos entram como imagem embutida — ver `PLANO.md`).
 - [x] `v13-cultura-mercado/01-economia-e-investimento.qmd` — mercado, preço, leilões, investimento. *fig.: cadeia de valor do vinho.*
 - [x] `v13-cultura-mercado/02-vinho-e-saude.qmd` — álcool, moderação, mitos. *fig.: dose padrão por taça.*
 - [x] `v13-cultura-mercado/03-sustentabilidade-e-clima.qmd` — orgânico, biodinâmico, mudança climática. *fig.: deslocamento de zonas climáticas.*
-- [ ] `v13-cultura-mercado/04-certificacoes-e-carreiras.qmd` — WSET, sommelier, Master of Wine. *fig.: trilhas de certificação.*
+- [x] `v13-cultura-mercado/04-certificacoes-e-carreiras.qmd` — WSET, sommelier, Master of Wine. *fig.: trilhas de certificação.*
 - [ ] `v13-cultura-mercado/05-tendencias-e-futuro.qmd` — naturais, sem álcool, novas regiões. *fig.: linha do tempo de tendências.*
 
 ---

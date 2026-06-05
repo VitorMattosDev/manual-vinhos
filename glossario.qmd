@@ -291,6 +291,9 @@ Beaujolais).
 **Malolática** — fermentação secundária que converte o ácido málico (duro) em
 ácido lático (macio), reduzindo a acidez.
 
+**Master of Wine** (MW) — título acadêmico de topo do mundo do vinho (Institute
+of Masters of Wine), com provas, degustação às cegas e tese; raríssimo.
+
 **Maturação fenólica** — amadurecimento de taninos, cor e aromas na película e
 nas grainhas, distinta da maturação de açúcar e acidez; o ponto ideal de colheita
 busca conciliar as duas.
@@ -511,6 +514,9 @@ ou mais safras por ano.
 
 **_Vitis vinifera_** — espécie de videira de origem caucasiana que dá quase
 todo o vinho fino do mundo; tronco de onde derivam as castas cultivadas.
+
+**WSET** (*Wine & Spirit Education Trust*) — programa global de estudo do vinho
+em quatro níveis (1 ao Diploma); padrão de referência para conhecimento.
 
 **YAN** (nitrogênio assimilável) — compostos nitrogenados do mosto que nutrem as
 leveduras; sua falta causa fermentação lenta, travada ou cheiros de enxofre.

@@ -2,4 +2,132 @@
 title: "Certificações e carreiras"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Para quem o vinho deixa de ser só prazer e vira **vocação**, há caminhos
+estruturados — trilhas de estudo reconhecidas no mundo todo e profissões que vão
+muito além do sommelier. Conhecer esse mapa ajuda tanto o amador que quer
+**aprofundar-se** quanto quem pensa em **trabalhar** com vinho.
+
+Este capítulo, penúltimo do manual, apresenta as principais certificações
+(@fig-trilhas) e as carreiras do mundo do vinho.
+
+## As trilhas de certificação
+
+::: {#def-trilhas}
+## WSET, sommelier e Master of Wine
+Há três grandes trilhas. O **WSET** (níveis 1 a 4/Diploma) foca o **conhecimento**
+do vinho e é o padrão global de estudo. A trilha do **sommelier** (Court of Master
+Sommeliers: Introductory → Certified → Advanced → **Master Sommelier**) foca o
+**serviço** e a degustação às cegas. E o **Master of Wine** (**MW**) é o ápice
+**acadêmico**, raríssimo no mundo.
+:::
+
+::: {#fig-trilhas}
+```{.tikz}
+%%| filename: trilhas-certificacao
+%%| alt: Trilhas de certificação do vinho — uma escada WSET (níveis 1 a 4/Diploma) e uma escada de sommelier (Introductory a Master Sommelier), ambas apontando para o ápice Master of Wine.
+\begin{tikzpicture}[font=\sffamily\scriptsize,
+    cx/.style={draw=manualred, very thick, rounded corners=2pt, fill=manualred!10,
+      align=center, text width=26mm, minimum height=6.5mm, font=\tiny},
+    fl/.style={-{Stealth[length=1.8mm]}, very thick, manualgray}]
+  % WSET
+  \node[cx] (w1) at (0,0)   {WSET Nível 1};
+  \node[cx] (w2) at (0,0.9) {WSET Nível 2};
+  \node[cx] (w3) at (0,1.8) {WSET Nível 3};
+  \node[cx] (w4) at (0,2.7) {WSET 4 / Diploma};
+  \foreach \a/\b in {w1/w2,w2/w3,w3/w4}{\draw[fl] (\a)--(\b);}
+  \node[font=\tiny\bfseries, manualgray] at (0,3.3) {WSET (conhecimento)};
+  % Sommelier
+  \node[cx] (s1) at (3.6,0)   {Introductory};
+  \node[cx] (s2) at (3.6,0.9) {Certified};
+  \node[cx] (s3) at (3.6,1.8) {Advanced};
+  \node[cx] (s4) at (3.6,2.7) {Master Sommelier};
+  \foreach \a/\b in {s1/s2,s2/s3,s3/s4}{\draw[fl] (\a)--(\b);}
+  \node[font=\tiny\bfseries, manualgray] at (3.6,3.3) {Sommelier (serviço)};
+  % ápice MW
+  \node[cx, fill=manualyellow!30, draw=manualyellow!70!black, text width=34mm,
+    minimum height=8mm, font=\scriptsize\bfseries] (mw) at (1.8,4.3) {Master of Wine (MW)};
+  \draw[fl, dashed] (w4) -- (mw);
+  \draw[fl, dashed] (s4) -- (mw);
+\end{tikzpicture}
+```
+
+As trilhas de certificação. O **WSET** estrutura o conhecimento; a trilha do
+**sommelier** foca o serviço; e o **Master of Wine** é o ápice acadêmico. Cada
+escada tem seus níveis; o topo é alcançado por pouquíssimos.
+:::
+
+## As carreiras do vinho
+
+O vinho emprega muito além do sommelier de restaurante:
+
+- **Enólogo** (*winemaker*) — faz o vinho na adega; formação técnica em
+  **enologia/agronomia**.
+- **Viticultor** — cuida do vinhedo (Volume II).
+- **Sommelier** — serviço e curadoria em restaurantes e hotéis (Volume XII).
+- **Comprador / importador** — seleciona e traz vinhos ao mercado.
+- **Educador, crítico, escritor** — ensina, avalia e comunica o vinho.
+
+::: {.callout-note}
+## Um clube minúsculo
+Há apenas algumas **centenas** de **Masters of Wine** e de **Master Sommeliers** no
+mundo inteiro — dois dos títulos mais difíceis de qualquer área. Não são
+pré-requisito para amar ou trabalhar com vinho; são o **Everest** de quem faz disso
+a vida.
+:::
+
+## Exemplos
+
+::: {#exm-wset}
+## Por onde começa o amador
+Quem quer estudar a sério costuma começar pelo **WSET Nível 2 ou 3**: dá uma base
+sólida e estruturada de castas, regiões e degustação (Volume XI), reconhecida no
+mundo todo. Não é preciso querer ser profissional — muitos fazem só pelo prazer de
+entender melhor o que bebem.
+:::
+
+::: {#exm-mw-dificuldade}
+## O exame mais difícil do vinho
+O **Master of Wine** combina provas teóricas, **degustação às cegas** (Volume XI) de
+dezenas de vinhos e uma **tese** de pesquisa original. Leva anos e tem taxa de
+aprovação baixíssima — por isso há tão poucos MW. É a prova de que, no vinho,
+sempre há mais a aprender.
+:::
+
+## Exercícios
+
+::: {#exr-trilhas}
+Associe cada trilha ao seu foco (@def-trilhas): (1) WSET; (2) Court of Master
+Sommeliers; (3) Master of Wine. Focos: (a) serviço e às cegas; (b) conhecimento
+estruturado; (c) ápice acadêmico/pesquisa.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+1→b (WSET · conhecimento); 2→a (sommelier · serviço e às cegas); 3→c (Master of
+Wine · ápice acadêmico).
+:::
+
+::: {#exr-carreiras}
+Diferencie as funções do **enólogo** e do **viticultor** (Volume II).
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+O **viticultor** cuida do **vinhedo** (a videira, o terroir, a colheita); o
+**enólogo** faz o **vinho** na adega (fermentação, estágio, engarrafamento). Um
+trabalha a uva no campo; o outro, o vinho na vinícola.
+:::
+
+::: {#exr-comecar}
+Para um amador que quer estudar vinho de forma estruturada, por onde costuma ser
+melhor começar (@exm-wset)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Pelo **WSET Nível 2 ou 3**, que dá uma base sólida e reconhecida de castas, regiões
+e degustação — útil mesmo para quem não pretende ser profissional, só entender
+melhor o que bebe.
+:::

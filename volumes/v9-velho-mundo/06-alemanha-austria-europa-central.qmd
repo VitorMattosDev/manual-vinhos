@@ -2,4 +2,131 @@
 title: "Alemanha, Áustria e Europa Central"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+No norte frio da Europa, o vinho vive no limite do amadurecimento — e é
+justamente isso que dá à **Alemanha** seus Rieslings de acidez vibrante e pureza
+cristalina. A região também criou uma escala de classificação singular, que não
+mede a região nem a parcela, e sim **quão madura** a uva foi colhida: a
+**Prädikat**.
+
+Este capítulo trata da Alemanha, da Áustria e de uma ponta da Europa Central,
+girando em torno do Riesling e dessa escala de maturação.
+
+## Alemanha: o império do Riesling
+
+O grande branco alemão é o **Riesling** (Volume III): aromático, de **acidez
+altíssima**, capaz do **seco** (*Trocken*) ao doce, e extremamente longevo. As
+regiões seguem os rios:
+
+- **Mosel** — encostas **íngremes de xisto** sobre o rio; Rieslings leves,
+  delicados, de baixo álcool e enorme finesse.
+- **Rheingau** e **Pfalz** — Rieslings mais encorpados e potentes.
+- Ao sul, **Baden** faz Pinot Noir (ali chamado **Spätburgunder**).
+
+## A escala Prädikat
+
+A classificação alemã de topo, **Prädikatswein**, ordena os vinhos pela
+**maturação da uva na colheita** (medida pelo açúcar do mosto). A
+@fig-escala-pradikat mostra os níveis, do menos ao mais maduro.
+
+::: {#def-pradikat}
+## Prädikat
+A **Prädikat** classifica pela **maturação na colheita**, não pela doçura final:
+**Kabinett** (uvas normais), **Spätlese** (colheita tardia), **Auslese**
+(selecionada), **Beerenauslese/BA** (bago a bago, com botrytis), **Eiswein**
+(uvas congeladas) e **Trockenbeerenauslese/TBA** (passas botritizadas). Os níveis
+mais altos costumam ser doces, mas um Kabinett pode ser **seco**.
+:::
+
+::: {#fig-escala-pradikat}
+```{.tikz}
+%%| filename: escala-pradikat
+%%| alt: Escala horizontal dos níveis Prädikat alemães, do menos ao mais maduro — Kabinett, Spätlese, Auslese, Beerenauslese, Eiswein e Trockenbeerenauslese — com a maturação da uva aumentando para a direita.
+\begin{tikzpicture}[font=\sffamily\scriptsize]
+  \foreach \i/\nome/\sh in {
+      0/{Kabinett}/10,
+      1/{Spätlese}/24,
+      2/{Auslese}/40,
+      3/{Beeren-\\auslese}/58,
+      4/{Eiswein}/74,
+      5/{Trocken-\\beerenausl.}/90}{
+    \fill[manualyellow!\sh!white, draw=manualgray, thick]
+      (\i*1.95,0) rectangle (\i*1.95+1.95,1.1);
+    \node[align=center, font=\tiny] at (\i*1.95+0.97,0.55) {\nome};}
+  \draw[-{Stealth[length=2.5mm]}, manualgray, thick] (0,1.55) -- (11.7,1.55);
+  \node[manualgray, font=\tiny] at (1.4,1.85) {menos maduro};
+  \node[manualgray, font=\tiny] at (10.3,1.85) {mais maduro / mais açúcar};
+\end{tikzpicture}
+```
+
+A escala **Prädikat**, da uva menos madura (**Kabinett**) à mais concentrada
+(**Trockenbeerenauslese**). Ela mede a **maturação na colheita**; os níveis altos
+tendem ao doce, mas não obrigatoriamente.
+:::
+
+## Áustria e Europa Central
+
+A **Áustria** tem como assinatura o branco **Grüner Veltliner** — seco, cítrico,
+com um toque apimentado —, além de Rieslings secos de terraços (Wachau) e do tinto
+**Blaufränkisch**. Mais a leste, a **Hungria** guarda o lendário **Tokaji**
+(Volume VI), doce botritizado de Furmint. É uma Europa Central de brancos
+nervosos e doces nobres.
+
+::: {.callout-warning}
+## Erro comum
+**Prädikat não é sinônimo de doce.** A escala mede a **maturação da uva**, não a
+doçura do vinho pronto. Existe **Kabinett Trocken** (seco) e até Auslese seco. Para
+saber a doçura, é preciso ler também "Trocken" (seco) ou "Feinherb" (meio-seco) no
+rótulo.
+:::
+
+## Exemplos
+
+::: {#exm-mosel-xisto}
+## Por que o Mosel é tão leve
+No **Mosel**, as vinhas se agarram a encostas de **xisto** quase verticais,
+voltadas ao sol, à beira do rio (Volume II). O xisto retém calor e ajuda a uva a
+amadurecer num clima friíssimo; o resultado são Rieslings de **baixo álcool**,
+acidez cristalina e leveza incomparável.
+:::
+
+::: {#exm-kabinett-trocken}
+## Um Prädikat seco
+Um **Kabinett Trocken** desfaz a confusão comum: é um vinho do nível Prädikat mais
+básico (uva de maturação normal) vinificado **seco**. Prova de que a palavra
+Prädikat fala da **uva na colheita**, e que a doçura final é outra informação.
+:::
+
+## Exercícios
+
+::: {#exr-ordenar-pradikat}
+Ordene do **menos** ao **mais maduro** na colheita (@fig-escala-pradikat): Auslese,
+Kabinett, Trockenbeerenauslese, Spätlese.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Kabinett → Spätlese → Auslese → Trockenbeerenauslese.
+:::
+
+::: {#exr-pradikat-docura}
+Por que dizer "Spätlese é um vinho doce" pode estar errado (@def-pradikat)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque a Prädikat indica a **maturação da uva**, não a doçura final. Um Spätlese
+pode ser vinificado **seco** (Trocken). A doçura depende de quanto açúcar fermentou,
+não só do nível Prädikat.
+:::
+
+::: {#exr-gruner}
+Qual é a casta-assinatura da **Áustria** e como se descreve seu estilo?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+O **Grüner Veltliner**: um branco **seco**, cítrico e com um toque **apimentado**,
+de boa acidez.
+:::

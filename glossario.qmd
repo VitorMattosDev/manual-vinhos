@@ -310,6 +310,10 @@ cultivada desde a crise da filoxera.
 depende de acidez, taninos, açúcar, álcool e concentração. A maioria dos vinhos
 tem apogeu precoce.
 
+**Prädikat** — classificação alemã que ordena os vinhos pela maturação da uva na
+colheita (Kabinett, Spätlese, Auslese, Beerenauslese, Eiswein,
+Trockenbeerenauslese); mede a uva, não a doçura final.
+
 **Premier Cru** — na Borgonha, parcela superior dentro de uma comuna, abaixo do
 **Grand Cru** e acima do nível Village.
 
@@ -380,6 +384,9 @@ forte) regula as notas torradas e de baunilha que o vinho absorve.
 
 **Trasfega** — transferência do vinho de um recipiente a outro, deixando para
 trás a borra depositada no fundo; clarifica e areia o vinho de forma controlada.
+
+**Trocken** — "seco", em alemão; indica que o vinho fermentou até sobrar pouco
+açúcar, independentemente do nível **Prädikat**.
 
 **Vedante** — fecho da garrafa (cortiça natural, rolha técnica, rosca, vidro ou
 sintético); regula a entrada de oxigênio e o risco de defeitos como o TCA.

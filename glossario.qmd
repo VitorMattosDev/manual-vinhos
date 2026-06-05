@@ -216,6 +216,9 @@ fermentação a partir dos açúcares da uva.
 **Exposição solar** — orientação de uma encosta em relação ao sol; em climas
 frios, determina se a uva amadurece. Componente do relevo no terroir.
 
+**Faixa vitícola** — banda de latitudes temperadas (~30°–50°) onde a uva de vinho
+amadurece bem; o aquecimento a desloca rumo aos polos e a maiores altitudes.
+
 **Fermentação alcoólica** — processo pelo qual as leveduras convertem os
 açúcares do mosto em etanol e dióxido de carbono; é o que transforma mosto em
 vinho.

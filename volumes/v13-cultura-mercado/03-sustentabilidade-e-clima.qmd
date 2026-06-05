@@ -2,4 +2,131 @@
 title: "Sustentabilidade e clima"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+O vinho é uma das atividades agrícolas mais **sensíveis ao clima** — e, por isso,
+uma das primeiras a sentir a mudança climática. O aquecimento já adianta colheitas,
+eleva o álcool e **desloca** o mapa do vinho (Volume X). Ao mesmo tempo, a
+viticultura busca tornar-se mais **sustentável**, do vinhedo à garrafa.
+
+Este capítulo trata desses dois temas entrelaçados: como o clima redesenha as
+regiões (@fig-deslocamento) e o que significa fazer vinho de forma sustentável.
+
+## O clima redesenha o mapa
+
+A viticultura de qualidade concentra-se historicamente em duas **faixas** de clima
+temperado (cerca de 30° a 50° de latitude, em cada hemisfério). Com o aquecimento,
+essas faixas tendem a **migrar para os polos** e a **subir em altitude**, como na
+@fig-deslocamento.
+
+::: {#def-faixa-viticola}
+## Faixa vitícola
+A **faixa vitícola** é a banda de latitudes de clima temperado onde a uva de vinho
+amadurece bem (~30°–50°). Com o aquecimento, ela se **desloca**: abrem-se regiões
+antes frias (rumo aos polos e a maiores altitudes) e ameaçam-se regiões clássicas
+que podem ficar **quentes demais**.
+:::
+
+::: {#fig-deslocamento}
+```{.tikz}
+%%| filename: deslocamento-zonas
+%%| alt: Eixo de latitude do equador ao polo, com a faixa vitícola histórica e uma seta indicando seu deslocamento em direção aos polos (e, à parte, para maiores altitudes) com o aquecimento.
+\begin{tikzpicture}[font=\sffamily\scriptsize]
+  % eixo de latitude
+  \draw[-{Stealth[length=2.5mm]}, thick, manualgray] (2,0) -- (2,5.4);
+  \node[manualgray, font=\tiny] at (2,-0.3) {equador};
+  \node[manualgray, font=\tiny] at (2,5.7) {polo};
+  % faixa histórica
+  \fill[manualgreen!30, draw=manualgreen!60!black, thick] (1.2,1.2) rectangle (2.8,2.3);
+  \node[right, font=\tiny] at (3.0,1.75) {faixa vitícola\\\tiny histórica (~30–50°)};
+  % faixa futura (deslocada)
+  \draw[manualgreen!60!black, very thick, dashed] (1.2,2.2) rectangle (2.8,3.3);
+  \node[right, font=\tiny, manualgreen!50!black] at (3.0,3.4) {tendência: rumo ao polo};
+  % seta de deslocamento
+  \draw[-{Stealth[length=2.5mm]}, very thick, manualred] (1.0,1.7) -- (1.0,3.0);
+  \node[left, font=\tiny, manualred, align=right] at (0.95,2.35) {aquecimento\\desloca};
+  % altitude
+  \node[font=\tiny, manualgray, align=center] at (4.6,0.5) {(e para cima:\\maior altitude)};
+\end{tikzpicture}
+```
+
+O deslocamento das zonas vitícolas. O aquecimento empurra a **faixa do vinho** em
+direção aos **polos** (e a **altitudes** maiores): abrem-se fronteiras frias e
+ameaçam-se regiões quentes — as duas faces de uma mesma mudança.
+:::
+
+## Adaptar e sustentar
+
+Diante do calor, os produtores **adaptam-se**: colhem mais cedo (ou à noite — Volume
+II), buscam **altitudes** e exposições mais frescas, sombreiam a copa, testam
+**castas mais resistentes** ao calor e à seca, e gerem melhor a **água**.
+
+E o setor caminha para a **sustentabilidade**:
+
+- **No vinhedo:** menos agroquímicos (orgânico e biodinâmico — Volume VIII),
+  cobertura vegetal, manejo da água em regiões secas.
+- **Na adega e na embalagem:** redução da **pegada de carbono** — a **garrafa de
+  vidro pesada** e o transporte são grandes vilões; surgem garrafas mais leves,
+  **bag-in-box**, lata e transporte a granel.
+
+::: {.callout-note}
+## O paradoxo do clima no vinho
+A mesma mudança climática **abre** regiões antes frias (espumante na Inglaterra,
+Volume X) e **ameaça** clássicas quentes, que podem perder o frescor e o estilo. O
+mapa do vinho, estável por séculos, entrou em **movimento** — e adaptar-se virou
+parte do ofício.
+:::
+
+## Exemplos
+
+::: {#exm-colheita-mais-cedo}
+## Vindimas cada vez mais cedo
+Em muitas regiões europeias, a **data de colheita** adiantou-se semanas ao longo das
+últimas décadas — um registro direto do aquecimento (Volume II). Uvas que
+amadurecem antes acumulam mais açúcar e perdem acidez, empurrando os vinhos a
+**mais álcool** e menos frescor, e forçando mudanças de manejo.
+:::
+
+::: {#exm-garrafa-pesada}
+## O peso escondido da garrafa
+Boa parte da **pegada de carbono** de um vinho não está no vinho, mas na **garrafa
+de vidro pesada** e no transporte. Por isso cresce o uso de garrafas **mais leves**,
+bag-in-box e lata: mudanças "invisíveis" na taça, mas grandes no impacto ambiental.
+:::
+
+## Exercícios
+
+::: {#exr-deslocamento}
+Pela @def-faixa-viticola, em que duas direções a faixa vitícola tende a se
+**deslocar** com o aquecimento, e qual é o efeito sobre regiões frias e quentes?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Tende a migrar **em direção aos polos** e a **altitudes maiores**. Isso **abre**
+regiões antes frias demais e **ameaça** regiões clássicas quentes, que podem ficar
+quentes demais e perder frescor e estilo.
+:::
+
+::: {#exr-adaptacao}
+Cite **duas** formas de o produtor **adaptar-se** ao aquecimento no vinhedo.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Entre outras: **colher mais cedo** (ou à noite), buscar **altitudes/exposições** mais
+frescas, **sombrear a copa** e plantar **castas mais resistentes** ao calor e à
+seca. Bastam duas.
+:::
+
+::: {#exr-carbono}
+Por que reduzir o peso da **garrafa de vidro** ajuda a sustentabilidade do vinho
+(@exm-garrafa-pesada)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque a garrafa pesada e o **transporte** respondem por grande parte da **pegada de
+carbono** do vinho. Garrafas mais leves (ou embalagens como bag-in-box e lata)
+reduzem energia de produção e emissões no transporte.
+:::

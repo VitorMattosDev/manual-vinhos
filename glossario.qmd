@@ -17,6 +17,9 @@ permanece no vinho; define a escala do seco ao doce.
 **Adstringência** — sensação tátil de secura nas gengivas e na língua causada
 pelos taninos; distinta da acidez, que faz salivar.
 
+**Aeração** — exposição do vinho ao ar para abri-lo (liberar aromas, amaciar
+taninos, dissipar a redução). É o objetivo de decantar vinhos jovens.
+
 **Aguardente vínica** — destilado de vinho usado na fortificação para elevar o
 teor alcoólico do vinho.
 
@@ -152,6 +155,9 @@ a châteaux classificados, na Borgonha a parcelas (premier/grand cru).
 
 **Débourbage** — decantação do mosto branco recém-prensado, a frio, para que as
 partículas grossas assentem antes da fermentação, dando um vinho mais limpo.
+
+**Decantação** — passar o vinho para um decanter, seja para separar a borra de
+tintos velhos (devagar), seja para arejar tintos jovens e fechados (com vigor).
 
 **Dégorgement** — expulsão da borra acumulada no gargalo da garrafa de espumante
 (método tradicional), após o remuage e antes da dosagem.

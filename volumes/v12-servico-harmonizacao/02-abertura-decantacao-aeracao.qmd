@@ -2,4 +2,128 @@
 title: "Abertura, decantação e aeração"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Poucas práticas são tão mal compreendidas quanto **decantar**. Decanta-se sempre?
+Nunca? Só vinho caro? A confusão vem de um fato simples: a decantação serve a **dois
+propósitos opostos** — separar o **sedimento** de vinhos velhos **e** **arejar**
+vinhos jovens. Saber **quando** (e quando **não**) decantar evita estragar um bom
+vinho.
+
+Este capítulo trata da abertura da garrafa, da aeração e da decantação, com um guia
+de decisão na @fig-quando-decantar.
+
+## Aerar e decantar: dois objetivos
+
+O contato com o **ar** "abre" o vinho: libera aromas, amacia taninos por uma
+microxigenação rápida (Volume VII) e dissipa a **redução** (Volume XI). A **aeração**
+é isso — dar ar ao vinho. A **decantação** (passar o vinho para um decanter) pode
+ter dois objetivos bem diferentes:
+
+::: {#def-decantacao}
+## Decantação: separar × arejar
+**Decantar para separar:** em tintos **velhos** com **borra**, transfere-se o vinho
+**devagar**, contra a luz, parando quando o sedimento chega ao gargalo — para deixar
+a borra na garrafa. **Decantar para arejar:** em tintos **jovens, tânicos ou
+fechados**, transfere-se com **vigor**, oxigenando o vinho para abri-lo.
+:::
+
+::: {#fig-quando-decantar}
+```{.tikz}
+%%| filename: quando-decantar
+%%| alt: Fluxograma de decisão sobre decantar. Vinho aberto; se tem sedimento (tinto velho), decantar devagar para separar a borra; se não, e é tinto jovem/tânico/fechado, decantar para arejar; caso contrário, servir direto sem decantar.
+\begin{tikzpicture}[font=\sffamily\scriptsize,
+    dec/.style={draw=manualyellow!70!black, very thick, rounded corners=2pt,
+      fill=manualyellow!20, align=center, text width=30mm, minimum height=10mm},
+    act/.style={draw=manualgreen!60!black, very thick, rounded corners=2pt,
+      fill=manualgreen!12, align=center, text width=32mm, minimum height=10mm},
+    fl/.style={-{Stealth[length=2mm]}, very thick, manualgray}]
+  \node[act, fill=manualgray!10, draw=manualgray] (s) at (0,5.0) {Vinho aberto};
+  \node[dec] (d1) at (0,3.6) {Tem sedimento?\\\tiny(tinto velho)};
+  \node[act] (a1) at (4.6,3.6) {Decantar \textbf{devagar}\\\tiny separar a borra · beber logo};
+  \node[dec] (d2) at (0,2.0) {Tinto jovem,\\tânico ou fechado?};
+  \node[act] (a2) at (4.6,2.0) {Decantar p/ \textbf{arejar}\\\tiny oxigenar e abrir};
+  \node[act] (a3) at (0,0.5) {Servir direto\\\tiny (não decantar)};
+  \draw[fl] (s) -- (d1);
+  \draw[fl] (d1) -- (a1) node[midway, above, font=\tiny]{sim};
+  \draw[fl] (d1) -- (d2) node[midway, right, font=\tiny]{não};
+  \draw[fl] (d2) -- (a2) node[midway, above, font=\tiny]{sim};
+  \draw[fl] (d2) -- (a3) node[midway, right, font=\tiny]{não};
+\end{tikzpicture}
+```
+
+Quando decantar. **Tinto velho com borra:** decantar **devagar** (separar o
+sedimento). **Tinto jovem e fechado:** decantar para **arejar**. **Os demais**
+(brancos, espumantes, tintos prontos): em geral, **servir direto**.
+:::
+
+## Abertura
+
+Para a maioria dos vinhos, basta um bom **saca-rolhas** (o "canivete de garçom" é o
+mais versátil); rolhas velhas e frágeis pedem o saca-rolhas de **lâminas**. Já o
+**espumante** se abre com cuidado: segura-se a **rolha**, gira-se a **garrafa** (não
+a rolha) e deixa-se o gás sair com um leve suspiro — **sem estouro**, que é perda de
+vinho e risco de acidente.
+
+::: {.callout-warning}
+## Cuidado com o vinho velho e frágil
+Um tinto **muito velho** pode estar no limite (Volume VII): decante-o **apenas**
+para tirar a borra, com delicadeza, e **beba logo**. Excesso de ar pode fazê-lo
+**desmoronar** em minutos. Aerar vigorosamente um vinho frágil não o abre — o
+**mata**.
+:::
+
+## Exemplos
+
+::: {#exm-barolo-jovem}
+## Um Barolo jovem agradece o ar
+Um Nebbiolo jovem (Volume III), tânico e fechado, pode passar **horas** num
+decanter e melhorar muito: o ar amacia os taninos e libera os aromas. É o caso
+clássico de decantar para **arejar** — quanto mais jovem e estruturado, mais ar
+costuma ajudar.
+:::
+
+::: {#exm-borgonha-velha}
+## Uma Borgonha velha pede delicadeza
+Um Pinot Noir velho e delicado é o oposto: decantá-lo com vigor pode dissipar seu
+**bouquet** frágil em minutos. Aqui, decanta-se **só** se houver borra, com
+suavidade, e serve-se **logo**. Para vinhos no auge da maturidade, menos ar é mais.
+:::
+
+## Exercícios
+
+::: {#exr-quando-decantar}
+Pela @fig-quando-decantar, o que fazer com: (a) um tinto jovem, tânico e fechado;
+(b) um tinto velho com sedimento; (c) um espumante?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) **Decantar para arejar** (oxigenar e abrir); (b) **Decantar devagar** para
+separar a borra (e beber logo); (c) **Servir direto** — espumante não se decanta
+(perderia o gás).
+:::
+
+::: {#exr-dois-objetivos}
+Explique os **dois objetivos** opostos da decantação (@def-decantacao) e como a
+técnica difere em cada caso.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Separar a borra** (tinto velho): transferir **devagar**, parando ao ver o
+sedimento no gargalo. **Arejar** (tinto jovem/fechado): transferir com **vigor**,
+para oxigenar e abrir o vinho. Mesma ação, técnicas e finalidades opostas.
+:::
+
+::: {#exr-vinho-fragil}
+Por que **não** se deve arejar vigorosamente um tinto muito velho e frágil
+(@callout)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque o excesso de ar pode fazê-lo **desmoronar** rapidamente (oxidar e perder o
+bouquet). Vinhos no limite da maturidade devem ser decantados só para tirar a borra,
+com delicadeza, e bebidos logo.
+:::

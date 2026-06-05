@@ -45,6 +45,9 @@ ligada e pouco cultivada fora dali; oposta às castas internacionais.
 **Autólise** — decomposição lenta das leveduras mortas durante o estágio sobre
 borras; dá aos espumantes notas de pão e brioche e textura cremosa.
 
+**AVA** (*American Viticultural Area*) — indicação geográfica dos EUA; delimita a
+região, sem impor casta ou método (diferente da DOP europeia).
+
 **Bactéria lática** — micro-organismo (sobretudo *Oenococcus oeni*) que realiza
 a fermentação malolática, convertendo ácido málico em lático.
 
@@ -402,6 +405,9 @@ trás a borra depositada no fundo; clarifica e areia o vinho de forma controlada
 
 **Trocken** — "seco", em alemão; indica que o vinho fermentou até sobrar pouco
 açúcar, independentemente do nível **Prädikat**.
+
+**Varietal** (vinho) — vinho rotulado pelo nome da casta (Malbec, Chardonnay),
+típico do Novo Mundo; a lei exige um percentual mínimo dessa casta.
 
 **Vedante** — fecho da garrafa (cortiça natural, rolha técnica, rosca, vidro ou
 sintético); regula a entrada de oxigênio e o risco de defeitos como o TCA.

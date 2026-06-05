@@ -2,4 +2,131 @@
 title: "Classificações do Novo Mundo"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Ler um rótulo do Novo Mundo costuma ser **mais fácil** do que decifrar um europeu —
+e por um motivo simples: ele diz a **casta**. Onde a França escreve "Chablis"
+(esperando que você saiba que é Chardonnay), a Califórnia escreve "Chardonnay". Mas
+o Novo Mundo também tem seus sistemas de **origem** — AVA, GI, IP — só que com
+filosofia diferente.
+
+Este capítulo fecha o Volume X mostrando como o Novo Mundo classifica e rotula seus
+vinhos, com a anatomia de um rótulo típico (@fig-rotulo).
+
+## Rotular pela casta
+
+::: {#def-varietal}
+## Vinho varietal
+**Vinho varietal** é o que se rotula pelo **nome da casta** (Malbec, Cabernet
+Sauvignon, Chardonnay), prática típica do Novo Mundo. Em geral, a lei exige um
+**percentual mínimo** dessa casta no vinho — em torno de **75% a 85%**, conforme o
+país.
+:::
+
+::: {#fig-rotulo}
+```{.tikz}
+%%| filename: anatomia-rotulo
+%%| alt: Anatomia de um rótulo do Novo Mundo, com chamadas apontando para o nome do produtor, a casta, a região e o país, a safra e o teor alcoólico.
+\begin{tikzpicture}[font=\sffamily\scriptsize,
+    cham/.style={-{Stealth[length=2mm]}, manualgray}]
+  % rótulo
+  \draw[manualgray, very thick, rounded corners=4pt, fill=manualyellow!8] (0,0) rectangle (4.6,4.2);
+  \node[font=\sffamily\small\bfseries, manualred!70!black] (prod) at (2.3,3.6) {VALE DOS VENTOS};
+  \node[font=\sffamily\itshape] (casta) at (2.3,2.7) {Malbec};
+  \node (reg) at (2.3,1.9) {Mendoza · Argentina};
+  \node (safra) at (2.3,1.1) {2021};
+  \node[font=\tiny] (alc) at (2.3,0.5) {14\% vol.};
+  % chamadas
+  \draw[cham] (6.0,3.6) -- (3.7,3.6); \node[right, font=\tiny] at (6.0,3.6) {produtor};
+  \draw[cham] (6.0,2.7) -- (2.9,2.7); \node[right, font=\tiny] at (6.0,2.7) {casta (varietal)};
+  \draw[cham] (6.0,1.9) -- (3.5,1.9); \node[right, font=\tiny] at (6.0,1.9) {região · país};
+  \draw[cham] (-1.4,1.1) -- (1.9,1.1); \node[left, font=\tiny] at (-1.4,1.1) {safra};
+  \draw[cham] (-1.4,0.5) -- (2.0,0.5); \node[left, font=\tiny] at (-1.4,0.5) {álcool};
+\end{tikzpicture}
+```
+
+A anatomia de um rótulo do Novo Mundo. O destaque para a **casta** (varietal) é a
+marca registrada: o que o Velho Mundo deixa implícito na região, o Novo Mundo
+escreve com todas as letras.
+:::
+
+## Os sistemas de origem
+
+O Novo Mundo também delimita **origens**, mas em geral **sem ditar** castas ou
+métodos (ao contrário da DOP europeia — Volume IX). Cada país tem o seu:
+
+- **AVA** (*American Viticultural Area*) — EUA: delimita a **região** (ex.: Napa
+  Valley), sem impor casta.
+- **GI** (*Geographical Indication*) — Austrália.
+- **WO** (*Wine of Origin*) — África do Sul.
+- **DO** — Chile e Argentina.
+- **IP / DO** — Brasil, onde o **Vale dos Vinhedos** (Serra Gaúcha) foi a primeira
+  Indicação de Procedência e a primeira Denominação de Origem do país.
+
+A filosofia, em geral, é dizer **de onde** vem (a origem) e **de que** é feito (a
+casta), deixando o **como** mais livre — o oposto da lógica europeia, que
+prescreve castas e métodos.
+
+::: {.callout-note}
+## Duas filosofias de rótulo
+**Velho Mundo:** o rótulo diz o **lugar** e as regras fazem o resto (a região
+implica casta e método). **Novo Mundo:** o rótulo diz a **casta** e a **origem**,
+com menos regras sobre como produzir. Saber disso é saber ler qualquer garrafa do
+mundo.
+:::
+
+## Exemplos
+
+::: {#exm-ava-napa}
+## "Napa Valley" diz a região, não a casta
+Uma **AVA** como Napa Valley garante **de onde** vem a uva, mas **não** obriga uma
+casta específica — você pode achar Cabernet, Chardonnay ou Zinfandel de Napa. É o
+inverso de uma AOC como Chablis, que **impõe** Chardonnay. Origem sem prescrição de
+casta.
+:::
+
+::: {#exm-vale-dos-vinhedos}
+## O Brasil entra no mapa das origens
+O **Vale dos Vinhedos**, na Serra Gaúcha (Volume X, cap. 3), foi pioneiro no Brasil
+ao obter primeiro uma **Indicação de Procedência** e depois uma **Denominação de
+Origem**. Foi o passo do país rumo a um sistema de origem próprio, sinalizando
+maturidade da viticultura nacional.
+:::
+
+## Exercícios
+
+::: {#exr-varietal}
+O que caracteriza um **vinho varietal** (@def-varietal), e por que isso torna o
+rótulo do Novo Mundo mais fácil de ler que o europeu?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+É rotulado pelo **nome da casta** (com um percentual mínimo dela no vinho). Isso
+facilita porque o consumidor lê **diretamente** qual uva está bebendo, sem precisar
+saber qual casta cada região europeia esconde sob seu nome.
+:::
+
+::: {#exr-ava-vs-aoc}
+Qual a diferença de filosofia entre uma **AVA** (ex.: Napa) e uma **AOC** (ex.:
+Chablis) quanto a impor a casta (@exm-ava-napa)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+A **AVA** delimita só a **região**, sem impor casta nem método. A **AOC** delimita
+a região **e prescreve** a casta (Chardonnay, em Chablis) e as práticas. Origem
+"solta" versus origem com regras.
+:::
+
+::: {#exr-duas-filosofias}
+Resuma, em uma frase, o que o rótulo do **Velho Mundo** e o do **Novo Mundo**
+priorizam (@callout).
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+O **Velho Mundo** prioriza o **lugar** (a região, com regras que implicam casta e
+método); o **Novo Mundo** prioriza a **casta** e a **origem**, com menos regras
+sobre o modo de produzir.
+:::

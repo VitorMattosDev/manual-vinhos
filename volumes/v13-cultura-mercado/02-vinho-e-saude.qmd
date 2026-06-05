@@ -2,4 +2,128 @@
 title: "Vinho e saúde"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Poucos temas do vinho são tão cercados de **mitos** quanto a saúde — do antigo "uma
+taça por dia faz bem ao coração" ao pânico oposto. Um manual sério precisa tratar o
+assunto com **honestidade**: o que é uma dose, o que a ciência atual de fato diz, e
+o que significa beber com responsabilidade. Sem alarmismo e, sobretudo, **sem
+promoção**.
+
+Este capítulo trata do vinho e da saúde de forma factual. O componente central é o
+**álcool** — e medi-lo começa pela ideia de **dose padrão** (@fig-dose-padrao).
+
+## A dose padrão
+
+::: {#def-dose-padrao}
+## Dose padrão
+Uma **dose padrão** contém cerca de **14 g de álcool puro**. Ela equivale,
+aproximadamente, a uma **taça de vinho** (150 ml a ~12%), a uma **lata de cerveja**
+(350 ml a ~5%) ou a uma **dose de destilado** (45 ml a ~40%). A conta:
+$$
+\text{g de álcool} = \text{ml} \times \frac{\%\text{vol}}{100} \times 0{,}8 .
+$$
+:::
+
+::: {#fig-dose-padrao}
+```{.tikz}
+%%| filename: dose-padrao
+%%| alt: Comparação de três bebidas com a mesma quantidade de álcool — uma taça de vinho (150 ml a 12%), uma cerveja (350 ml a 5%) e uma dose de destilado (45 ml a 40%) — todas equivalentes a uma dose padrão de cerca de 14 gramas de álcool puro.
+\begin{tikzpicture}[font=\sffamily\scriptsize]
+  % taça de vinho
+  \draw[manualgray, very thick] (0.1,1.6) .. controls (0.0,0.9) and (1.0,0.9) .. (0.9,1.6);
+  \draw[manualgray, very thick] (0.5,0.95) -- (0.5,0.3); \draw[manualgray, very thick] (0.2,0.3) -- (0.8,0.3);
+  \fill[manualred!30] (0.18,1.35) .. controls (0.12,1.0) and (0.88,1.0) .. (0.82,1.35) -- cycle;
+  \node[font=\tiny, align=center] at (0.5,-0.1) {vinho\\150 ml · 12\%};
+  \node[manualgray] at (1.7,0.9) {$=$};
+  % cerveja
+  \draw[manualgray, very thick] (2.3,0.3) rectangle (3.0,1.7);
+  \fill[manualyellow!50] (2.35,0.35) rectangle (2.95,1.5);
+  \node[font=\tiny, align=center] at (2.65,-0.1) {cerveja\\350 ml · 5\%};
+  \node[manualgray] at (3.7,0.9) {$=$};
+  % destilado
+  \draw[manualgray, very thick] (4.3,0.3) -- (4.45,1.1) -- (4.95,1.1) -- (5.1,0.3) -- cycle;
+  \fill[brown!30] (4.4,0.4) -- (4.47,0.95) -- (4.93,0.95) -- (5.0,0.4) -- cycle;
+  \node[font=\tiny, align=center] at (4.7,-0.1) {destilado\\45 ml · 40\%};
+  % conclusão
+  \node[manualred!70!black, font=\tiny\bfseries, align=center] at (2.7,2.3)
+    {todas $\approx$ 1 dose padrão $\approx$ 14 g de álcool puro};
+\end{tikzpicture}
+```
+
+Uma **dose padrão**: as três bebidas têm volumes e teores bem diferentes, mas
+**quase a mesma quantidade de álcool**. É o álcool — não o volume do copo — que
+conta para a saúde.
+:::
+
+## O que a ciência diz hoje
+
+Estudos antigos sugeriam um benefício cardiovascular do consumo "moderado" de
+vinho (a famosa curva em "J"). A pesquisa mais recente, porém, **revisou** essa
+ideia: boa parte daquele efeito vinha de **vieses** metodológicos, e organizações de
+saúde hoje afirmam que **não há nível de consumo livre de risco**. O álcool é fator
+de risco para diversos cânceres e doenças, e o **resveratrol** do vinho existe em
+quantidade pequena demais para qualquer efeito relevante.
+
+::: {.callout-warning}
+## Não existe dose "saudável" — e nunca dirija
+A mensagem honesta deste manual: o vinho é um prazer **cultural e sensorial**, não
+um remédio. Se você bebe, beba com **moderação**; há quem **não deva** beber
+(gestantes, certas condições de saúde, quem vai dirigir). **Álcool e direção não se
+misturam.** Estudar vinho não é o mesmo que consumi-lo em quantidade.
+:::
+
+## Exemplos
+
+::: {#exm-calcular-alcool}
+## Quanto álcool há numa taça
+Uma taça de 150 ml de um tinto a 14% contém
+$150 \times 0{,}14 \times 0{,}8 \approx 17$ g de álcool — **mais** de uma dose
+padrão. Vinhos mais alcoólicos (Volume IV) entregam mais álcool no mesmo volume;
+saber disso ajuda a beber com consciência.
+:::
+
+::: {#exm-mesma-dose}
+## O copo engana, o álcool não
+Uma pequena dose de destilado parece "menos" que uma cerveja grande, mas ambas
+podem ter o **mesmo álcool** (@fig-dose-padrao). Julgar pelo tamanho do copo
+engana; o que importa é a **quantidade de álcool**, dada pela conta da
+@def-dose-padrao.
+:::
+
+## Exercícios
+
+::: {#exr-calcular}
+Calcule a quantidade de álcool (em gramas) numa taça de **150 ml** de vinho a
+**13%**, usando a fórmula da @def-dose-padrao.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+$150 \times \dfrac{13}{100} \times 0{,}8 = 150 \times 0{,}13 \times 0{,}8 =
+15{,}6$ g de álcool — pouco mais de uma dose padrão.
+:::
+
+::: {#exr-mitos}
+Comente a afirmação: "vinho tinto faz bem ao coração por causa do resveratrol".
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+É um **mito** simplificado. Os supostos benefícios de estudos antigos são hoje
+**contestados** (vieses), órgãos de saúde indicam que **não há consumo sem risco**,
+e o **resveratrol** está em quantidade ínfima no vinho. O vinho não deve ser tratado
+como remédio.
+:::
+
+::: {#exr-copo-engana}
+Por que comparar bebidas pelo **tamanho do copo** pode enganar quanto ao álcool
+ingerido (@exm-mesma-dose)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque bebidas têm **teores alcoólicos** muito diferentes: um copo pequeno de
+destilado (40%) pode ter tanto álcool quanto uma cerveja grande (5%). O que conta é
+a **quantidade de álcool** (volume × teor), não o tamanho do recipiente.
+:::

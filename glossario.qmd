@@ -186,6 +186,9 @@ poda que definirá a safra seguinte.
 **Dosagem** — adição final de licor de expedição (vinho + açúcar) a um espumante
 após o dégorgement, que define seu nível de doçura (de brut nature a doux).
 
+**Dose padrão** — quantidade de referência de álcool puro (~14 g), equivalente a
+uma taça de vinho, uma lata de cerveja ou uma dose de destilado.
+
 **Engaço** — a estrutura ramificada do cacho que sustenta as bagas; rica em
 taninos verdes, costuma ser removida no desengace.
 

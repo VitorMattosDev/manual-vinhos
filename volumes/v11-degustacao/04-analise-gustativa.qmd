@@ -2,4 +2,128 @@
 title: "Análise gustativa"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+A boca confirma e completa o que olhos e nariz anteciparam. Mas degustar na boca
+não é só "sentir o sabor" — é avaliar **componentes** (doçura, acidez, tanino,
+álcool, corpo) e, acima de tudo, como eles se **equilibram**. Um grande vinho
+raramente tem o maior tanino ou a maior acidez; tem a melhor **harmonia** entre
+todos.
+
+Este capítulo trata da análise gustativa: os componentes estruturais do vinho e a
+ideia central de **equilíbrio**, representada na @fig-estrela-equilibrio.
+
+## Os componentes e o equilíbrio
+
+Na boca, avaliamos alguns eixos, a maioria já conhecida:
+
+- **Doçura** — do açúcar residual (gosto, na ponta da língua).
+- **Acidez** — o frescor que faz **salivar** (gosto).
+- **Tanino** — a **adstringência** que "seca" as gengivas (tato; tintos).
+- **Álcool** — o **calor/ardência** na garganta (tato).
+- **Corpo** — o peso geral na boca.
+
+::: {#def-equilibrio}
+## Equilíbrio
+**Equilíbrio** é a harmonia entre os componentes do vinho, de modo que **nenhum
+domine** os demais. Eles se contrabalançam: a **acidez** corta a **doçura**; o
+**tanino** é amaciado pela **fruta** e pela gordura da comida; o **álcool** pede
+acidez para não parecer "quente". O vinho equilibrado tem uma "estrela" regular
+(@fig-estrela-equilibrio).
+:::
+
+::: {#fig-estrela-equilibrio}
+```{.tikz}
+%%| filename: estrela-equilibrio
+%%| alt: Gráfico em estrela (radar) com cinco eixos — acidez, tanino, álcool, corpo e doçura — e um polígono representando um vinho equilibrado, em que nenhum componente domina os demais.
+\begin{tikzpicture}[font=\sffamily\scriptsize]
+  \def\R{2.3}
+  % eixos e grade
+  \foreach \a in {90,162,234,306,18}{
+    \draw[manualgray!50] (0,0) -- (\a:\R);}
+  \draw[manualgray, thick] (90:\R) -- (162:\R) -- (234:\R) -- (306:\R) -- (18:\R) -- cycle;
+  \draw[manualgray!40] (90:\R*0.5) -- (162:\R*0.5) -- (234:\R*0.5) -- (306:\R*0.5) -- (18:\R*0.5) -- cycle;
+  % rótulos
+  \node[above, font=\tiny] at (90:\R) {acidez};
+  \node[left, font=\tiny] at (162:\R) {tanino};
+  \node[below left, font=\tiny] at (234:\R) {álcool};
+  \node[below right, font=\tiny] at (306:\R) {corpo};
+  \node[right, font=\tiny] at (18:\R) {doçura};
+  % vinho equilibrado
+  \fill[manualred!25, draw=manualred, very thick, fill opacity=0.5]
+    (90:\R*0.75) -- (162:\R*0.65) -- (234:\R*0.6) -- (306:\R*0.7) -- (18:\R*0.25) -- cycle;
+\end{tikzpicture}
+```
+
+A "estrela" de um vinho seco e equilibrado: acidez, tanino, álcool e corpo em
+níveis próximos, com pouca doçura. **Equilíbrio** não é ter tudo no máximo — é
+nenhum eixo atropelar os outros.
+:::
+
+## Distinguir acidez de tanino
+
+Iniciantes confundem **acidez** e **tanino**, mas as sensações são opostas: a
+**acidez** faz a boca **salivar** (água na boca); o **tanino** faz o contrário,
+**secando** as gengivas e a língua (adstringência), como um chá muito forte.
+Treinar essa distinção é um divisor de águas na degustação.
+
+::: {.callout-warning}
+## Erro comum
+Um vinho **muito alcoólico** que arde na garganta não é "forte no bom sentido" — é,
+muitas vezes, **desequilibrado**. Sem acidez e fruta para sustentar o álcool, ele
+parece "quente" e cansativo. Potência sem equilíbrio é defeito de harmonia.
+:::
+
+## Exemplos
+
+::: {#exm-doce-acido}
+## Por que o doce precisa de ácido
+Um vinho doce sem acidez é **enjoativo**; com acidez alta, fica fresco e
+equilibrado. Por isso o Riesling (Volume III) faz doces tão bons: sua acidez
+**contrabalança** o açúcar. Na estrela (@fig-estrela-equilibrio), doçura e acidez
+crescem juntas, mantendo a figura regular.
+:::
+
+::: {#exm-tanino-comida}
+## O tanino e o bife
+Um tinto jovem e tânico, sozinho, parece **áspero**; com um bife suculento, a
+**gordura e a proteína** amaciam o tanino e o vinho floresce. É o equilíbrio
+acontecendo **na harmonização** (Volume XII): a comida completa o que falta ao
+vinho.
+:::
+
+## Exercícios
+
+::: {#exr-acidez-tanino}
+Como distinguir, na boca, a **acidez** do **tanino**? Descreva a sensação de cada
+um.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+A **acidez** faz a boca **salivar** (água na boca); o **tanino** faz o oposto,
+**secar** as gengivas e a língua (adstringência). Salivação versus secura.
+:::
+
+::: {#exr-equilibrio}
+Segundo a @def-equilibrio, por que um vinho com o **maior** tanino ou a **maior**
+acidez não é necessariamente o melhor?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque qualidade gustativa é **equilíbrio**, não excesso. Um componente dominante
+**atropela** os demais e desarmoniza o vinho. O ideal é que nenhum eixo se sobressaia
+demais — uma "estrela" regular.
+:::
+
+::: {#exr-alcool-quente}
+Por que um vinho muito alcoólico pode parecer "quente" e cansativo (@callout)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque o álcool dá uma sensação de **calor/ardência**; sem **acidez** e **fruta**
+suficientes para contrabalançá-lo, ele domina e desequilibra o vinho, que fica
+"quente" e cansativo.
+:::

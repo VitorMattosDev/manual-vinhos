@@ -2,4 +2,118 @@
 title: "As classificações europeias"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Um rótulo europeu raramente diz a casta; diz a **origem** — Bordeaux, Chianti,
+Rioja. Por trás desses nomes há um sistema de **classificação por região** que,
+para o iniciante, parece um labirinto de siglas: AOC, DOCG, DO, DOC… Decifrá-lo é
+a chave para ler qualquer garrafa do Velho Mundo.
+
+Este capítulo fecha o Volume IX organizando esse labirinto. A boa notícia: por
+baixo das siglas nacionais, a União Europeia padronizou tudo em **poucos níveis**,
+resumidos na @fig-piramide-classificacao.
+
+## A pirâmide europeia
+
+::: {#def-dop-igp}
+## DOP, IGP e vinho sem indicação
+A UE classifica o vinho em três faixas: **DOP** (Denominação de Origem Protegida),
+a mais **estrita** — define região, castas e métodos; **IGP** (Indicação
+Geográfica Protegida), mais **flexível**; e **vinho sem indicação geográfica**, o
+mais livre. Cada país tem seus nomes próprios para essas faixas.
+:::
+
+::: {#fig-piramide-classificacao}
+```{.tikz}
+%%| filename: piramide-classificacao
+%%| alt: Pirâmide de três níveis das classificações europeias — base é vinho sem indicação geográfica, meio é IGP (IGT, Vin de Pays, Vino de la Tierra), topo é DOP (AOC, DOC/DOCG, DO/DOCa). Quanto mais alto, mais regras.
+\begin{tikzpicture}[font=\sffamily\scriptsize]
+  \fill[manualred!15, draw=manualgray, thick] (0.6,0) -- (7.4,0) -- (6.1,1.7) -- (1.9,1.7) -- cycle;
+  \fill[manualred!32, draw=manualgray, thick] (1.9,1.7) -- (6.1,1.7) -- (4.9,3.4) -- (3.1,3.4) -- cycle;
+  \fill[manualred!55, draw=manualgray, thick] (3.1,3.4) -- (4.9,3.4) -- (4,5.0) -- cycle;
+  \node[align=center, font=\tiny] at (4,0.75) {Vinho \emph{sem} indicação\\\tiny(Vin de France, Vino…)};
+  \node[align=center, font=\tiny] at (4,2.4) {\textbf{IGP}\\\tiny IGT · Vin de Pays · V. de la Tierra};
+  \node[align=center, font=\tiny, white] at (4,3.9) {\textbf{DOP}};
+  \node[align=center, font=\tiny] at (4,4.55) {\tiny\textcolor{white}{AOC·DOCG·DOCa}};
+  \draw[-{Stealth[length=2.5mm]}, manualgray, thick] (8.0,0) -- (8.0,5.0)
+    node[midway, right, font=\tiny, align=left]{mais regras,\\mais tipicidade};
+\end{tikzpicture}
+```
+
+A pirâmide das classificações europeias. Na base, o **vinho sem indicação**
+(máxima liberdade); no meio, a **IGP**; no topo, a **DOP**, com as regras mais
+estritas de origem, castas e métodos.
+:::
+
+## As siglas, país por país
+
+No **topo** (DOP), cada país tem seu nome: **AOC/AOP** (França), **DOC** e
+**DOCG** (Itália), **DO** e **DOCa** (Espanha), **DOC** (Portugal). No meio (IGP):
+**IGP/Vin de Pays** (França), **IGT** (Itália), **Vino de la Tierra** (Espanha),
+**Vinho Regional** (Portugal). E na base, os vinhos sem indicação geográfica
+(*Vin de France*, *Vino*…).
+
+A lógica do sistema é **proteger a origem e a tipicidade**: uma DOP garante que
+aquele vinho seguiu as regras tradicionais do lugar. Mas — atenção — **mais regras
+não significam sempre mais qualidade**.
+
+::: {.callout-warning}
+## Topo da pirâmide ≠ melhor vinho
+A pirâmide mede **conformidade com as regras**, não qualidade absoluta. Os **Super
+Toscanos** (Volume IX, cap. 4) eram **IGT** (nível intermediário) e, ainda assim,
+estavam entre os melhores e mais caros da Itália. Um produtor pode escolher um
+nível mais baixo para ter **liberdade** criativa.
+:::
+
+## Exemplos
+
+::: {#exm-docg}
+## O "G" de garantida
+Na Itália, **DOCG** acrescenta um "G" (*Garantita*) à DOC: significa controles mais
+rigorosos e, em tese, o topo da pirâmide local — Barolo, Brunello, Chianti Classico
+são DOCG. É a tentativa de sinalizar, dentro da DOP, um patamar ainda mais
+exigente.
+:::
+
+::: {#exm-igt-liberdade}
+## Liberdade no meio da pirâmide
+Quando um produtor toscano quis usar Cabernet (proibido na DOC do Chianti), aceitou
+o rótulo **IGT** — nível intermediário — em troca de **liberdade** para fazer o
+vinho que queria. O mercado premiou a qualidade, não a sigla. A escolha do nível é,
+às vezes, estratégica.
+:::
+
+## Exercícios
+
+::: {#exr-niveis-ue}
+Ordene da **maior liberdade / menos regras** à **maior restrição / mais regras**
+(@def-dop-igp): DOP, vinho sem indicação, IGP.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Vinho sem indicação → IGP → DOP.
+:::
+
+::: {#exr-siglas-pais}
+A que faixa da pirâmide (DOP ou IGP) pertencem: (a) AOC francesa; (b) IGT italiana;
+(c) DOCa espanhola?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) **DOP** (AOC); (b) **IGP** (IGT); (c) **DOP** (DOCa).
+:::
+
+::: {#exr-topo-qualidade}
+Por que estar no **topo** da pirâmide não garante que um vinho seja melhor que um
+de nível inferior (@exm-igt-liberdade)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque a pirâmide mede **conformidade com as regras de origem**, não qualidade
+absoluta. Um produtor pode escolher um nível **mais baixo** (como IGT) para ter
+liberdade de criar um grande vinho fora das regras tradicionais — como os Super
+Toscanos.
+:::

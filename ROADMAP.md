@@ -80,7 +80,7 @@ fotos entram como imagem embutida — ver `PLANO.md`).
 - [x] `v9-velho-mundo/04-italia.qmd` — Piemonte, Toscana, Vêneto, Sul. *fig.: mapa estilizado da Itália.*
 - [x] `v9-velho-mundo/05-espanha-e-portugal.qmd` — Rioja, Ribera, Douro, Vinho Verde. *fig.: mapa Península Ibérica.*
 - [x] `v9-velho-mundo/06-alemanha-austria-europa-central.qmd` — Mosel, Rheingau, Áustria. *fig.: escala Prädikat (doçura).*
-- [ ] `v9-velho-mundo/07-classificacoes-europeias.qmd` — AOC, DOC/DOCG, DO/DOCa, VDP. *fig.: pirâmide de classificação.*
+- [x] `v9-velho-mundo/07-classificacoes-europeias.qmd` — AOC, DOC/DOCG, DO/DOCa, VDP. *fig.: pirâmide de classificação.*
 
 ### Volume X — Regiões do Novo Mundo
 - [ ] `v10-novo-mundo/01-estados-unidos.qmd` — Califórnia, Oregon, Washington. *fig.: mapa estilizado da Califórnia.*

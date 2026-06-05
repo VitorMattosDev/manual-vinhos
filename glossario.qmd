@@ -26,6 +26,9 @@ vinho; hoje retomada por produtores em estilos de longa maceração.
 **Antocianina** — pigmento das cascas das uvas tintas, responsável pela cor do
 vinho; extraído por maceração. É um composto fenólico.
 
+**AOC** (*Appellation d'Origine Contrôlée*) — denominação de origem francesa, no
+topo (DOP) da pirâmide europeia; define região, castas e métodos.
+
 **Apogeu** — período de auge de um vinho, em que está no melhor equilíbrio; ver
 **potencial de guarda**.
 
@@ -147,6 +150,9 @@ partículas grossas assentem antes da fermentação, dando um vinho mais limpo.
 **Diacetil** — composto produzido na fermentação malolática, responsável pela
 nota amanteigada de certos vinhos (sobretudo Chardonnay).
 
+**DOP** (Denominação de Origem Protegida) — faixa europeia mais estrita
+(AOC, DOC/DOCG, DO/DOCa); regula região, castas e métodos. Acima da **IGP**.
+
 **Dormência** — repouso invernal da videira, sem folhas; período em que se faz a
 poda que definirá a safra seguinte.
 
@@ -209,6 +215,9 @@ grupos vagos de castas). Oposto de **sinonímia**.
 
 **Ice wine** (*Eiswein*) — vinho doce de uvas colhidas e prensadas **congeladas**
 na planta: a água sai como gelo e o açúcar se concentra; depende de frio intenso.
+
+**IGP** (Indicação Geográfica Protegida) — faixa europeia intermediária, mais
+flexível que a DOP (IGT, Vin de Pays, Vino de la Tierra, Vinho Regional).
 
 **Levedura** — micro-organismo (sobretudo *Saccharomyces cerevisiae*)
 responsável pela fermentação alcoólica.

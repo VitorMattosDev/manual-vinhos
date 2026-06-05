@@ -2,4 +2,129 @@
 title: "França: Borgonha e Champagne"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Se Bordeaux é a terra dos cortes e dos grandes châteaux, a **Borgonha** é seu
+oposto filosófico: poucas castas, vinhos de **uma só** uva, e uma obsessão quase
+mística com a **parcela** de vinhedo. Aqui o que se classifica não é o produtor, e
+sim o **terroir** — o pedaço de chão. Mais ao norte, no limite do amadurecimento,
+fica **Champagne**, pátria do espumante.
+
+Este capítulo trata dessas duas regiões irmãs no clima frio do norte francês,
+começando pela hierarquia de terroir que organiza toda a Borgonha.
+
+## A pirâmide da Borgonha
+
+A Borgonha usa quase só duas castas: **Pinot Noir** (tintos) e **Chardonnay**
+(brancos). O que distingue um vinho de outro é, sobretudo, **de qual parcela** ele
+vem. Essas parcelas — os **climats** (Volume I) — são hierarquizadas em quatro
+níveis, na @fig-piramide-borgonha.
+
+::: {#def-hierarquia-borgonha}
+## Os quatro níveis
+Da base ao topo: **Régional** (ex.: "Bourgogne", de toda a região), **Village**
+(de uma comuna, ex.: Gevrey-Chambertin), **Premier Cru** (uma parcela superior
+dentro da comuna) e **Grand Cru** (as parcelas de elite, raríssimas). Quanto mais
+alto, **menor a área** e maior o prestígio.
+:::
+
+::: {#fig-piramide-borgonha}
+```{.tikz}
+%%| filename: piramide-borgonha
+%%| alt: Pirâmide de quatro níveis da hierarquia da Borgonha — da base ao topo, Régional, Village, Premier Cru e Grand Cru — com a qualidade e o preço subindo e a quantidade diminuindo em direção ao topo.
+\begin{tikzpicture}[font=\sffamily\scriptsize]
+  % bandas da pirâmide (de baixo para cima)
+  \fill[manualred!15, draw=manualgray, thick] (1,0) -- (7,0) -- (5.8,1.5) -- (2.2,1.5) -- cycle;
+  \fill[manualred!28, draw=manualgray, thick] (2.2,1.5) -- (5.8,1.5) -- (4.9,3.0) -- (3.1,3.0) -- cycle;
+  \fill[manualred!45, draw=manualgray, thick] (3.1,3.0) -- (4.9,3.0) -- (4.45,4.1) -- (3.55,4.1) -- cycle;
+  \fill[manualred!65, draw=manualgray, thick] (3.55,4.1) -- (4.45,4.1) -- (4,5.0) -- cycle;
+  % rótulos
+  \node[font=\tiny] at (4,0.7) {Régional (\emph{Bourgogne})};
+  \node[font=\tiny] at (4,2.2) {Village};
+  \node[font=\tiny] at (4,3.5) {Premier Cru};
+  \node[font=\tiny, white] at (4,4.45) {Grand Cru};
+  % setas laterais
+  \draw[-{Stealth[length=2.5mm]}, manualgray, thick] (7.6,0) -- (7.6,5.0)
+    node[midway, right, font=\tiny, align=left]{qualidade,\\preço};
+  \draw[-{Stealth[length=2.5mm]}, manualgray, thick] (0.4,5.0) -- (0.4,0)
+    node[midway, left, font=\tiny, align=right]{quantidade};
+\end{tikzpicture}
+```
+
+A hierarquia da Borgonha em pirâmide. A base, **Régional**, é a maior em volume; o
+topo, **Grand Cru**, é minúsculo e altíssimo em prestígio. A classificação é do
+**terroir** (a parcela), não do produtor.
+:::
+
+## Sub-regiões e Champagne
+
+A Borgonha se estende de **Chablis** (norte, Chardonnay mineral e tenso) pela
+**Côte de Nuits** (os grandes Pinot Noir tintos) e **Côte de Beaune** (grandes
+Chardonnay brancos), até o **Mâconnais**. O **Beaujolais**, ao sul, é à parte:
+faz tintos leves de **Gamay**, muitos por maceração carbônica (Volume V).
+
+Mais ao norte ainda, **Champagne** vive no limite do frio — o que dá uvas ácidas,
+ideais para espumante. Pelo **método tradicional** (Volume VI), combina
+**Chardonnay**, **Pinot Noir** e **Pinot Meunier**. Um espumante só de Chardonnay
+é **blanc de blancs**; só de uvas tintas, **blanc de noirs**. A maioria é **sem
+safra** (*non vintage*), misturando anos para manter um estilo de casa constante.
+
+::: {.callout-note}
+## O nome no rótulo é o lugar
+Numa garrafa de Borgonha, o nome em destaque costuma ser o da **parcela ou comuna**
+(o terroir), não o do produtor — o inverso de Bordeaux, onde reina o **château**.
+Duas filosofias opostas de pensar o vinho fino.
+:::
+
+## Exemplos
+
+::: {#exm-grand-cru-fração}
+## A elite minúscula
+Os **Grands Crus** são cerca de **1%** da produção da Borgonha — uma fração ínfima
+no topo da @fig-piramide-borgonha. Nomes como Montrachet ou Romanée-Conti vêm de
+parcelas de poucos hectares, o que explica preços estratosféricos: é terroir de
+elite em quantidade quase simbólica.
+:::
+
+::: {#exm-champagne-nv}
+## Por que o champanhe não tem safra
+A maioria dos champanhes é **non vintage**: mistura vinhos de várias colheitas. Num
+clima tão frio e variável, isso garante um **estilo de casa constante** ano após
+ano — a mesma lógica da solera do Jerez (Volume VI), aplicada ao espumante. Só em
+anos excepcionais se declara uma safra (*vintage*).
+:::
+
+## Exercícios
+
+::: {#exr-hierarquia}
+Ordene do **maior volume / menor prestígio** ao **menor volume / maior prestígio**
+(@def-hierarquia-borgonha): Premier Cru, Régional, Grand Cru, Village.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Régional (*Bourgogne*) → Village → Premier Cru → Grand Cru.
+:::
+
+::: {#exr-borgonha-vs-bordeaux}
+Qual é a diferença de **filosofia** entre Borgonha e Bordeaux quanto ao que se
+classifica e ao que aparece no rótulo?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Na **Borgonha** classifica-se o **terroir** (a parcela/climat), e o rótulo destaca
+o **lugar**, usando uma só casta. Em **Bordeaux** valoriza-se o **château**
+(produtor) e o **corte** de castas. Lugar versus produtor.
+:::
+
+::: {#exr-blanc-de-blancs}
+O que significam **blanc de blancs** e **blanc de noirs** num champanhe?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Blanc de blancs** é um espumante feito só de uvas **brancas** (Chardonnay);
+**blanc de noirs**, só de uvas **tintas** (Pinot Noir e/ou Meunier), vinificadas
+sem extrair cor (Volume V).
+:::

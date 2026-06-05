@@ -54,6 +54,9 @@ intensificando textura e cremosidade do vinho.
 **Biodinâmico** — agricultura orgânica somada às práticas de Rudolf Steiner
 (preparados naturais, calendário lunar); certificação Demeter.
 
+**Blanc de blancs / blanc de noirs** — espumante feito só de uvas brancas
+(*blancs*) ou só de uvas tintas vinificadas sem cor (*noirs*).
+
 **Borras** (*lies*) — leveduras mortas e sedimentos que assentam após a
 fermentação; o estágio do vinho sobre elas (*sur lie*) acrescenta textura.
 
@@ -191,6 +194,9 @@ contribui para a maciez e a sensação de corpo.
 **Grainha** — a semente da uva, rica em taninos amargos e óleos; evita-se
 esmagá-la para não extrair adstringência excessiva.
 
+**Grand Cru** — no topo da hierarquia da Borgonha (e em outras regiões), a
+parcela de elite, raríssima e de maior prestígio. Ver **Premier Cru**.
+
 **Homonímia** — uso do mesmo nome para castas geneticamente diferentes (ou para
 grupos vagos de castas). Oposto de **sinonímia**.
 
@@ -296,6 +302,9 @@ cultivada desde a crise da filoxera.
 **Potencial de guarda** — por quanto tempo um vinho pode evoluir até o apogeu;
 depende de acidez, taninos, açúcar, álcool e concentração. A maioria dos vinhos
 tem apogeu precoce.
+
+**Premier Cru** — na Borgonha, parcela superior dentro de uma comuna, abaixo do
+**Grand Cru** e acima do nível Village.
 
 **Qvevri** — grande pote de barro enterrado, usado na Geórgia há milênios para
 fermentar e conservar vinho; técnica reconhecida como patrimônio cultural.

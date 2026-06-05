@@ -1,0 +1,132 @@
+---
+title: "Taças, temperatura e serviço"
+---
+
+## Motivação
+
+Um grande vinho pode ser **sabotado** na última milha: na taça errada ou na
+temperatura errada. Servir não é detalhe — é o que liga a garrafa ao prazer. Duas
+escolhas simples, a **taça** e a **temperatura**, mudam radicalmente o que se sente
+no nariz e na boca.
+
+Este capítulo abre o Volume XII pelo serviço: a anatomia da taça, a temperatura
+ideal de cada estilo (@fig-taca-temperatura) e a ordem de servir.
+
+## A taça e a temperatura
+
+::: {#fig-taca-temperatura}
+```{.tikz}
+%%| filename: taca-temperatura
+%%| alt: À esquerda, anatomia de uma taça de vinho com boca, bojo, haste e base rotulados; à direita, uma escala vertical de temperatura de serviço, do espumante (6 a 8 graus) ao tinto encorpado (16 a 18 graus).
+\begin{tikzpicture}[font=\sffamily\scriptsize]
+  % ---- taça ----
+  \draw[manualgray, very thick] (0.3,3.4) .. controls (0.1,2.1) and (1.9,2.1) .. (1.7,3.4);
+  \draw[manualgray, very thick] (1.0,2.15) -- (1.0,1.0);
+  \draw[manualgray, very thick] (0.45,1.0) -- (1.55,1.0);
+  \fill[manualred!20] (0.42,3.0) .. controls (0.35,2.25) and (1.65,2.25) .. (1.58,3.0) -- cycle;
+  % rótulos taça
+  \node[right, font=\tiny] (lb) at (2.3,3.35) {boca}; \draw[-{Stealth[length=1.4mm]}, manualgray] (lb) -- (1.6,3.35);
+  \node[right, font=\tiny] (lj) at (2.3,2.7) {bojo}; \draw[-{Stealth[length=1.4mm]}, manualgray] (lj) -- (1.45,2.7);
+  \node[right, font=\tiny] (lh) at (2.3,1.6) {haste}; \draw[-{Stealth[length=1.4mm]}, manualgray] (lh) -- (1.05,1.6);
+  \node[right, font=\tiny] (lp) at (2.3,1.0) {base}; \draw[-{Stealth[length=1.4mm]}, manualgray] (lp) -- (1.5,1.02);
+
+  % ---- escala de temperatura ----
+  \foreach \i/\faixa/\tipo/\cor in {
+      0/{6–8\,°C}/{espumante}/manualblue!35,
+      1/{8–10\,°C}/{branco leve · rosé}/manualblue!22,
+      2/{10–12\,°C}/{branco encorpado}/manualgreen!22,
+      3/{12–14\,°C}/{tinto leve}/manualred!22,
+      4/{16–18\,°C}/{tinto encorpado}/manualred!45}{
+    \fill[\cor, draw=manualgray] (5.0,\i*0.8) rectangle (6.0,\i*0.8+0.8);
+    \node[font=\tiny] at (5.5,\i*0.8+0.4) {\faixa};
+    \node[right, font=\tiny] at (6.1,\i*0.8+0.4) {\tipo};}
+  \node[font=\tiny, manualgray] at (5.5,4.3) {mais frio $\downarrow$};
+\end{tikzpicture}
+```
+
+À esquerda, a anatomia da taça (segure pela **haste**!); à direita, a escala de
+temperatura de serviço. Espumantes e brancos leves vão **bem frios**; tintos
+encorpados, à temperatura "de adega" (16–18 °C) — **não** quentes.
+:::
+
+A **taça** importa pela forma: um **bojo** amplo concentra os aromas que sobem; a
+**boca** afilada os direciona ao nariz. Segura-se sempre pela **haste**, para não
+aquecer o vinho com a mão nem embaçar o bojo. Enche-se só cerca de **um terço** da
+taça — o resto é espaço para **girar e cheirar** (Volume XI).
+
+A **temperatura** modula tudo: o frio **realça a acidez e o frescor** (e disfarça
+defeitos — por isso vinho simples se serve gelado); o calor **realça o álcool e os
+aromas**. Cada estilo tem sua faixa, na @fig-taca-temperatura.
+
+::: {#def-temperatura-servico}
+## Temperatura de serviço
+**Temperatura de serviço** é a faixa ideal para servir cada estilo: mais **fria**
+para espumantes e brancos (preserva frescor), mais **amena** para tintos (libera
+aromas sem ressaltar o álcool). Servir frio **demais** anestesia os aromas; quente
+**demais**, ressalta o álcool.
+:::
+
+## A ordem de servir
+
+Numa sequência de vinhos, vale uma regra simples: do mais **leve** ao mais
+**encorpado**, do **branco** ao **tinto**, do **seco** ao **doce** e do **jovem**
+ao **velho**. Assim cada vinho não é "atropelado" pelo anterior.
+
+::: {.callout-warning}
+## Erro comum
+"Tinto se serve à temperatura ambiente" é um mito perigoso em país quente. A
+"ambiente" da regra é a de uma **adega europeia** (~16–18 °C), não os 25–30 °C de
+um verão tropical. Tinto **quente** parece alcoólico e mole — vale até resfriá-lo
+um pouco antes de servir.
+:::
+
+## Exemplos
+
+::: {#exm-branco-gelado-demais}
+## Gelado demais esconde o vinho
+Um bom branco servido **quase congelado** perde quase todo o aroma — o frio
+"anestesia" os voláteis (Volume XI). É ótimo para disfarçar um vinho simples, mas
+**desperdiça** um vinho bom. Deixe-o subir alguns graus na taça e os aromas
+aparecem.
+:::
+
+::: {#exm-segurar-haste}
+## Por que pegar pela haste
+Segurar a taça pelo **bojo** aquece o vinho com o calor da mão e deixa marcas de
+dedo no vidro, atrapalhando a leitura da cor (Volume XI). Pegar pela **haste** (ou
+pela base) mantém a temperatura e a taça limpa. Um gesto pequeno, de grande efeito.
+:::
+
+## Exercícios
+
+::: {#exr-temperatura}
+Pela @fig-taca-temperatura, ordene do **mais frio** ao **menos frio** no serviço:
+tinto encorpado, espumante, branco encorpado.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Espumante (6–8 °C) → branco encorpado (10–12 °C) → tinto encorpado (16–18 °C).
+:::
+
+::: {#exr-haste}
+Por que se deve segurar a taça pela **haste**, e não pelo bojo (@exm-segurar-haste)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Para **não aquecer** o vinho com o calor da mão e para **não deixar marcas** no
+bojo, que atrapalhariam a análise visual. Segura-se pela haste (ou pela base).
+:::
+
+::: {#exr-tinto-ambiente}
+Por que servir um tinto "à temperatura ambiente" pode ser um erro num país quente
+(@callout)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque "ambiente", na regra clássica, significa ~16–18 °C (adega europeia), não os
+25–30 °C de um clima quente. Servido **quente demais**, o tinto realça o **álcool**
+e parece mole e desequilibrado; convém até resfriá-lo um pouco.
+:::

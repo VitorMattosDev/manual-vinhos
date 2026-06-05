@@ -101,7 +101,7 @@ fotos entram como imagem embutida — ver `PLANO.md`).
 - [x] `v11-degustacao/06-avaliacao-e-degustacao-as-cegas.qmd` — fichas, notas, às cegas. *fig.: ficha de degustação.*
 
 ### Volume XII — Serviço, Harmonização e Guarda
-- [ ] `v12-servico-harmonizacao/01-tacas-temperatura-servico.qmd` — taças, temperaturas, ordem. *fig.: anatomia da taça + escala de temperatura.*
+- [x] `v12-servico-harmonizacao/01-tacas-temperatura-servico.qmd` — taças, temperaturas, ordem. *fig.: anatomia da taça + escala de temperatura.*
 - [ ] `v12-servico-harmonizacao/02-abertura-decantacao-aeracao.qmd` — saca-rolhas, decanter, aeração. *fig.: quando decantar (fluxograma).*
 - [ ] `v12-servico-harmonizacao/03-conservacao-e-adega.qmd` — temperatura, umidade, posição, guarda. *fig.: condições ideais de adega.*
 - [ ] `v12-servico-harmonizacao/04-principios-da-harmonizacao.qmd` — complementar × contrastar. *fig.: matriz de harmonização.*

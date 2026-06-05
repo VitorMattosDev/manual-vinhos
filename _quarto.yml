@@ -117,14 +117,14 @@ book:
         - volumes/v11-degustacao/05-reconhecer-defeitos.qmd
         - volumes/v11-degustacao/06-avaliacao-e-degustacao-as-cegas.qmd
 
-    # - part: "Volume XII — Serviço, Harmonização e Guarda"
-    #   chapters:
-    #     - volumes/v12-servico-harmonizacao/01-tacas-temperatura-servico.qmd
-    #     - volumes/v12-servico-harmonizacao/02-abertura-decantacao-aeracao.qmd
-    #     - volumes/v12-servico-harmonizacao/03-conservacao-e-adega.qmd
-    #     - volumes/v12-servico-harmonizacao/04-principios-da-harmonizacao.qmd
-    #     - volumes/v12-servico-harmonizacao/05-harmonizacoes-classicas.qmd
-    #     - volumes/v12-servico-harmonizacao/06-sommellerie-e-carta.qmd
+    - part: "Volume XII — Serviço, Harmonização e Guarda"
+      chapters:
+        - volumes/v12-servico-harmonizacao/01-tacas-temperatura-servico.qmd
+        - volumes/v12-servico-harmonizacao/02-abertura-decantacao-aeracao.qmd
+        - volumes/v12-servico-harmonizacao/03-conservacao-e-adega.qmd
+        - volumes/v12-servico-harmonizacao/04-principios-da-harmonizacao.qmd
+        - volumes/v12-servico-harmonizacao/05-harmonizacoes-classicas.qmd
+        - volumes/v12-servico-harmonizacao/06-sommellerie-e-carta.qmd
 
     # - part: "Volume XIII — Vinho, Cultura e Mercado"
     #   chapters:

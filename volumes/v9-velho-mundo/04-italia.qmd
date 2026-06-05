@@ -2,4 +2,130 @@
 title: "Itália"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Nenhum país tem tantas **castas autóctones** quanto a Itália — são centenas — nem
+faz vinho em tantos lugares: dos Alpes à Sicília, praticamente toda região tem o
+seu. Essa diversidade é ao mesmo tempo a riqueza e o desafio do vinho italiano:
+para navegá-lo, convém ancorar-se em quatro grandes polos.
+
+Este capítulo percorre a Itália do norte ao sul — Piemonte, Vêneto, Toscana e o
+Sul —, situando cada um na @fig-mapa-italia.
+
+## Quatro polos, da bota inteira
+
+::: {#fig-mapa-italia}
+```{.tikz}
+%%| filename: mapa-italia
+%%| alt: Mapa estilizado da Itália em forma de bota, com quatro polos marcados — Piemonte (Nebbiolo) no noroeste, Vêneto (Prosecco, Amarone) no nordeste, Toscana (Sangiovese) no centro e o Sul com a Sicília.
+\begin{tikzpicture}[font=\sffamily\scriptsize]
+  % silhueta estilizada da bota
+  \draw[manualgray, very thick, fill=manualgreen!8]
+    (0.5,5.0) -- (3.0,5.2) -- (3.5,2.6) -- (4.3,1.2) -- (3.6,0.85)
+    -- (2.9,1.45) -- (2.45,0.25) -- (2.05,0.55) -- (1.85,2.1)
+    -- (1.2,3.3) -- cycle;
+  % Sicília
+  \draw[manualgray, very thick, fill=manualgreen!8] (1.05,-0.05) -- (1.85,-0.1) -- (1.35,-0.7) -- cycle;
+  % polos
+  \fill[manualred] (1.05,4.4) circle (1.6pt);
+  \node[left, font=\tiny, manualred!70!black, align=right] at (0.95,4.45) {Piemonte\\(Nebbiolo)};
+  \fill[manualred] (2.7,4.6) circle (1.6pt);
+  \node[right, font=\tiny, manualred!70!black, align=left] at (2.85,4.6) {Vêneto\\(Prosecco,\\Amarone)};
+  \fill[manualred] (1.75,3.0) circle (1.6pt);
+  \node[left, font=\tiny, manualred!70!black, align=right] at (1.6,3.0) {Toscana\\(Sangiovese)};
+  \fill[manualred] (3.6,1.25) circle (1.6pt);
+  \node[right, font=\tiny, manualred!70!black] at (3.75,1.25) {Sul (Puglia)};
+  \fill[manualred] (1.35,-0.35) circle (1.6pt);
+  \node[left, font=\tiny, manualred!70!black] at (1.2,-0.35) {Sicília};
+\end{tikzpicture}
+```
+
+A Itália em quatro polos: **Piemonte** (Nebbiolo) e **Vêneto** (Prosecco, Amarone)
+no norte; **Toscana** (Sangiovese) no centro; e o **Sul** com a Sicília. Cada um
+com castas e estilos próprios.
+:::
+
+- **Piemonte** (noroeste) — o **Nebbiolo** dá Barolo e Barbaresco, tânicos e
+  longevos (Volume III); Barbera e Dolcetto, tintos do dia a dia; e o doce e leve
+  **Moscato d'Asti**.
+- **Vêneto** (nordeste) — o **Prosecco** (Glera, método Charmat), o **Amarone**
+  (passito de Corvina, seco e potente — Volume VI) e o branco **Soave**.
+- **Toscana** (centro) — reino do **Sangiovese**: Chianti, **Brunello di
+  Montalcino** e Vino Nobile; além dos rebeldes **Super Toscanos**.
+- **Sul e Ilhas** — Puglia (Primitivo), Campânia (Aglianico) e **Sicília** (Nero
+  d'Avola e os vinhos vulcânicos do **Etna**).
+
+## Os Super Toscanos
+
+::: {#def-super-toscano}
+## Super Toscano
+**Super Toscano** é o nome dado, a partir dos anos 1970, a vinhos toscanos de
+altíssima qualidade que **rompiam** as regras da DOC local — usando castas
+internacionais (Cabernet, Merlot) ou cortes proibidos. Tecnicamente rebaixados a
+"vinho de mesa", tornaram-se tão prestigiados que forçaram a criação de uma nova
+categoria (IGT). Um caso clássico de **qualidade contra a burocracia**.
+:::
+
+::: {.callout-note}
+## Quando a regra atrapalha
+Os Super Toscanos mostram um limite das classificações europeias (Volume IX, cap.
+final): regras pensadas para proteger a tradição podem, às vezes, **barrar a
+inovação**. O mercado, no fim, reconheceu a qualidade apesar do rótulo modesto.
+:::
+
+## Exemplos
+
+::: {#exm-amarone}
+## Amarone: passito que ficou seco
+O **Amarone** parte de uvas **secas** ao modo passito (Volume VI), mas, em vez de
+parar doce, fermenta **até quase secar** — resultando num tinto encorpado,
+alcoólico (15–16%) e potente, com fruta passificada. É a técnica do doce
+redirecionada para um **seco** monumental.
+:::
+
+::: {#exm-etna}
+## Vinhos sobre um vulcão
+Nas encostas do **Etna**, na Sicília, vinhas antigas de Nerello Mascalese crescem
+em solo **vulcânico**, em altitude. O resultado são tintos surpreendentemente
+frescos e minerais para o sul quente — terroir (Volume II) ditando o estilo, contra
+a expectativa do clima.
+:::
+
+## Exercícios
+
+::: {#exr-polos-italia}
+Associe cada polo italiano (@fig-mapa-italia) à sua casta/vinho: (1) Piemonte,
+(2) Toscana, (3) Vêneto. Opções: (a) Sangiovese/Chianti; (b) Nebbiolo/Barolo;
+(c) Glera/Prosecco.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+1→b (Piemonte · Nebbiolo/Barolo); 2→a (Toscana · Sangiovese/Chianti); 3→c (Vêneto
+· Glera/Prosecco).
+:::
+
+::: {#exr-super-toscano}
+O que foi um **Super Toscano** (@def-super-toscano) e que problema das
+classificações ele revelou?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Foram vinhos toscanos de alta qualidade que **romperam** as regras da DOC (usando
+castas internacionais), sendo por isso rebaixados a "vinho de mesa". Revelaram que
+classificações rígidas podem **barrar a inovação** — tanto que forçaram a criação
+da categoria IGT.
+:::
+
+::: {#exr-amarone}
+Como o **Amarone** (@exm-amarone) usa a técnica do passito para chegar a um vinho
+**seco**, e não doce?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Parte de uvas **secas** (passito), com açúcar concentrado, mas deixa a fermentação
+seguir **até quase esgotar** o açúcar. Em vez de um doce, obtém-se um tinto **seco**
+muito encorpado e alcoólico.
+:::

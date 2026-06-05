@@ -1,0 +1,125 @@
+---
+title: "Estados Unidos"
+---
+
+## Motivação
+
+Os Estados Unidos são o quarto maior produtor de vinho do mundo, e quase tudo gira
+em torno de um estado: a **Califórnia**, responsável por cerca de **85%** do vinho
+americano. Foi lá que o Novo Mundo provou, em 1976, que podia bater os clássicos
+franceses — e foi lá que se firmou um estilo: encorpado, frutado, tecnicamente
+impecável. O segredo, paradoxalmente, é o **frio**: o oceano Pacífico.
+
+Este capítulo abre o Volume X (Novo Mundo) pelos EUA — Califórnia, Oregon e
+Washington —, mostrando como a geografia tempera o calor e define o estilo.
+
+## Califórnia: o frio que vem do mar
+
+Boa parte da Califórnia seria **quente demais** para grande vinho, não fosse a
+**corrente fria do Pacífico** e a **névoa** que ela traz para os vales costeiros,
+sobretudo à noite. Essa brisa fresca preserva a **acidez** e equilibra a maturação,
+como mostra a @fig-mapa-california.
+
+::: {#fig-mapa-california}
+```{.tikz}
+%%| filename: mapa-california
+%%| alt: Mapa estilizado da costa da Califórnia, com o oceano Pacífico à esquerda e os vales vitícolas à direita (Sonoma, Napa, Costa Central, Santa Barbara); setas mostram a névoa fria do Pacífico entrando terra adentro e resfriando os vinhedos.
+\begin{tikzpicture}[font=\sffamily\scriptsize]
+  % oceano
+  \fill[manualblue!15] (-2.2,0) rectangle (0,5.2);
+  \node[manualblue!60!black, font=\tiny, rotate=90] at (-1.8,2.6) {Pacífico};
+  % costa
+  \draw[manualblue, very thick] (0,0) .. controls (0.4,1.3) and (-0.3,2.6) .. (0.2,3.9)
+       .. controls (0.4,4.5) .. (0.1,5.2);
+  % terra
+  \node[manualgreen!50!black, font=\tiny] at (2.4,5.0) {Califórnia};
+  % regiões
+  \fill[manualred] (1.1,4.4) circle (1.5pt); \node[right, font=\tiny, manualred!70!black] at (1.2,4.4) {Sonoma};
+  \fill[manualred] (1.7,4.0) circle (1.5pt); \node[right, font=\tiny, manualred!70!black] at (1.8,4.0) {Napa (Cabernet)};
+  \fill[manualred] (1.3,2.4) circle (1.5pt); \node[right, font=\tiny, manualred!70!black] at (1.4,2.4) {Costa Central};
+  \fill[manualred] (1.6,1.0) circle (1.5pt); \node[right, font=\tiny, manualred!70!black] at (1.7,1.0) {Santa Barbara};
+  % névoa
+  \foreach \y in {3.6,2.0}{
+    \draw[-{Stealth[length=2mm]}, manualgray, thick] (-1.0,\y) -- (1.0,\y);}
+  \node[manualgray, font=\tiny, align=center] at (-1.0,4.3) {névoa fria\\do Pacífico};
+\end{tikzpicture}
+```
+
+A costa da Califórnia. A **névoa fria** do Pacífico entra pelos vales e resfria os
+vinhedos à noite, salvando a acidez num clima que, de outro modo, seria quente
+demais. **Napa** brilha com Cabernet; **Sonoma** e a **Costa Central**, com Pinot e
+Chardonnay.
+:::
+
+## Napa, Oregon e Washington
+
+**Napa Valley** é o nome mais prestigiado: **Cabernet Sauvignon** encorpado, maduro
+e caro, muitas vezes em estilo opulento e amadeirado (Volume VII). **Sonoma** e a
+**Costa Central**, mais frescas, fazem Pinot Noir e Chardonnay.
+
+Ao norte, dois estados frios contrastam com a Califórnia: **Oregon** (vale do
+**Willamette**) é frio e úmido, ideal para um **Pinot Noir** elegante de inspiração
+borgonhesa; **Washington**, a leste das montanhas Cascade (Columbia Valley), é
+**seco e continental**, com bons Cabernet, Syrah e Riesling.
+
+::: {.callout-note}
+## O Julgamento de Paris (1976)
+Numa degustação às cegas em Paris, em 1976, vinhos da **Califórnia** superaram
+ícones franceses — um choque que pôs o **Novo Mundo** definitivamente no mapa do
+vinho fino. Foi a prova pública de que grande vinho não é privilégio do Velho
+Mundo.
+:::
+
+## Exemplos
+
+::: {#exm-nevoa-napa}
+## Calor de dia, frio de noite
+Em muitos vales californianos, o dia é quente e ensolarado, mas a **névoa noturna**
+do Pacífico derruba a temperatura. Essa **amplitude térmica** (Volume II) faz a uva
+amadurecer açúcar e cor de dia e **preservar acidez** de noite — a chave do
+equilíbrio em clima quente, como em Mendoza pela altitude.
+:::
+
+::: {#exm-oregon-pinot}
+## Oregon, a Borgonha americana
+O **Willamette Valley**, no Oregon, é frio e chuvoso como a Borgonha — e, como ela,
+aposta no **Pinot Noir** delicado. Produtores buscam ali a elegância e a tensão que
+o calor da Califórnia raramente permite. Mesma casta, outra filosofia de clima.
+:::
+
+## Exercícios
+
+::: {#exr-nevoa-california}
+Por que a **névoa fria do Pacífico** (@fig-mapa-california) é decisiva para a
+qualidade do vinho californiano?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque resfria os vales, sobretudo à noite, **preservando a acidez** num clima que
+seria quente demais. Sem ela, as uvas amadureceriam rápido demais e dariam vinhos
+pesados e sem frescor.
+:::
+
+::: {#exr-eua-regioes}
+Associe cada região ao seu perfil: (1) Napa; (2) Willamette (Oregon); (3)
+Washington. Opções: (a) Pinot Noir frio e elegante; (b) Cabernet encorpado; (c)
+seco e continental, a leste das montanhas.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+1→b (Napa · Cabernet encorpado); 2→a (Oregon · Pinot Noir elegante); 3→c
+(Washington · seco e continental).
+:::
+
+::: {#exr-julgamento-paris}
+Por que o **Julgamento de Paris** (1976) foi importante para o Novo Mundo?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque, numa degustação às cegas, vinhos californianos **superaram** clássicos
+franceses, provando publicamente que o Novo Mundo podia fazer vinho de altíssimo
+nível — o que ampliou seu prestígio e mercado.
+:::

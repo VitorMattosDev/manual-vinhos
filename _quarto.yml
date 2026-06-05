@@ -99,14 +99,14 @@ book:
         - volumes/v9-velho-mundo/06-alemanha-austria-europa-central.qmd
         - volumes/v9-velho-mundo/07-classificacoes-europeias.qmd
 
-    # - part: "Volume X — Regiões do Novo Mundo"
-    #   chapters:
-    #     - volumes/v10-novo-mundo/01-estados-unidos.qmd
-    #     - volumes/v10-novo-mundo/02-argentina-e-chile.qmd
-    #     - volumes/v10-novo-mundo/03-brasil.qmd
-    #     - volumes/v10-novo-mundo/04-australia-e-nova-zelandia.qmd
-    #     - volumes/v10-novo-mundo/05-africa-do-sul-e-fronteiras.qmd
-    #     - volumes/v10-novo-mundo/06-classificacoes-novo-mundo.qmd
+    - part: "Volume X — Regiões do Novo Mundo"
+      chapters:
+        - volumes/v10-novo-mundo/01-estados-unidos.qmd
+        - volumes/v10-novo-mundo/02-argentina-e-chile.qmd
+        - volumes/v10-novo-mundo/03-brasil.qmd
+        - volumes/v10-novo-mundo/04-australia-e-nova-zelandia.qmd
+        - volumes/v10-novo-mundo/05-africa-do-sul-e-fronteiras.qmd
+        - volumes/v10-novo-mundo/06-classificacoes-novo-mundo.qmd
 
     # - part: "Volume XI — Degustação e Análise Sensorial"
     #   chapters:

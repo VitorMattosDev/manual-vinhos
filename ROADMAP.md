@@ -83,7 +83,7 @@ fotos entram como imagem embutida — ver `PLANO.md`).
 - [x] `v9-velho-mundo/07-classificacoes-europeias.qmd` — AOC, DOC/DOCG, DO/DOCa, VDP. *fig.: pirâmide de classificação.*
 
 ### Volume X — Regiões do Novo Mundo
-- [ ] `v10-novo-mundo/01-estados-unidos.qmd` — Califórnia, Oregon, Washington. *fig.: mapa estilizado da Califórnia.*
+- [x] `v10-novo-mundo/01-estados-unidos.qmd` — Califórnia, Oregon, Washington. *fig.: mapa estilizado da Califórnia.*
 - [ ] `v10-novo-mundo/02-argentina-e-chile.qmd` — Mendoza, vales chilenos, altitude. *fig.: corte de altitude (Andes).*
 - [ ] `v10-novo-mundo/03-brasil.qmd` — Serra Gaúcha, Vale do São Francisco, espumantes. *fig.: mapa estilizado do Brasil vitícola.*
 - [ ] `v10-novo-mundo/04-australia-e-nova-zelandia.qmd` — Barossa, Marlborough. *fig.: mapa Austrália/NZ.*

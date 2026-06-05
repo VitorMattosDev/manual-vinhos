@@ -2,4 +2,136 @@
 title: "Austrália e Nova Zelândia"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Nos antípodas, dois países redesenharam o mapa do vinho moderno. A **Austrália**
+levou o **Shiraz** potente e a viticultura de escala a todo o mundo; a **Nova
+Zelândia**, bem mais fria, criou um estilo de **Sauvignon Blanc** tão marcante que
+virou referência global. Juntos, mostram como o Novo Mundo pode tanto produzir em
+volume quanto definir tendências.
+
+Este capítulo trata da Austrália e da Nova Zelândia (@fig-mapa-aus-nz), das vinhas
+velhas de Barossa aos brancos pungentes de Marlborough.
+
+## O mapa austral
+
+::: {#fig-mapa-aus-nz}
+```{.tikz}
+%%| filename: mapa-aus-nz
+%%| alt: Mapa estilizado da Austrália (com Barossa Valley, Margaret River e Tasmânia) e, a leste, as duas ilhas da Nova Zelândia, com Marlborough e Central Otago.
+\begin{tikzpicture}[font=\sffamily\scriptsize]
+  % Austrália
+  \draw[manualgray, very thick, fill=manualyellow!10]
+    (0.4,3.4) -- (3.4,3.5) -- (3.9,2.0) -- (2.9,0.8) -- (1.2,0.9) -- (0.3,2.1) -- cycle;
+  \node[manualgray, font=\tiny] at (1.9,2.6) {Austrália};
+  \fill[manualred] (0.7,1.7) circle (1.5pt);
+  \node[left, font=\tiny, manualred!70!black, align=right] at (0.6,1.7) {Margaret\\River};
+  \fill[manualred] (2.4,1.2) circle (1.5pt);
+  \node[right, font=\tiny, manualred!70!black, align=left] at (2.55,1.2) {Barossa\\(Shiraz)};
+  % Tasmânia
+  \draw[manualgray, very thick, fill=manualyellow!10] (2.7,0.2) -- (3.1,0.25) -- (2.9,-0.2) -- cycle;
+  \node[font=\tiny, manualgray] at (3.5,0.1) {Tasmânia};
+  % Nova Zelândia (duas ilhas)
+  \draw[manualgray, very thick, fill=manualgreen!10] (5.2,2.4) -- (5.7,2.0) -- (5.3,1.5) -- (5.0,1.9) -- cycle;
+  \draw[manualgray, very thick, fill=manualgreen!10] (4.9,1.4) -- (5.4,1.2) -- (5.0,0.4) -- (4.6,0.9) -- cycle;
+  \node[font=\tiny, manualgray] at (5.9,2.4) {N. Zelândia};
+  \fill[manualred] (5.05,1.35) circle (1.5pt);
+  \node[right, font=\tiny, manualred!70!black, align=left] at (5.2,1.35) {Marlborough\\(Sauv. Blanc)};
+  \fill[manualred] (4.85,0.7) circle (1.5pt);
+  \node[left, font=\tiny, manualred!70!black, align=right] at (4.75,0.7) {Central\\Otago};
+\end{tikzpicture}
+```
+
+A Austrália (Barossa, Margaret River, Tasmânia) e, a leste, as duas ilhas da Nova
+Zelândia (Marlborough, Central Otago). Países quentes e frios, respectivamente,
+com vocações opostas.
+:::
+
+## Austrália: Shiraz, escala e vinhas velhas
+
+A casta-bandeira é o **Shiraz** (a Syrah do Rhône — Volume III), encorpado e
+frutado, com a **Barossa Valley** como reduto clássico. Lá sobrevivem **vinhas
+velhas** pré-filoxera (o isolamento, de novo, protegeu — Volume II), que dão vinhos
+de rara concentração.
+
+::: {#def-vinha-velha}
+## Vinha velha (*old vine*)
+**Vinha velha** designa videiras de idade avançada (décadas, às vezes mais de um
+século). Produzem **pouco**, mas com **uvas concentradas** e raízes profundas, o
+que costuma render vinhos mais intensos. Barossa e o Chile guardam alguns dos pés
+mais antigos do mundo.
+:::
+
+A Austrália também faz grandes Cabernet (**Coonawarra**, de solo *terra rossa*;
+**Margaret River**), Chardonnay, o Semillon do **Hunter Valley** e espumantes
+frescos na **Tasmânia**. E foi pioneira da **rosca** mesmo em vinhos finos (Volume
+VII).
+
+## Nova Zelândia: o Sauvignon que virou estilo
+
+A Nova Zelândia é **fria e marítima**. Em **Marlborough**, o **Sauvignon Blanc**
+ganhou um perfil tão característico — explosivo, com maracujá, capim e acidez
+cortante — que se tornou um **estilo reconhecido no mundo todo**. No sul frio de
+**Central Otago**, faz-se um **Pinot Noir** elegante e perfumado.
+
+::: {.callout-note}
+## Quando um país define um estilo
+O "Sauvignon Blanc da Nova Zelândia" é hoje uma categoria mental própria, como o
+"Champagne" ou o "Porto". É raro um país **novo** criar um estilo tão reconhecível
+em tão pouco tempo — prova de que terroir e identidade podem nascer rápido.
+:::
+
+## Exemplos
+
+::: {#exm-barossa-old-vine}
+## Velhos pés de Barossa
+Em **Barossa**, há Shiraz plantado no século XIX, sobrevivente da filoxera graças
+ao isolamento. Essas **vinhas velhas** rendem pouquíssimo, mas dão uvas
+concentradíssimas — base de tintos densos e profundos, muito valorizados. Idade,
+aqui, é patrimônio.
+:::
+
+::: {#exm-marlborough}
+## O nariz de Marlborough
+Um Sauvignon Blanc de **Marlborough** é quase impossível de confundir: maracujá,
+groselha, pimentão e capim saltam da taça, com acidez vibrante. Esse perfil
+**pungente** nasce do clima frio e ensolarado da região — terroir (Volume II)
+imprimindo uma assinatura nacional.
+:::
+
+## Exercícios
+
+::: {#exr-shiraz-barossa}
+Qual é a casta-bandeira da Austrália e seu reduto clássico, e o que são as **vinhas
+velhas** que ali se preservam (@def-vinha-velha)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+A casta é o **Shiraz**, com a **Barossa Valley** como reduto. As **vinhas velhas**
+são videiras muito antigas (pré-filoxera), que produzem pouco mas com uvas
+concentradas, dando vinhos intensos.
+:::
+
+::: {#exr-nz-sauvignon}
+Por que o **Sauvignon Blanc de Marlborough** é citado como um caso de país que
+"definiu um estilo" (@callout)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque seu perfil — pungente, com maracujá, capim e acidez cortante — ficou tão
+característico que virou uma **categoria reconhecida mundialmente**, associada à
+Nova Zelândia, como "Champagne" se associa à sua região.
+:::
+
+::: {#exr-aus-frio}
+A Austrália é quente, mas tem regiões frias. Cite uma e o que ela produz melhor
+(@fig-mapa-aus-nz).
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+A **Tasmânia** (fria e marítima), que se destaca em **espumantes** frescos (e bons
+Pinot/Chardonnay). É um contraponto frio ao calor de Barossa.
+:::

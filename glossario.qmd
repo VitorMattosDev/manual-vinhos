@@ -418,6 +418,10 @@ para reduzir o rendimento e concentrar os cachos restantes.
 **Vingamento** (*fruit set*) — fase em que as flores fecundadas se transformam
 em bagas; determina quantas bagas cada cacho terá.
 
+**Vinha velha** (*old vine*) — videiras de idade avançada que produzem pouco,
+mas com uvas concentradas; rendem vinhos mais intensos. Comuns em Barossa e no
+Chile.
+
 **Vinho-gota** — vinho que escorre sozinho das cascas após a maceração, mais
 fino e elegante; distinto do **vinho de prensa**, mais tânico, extraído ao
 prensar as cascas.

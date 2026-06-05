@@ -2,4 +2,130 @@
 title: "Argentina e Chile"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Os dois gigantes sul-americanos vivem à sombra da mesma cordilheira — os **Andes**
+—, mas resolvem o mesmo problema (o calor) de maneiras opostas. A **Argentina** sobe
+em **altitude**; o **Chile**, espremido entre a montanha e o mar, aproveita o
+**oceano** frio e o isolamento natural. Entender essa diferença geográfica é
+entender por que seus vinhos são como são.
+
+Este capítulo trata da Argentina e do Chile lado a lado, com a altitude andina como
+fio condutor (@fig-corte-andes).
+
+## A altitude andina
+
+::: {#def-amplitude-termica}
+## Amplitude térmica
+**Amplitude térmica** é a diferença de temperatura entre o dia e a noite. Uma
+grande amplitude — comum em **altitude** e em desertos — faz a uva amadurecer
+açúcar e cor sob o sol e **preservar acidez e aromas** no frio noturno. É um dos
+segredos do equilíbrio em climas quentes.
+:::
+
+::: {#fig-corte-andes}
+```{.tikz}
+%%| filename: corte-andes
+%%| alt: Corte dos Andes com o Chile a oeste (perto do Pacífico, vinhedos em baixa altitude) e a Argentina a leste (Mendoza, vinhedos em alta altitude no sopé da cordilheira); seta indica que quanto mais alto, mais fresco e maior a amplitude térmica.
+\begin{tikzpicture}[font=\sffamily\scriptsize]
+  % cordilheira
+  \fill[manualgray!25, draw=manualgray, very thick]
+    (1.5,0) -- (4.0,4.6) -- (5.0,3.2) -- (6.5,0) -- cycle;
+  \node[manualgray, font=\tiny] at (4.0,3.4) {Andes};
+  % oceano (oeste)
+  \fill[manualblue!15] (-1.2,0) rectangle (0,2.2);
+  \node[manualblue!60!black, font=\tiny, rotate=90] at (-0.9,1.1) {Pacífico};
+  % solo base
+  \draw[manualgreen!50!black, very thick] (0,0.6) -- (1.5,0.6);
+  \draw[manualgreen!50!black, very thick] (6.5,1.6) -- (8.2,1.6);
+  % Chile (baixo, oeste)
+  \fill[manualred] (0.9,0.6) circle (1.5pt);
+  \node[align=center, font=\tiny, manualred!70!black] at (0.7,1.15) {Chile\\(vales, ~500 m)\\Carmenère};
+  % Argentina (alto, leste)
+  \fill[manualred] (7.1,1.6) circle (1.5pt);
+  \node[align=center, font=\tiny, manualred!70!black] at (7.4,2.35) {Mendoza\\(900–1500 m)\\Malbec};
+  % seta de altitude
+  \draw[-{Stealth[length=2.5mm]}, manualgray, thick] (8.7,0.6) -- (8.7,3.4)
+    node[midway, right, font=\tiny, align=left]{mais alto:\\mais fresco,\\mais amplitude};
+\end{tikzpicture}
+```
+
+Um corte dos Andes. O **Chile**, a oeste, usa o **Pacífico** frio; a **Argentina**,
+a leste, usa a **altitude** de Mendoza. Ambos buscam a **amplitude térmica** que
+preserva acidez e cor sob o sol intenso.
+:::
+
+## Argentina e Chile, lado a lado
+
+A **Argentina** concentra-se em **Mendoza**, um deserto de altitude irrigado pelo
+**degelo dos Andes** (Volume II). A casta-símbolo é a **Malbec** (Volume III),
+encorpada e de cor profunda; o branco aromático **Torrontés** é a contraparte. A
+altitude e o sol intenso, com noites frias, definem o estilo.
+
+O **Chile** é uma longa faixa entre os Andes e o Pacífico, com vales de norte a
+sul: **Maipo** (Cabernet de prestígio), **Casablanca** (frio e costeiro, ótimo para
+Sauvignon Blanc e Pinot Noir), **Colchagua** e **Aconcagua**. Sua assinatura é a
+**Carmenère** (Volume III). Cercado por deserto, montanha, oceano e gelo, o Chile é
+tão isolado que abriga vinhas **pé-franco**, sobreviventes da filoxera (Volume II).
+
+::: {.callout-note}
+## Dois caminhos para temperar o calor
+Argentina e Chile mostram que há mais de uma saída para o clima quente: a
+**altitude** (que resfria pelo ar rarefeito) e a **proximidade do oceano** frio
+(que resfria pela brisa). Ambas geram a **amplitude térmica** que o vinho fino pede
+— a mesma lógica da névoa californiana.
+:::
+
+## Exemplos
+
+::: {#exm-mendoza-altitude}
+## Malbec nas alturas
+Em Mendoza, subir a montanha é "resfriar" o vinhedo: cada centena de metros derruba
+a temperatura média. Nos terroirs altos do **Valle de Uco** (acima de 1.000 m), a
+Malbec ganha cor intensa, taninos firmes e **frescor** — uma combinação que a
+mesma casta, em planície quente, não alcançaria.
+:::
+
+::: {#exm-chile-pe-franco}
+## O refúgio pré-filoxera
+O isolamento geográfico do Chile — murado por deserto, Andes, oceano e geleiras —
+manteve a **filoxera** longe por muito tempo. Por isso ali sobrevivem vinhas
+**pé-franco** (sem enxerto), raríssimas no mundo (Volume II). A geografia que
+dificulta a vida também preservou um tesouro vivo.
+:::
+
+## Exercícios
+
+::: {#exr-altitude-oceano}
+Argentina e Chile temperam o calor por meios diferentes. Qual recurso cada país
+usa principalmente, e o que ambos buscam (@def-amplitude-termica)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+A **Argentina** usa a **altitude** (Mendoza); o **Chile**, a proximidade do
+**oceano** Pacífico frio. Ambos buscam **amplitude térmica** — dias quentes e
+noites frias — para amadurecer a uva preservando acidez e cor.
+:::
+
+::: {#exr-castas-simbolo}
+Qual é a casta-símbolo de cada país: Argentina e Chile (Volume III)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Argentina: **Malbec**. Chile: **Carmenère**. Ambas castas de origem francesa que
+encontraram nova identidade no Novo Mundo.
+:::
+
+::: {#exr-pe-franco-chile}
+Por que o Chile abriga vinhas **pé-franco**, raras no resto do mundo
+(@exm-chile-pe-franco)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Por seu **isolamento geográfico** (deserto, Andes, oceano e geleiras), que manteve
+a **filoxera** afastada. Sem a praga, não foi preciso enxertar sobre porta-enxertos,
+e sobrevivem vinhas de pé-franco.
+:::

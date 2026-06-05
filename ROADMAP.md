@@ -84,7 +84,7 @@ fotos entram como imagem embutida — ver `PLANO.md`).
 
 ### Volume X — Regiões do Novo Mundo
 - [x] `v10-novo-mundo/01-estados-unidos.qmd` — Califórnia, Oregon, Washington. *fig.: mapa estilizado da Califórnia.*
-- [ ] `v10-novo-mundo/02-argentina-e-chile.qmd` — Mendoza, vales chilenos, altitude. *fig.: corte de altitude (Andes).*
+- [x] `v10-novo-mundo/02-argentina-e-chile.qmd` — Mendoza, vales chilenos, altitude. *fig.: corte de altitude (Andes).*
 - [ ] `v10-novo-mundo/03-brasil.qmd` — Serra Gaúcha, Vale do São Francisco, espumantes. *fig.: mapa estilizado do Brasil vitícola.*
 - [ ] `v10-novo-mundo/04-australia-e-nova-zelandia.qmd` — Barossa, Marlborough. *fig.: mapa Austrália/NZ.*
 - [ ] `v10-novo-mundo/05-africa-do-sul-e-fronteiras.qmd` — Stellenbosch e novas fronteiras. *fig.: mapa do Cabo.*

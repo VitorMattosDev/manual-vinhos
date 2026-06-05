@@ -2,4 +2,129 @@
 title: "Laranja, naturais e biodinâmicos"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+O vinho laranja completa um quebra-cabeça elegante: as **quatro cores** do vinho
+nascem de apenas **duas escolhas** — a cor da uva e o contato (ou não) com as
+cascas. E ele abre a porta para um debate maior, o dos vinhos **naturais** e
+**biodinâmicos**: movimentos que questionam a vinificação industrial e reacendem
+discussões sobre intervenção, autenticidade e risco.
+
+Este capítulo fecha o Volume VIII com esses estilos "de fronteira", situando o
+laranja no mapa das cores e apresentando as filosofias de mínima intervenção.
+
+## As quatro cores, duas escolhas
+
+A @fig-quatro-cores mostra como branco, laranja, tinto (e o rosé, caso
+intermediário) resultam de combinar **cor da uva** com **maceração**.
+
+::: {#fig-quatro-cores}
+```{.tikz}
+%%| filename: quatro-cores
+%%| alt: Matriz 2 por 2 com cor da uva nas linhas (branca, tinta) e contato com as cascas nas colunas (sem, com). Uva branca sem cascas dá branco; uva branca com cascas dá vinho laranja; uva tinta sem cascas dá branco (blanc de noirs); uva tinta com cascas dá tinto.
+\begin{tikzpicture}[font=\sffamily\scriptsize,
+    cel/.style={draw=manualgray, very thick, minimum width=30mm, minimum height=16mm,
+      align=center}]
+  % cabeçalhos de coluna
+  \node[font=\sffamily\small\bfseries, manualgray] at (1.6,3.7) {sem maceração};
+  \node[font=\sffamily\small\bfseries, manualgray] at (5.0,3.7) {com maceração};
+  % cabeçalhos de linha
+  \node[font=\sffamily\small\bfseries, manualgray, rotate=90] at (-0.7,2.0) {uva branca};
+  \node[font=\sffamily\small\bfseries, manualgray, rotate=90] at (-0.7,0.0) {uva tinta};
+  % células
+  \node[cel, fill=manualyellow!25] at (1.6,2.0) {\textbf{Branco}};
+  \node[cel, fill=manualyellow!70!manualred] at (5.0,2.0) {\textbf{Vinho laranja}\\\tiny branco com cascas};
+  \node[cel, fill=manualyellow!22] at (1.6,0.0) {\textbf{Branco}\\\tiny\emph{blanc de noirs}};
+  \node[cel, fill=manualred!35] at (5.0,0.0) {\textbf{Tinto}};
+\end{tikzpicture}
+```
+
+As quatro cores do vinho a partir de duas escolhas. O **vinho laranja** é o que
+faltava no quadro: **uva branca** fermentada **com** as cascas. (O **rosé** é um
+caso intermediário: uva tinta com maceração **breve**.)
+:::
+
+O vinho laranja, portanto, não é "moda" nem mistura: é a casa vazia da tabela,
+ocupada por uma técnica antiga (Volume V).
+
+## Naturais e biodinâmicos
+
+Em torno desses estilos floresceu um movimento de **mínima intervenção**:
+
+::: {#def-natural-biodinamico}
+## Natural, orgânico e biodinâmico
+**Vinho orgânico** vem de uvas cultivadas sem agroquímicos sintéticos
+(certificável). **Biodinâmico** soma ao orgânico as práticas de Rudolf Steiner —
+preparados naturais e calendário lunar (certificação Demeter). **Vinho natural**
+é um conceito **sem definição legal**: busca uvas orgânicas, leveduras indígenas e
+pouquíssima ou nenhuma adição (inclusive de SO₂).
+:::
+
+A promessa é autenticidade e expressão pura do terroir; o risco é a
+**instabilidade** — sem a rede de proteção do SO₂ e da filtração, defeitos como
+acidez volátil e *Brett* (Volume IV) aparecem com mais frequência.
+
+::: {.callout-warning}
+## "Natural" não é selo garantido
+Ao contrário de "orgânico" e "biodinâmico" (que têm **certificação**), "vinho
+natural" **não tem definição legal** padronizada. A qualidade varia enormemente:
+há naturais impecáveis e há outros francamente defeituosos. O rótulo, sozinho, não
+garante nada.
+:::
+
+## Exemplos
+
+::: {#exm-laranja-textura}
+## O laranja na boca
+Por ter macerado com as cascas, o vinho laranja traz **taninos** e textura
+incomuns num branco — quase a estrutura de um tinto leve, com cor de âmbar. Servido
+levemente fresco, harmoniza com pratos difíceis para vinhos comuns (curry, comida
+fermentada). É a prova de que a @fig-quatro-cores tem consequências sensoriais
+reais.
+:::
+
+::: {#exm-biodinamico-serio}
+## Ciência à parte, vinhedos levam a sério
+Embora as práticas biodinâmicas careçam de comprovação científica, vários
+**produtores de altíssimo nível** as adotam — em parte pela disciplina que impõem
+ao vinhedo (atenção, baixos rendimentos, saúde do solo). O resultado nem sempre se
+explica pela teoria, mas a dedicação costuma transparecer na taça.
+:::
+
+## Exercícios
+
+::: {#exr-quatro-cores}
+Pela @fig-quatro-cores, que duas escolhas geram as quatro cores do vinho? Que
+combinação produz o **vinho laranja**?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+As escolhas são a **cor da uva** (branca ou tinta) e o **contato com as cascas**
+(sem ou com maceração). O **vinho laranja** vem de **uva branca** fermentada **com
+as cascas**.
+:::
+
+::: {#exr-natural-organico}
+Diferencie **vinho orgânico** de **vinho natural** (@def-natural-biodinamico) quanto
+à existência de definição legal e certificação.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+O **orgânico** tem **certificação** e regras definidas (cultivo sem agroquímicos
+sintéticos). O **natural** **não** tem definição legal padronizada: é uma filosofia
+de mínima intervenção, sem selo oficial garantido.
+:::
+
+::: {#exr-risco-natural}
+Qual é o principal **risco técnico** dos vinhos de mínima intervenção, e a que ele
+se deve (Volume IV)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+A **instabilidade**: sem (ou com pouco) SO₂ e sem filtração, faltam as proteções
+contra oxidação e micro-organismos. Por isso defeitos como **acidez volátil** e
+**Brettanomyces** aparecem com mais frequência.
+:::

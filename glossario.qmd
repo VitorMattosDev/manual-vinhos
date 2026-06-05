@@ -51,6 +51,9 @@ tosta) e taninos e permite microxigenação. Ver **tosta**.
 **Bâtonnage** — ato de mexer as borras finas durante o estágio sobre borras,
 intensificando textura e cremosidade do vinho.
 
+**Biodinâmico** — agricultura orgânica somada às práticas de Rudolf Steiner
+(preparados naturais, calendário lunar); certificação Demeter.
+
 **Borras** (*lies*) — leveduras mortas e sedimentos que assentam após a
 fermentação; o estágio do vinho sobre elas (*sur lie*) acrescenta textura.
 
@@ -249,6 +252,9 @@ qualidade. Ver **Velho Mundo**.
 **Oídio** (*powdery mildew*) — doença fúngica em pó branco acinzentado sobre
 folhas e bagas, favorecida pelo calor e pela sombra; tratada com enxofre.
 
+**Orgânico** (vinho) — vinho de uvas cultivadas sem agroquímicos sintéticos,
+sob certificação. Base do vinho biodinâmico.
+
 **Oxidação** — dano causado pelo excesso de oxigênio: perda de aroma frutado,
 escurecimento e risco de acetificação. Oposto da **microxigenação**.
 
@@ -376,6 +382,10 @@ prensar as cascas.
 
 **Vinho laranja** (*orange wine*) — branco fermentado com as cascas, em
 maceração longa (muitas vezes em ânfora); ganha cor âmbar, taninos e textura.
+
+**Vinho natural** — vinho de mínima intervenção (uvas orgânicas, leveduras
+indígenas, pouca ou nenhuma adição, inclusive de SO₂); sem definição legal
+padronizada.
 
 **_Vitis vinifera_** — espécie de videira de origem caucasiana que dá quase
 todo o vinho fino do mundo; tronco de onde derivam as castas cultivadas.

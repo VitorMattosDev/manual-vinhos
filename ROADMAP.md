@@ -71,7 +71,7 @@ fotos entram como imagem embutida — ver `PLANO.md`).
 - [x] `v8-estilos/02-brancos.qmd` — secos, aromáticos, com madeira. *fig.: eixo acidez × aroma.*
 - [x] `v8-estilos/03-roses-e-espumantes.qmd` — estilos e níveis de doçura. *fig.: escala brut→doce.*
 - [x] `v8-estilos/04-fortificados-e-doces.qmd` — tipologia. *fig.: mapa álcool × açúcar.*
-- [ ] `v8-estilos/05-laranja-naturais-biodinamicos.qmd` — orange, naturais, biodinâmicos. *fig.: vinho laranja vs branco.*
+- [x] `v8-estilos/05-laranja-naturais-biodinamicos.qmd` — orange, naturais, biodinâmicos. *fig.: vinho laranja vs branco.*
 
 ### Volume IX — Regiões do Velho Mundo
 - [ ] `v9-velho-mundo/01-franca-bordeaux.qmd` — Médoc, margem direita, cortes. *fig.: mapa estilizado de Bordeaux.*

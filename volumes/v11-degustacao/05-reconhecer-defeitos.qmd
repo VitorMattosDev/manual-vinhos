@@ -2,4 +2,126 @@
 title: "Reconhecer defeitos na taça"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Já estudamos os defeitos do ponto de vista da **produção** (Volume VII). Agora os
+olhamos do lado de quem **degusta**: você sente um cheiro estranho na taça — e
+então? É defeito ou estilo? Tem conserto? Devolve a garrafa? Saber **reconhecer** e
+**reagir** a um defeito é uma habilidade prática que evita constrangimentos e
+desperdício.
+
+Este capítulo é um guia de bolso: do **descritor** que você sente ao **defeito**
+provável e à **ação** correta, resumido na @fig-defeito-acao.
+
+## Do cheiro à decisão
+
+::: {#def-descritor}
+## Descritor
+**Descritor** é a palavra que nomeia um aroma ou sensação ("mofo", "vinagre",
+"ovo podre"). No caso dos defeitos, o descritor é a porta de entrada: a partir
+dele, identifica-se o problema e decide-se o que fazer.
+:::
+
+::: {#fig-defeito-acao}
+```{.tikz}
+%%| filename: defeito-acao
+%%| alt: Tabela em três colunas ligando o descritor sentido na taça ao defeito provável e à ação recomendada — mofo (TCA, trocar garrafa), ovo podre (redução, arejar), maçã passada (oxidação, em geral defeito), vinagre (acidez volátil, defeito), estábulo (Brett, defeito se intenso).
+\begin{tikzpicture}[font=\sffamily\scriptsize,
+    cel/.style={draw=manualgray, very thick, align=center, minimum height=8mm},
+    fl/.style={-{Stealth[length=1.8mm]}, manualgray}]
+  % cabeçalho
+  \node[font=\tiny\bfseries] at (1.3,3.9) {você sente};
+  \node[font=\tiny\bfseries] at (4.3,3.9) {defeito};
+  \node[font=\tiny\bfseries] at (7.3,3.9) {o que fazer};
+  \foreach \i/\xdesc/\xdefeito/\xacao in {
+      0/{mofo, papelão}/{TCA}/{trocar garrafa},
+      1/{ovo podre, fósforo}/{redução}/{arejar / decantar},
+      2/{maçã passada, parda}/{oxidação}/{defeito (ou estilo)},
+      3/{vinagre, esmalte}/{acidez volátil}/{defeito se intenso},
+      4/{estábulo, suor}/{\emph{Brett}}/{defeito se intenso}}{
+    \node[cel, fill=manualgray!8, text width=24mm] (a\i) at (1.3,-\i*1.0+3.2) {\xdesc};
+    \node[cel, fill=manualred!12, text width=20mm] (b\i) at (4.3,-\i*1.0+3.2) {\xdefeito};
+    \node[cel, fill=manualgreen!10, text width=24mm] (c\i) at (7.3,-\i*1.0+3.2) {\xacao};
+    \draw[fl] (a\i) -- (b\i); \draw[fl] (b\i) -- (c\i);}
+\end{tikzpicture}
+```
+
+Do **descritor** (esquerda) ao **defeito** provável e à **ação** (direita). Alguns
+não têm conserto (TCA: trocar a garrafa); outros podem ser apenas **estilo**
+(oxidação, num Jerez) ou **dissipar-se** com ar (redução).
+:::
+
+## Defeito, ou estilo?
+
+A pergunta-chave é sempre: **é defeito ou é intenção** (Volume VII)? Três casos
+guiam a decisão:
+
+- **TCA** (mofo/papelão) — sempre defeito, e **sem conserto**: a única saída é
+  trocar a garrafa.
+- **Redução** (ovo/fósforo) — muitas vezes some com **aeração**; antes de condenar,
+  areje.
+- **Oxidação**, **acidez volátil**, **Brett** — em **traços** podem ser tolerados
+  (ou, no caso da oxidação, fazer parte de um estilo como o Jerez); em **excesso**,
+  são defeito.
+
+::: {.callout-tip}
+## No restaurante, pode devolver
+Se um vinho está claramente **bouchonné** (TCA) ou oxidado por má conservação, é
+legítimo **recusá-lo** — não é frescura, é um defeito objetivo. Um serviço sério
+troca a garrafa sem discussão. A prova inicial do anfitrião serve exatamente para
+isso.
+:::
+
+## Exemplos
+
+::: {#exm-reduzido-restaurante}
+## Antes de reclamar, areje
+Pediu um tinto jovem e ele cheira a **fósforo**? Pode ser **redução**, não defeito
+permanente. Peça para **decantar** (ou agite a taça) e espere alguns minutos: se a
+fruta aparece, era redução e o vinho está ótimo. Reclamar cedo demais pode ser
+injusto com um bom vinho.
+:::
+
+::: {#exm-tca-troca}
+## O clássico "tem gosto de rolha"
+Um vinho **bouchonné** (TCA) tem a fruta apagada sob mofo e papelão úmido. Não
+adianta arejar nem esperar: o defeito **não some**. A ação é uma só — **trocar a
+garrafa**. Por ser relativamente comum, vale aprender a reconhecê-lo de imediato.
+:::
+
+## Exercícios
+
+::: {#exr-descritor-acao}
+Pela @fig-defeito-acao, qual a ação correta para: (a) um vinho com cheiro de
+**mofo/papelão**; (b) um vinho jovem com cheiro de **ovo podre**?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) **TCA** → **trocar a garrafa** (não tem conserto); (b) **redução** → **arejar /
+decantar** (costuma dissipar-se).
+:::
+
+::: {#exr-defeito-ou-estilo}
+Notas de **maçã passada e nozes** aparecem num vinho. Quando isso é **defeito** e
+quando é **estilo** (Volume VII)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+É **oxidação**: **defeito** num vinho que deveria ser fresco (um branco jovem), mas
+**estilo** desejado num **Jerez oloroso** ou **Madeira**. Depende da intenção e do
+tipo de vinho.
+:::
+
+::: {#exr-devolver}
+Em que situação é **legítimo recusar** um vinho no restaurante (@callout), e para
+que serve a prova do anfitrião?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Quando o vinho tem um **defeito objetivo** — por exemplo, está **bouchonné** (TCA)
+ou oxidado por má conservação. A **prova do anfitrião** existe justamente para
+detectar isso antes de servir aos demais.
+:::

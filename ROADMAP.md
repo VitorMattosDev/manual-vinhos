@@ -97,7 +97,7 @@ fotos entram como imagem embutida — ver `PLANO.md`).
 - [x] `v11-degustacao/02-analise-visual.qmd` — cor, intensidade, lágrimas. *fig.: gradiente de cores do vinho.*
 - [x] `v11-degustacao/03-analise-olfativa.qmd` — famílias de aromas. *fig.: roda de aromas.*
 - [x] `v11-degustacao/04-analise-gustativa.qmd` — doçura, acidez, tanino, álcool, equilíbrio. *fig.: estrela de equilíbrio gustativo.*
-- [ ] `v11-degustacao/05-reconhecer-defeitos.qmd` — TCA, oxidação, brett, redução. *fig.: defeito → descritor.*
+- [x] `v11-degustacao/05-reconhecer-defeitos.qmd` — TCA, oxidação, brett, redução. *fig.: defeito → descritor.*
 - [ ] `v11-degustacao/06-avaliacao-e-degustacao-as-cegas.qmd` — fichas, notas, às cegas. *fig.: ficha de degustação.*
 
 ### Volume XII — Serviço, Harmonização e Guarda

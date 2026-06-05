@@ -156,6 +156,9 @@ partículas grossas assentem antes da fermentação, dando um vinho mais limpo.
 **Dégorgement** — expulsão da borra acumulada no gargalo da garrafa de espumante
 (método tradicional), após o remuage e antes da dosagem.
 
+**Descritor** — palavra que nomeia um aroma ou sensação do vinho (ex.: "cassis",
+"mofo", "vinagre"); ponto de partida para identificar virtudes e defeitos.
+
 **Diacetil** — composto produzido na fermentação malolática, responsável pela
 nota amanteigada de certos vinhos (sobretudo Chardonnay).
 

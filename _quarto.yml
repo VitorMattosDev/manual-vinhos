@@ -10,7 +10,7 @@ book:
   author: "Série Manuais de Ciências"
   date: today
   search: true
-  repo-url: https://github.com/SEU-USUARIO/manual-vinhos
+  repo-url: https://github.com/VitorMattosDev/manual-vinhos
   repo-actions: [edit, issue]
   sidebar:
     style: docked
@@ -133,8 +133,6 @@ book:
         - volumes/v13-cultura-mercado/03-sustentabilidade-e-clima.qmd
         - volumes/v13-cultura-mercado/04-certificacoes-e-carreiras.qmd
         - volumes/v13-cultura-mercado/05-tendencias-e-futuro.qmd
-
-    - glossario.qmd
 
   appendices:
     - glossario.qmd

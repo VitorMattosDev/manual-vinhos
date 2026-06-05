@@ -2,4 +2,118 @@
 title: "Análise olfativa"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+É no **nariz** que o vinho mais se revela. Mas, diante de um aroma complexo, o
+iniciante costuma travar: "sinto algo, mas não sei nomear". A saída não é ter um
+nariz mágico — é ter **método**: organizar os aromas em **famílias** e ir do geral
+ao específico. Essa é a função da **roda de aromas**.
+
+Este capítulo trata da análise olfativa: como cheirar, como agrupar os aromas e
+como ligá-los à sua origem (uva, fermentação ou guarda).
+
+## A roda de aromas
+
+::: {#def-roda-aromas}
+## Roda de aromas
+A **roda de aromas** é uma ferramenta que organiza os cheiros do vinho em
+**famílias** (frutas, flores, especiarias…), do centro (geral) para a borda
+(específico). Ela dá **vocabulário**: em vez de "sinto algo", chega-se a "frutas
+pretas → cassis". A @fig-roda-aromas mostra as grandes famílias.
+:::
+
+::: {#fig-roda-aromas}
+```{.tikz}
+%%| filename: roda-aromas
+%%| alt: Roda de aromas dividida em sete famílias dispostas em setores de um círculo — frutas, flores, vegetal/herbáceo, especiarias, madeira/tostado, terroso/animal e mineral.
+\begin{tikzpicture}[font=\sffamily\scriptsize]
+  \def\R{2.3}
+  \foreach \sa/\ea/\ma/\nome/\cor in {
+      0/51/26/{Frutas}/manualred!30,
+      51/103/77/{Flores}/manualyellow!45,
+      103/154/129/{Vegetal}/manualgreen!35,
+      154/206/180/{Especia-\\rias}/manualred!40!brown,
+      206/257/231/{Madeira·\\tostado}/brown!45,
+      257/309/283/{Terroso·\\animal}/manualgray!40,
+      309/360/335/{Mineral}/manualblue!25}{
+    \fill[\cor, draw=manualgray, thick] (0,0) -- (\sa:\R) arc (\sa:\ea:\R) -- cycle;
+    \node[font=\tiny, align=center] at (\ma:1.5) {\nome};}
+  \fill[white, draw=manualgray, thick] (0,0) circle (0.55);
+  \node[font=\tiny\bfseries, align=center, manualgray] at (0,0) {Aromas};
+\end{tikzpicture}
+```
+
+A roda de aromas, com sete grandes famílias. Começa-se identificando a **família**
+(é frutado? floral? terroso?) e depois afina-se para o aroma específico. É um mapa
+para nomear o que o nariz sente.
+:::
+
+## Como cheirar e de onde vêm os aromas
+
+A técnica é simples: cheire o vinho **parado** (captam-se os aromas mais voláteis e
+delicados), depois **gire a taça** e cheire de novo — a agitação libera mais
+moléculas aromáticas. Compare as duas impressões.
+
+Cada aroma tem uma **origem** (Volume VII): **primários** vêm da uva (frutas,
+flores); **secundários**, da fermentação (pão, manteiga, lácteos; banana, na
+maceração carbônica); **terciários**, da guarda (couro, cogumelo, tabaco — o
+**bouquet**). Saber a origem ajuda a "ler" a história do vinho pelo nariz.
+
+::: {.callout-note}
+## Por que girar a taça
+Girar o vinho aumenta a **superfície de contato** com o ar e a **evaporação** dos
+compostos voláteis — então mais aroma chega ao nariz. Por isso um vinho "fechado"
+muitas vezes "abre" depois de agitado (ou decantado, como na redução — Volume VII).
+:::
+
+## Exemplos
+
+::: {#exm-do-geral-ao-especifico}
+## Do geral ao específico
+Diante de um tinto, não tente adivinhar "cassis" de cara. Pergunte primeiro:
+**frutado**? Sim. **Vermelhas ou pretas**? Pretas. Aí sim afine: cassis, amora,
+ameixa. A @fig-roda-aromas guia esse funil — do amplo ao preciso —, que é como os
+profissionais realmente trabalham.
+:::
+
+::: {#exm-aroma-origem}
+## Lendo a história no nariz
+Num só vinho, o nariz pode contar três capítulos: **fruta** fresca (primário, a
+uva), um toque de **pão tostado** (secundário/autólise ou madeira) e notas de
+**couro** (terciário, a guarda). Identificar a origem de cada aroma é reconstruir a
+trajetória do vinho — do vinhedo à taça.
+:::
+
+## Exercícios
+
+::: {#exr-familias}
+Associe cada aroma à sua **família** na @fig-roda-aromas: (a) violeta; (b) cassis;
+(c) pimentão verde; (d) couro.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) **Flores**; (b) **Frutas** (pretas); (c) **Vegetal/herbáceo**; (d)
+**Terroso/animal**.
+:::
+
+::: {#exr-origem-aromas}
+Classifique cada aroma como **primário**, **secundário** ou **terciário**:
+(a) framboesa; (b) manteiga; (c) cogumelo/folha seca.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) **Primário** (uva); (b) **Secundário** (fermentação/malolática); (c)
+**Terciário** (guarda) — parte do bouquet.
+:::
+
+::: {#exr-girar-taca}
+Por que **girar a taça** faz o vinho liberar mais aroma (@callout)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque aumenta a **superfície de contato** com o ar e acelera a **evaporação** dos
+compostos voláteis, levando mais moléculas aromáticas ao nariz. O vinho "abre".
+:::

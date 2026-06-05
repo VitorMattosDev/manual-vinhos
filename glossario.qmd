@@ -358,6 +358,9 @@ chapéu).
 **Rendimento** — quantidade de uva ou vinho colhida por área (t/ha ou hl/ha);
 rendimentos moderados costumam favorecer a concentração e a qualidade.
 
+**Roda de aromas** — ferramenta que organiza os aromas do vinho em famílias, do
+geral (frutado) ao específico (cassis), ajudando a nomear o que o nariz sente.
+
 **Rosé** — vinho de uva tinta com contato breve com as cascas, suficiente para
 tingi-lo de rosa; feito por prensagem direta (pálido) ou sangria (mais intenso).
 

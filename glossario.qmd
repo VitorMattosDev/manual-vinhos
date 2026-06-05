@@ -497,6 +497,10 @@ em bagas; determina quantas bagas cada cacho terá.
 mas com uvas concentradas; rendem vinhos mais intensos. Comuns em Barossa e no
 Chile.
 
+**Vinho desalcoolizado** — vinho do qual se removeu o álcool (osmose reversa,
+destilação a vácuo), preservando aromas e caráter; categoria em rápido
+crescimento.
+
 **Vinho-gota** — vinho que escorre sozinho das cascas após a maceração, mais
 fino e elegante; distinto do **vinho de prensa**, mais tânico, extraído ao
 prensar as cascas.

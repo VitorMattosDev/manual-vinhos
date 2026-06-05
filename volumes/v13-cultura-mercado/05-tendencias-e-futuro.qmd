@@ -2,4 +2,139 @@
 title: "Tendências e futuro"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Chegamos ao fim da jornada — da **videira no vinhedo** à **taça na mesa** — e o
+lugar certo para terminar é olhando **para frente**. O vinho é milenar (Volume I),
+mas vive hoje uma de suas maiores transformações: novos estilos, novos públicos,
+novas regiões e uma tensão criativa entre **tradição e inovação**.
+
+Este capítulo final reúne as tendências que moldam o futuro do vinho
+(@fig-tendencias) e fecha o manual reconectando as pontas do caminho percorrido.
+
+## As tendências que vêm
+
+::: {#fig-tendencias}
+```{.tikz}
+%%| filename: tendencias-futuro
+%%| alt: Linha do tempo apontando para o futuro, com cinco tendências do vinho — vinhos naturais e de baixa intervenção, vinhos sem ou de baixo álcool, novas regiões pelo clima, embalagens sustentáveis e tecnologia aliada ao retorno ao artesanal.
+\begin{tikzpicture}[font=\sffamily\scriptsize]
+  \draw[-{Stealth[length=3mm]}, very thick, manualgray] (0,0) -- (12.4,0)
+    node[right, font=\scriptsize]{futuro};
+  \foreach \x in {1.2,3.6,6.0,8.4,10.8}{\draw[very thick, manualred] (\x,-0.16) -- (\x,0.16);}
+  \node[align=center, font=\tiny, manualred!70!black] at (1.2,0.7)  {naturais /\\baixa intervenção};
+  \node[align=center, font=\tiny, manualred!70!black] at (3.6,-0.7) {sem / baixo\\álcool};
+  \node[align=center, font=\tiny, manualred!70!black] at (6.0,0.7)  {novas regiões\\(clima)};
+  \node[align=center, font=\tiny, manualred!70!black] at (8.4,-0.7) {embalagens\\sustentáveis};
+  \node[align=center, font=\tiny, manualred!70!black] at (10.8,0.7) {tecnologia +\\retorno ao artesanal};
+\end{tikzpicture}
+```
+
+Tendências que moldam o futuro do vinho. Algumas olham para frente (sem álcool,
+tecnologia, sustentabilidade); outras, paradoxalmente, **para trás** (naturais,
+ânfora) — o vinho reinventando-se ao reencontrar suas origens.
+:::
+
+- **Naturais e baixa intervenção** (Volume VIII) — a busca por autenticidade e
+  mínimo manuseio, em diálogo com as técnicas mais antigas (ânfora, Volume V).
+- **Sem ou baixo álcool** — vinhos **desalcoolizados** ganham público que quer o
+  ritual sem o álcool (Volume XIII, cap. 2); a tecnologia de remoção avança rápido.
+- **Novas regiões e o clima** (Volumes X e XIII, cap. 3) — fronteiras frias se
+  abrem enquanto clássicas se adaptam.
+- **Embalagens sustentáveis** — lata, *bag-in-box* e garrafas leves reduzem a
+  pegada de carbono.
+- **Tecnologia e artesanato** — sensores, drones e dados de precisão no vinhedo
+  convivem com o **retorno** à talha e à fermentação espontânea.
+
+::: {#def-desalcoolizado}
+## Vinho desalcoolizado
+**Vinho desalcoolizado** é o vinho do qual se removeu o álcool (por técnicas como
+osmose reversa ou destilação a vácuo), conservando aromas e parte do caráter.
+Atende a quem busca a **experiência** do vinho sem o efeito do álcool — uma
+categoria em rápido crescimento.
+:::
+
+## Tradição e inovação: o fio condutor
+
+O mais notável do futuro do vinho é que ele anda **nos dois sentidos**. A mesma
+indústria que adota inteligência de dados redescobre o **qvevri** georgiano (Volume
+I). A ciência que controla cada grau de fermentação (Volume IV) convive com o
+**pé-franco** e a fermentação espontânea. O vinho avança, em parte, **voltando às
+origens**.
+
+::: {.callout-note}
+## O vinho sempre foi assim
+Esta tensão não é nova: o vinho sempre equilibrou **tradição** e **invenção** — de
+Roma sistematizando vinhedos (Volume I) à filoxera forçando a enxertia (Volume II),
+do método tradicional ao Charmat (Volume VI). Olhar ao mesmo tempo para trás e para
+frente é, talvez, a mais antiga tradição do vinho.
+:::
+
+## Encerramento: da videira à taça
+
+Percorremos o caminho inteiro. Vimos **o que é o vinho** e de onde veio; a
+**videira** e o terroir; as **castas**; a **vinificação** de tintos, brancos,
+rosés, espumantes, fortificados e doces; o **estágio**, a guarda e os defeitos; os
+**estilos** e as **regiões** do Velho e do Novo Mundo; a **degustação**; o
+**serviço** e a **harmonização**; e, por fim, o vinho como **cultura e mercado**.
+
+Se há uma lição única, é a que abriu o manual: o vinho é **suco de uva fermentado**
+— e, ao mesmo tempo, biologia, química, geografia, história, arte e prazer
+condensados numa taça. Que este livro aberto sirva de mapa, e que cada garrafa,
+daqui em diante, seja lida com um pouco mais de curiosidade — sempre com
+**moderação**, e sempre com prazer.
+
+## Exemplos
+
+::: {#exm-sem-alcool}
+## Por que cresce o vinho sem álcool
+Mais consciência sobre o álcool (Volume XIII, cap. 2), motoristas, gestantes,
+religiões e quem simplesmente quer beber menos: há muitas razões para querer a
+**experiência** do vinho sem o efeito. A melhora técnica dos **desalcoolizados**
+tornou a categoria viável — e uma das que mais crescem.
+:::
+
+::: {#exm-passado-futuro}
+## A ânfora do futuro
+Que um dos métodos mais **antigos** — fermentar em barro (Volume V) — esteja entre
+as tendências mais **atuais** resume o vinho: o futuro, aqui, muitas vezes mora no
+passado. Inovar, no vinho, é também **lembrar**.
+:::
+
+## Exercícios
+
+::: {#exr-tendencias}
+Cite **duas** tendências da @fig-tendencias que olham para o **futuro** e **uma**
+que, paradoxalmente, olha para o **passado**.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Futuro:** vinhos **sem/baixo álcool**, **embalagens sustentáveis**, **tecnologia**
+de precisão (bastam duas). **Passado:** os vinhos **naturais / ânfora**, que
+retomam técnicas antigas.
+:::
+
+::: {#exr-desalcoolizado}
+O que é um **vinho desalcoolizado** (@def-desalcoolizado) e que público ele atende?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+É o vinho do qual se **removeu o álcool** (por osmose reversa ou destilação a
+vácuo), preservando aromas e caráter. Atende a quem quer a **experiência** do vinho
+**sem o efeito do álcool** (motoristas, gestantes, quem busca beber menos).
+:::
+
+::: {#exr-tradicao-inovacao}
+Explique, com um exemplo do manual, por que se diz que o futuro do vinho anda "nos
+dois sentidos" (@callout).
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque o vinho **inova** e **resgata** ao mesmo tempo. Exemplo: o retorno à
+**ânfora/qvevri** (Volumes I e V) — uma técnica milenar — figura entre as tendências
+mais atuais, ao lado da tecnologia de precisão. Avançar, no vinho, é também voltar
+às origens.
+:::

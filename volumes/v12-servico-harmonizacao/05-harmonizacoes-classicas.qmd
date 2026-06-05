@@ -2,4 +2,117 @@
 title: "Harmonizações clássicas"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Os princípios do capítulo anterior explicam **por que** certas duplas funcionam.
+Agora vamos às **harmonizações consagradas** — atalhos testados por gerações, que
+dispensam cálculo. Conhecê-las dá repertório imediato; entender a lógica por trás
+delas (Volume XII, cap. 4) permite improvisar quando faltar a dupla pronta.
+
+Este capítulo apresenta os casamentos clássicos entre prato e estilo de vinho,
+organizados na @fig-prato-estilo, e explica cada um pelos princípios já vistos.
+
+## Do mais leve ao mais robusto
+
+Uma boa harmonização costuma seguir o **peso**: pratos leves com vinhos leves,
+pratos robustos com vinhos encorpados. A @fig-prato-estilo mostra essa progressão —
+quase uma diagonal, do espumante às sobremesas fortificadas.
+
+::: {#fig-prato-estilo}
+```{.tikz}
+%%| filename: prato-estilo
+%%| alt: Matriz prato por estilo de vinho, com marcações na diagonal — ostras com espumante/branco leve, peixe ou frango com branco encorpado, massa ao tomate com tinto leve, carne vermelha com tinto encorpado e queijo azul com vinho doce/fortificado.
+\begin{tikzpicture}[font=\sffamily\scriptsize]
+  % colunas (estilos)
+  \foreach \c/\nome in {1/{Esp./br. leve},2/{Br. encorpado},3/{Tinto leve},4/{Tinto encorp.},5/{Doce/fort.}}{
+    \node[rotate=40, anchor=west, font=\tiny] at (\c,5.4) {\nome};}
+  % linhas (pratos)
+  \foreach \r/\nome in {5/{Ostras},4/{Peixe/frango},3/{Massa ao tomate},2/{Carne vermelha},1/{Queijo azul}}{
+    \node[left, font=\tiny] at (0.5,\r) {\nome};}
+  % grade
+  \draw[manualgray!40] (0.6,0.6) grid (5.4,5.4);
+  % marcas (diagonal clássica)
+  \foreach \c/\r in {1/5,2/4,3/3,4/2,5/1}{
+    \fill[manualred] (\c,\r) circle (2.4pt);}
+\end{tikzpicture}
+```
+
+A "diagonal" das harmonizações clássicas: à medida que o **prato** fica mais
+robusto (de baixo... das ostras à carne), o **vinho** acompanha em peso. Os pontos
+marcam as duplas consagradas.
+:::
+
+## As duplas e seus porquês
+
+- **Ostras e frutos do mar + espumante / branco leve** (Chablis, Muscadet,
+  Champagne) — a **acidez** e o frescor cortam o iodo; "o que cresce junto combina"
+  (Volume XII, cap. 4).
+- **Peixe e aves + branco encorpado** (Chardonnay) — equilíbrio de **peso**.
+- **Massa ao tomate + Sangiovese/Chianti** — a **acidez** do tomate encontra a
+  acidez do vinho (Volume IX).
+- **Carne vermelha e churrasco + tinto tânico** (Malbec, Cabernet, Syrah) — a
+  **proteína e a gordura** amaciam o **tanino**.
+- **Queijo azul + doce** (Sauternes, Porto) — o **contraste** doce × salgado.
+- **Sobremesa de chocolate + Porto** — doce com doce, peso com peso.
+
+::: {.callout-tip}
+## Comida apimentada pede Riesling
+Para a cozinha asiática picante, um **Riesling off-dry** (levemente doce) ou um
+espumante funciona muito melhor que um tinto tânico: a **leve doçura** acalma a
+pimenta, e o **baixo álcool** não a inflama (Volume XII, cap. 4). Tanino + pimenta é
+combinação a evitar.
+:::
+
+## Exemplos
+
+::: {#exm-pizza-chianti}
+## Pizza e Chianti
+A clássica **pizza de tomate com Chianti** é quase um teorema: o molho **ácido** do
+tomate "derrubaria" um tinto de baixa acidez, fazendo-o parecer mole; mas o
+**Sangiovese**, de acidez alta (Volume IX), iguala o prato e sai equilibrado.
+Acidez com acidez.
+:::
+
+::: {#exm-sushi-espumante}
+## Sushi e espumante
+Sushi pede frescor, acidez e leveza — e teme o tanino. Um **espumante** ou um branco
+**seco e ácido** (Riesling, Champagne) realça o peixe e limpa o paladar entre
+bocados, enquanto um tinto encorpado dominaria a delicadeza do prato. Leveza com
+leveza.
+:::
+
+## Exercícios
+
+::: {#exr-diagonal}
+Pela @fig-prato-estilo, que estilo de vinho harmoniza classicamente com: (a)
+ostras; (b) carne vermelha; (c) queijo azul?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) **Espumante / branco leve**; (b) **Tinto encorpado** (tânico); (c) **Vinho
+doce/fortificado** (Sauternes, Porto).
+:::
+
+::: {#exr-pizza}
+Por que a **acidez** do Chianti o torna ideal para massa ao molho de tomate
+(@exm-pizza-chianti)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque o molho de **tomate é ácido**; um vinho de baixa acidez pareceria **mole** ao
+lado dele. A acidez alta do **Sangiovese** iguala a do prato, mantendo o vinho
+fresco e equilibrado — acidez com acidez.
+:::
+
+::: {#exr-apimentado}
+Por que um **Riesling off-dry** combina melhor com comida apimentada do que um
+tinto tânico (@callout)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque sua **leve doçura** acalma a ardência da pimenta e seu **baixo álcool** não a
+intensifica. Já o tinto **tânico** piora: tanino com pimenta fica amargo e metálico.
+:::

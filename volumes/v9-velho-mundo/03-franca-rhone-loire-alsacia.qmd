@@ -2,4 +2,137 @@
 title: "França: Rhône, Loire e Alsácia"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Fora de Bordeaux e da Borgonha, a França guarda alguns de seus vinhos mais
+diversos. O **Rhône** dá tintos potentes de Syrah e Grenache; o **Loire**, o rio
+mais longo do país, é um desfile de brancos vibrantes; e a **Alsácia**, encostada à
+Alemanha, faz brancos aromáticos com um hábito raro na França — rotular pela
+**casta**.
+
+Este capítulo percorre essas três regiões, com atenção especial ao vale do Rhône e
+à sua nítida divisão entre norte e sul.
+
+## O vale do Rhône: norte e sul
+
+O Rhône flui de norte a sul e, nesse trajeto, muda de personalidade, como mostra a
+@fig-mapa-rhone.
+
+- **Rhône Norte** — clima mais fresco, encostas íngremes; **monocasta**: tintos de
+  **Syrah** (Côte-Rôtie, Hermitage) e brancos de **Viognier** (Condrieu).
+- **Rhône Sul** — mais quente e amplo; reino dos **cortes** à base de **Grenache**,
+  com Syrah e Mourvèdre — o trio **GSM**. Seu ícone é **Châteauneuf-du-Pape**.
+
+::: {#def-gsm}
+## GSM
+**GSM** é o corte clássico do Rhône Sul e de regiões de clima quente:
+**Grenache** (fruta e álcool), **Syrah** (cor e especiaria) e **Mourvèdre**
+(estrutura e taninos). As três se complementam, como o Cabernet–Merlot de
+Bordeaux, mas num registro mais solar.
+:::
+
+::: {#fig-mapa-rhone}
+```{.tikz}
+%%| filename: mapa-rhone
+%%| alt: Mapa estilizado do vale do Rhône, com o rio fluindo de norte (topo) a sul (base); no norte, appellations de Syrah e Viognier (Côte-Rôtie, Hermitage, Condrieu); no sul, cortes GSM e Châteauneuf-du-Pape.
+\begin{tikzpicture}[font=\sffamily\scriptsize]
+  % rio
+  \draw[manualblue, line width=3pt] (0,5.2) .. controls (0.6,3.5) and (-0.6,2.0) .. (0.2,0.2);
+  \node[manualblue, font=\tiny] at (0,5.45) {N};
+  \node[manualblue, font=\tiny] at (0.2,-0.05) {S};
+  % Norte
+  \node[font=\tiny, manualgray] at (-1.6,4.7) {\textbf{Rhône Norte}};
+  \fill[manualred] (0.55,4.3) circle (1.5pt);
+  \node[right, font=\tiny, manualred!70!black] at (0.7,4.3) {Côte-Rôtie (Syrah)};
+  \fill[manualyellow!70!black] (-0.45,3.7) circle (1.5pt);
+  \node[left, font=\tiny, manualyellow!45!black] at (-0.6,3.7) {Condrieu (Viognier)};
+  \fill[manualred] (0.35,3.1) circle (1.5pt);
+  \node[right, font=\tiny, manualred!70!black] at (0.5,3.1) {Hermitage (Syrah)};
+  % Sul
+  \node[font=\tiny, manualgray] at (-1.6,1.9) {\textbf{Rhône Sul}};
+  \fill[manualred] (-0.3,1.4) circle (1.5pt);
+  \node[left, font=\tiny, manualred!70!black] at (-0.45,1.4) {Châteauneuf};
+  \fill[manualred] (0.6,0.9) circle (1.5pt);
+  \node[right, font=\tiny, manualred!70!black] at (0.75,0.9) {Gigondas (GSM)};
+\end{tikzpicture}
+```
+
+O vale do Rhône, de norte a sul. No **norte**, monocastas de **Syrah** e
+**Viognier** em encostas íngremes; no **sul**, os cortes **GSM** encorpados,
+coroados por Châteauneuf-du-Pape.
+:::
+
+## Loire e Alsácia
+
+O **Loire** acompanha o rio homônimo e é, sobretudo, terra de **brancos**:
+**Muscadet** (seco e salino, *sur lie*), **Sancerre** e **Pouilly-Fumé**
+(Sauvignon Blanc mineral), **Vouvray** (Chenin Blanc, do seco ao doce) e o tinto
+de **Cabernet Franc** (Chinon). O fio comum é a **acidez** e o frescor de clima
+fresco.
+
+A **Alsácia**, na fronteira alemã, faz brancos **aromáticos** e em geral secos:
+**Riesling**, **Gewürztraminer**, **Pinot Gris** e **Muscat**. Sua marca é
+cultural: ao contrário do resto da França, rotula o vinho pelo **nome da casta**,
+como faz o Novo Mundo.
+
+::: {.callout-note}
+## A exceção que rotula por casta
+Quase toda a França nomeia o vinho pela **região** (Bordeaux, Chablis,
+Châteauneuf). A **Alsácia** é a grande exceção: escreve a **casta** no rótulo
+(Riesling d'Alsace). Por isso seus vinhos são tão "fáceis de ler" para quem vem do
+Novo Mundo.
+:::
+
+## Exemplos
+
+::: {#exm-galets}
+## As pedras de Châteauneuf
+Châteauneuf-du-Pape é famosa por seus **galets** — grandes seixos rolados que
+cobrem o solo. De dia, eles absorvem o calor do sol; à noite, irradiam-no para as
+uvas, ajudando a maturação. É terroir (Volume II) em sua forma mais literal: o
+chão como radiador.
+:::
+
+::: {#exm-vouvray}
+## Um Chenin para cada humor
+Em **Vouvray** (Loire), a Chenin Blanc faz de tudo: espumante, branco seco,
+*demi-sec* e doce botritizado — conforme a safra e a vontade do produtor. É a
+versatilidade da casta (Volume III) levada ao extremo numa única denominação.
+:::
+
+## Exercícios
+
+::: {#exr-rhone-norte-sul}
+Pela @fig-mapa-rhone, qual a diferença entre **Rhône Norte** e **Rhône Sul** quanto
+às castas e ao estilo de elaboração (monocasta × corte)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+O **Norte** é **monocasta**: Syrah (tintos) e Viognier (brancos). O **Sul** é
+terra de **cortes GSM** (Grenache–Syrah–Mourvèdre), mais encorpados e solares, como
+em Châteauneuf-du-Pape.
+:::
+
+::: {#exr-gsm}
+O que é o corte **GSM** (@def-gsm) e que papel cada casta cumpre?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+É o corte **Grenache–Syrah–Mourvèdre**: a Grenache traz fruta e álcool, a Syrah
+cor e especiaria, e a Mourvèdre estrutura e taninos. Juntas, dão um tinto
+equilibrado e encorpado.
+:::
+
+::: {#exr-alsacia-rotulo}
+Por que a **Alsácia** é uma exceção na França quanto à rotulagem, e a quem isso a
+aproxima?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque rotula o vinho pelo **nome da casta** (Riesling, Gewürztraminer), em vez de
+pela região, como faz o resto da França. Isso a aproxima do **Novo Mundo**, que
+também rotula por casta.
+:::

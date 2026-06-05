@@ -104,7 +104,7 @@ fotos entram como imagem embutida — ver `PLANO.md`).
 - [x] `v12-servico-harmonizacao/01-tacas-temperatura-servico.qmd` — taças, temperaturas, ordem. *fig.: anatomia da taça + escala de temperatura.*
 - [x] `v12-servico-harmonizacao/02-abertura-decantacao-aeracao.qmd` — saca-rolhas, decanter, aeração. *fig.: quando decantar (fluxograma).*
 - [x] `v12-servico-harmonizacao/03-conservacao-e-adega.qmd` — temperatura, umidade, posição, guarda. *fig.: condições ideais de adega.*
-- [ ] `v12-servico-harmonizacao/04-principios-da-harmonizacao.qmd` — complementar × contrastar. *fig.: matriz de harmonização.*
+- [x] `v12-servico-harmonizacao/04-principios-da-harmonizacao.qmd` — complementar × contrastar. *fig.: matriz de harmonização.*
 - [ ] `v12-servico-harmonizacao/05-harmonizacoes-classicas.qmd` — duplas consagradas, regionais. *fig.: prato × estilo.*
 - [ ] `v12-servico-harmonizacao/06-sommellerie-e-carta.qmd` — serviço profissional, carta de vinhos. *fig.: estrutura de uma carta.*
 

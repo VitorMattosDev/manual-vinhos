@@ -2,4 +2,129 @@
 title: "Princípios da harmonização"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Harmonizar é fazer com que **vinho e comida se realcem** — e não que um anule o
+outro. Por trás das duplas famosas há princípios simples, baseados em como os
+**gostos** e o **tato** (Volume XI) interagem na boca. Quem entende esses princípios
+não precisa decorar listas: deduz a harmonização sozinho.
+
+Este capítulo apresenta as duas estratégias da harmonização e as "regras de ouro"
+das interações entre prato e vinho (@fig-prato-vinho).
+
+## Complementar ou contrastar
+
+::: {#def-harmonizacao}
+## As duas estratégias
+**Complementar** é casar por **semelhança**: peso com peso, intensidade com
+intensidade (prato delicado com vinho leve; prato potente com vinho encorpado).
+**Contrastar** é casar por **oposição**: a **acidez** do vinho corta a **gordura**
+do prato; a **doçura** do vinho equilibra a **picância**. As duas funcionam — o
+segredo é não deixar um lado **dominar** o outro.
+:::
+
+A primeira regra é de **peso**: um prato delicado é esmagado por um tinto potente, e
+um prato robusto "apaga" um vinho leve. Depois vêm as interações de gosto, na
+@fig-prato-vinho.
+
+::: {#fig-prato-vinho}
+```{.tikz}
+%%| filename: prato-vinho
+%%| alt: Tabela ligando características do prato à necessidade do vinho — prato gorduroso pede acidez ou tanino, salgado pede acidez, doce pede vinho mais doce, picante pede baixo álcool e leve doçura, e carne/proteína combina com tanino.
+\begin{tikzpicture}[font=\sffamily\scriptsize,
+    pra/.style={draw=manualgray, very thick, rounded corners=2pt, fill=manualgray!10,
+      align=center, text width=26mm, minimum height=8mm},
+    vin/.style={draw=manualred, very thick, rounded corners=2pt, fill=manualred!10,
+      align=center, text width=40mm, minimum height=8mm},
+    fl/.style={-{Stealth[length=1.8mm]}, very thick, manualgray}]
+  \foreach \i/\xprato/\xvinho in {
+      0/{Prato gorduroso}/{vinho ácido ou tânico (corta/limpa)},
+      1/{Prato salgado}/{acidez (realça; suaviza o tanino)},
+      2/{Prato doce}/{vinho \emph{mais} doce que o prato},
+      3/{Prato picante}/{baixo álcool, leve doçura, frutado},
+      4/{Carne / proteína}/{tanino (liga-se à proteína)}}{
+    \node[pra] (p\i) at (0,-\i*1.0+4) {\xprato};
+    \node[vin] (v\i) at (5.0,-\i*1.0+4) {\xvinho};
+    \draw[fl] (p\i) -- (v\i);}
+\end{tikzpicture}
+```
+
+As interações-chave entre prato e vinho. A **acidez** corta a gordura e realça o
+salgado; o **tanino** encontra a proteína; a **doçura** do vinho precisa superar a
+do prato; e pratos **picantes** pedem álcool baixo.
+:::
+
+## As regras de ouro
+
+- **Acidez** é a melhor amiga da comida: corta a **gordura**, limpa o paladar e
+  combina com pratos **ácidos** (que, de outro modo, fariam o vinho parecer mole).
+- **Tanino** ama **proteína e gordura** (um bife amacia o tanino), mas **briga** com
+  o **sal** e a **pimenta** (que o tornam metálico e amargo).
+- **Doçura:** o vinho deve ser **igual ou mais doce** que a sobremesa, senão parece
+  azedo (Volume VIII).
+- **Picância:** o **álcool intensifica** a ardência da pimenta; por isso pratos
+  apimentados pedem vinhos **leves, frutados e levemente doces**.
+- **Sal** suaviza o amargor e o tanino — e realça o vinho.
+
+::: {.callout-tip}
+## "O que cresce junto, combina"
+Uma heurística poderosa: pratos e vinhos de uma **mesma região** costumam casar,
+porque evoluíram juntos. Massa ao molho de tomate com Chianti (acidez com acidez),
+ostras com Muscadet, queijo de cabra do Loire com Sancerre. A tradição local já fez
+o teste por séculos.
+:::
+
+## Exemplos
+
+::: {#exm-roquefort-sauternes}
+## Doce e salgado: Sauternes com Roquefort
+Uma das harmonizações mais célebres **contrasta**: o doce do **Sauternes** (Volume
+VI) com o salgado e intenso do queijo azul **Roquefort**. O sal do queijo realça o
+vinho, e a doçura equilibra a potência do queijo. Opostos que se completam.
+:::
+
+::: {#exm-bife-tanino}
+## Bife e tinto tânico
+Um tinto jovem e **tânico** parece áspero sozinho, mas com um **bife** suculento
+floresce: a **proteína e a gordura** da carne ligam-se aos taninos e os amaciam
+(Volume XI). É o contraste clássico — e a razão de carne vermelha pedir tinto
+estruturado.
+:::
+
+## Exercícios
+
+::: {#exr-estrategias}
+Diferencie **complementar** e **contrastar** (@def-harmonizacao) e dê um exemplo de
+cada.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Complementar** = casar por **semelhança** (prato potente com vinho encorpado).
+**Contrastar** = casar por **oposição** (acidez do vinho cortando a gordura do
+prato; doce do vinho equilibrando a picância). Ex.: Sauternes + Roquefort
+(contraste); cordeiro robusto + Syrah (complemento).
+:::
+
+::: {#exr-picante}
+Por que pratos muito **picantes** pedem vinhos de **baixo álcool** (@fig-prato-vinho)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque o **álcool intensifica** a sensação de ardência da pimenta. Vinhos leves,
+frutados e **levemente doces**, de baixo álcool, acalmam a picância em vez de
+inflamá-la.
+:::
+
+::: {#exr-sobremesa}
+Por que servir um vinho **seco** com uma sobremesa doce costuma dar errado, e o que
+fazer (Volume VIII)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque, ao lado de um prato mais doce, o vinho seco parece **azedo** e magro. A
+regra de ouro é o vinho ser **igual ou mais doce** que a sobremesa — daí usar um
+demi-sec, um doce natural ou um fortificado doce.
+:::

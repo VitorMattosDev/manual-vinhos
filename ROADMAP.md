@@ -78,7 +78,7 @@ fotos entram como imagem embutida — ver `PLANO.md`).
 - [x] `v9-velho-mundo/02-franca-borgonha-champagne.qmd` — climats, hierarquia, champagne. *fig.: pirâmide de hierarquia da Borgonha.*
 - [x] `v9-velho-mundo/03-franca-rhone-loire-alsacia.qmd` — Rhône, Loire, Alsácia, Sul. *fig.: mapa do vale do Rhône.*
 - [x] `v9-velho-mundo/04-italia.qmd` — Piemonte, Toscana, Vêneto, Sul. *fig.: mapa estilizado da Itália.*
-- [ ] `v9-velho-mundo/05-espanha-e-portugal.qmd` — Rioja, Ribera, Douro, Vinho Verde. *fig.: mapa Península Ibérica.*
+- [x] `v9-velho-mundo/05-espanha-e-portugal.qmd` — Rioja, Ribera, Douro, Vinho Verde. *fig.: mapa Península Ibérica.*
 - [ ] `v9-velho-mundo/06-alemanha-austria-europa-central.qmd` — Mosel, Rheingau, Áustria. *fig.: escala Prädikat (doçura).*
 - [ ] `v9-velho-mundo/07-classificacoes-europeias.qmd` — AOC, DOC/DOCG, DO/DOCa, VDP. *fig.: pirâmide de classificação.*
 

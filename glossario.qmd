@@ -156,6 +156,9 @@ partículas grossas assentem antes da fermentação, dando um vinho mais limpo.
 **Dégorgement** — expulsão da borra acumulada no gargalo da garrafa de espumante
 (método tradicional), após o remuage e antes da dosagem.
 
+**Degustação às cegas** — prova em que o provador não vê o rótulo (às vezes nem a
+cor), para julgar o vinho sem o viés de marca, preço ou reputação.
+
 **Descritor** — palavra que nomeia um aroma ou sensação do vinho (ex.: "cassis",
 "mofo", "vinagre"); ponto de partida para identificar virtudes e defeitos.
 
@@ -415,6 +418,9 @@ cortiça.
 
 **Terroir** — conjunto de solo, clima, relevo e tradição que dá identidade ao
 vinho de um lugar.
+
+**Tipicidade** — quanto um vinho corresponde ao esperado para sua casta e origem;
+fidelidade ao estilo, distinta da qualidade.
 
 **Tiragem** — no método tradicional, a adição ao vinho-base do licor de tiragem
 (açúcar e leveduras) e o engarrafamento que deflagram a segunda fermentação.

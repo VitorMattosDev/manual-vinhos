@@ -2,4 +2,130 @@
 title: "Avaliação e degustação às cegas"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Reunidos os sentidos, falta juntar tudo num **julgamento** — e fazê-lo com
+honestidade. Duas ferramentas ajudam: a **ficha de degustação**, que dá método e
+completude, e a **degustação às cegas**, que remove da equação o rótulo, o preço e
+a reputação — tudo o que enviesa nossa percepção sem percebermos.
+
+Este capítulo fecha o Volume XI integrando a análise sensorial numa avaliação
+estruturada (@fig-ficha-degustacao) e apresentando a prova às cegas, o "padrão-ouro"
+da objetividade.
+
+## A ficha de degustação
+
+Uma boa avaliação segue sempre a mesma ordem — **visão → olfato → boca →
+conclusão** —, registrando cada etapa. A estrutura **força a completude**: evita
+que se pule da cor direto para "gostei", deixando escapar metade do vinho.
+
+::: {#fig-ficha-degustacao}
+```{.tikz}
+%%| filename: ficha-degustacao
+%%| alt: Esquema de uma ficha de degustação com quatro seções — visual (cor, intensidade, limpidez), olfativo (intensidade, famílias de aroma, origem), gustativo (doçura, acidez, tanino, álcool, corpo, final) e conclusão (equilíbrio, qualidade, evolução).
+\begin{tikzpicture}[font=\sffamily\scriptsize,
+    sec/.style={draw=manualred, very thick, rounded corners=2pt, fill=manualred!8,
+      text width=64mm, align=left, inner sep=3pt}]
+  \node[sec] (v) at (0,3.6) {\textbf{1. Visual} — cor · intensidade · limpidez};
+  \node[sec] (o) at (0,2.4) {\textbf{2. Olfativo} — intensidade · famílias · primário/terciário};
+  \node[sec] (g) at (0,1.2) {\textbf{3. Gustativo} — doçura · acidez · tanino · álcool · corpo · final};
+  \node[sec, fill=manualgreen!10, draw=manualgreen!60!black] (c) at (0,0.0)
+    {\textbf{4. Conclusão} — equilíbrio · qualidade · evolução};
+  \draw[-{Stealth[length=2mm]}, very thick, manualgray] (v.south) -- (o.north);
+  \draw[-{Stealth[length=2mm]}, very thick, manualgray] (o.south) -- (g.north);
+  \draw[-{Stealth[length=2mm]}, very thick, manualgray] (g.south) -- (c.north);
+\end{tikzpicture}
+```
+
+A ficha de degustação, em quatro etapas encadeadas. A ordem fixa — **visual,
+olfativo, gustativo, conclusão** — garante que nada seja esquecido e torna a
+avaliação **comparável** entre vinhos.
+:::
+
+Na **conclusão**, avalia-se a **qualidade** por critérios objetivos —
+**equilíbrio**, **intensidade**, **complexidade** e **final** (persistência) — e a
+**evolução** (beber agora ou guardar; Volume VII), além da **tipicidade**.
+
+::: {#def-tipicidade}
+## Tipicidade
+**Tipicidade** é o quanto um vinho corresponde ao **esperado** para sua casta e
+origem. Um Sauvignon Blanc "típico" tem o aroma herbáceo característico; um que não
+o tenha pode ser bom, mas é **atípico**. Tipicidade não é qualidade — é fidelidade
+ao estilo.
+:::
+
+## A degustação às cegas
+
+::: {#def-degustacao-cegas}
+## Degustação às cegas
+Na **degustação às cegas**, o provador **não vê o rótulo** (às vezes nem a cor). O
+objetivo é julgar o vinho **sem o viés** de marca, preço ou reputação — e, para
+estudantes, **deduzir** casta, origem e idade só pelas evidências sensoriais.
+:::
+
+A prova às cegas é reveladora: muita gente, ao saber o preço ou a fama, "sente" uma
+qualidade que não está na taça. Tirar o rótulo expõe o vinho — e o provador. Foi
+às cegas que a Califórnia venceu a França em 1976 (Volume X).
+
+::: {.callout-tip}
+## Deduzir às cegas
+Sem o rótulo, junte as pistas: a **cor** sugere idade e casta (Volume XI, cap. 2);
+o **aroma** aponta casta e clima (herbáceo → Sauvignon; couro → vinho com guarda);
+a **estrutura** (acidez, tanino, álcool) indica origem fria ou quente. É um trabalho
+de **detetive sensorial**.
+:::
+
+## Exemplos
+
+::: {#exm-vies-preco}
+## O preço que "melhora" o vinho
+Estudos mostram que, ao saber que um vinho é **caro**, as pessoas tendem a
+**gostar mais** dele — mesmo sendo o mesmo líquido de um rótulo barato. A
+degustação **às cegas** anula esse viés: sobra só o que está na taça. É por isso que
+ela é o teste mais honesto.
+:::
+
+::: {#exm-deducao}
+## Um exercício de dedução
+Vinho branco, cor pálida (jovem), aroma intenso de **maracujá e capim**, acidez
+cortante: as pistas convergem para um **Sauvignon Blanc** de clima frio — talvez
+Nova Zelândia (Volume X). Não é adivinhação: é leitura **metódica** das evidências,
+exatamente o que a ficha treina.
+:::
+
+## Exercícios
+
+::: {#exr-ordem-ficha}
+Qual é a **ordem** das quatro etapas da ficha de degustação (@fig-ficha-degustacao),
+e por que seguir essa ordem importa?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Visual → olfativo → gustativo → conclusão.** A ordem fixa garante **completude**
+(nada é esquecido) e torna as avaliações **comparáveis** entre vinhos diferentes.
+:::
+
+::: {#exr-tipicidade}
+Um Sauvignon Blanc sem nenhum aroma herbáceo pode ser **bom**, mas será **atípico**.
+Explique a diferença entre **qualidade** e **tipicidade** (@def-tipicidade).
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Qualidade** é o quão bem-feito e equilibrado é o vinho; **tipicidade** é o quanto
+ele corresponde ao **esperado** para sua casta/origem. Um vinho pode ser de boa
+qualidade e, ainda assim, **atípico** do seu estilo.
+:::
+
+::: {#exr-cegas-vies}
+Por que a **degustação às cegas** (@def-degustacao-cegas) é considerada o teste mais
+**honesto** de qualidade (@exm-vies-preco)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque remove o **viés** do rótulo, do preço e da reputação, que comprovadamente
+influenciam o julgamento. Sem essas informações, resta avaliar apenas o que está
+**na taça** — o vinho em si.
+:::

@@ -2,4 +2,127 @@
 title: "Conservação e adega"
 ---
 
-<!-- Em construção. -->
+## Motivação
+
+Guardar vinho é **proteger seu potencial** de evolução (Volume VII). Mal
+conservado, até um grande vinho envelhece depressa ou morre antes da hora. A boa
+notícia: não é preciso uma adega de cinema — basta entender **o que** realmente
+importa, e o que mais conta talvez surpreenda.
+
+Este capítulo trata da conservação: as condições ideais de guarda (@fig-adega) e
+por que a **estabilidade** vale mais que a perfeição.
+
+## As condições ideais
+
+A @fig-adega resume o que um vinho de guarda pede. Cinco fatores se destacam.
+
+::: {#def-adega}
+## Condições de guarda
+A guarda ideal combina: **temperatura** fresca (12–14 °C) e, sobretudo, **estável**;
+**umidade** em torno de 70% (mantém a rolha vedante); **escuridão** (a luz degrada o
+vinho); garrafas **deitadas** (com rolha de cortiça, para mantê-la úmida); e
+ausência de **vibração** e de odores fortes.
+:::
+
+::: {#fig-adega}
+```{.tikz}
+%%| filename: condicoes-adega
+%%| alt: Esquema das condições ideais de uma adega — garrafas deitadas numa estante, com indicações de temperatura fresca e estável (12 a 14 graus), umidade cerca de 70 por cento, escuridão, posição deitada e ausência de vibração.
+\begin{tikzpicture}[font=\sffamily\scriptsize,
+    rot/.style={font=\sffamily\tiny, align=left}]
+  % estante
+  \draw[manualgray, very thick] (0,0) rectangle (4,3);
+  \draw[manualgray] (0,1) -- (4,1);
+  \draw[manualgray] (0,2) -- (4,2);
+  % garrafas deitadas (3)
+  \foreach \y in {0.5,1.5,2.5}{
+    \fill[manualred!30, draw=manualred!70!black] (0.4,\y-0.25) rectangle (3.0,\y+0.25);
+    \fill[manualred!30, draw=manualred!70!black] (3.0,\y-0.1) rectangle (3.5,\y+0.1);}
+  % rótulos
+  \node[rot] at (4.4,2.6) {garrafas \textbf{deitadas}\\(rolha úmida)};
+  \node[rot] at (4.4,1.5) {umidade $\approx$ 70\%};
+  \node[rot] at (4.4,0.4) {sem vibração};
+  \node[rot] at (-0.2,3.5) {temperatura 12–14\,°C \textbf{estável}};
+  \node[rot] at (-0.2,-0.5) {escuro (sem luz)};
+\end{tikzpicture}
+```
+
+As condições ideais de guarda: garrafas **deitadas**, **frescas** (12–14 °C) e
+**estáveis**, com ~70% de **umidade**, no **escuro** e sem **vibração**. A
+estabilidade da temperatura é o fator mais decisivo.
+:::
+
+## Por que a estabilidade vale mais
+
+Entre uma adega a 13 °C constante e outra que oscila entre 10 °C e 22 °C ao longo do
+ano, a **estável** é melhor — ainda que a média seja parecida. As **variações**
+fazem o vinho e a rolha dilatarem e contraírem, "bombeando" ar e cansando a
+vedação. Calor constante envelhece rápido; calor **instável** estraga.
+
+A **umidade** cuida da rolha: seca demais, ela resseca e deixa entrar ar; úmida
+demais, mofa o rótulo. A **luz** (UV) degrada compostos do vinho — daí as garrafas
+escuras e as adegas no escuro. E a posição **deitada** mantém a cortiça em contato
+com o líquido, úmida e vedante (vinhos de **rosca** podem ficar em pé — Volume VII).
+
+::: {.callout-warning}
+## A geladeira comum não é adega
+A geladeira doméstica é **fria demais**, **seca** (resseca a rolha) e **vibra** — ok
+por alguns dias, péssima para **guarda longa**. Para conservar vinho por anos sem
+adega climatizada, prefira um lugar **fresco, escuro e estável** (um armário interno,
+longe do fogão e da janela) a um eletrodoméstico.
+:::
+
+## Exemplos
+
+::: {#exm-variacao-temp}
+## O inimigo invisível: a oscilação
+Um vinho guardado perto de uma janela ensolarada sofre **ciclos** diários de calor e
+frio. Mesmo que a média pareça aceitável, essas oscilações **cansam a rolha** e
+oxidam o vinho prematuramente. Estabilidade, aqui, vence até uma temperatura um
+pouco mais alta porém constante.
+:::
+
+::: {#exm-garrafa-em-pe}
+## De pé ou deitada?
+Uma garrafa com **rolha de cortiça** deve ficar **deitada**, para a rolha não
+ressecar. Já uma com **rosca** (Volume VII) pode ficar **em pé** sem problema, pois
+não depende de cortiça úmida. O vedante decide a posição de guarda.
+:::
+
+## Exercícios
+
+::: {#exr-condicoes}
+Cite, com base na @def-adega, **três** condições ideais de guarda de um vinho, e o
+que cada uma protege.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Por exemplo: **temperatura fresca e estável** (evita envelhecimento e cansaço da
+rolha), **umidade ~70%** (mantém a rolha vedante) e **escuridão** (a luz degrada o
+vinho). Também contam a posição deitada e a ausência de vibração.
+:::
+
+::: {#exr-estabilidade}
+Por que uma adega de temperatura **estável** é melhor que uma de média parecida mas
+**oscilante** (@exm-variacao-temp)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque as **oscilações** fazem vinho e rolha dilatarem e contraírem, "bombeando" ar
+para dentro e cansando a vedação — o que oxida o vinho. A estabilidade preserva
+melhor do que uma média semelhante com grandes variações.
+:::
+
+::: {#exr-posicao}
+Uma garrafa de **rosca** precisa ser guardada **deitada**? E uma de **cortiça**
+(@exm-garrafa-em-pe)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+A de **rosca** pode ficar **em pé** (não depende de cortiça úmida). A de **cortiça**
+deve ficar **deitada**, para manter a rolha em contato com o vinho e evitar que
+resseque.
+:::

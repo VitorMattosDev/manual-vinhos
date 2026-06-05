@@ -126,13 +126,13 @@ book:
         - volumes/v12-servico-harmonizacao/05-harmonizacoes-classicas.qmd
         - volumes/v12-servico-harmonizacao/06-sommellerie-e-carta.qmd
 
-    # - part: "Volume XIII — Vinho, Cultura e Mercado"
-    #   chapters:
-    #     - volumes/v13-cultura-mercado/01-economia-e-investimento.qmd
-    #     - volumes/v13-cultura-mercado/02-vinho-e-saude.qmd
-    #     - volumes/v13-cultura-mercado/03-sustentabilidade-e-clima.qmd
-    #     - volumes/v13-cultura-mercado/04-certificacoes-e-carreiras.qmd
-    #     - volumes/v13-cultura-mercado/05-tendencias-e-futuro.qmd
+    - part: "Volume XIII — Vinho, Cultura e Mercado"
+      chapters:
+        - volumes/v13-cultura-mercado/01-economia-e-investimento.qmd
+        - volumes/v13-cultura-mercado/02-vinho-e-saude.qmd
+        - volumes/v13-cultura-mercado/03-sustentabilidade-e-clima.qmd
+        - volumes/v13-cultura-mercado/04-certificacoes-e-carreiras.qmd
+        - volumes/v13-cultura-mercado/05-tendencias-e-futuro.qmd
 
     - glossario.qmd
 

@@ -189,6 +189,9 @@ após o dégorgement, que define seu nível de doçura (de brut nature a doux).
 **Engaço** — a estrutura ramificada do cacho que sustenta as bagas; rica em
 taninos verdes, costuma ser removida no desengace.
 
+**En primeur** — compra de Bordeaux ainda em barrica, antes do engarrafamento;
+um "mercado futuro" do vinho, com seus riscos.
+
 **Enxertia** — união de um porta-enxerto (raiz resistente à filoxera) com um
 garfo de *Vitis vinifera* (a casta); base de quase toda videira moderna.
 
@@ -285,6 +288,9 @@ Beaujolais).
 **Maturação fenólica** — amadurecimento de taninos, cor e aromas na película e
 nas grainhas, distinta da maturação de açúcar e acidez; o ponto ideal de colheita
 busca conciliar as duas.
+
+**Mercado secundário** — revenda de vinhos finos como ativos, em leilões e
+plataformas, buscando valorização; depende fortemente da procedência.
 
 **Mesoclima** — clima de um sítio específico (uma encosta, um vale), moldado por
 relevo e água próxima. Ver **macroclima** e **microclima**.

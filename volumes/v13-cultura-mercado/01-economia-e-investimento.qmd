@@ -1,0 +1,134 @@
+---
+title: "Economia e investimento"
+---
+
+## Motivação
+
+O vinho não é só biologia, química e prazer — é também um **negócio global**, que
+vai da garrafa de supermercado ao ativo financeiro leiloado por milhares de
+dólares. Entender a **cadeia de valor** explica por que o mesmo vinho custa tão
+diferente da origem ao restaurante, e o mercado de vinhos finos revela uma face
+inesperada: a do **investimento**.
+
+Este capítulo abre o Volume XIII — o vinho como cultura e mercado — pela economia:
+como o preço se forma (@fig-cadeia-valor) e como vinhos raros viram investimento.
+
+## A cadeia de valor
+
+Da uva ao consumidor, o vinho passa por vários elos, cada um agregando uma
+**margem**. É por isso que o preço sobe tanto pelo caminho.
+
+::: {#def-cadeia-valor}
+## Cadeia de valor
+A **cadeia de valor** do vinho liga **produtor → importador/distribuidor →
+varejo/restaurante → consumidor**. Cada elo soma custos e **margem** (e, em países
+como o Brasil, pesados **impostos**). O restaurante costuma ter a maior margem
+(2 a 4 vezes o preço de varejo), o que explica o preço do vinho à mesa.
+:::
+
+::: {#fig-cadeia-valor}
+```{.tikz}
+%%| filename: cadeia-valor
+%%| alt: Cadeia de valor do vinho — produtor, importador/distribuidor, varejo/restaurante e consumidor — com o preço subindo a cada elo, e um ramo para o mercado secundário (leilões/investimento) dos vinhos finos.
+\begin{tikzpicture}[font=\sffamily\scriptsize,
+    et/.style={draw=manualgray, very thick, rounded corners=2pt, fill=manualgray!10,
+      align=center, text width=24mm, minimum height=10mm},
+    fl/.style={-{Stealth[length=2.5mm]}, very thick, manualgray}]
+  \node[et] (p) at (0,0)   {Produtor};
+  \node[et] (d) at (3.1,0) {Importador /\\distribuidor};
+  \node[et] (v) at (6.2,0) {Varejo /\\restaurante};
+  \node[et, fill=manualred!12, draw=manualred] (c) at (9.3,0) {Consumidor};
+  \foreach \a/\b in {p/d,d/v,v/c}{\draw[fl] (\a) -- (\b);}
+  % preço sobe
+  \draw[-{Stealth[length=2.5mm]}, very thick, manualred] (0,-1.1) -- (9.3,-1.1);
+  \node[manualred, font=\tiny] at (0.6,-1.4) {preço $\rightarrow$ sobe a cada elo};
+  % mercado secundário
+  \node[et, fill=manualyellow!25, draw=manualyellow!70!black] (m) at (6.2,2.0)
+    {Mercado secundário\\\tiny leilões · investimento};
+  \draw[fl, dashed] (v) -- (m) node[midway, right, font=\tiny]{vinhos finos};
+\end{tikzpicture}
+```
+
+A cadeia de valor do vinho. O preço **sobe a cada elo** (margens e impostos), o que
+explica por que a mesma garrafa custa muito mais no restaurante. Vinhos finos podem
+ainda entrar no **mercado secundário** de leilões e investimento.
+:::
+
+## O preço e o investimento
+
+O preço de um vinho mistura **custo** (terroir, baixo rendimento, barrica, mão de
+obra), **escassez** e **reputação/marca** — e, no topo, **especulação**. Os grandes
+ícones (Bordeaux, Borgonha, alguns *cult wines*) têm um **mercado secundário**:
+
+::: {#def-mercado-secundario}
+## Mercado secundário e *en primeur*
+O **mercado secundário** é a revenda de vinhos finos como ativos, em **leilões**
+(Sotheby's, Christie's) e plataformas (Liv-ex), buscando **valorização** com a
+guarda. O **_en primeur_** é a compra de Bordeaux ainda em barrica, antes de
+engarrafado — apostar no vinho "futuro". Os riscos: **procedência**, liquidez,
+fraude e bolhas.
+:::
+
+::: {.callout-warning}
+## Por que o vinho do restaurante "custa caro"
+A diferença entre o preço de uma loja e o de um restaurante **não** é só ganância:
+inclui serviço, taças, conservação (Volume XII), risco de estoque e a margem que
+sustenta o negócio. Ainda assim, vale comparar: um *markup* de 2x é comum; muito
+acima disso, é caro.
+:::
+
+## Exemplos
+
+::: {#exm-en-primeur}
+## Comprar o vinho antes da garrafa
+No sistema **_en primeur_**, compradores adquirem Bordeaux ainda **em barrica**,
+um ou dois anos antes do engarrafamento, com base em provas de amostras jovens. Se
+o vinho e a safra valorizarem, lucra-se; se não, perde-se. É um **mercado futuro**,
+com todos os riscos de uma aposta.
+:::
+
+::: {#exm-procedencia}
+## Procedência é tudo
+No mercado de vinhos raros, saber **onde a garrafa esteve** (a procedência) vale
+quase tanto quanto o vinho: uma garrafa antiga mal conservada (Volume XII) pode
+estar morta, e fraudes existem. Por isso leilões sérios documentam a **história** de
+cada lote. Sem procedência, o preço despenca.
+:::
+
+## Exercícios
+
+::: {#exr-cadeia}
+Pela @def-cadeia-valor, por que o mesmo vinho custa bem mais no **restaurante** do
+que na **loja**?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque a cada **elo** da cadeia (produtor → distribuidor → varejo/restaurante)
+somam-se **margem** e impostos, e o **restaurante** costuma ter a maior margem
+(2 a 4×), além de incluir serviço e conservação. O preço sobe a cada etapa.
+:::
+
+::: {#exr-preco}
+Cite **três** fatores que formam o preço de um vinho fino, além do custo de
+produção.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Entre outros: **escassez** (pouca produção), **reputação/marca**, **especulação** e
+a posição no **mercado secundário**. Esses fatores podem elevar o preço muito além
+do custo de produzir.
+:::
+
+::: {#exr-procedencia}
+Por que a **procedência** é tão importante no mercado de vinhos raros
+(@exm-procedencia)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque a má conservação pode ter **arruinado** a garrafa (Volume XII) e porque há
+**fraudes** no mercado. Saber a história da garrafa garante que o vinho é autêntico
+e foi bem guardado — sem isso, o valor cai.
+:::

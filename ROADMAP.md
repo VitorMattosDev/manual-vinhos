@@ -74,7 +74,7 @@ fotos entram como imagem embutida — ver `PLANO.md`).
 - [x] `v8-estilos/05-laranja-naturais-biodinamicos.qmd` — orange, naturais, biodinâmicos. *fig.: vinho laranja vs branco.*
 
 ### Volume IX — Regiões do Velho Mundo
-- [ ] `v9-velho-mundo/01-franca-bordeaux.qmd` — Médoc, margem direita, cortes. *fig.: mapa estilizado de Bordeaux.*
+- [x] `v9-velho-mundo/01-franca-bordeaux.qmd` — Médoc, margem direita, cortes. *fig.: mapa estilizado de Bordeaux.*
 - [ ] `v9-velho-mundo/02-franca-borgonha-champagne.qmd` — climats, hierarquia, champagne. *fig.: pirâmide de hierarquia da Borgonha.*
 - [ ] `v9-velho-mundo/03-franca-rhone-loire-alsacia.qmd` — Rhône, Loire, Alsácia, Sul. *fig.: mapa do vale do Rhône.*
 - [ ] `v9-velho-mundo/04-italia.qmd` — Piemonte, Toscana, Vêneto, Sul. *fig.: mapa estilizado da Itália.*

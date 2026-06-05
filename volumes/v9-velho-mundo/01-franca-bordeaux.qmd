@@ -1,0 +1,138 @@
+---
+title: "França: Bordeaux"
+---
+
+## Motivação
+
+Nenhuma região definiu tanto a ideia de "grande vinho tinto" quanto **Bordeaux**.
+É a terra do **corte** (Cabernet com Merlot), dos vinhos de guarda e da
+classificação de 1855. E sua geografia conta a história: um estuário e dois rios
+dividem a região em **duas margens**, cada uma com um solo e uma casta dominante.
+
+Este capítulo abre o Volume IX — as regiões do Velho Mundo — por Bordeaux,
+mostrando como a divisão entre **margem esquerda** e **margem direita** organiza
+todo o entendimento de seus vinhos.
+
+## Duas margens, dois estilos
+
+O estuário da **Gironde** se divide nos rios **Garonne** e **Dordogne**, formando
+um "Y" de água. Esse traçado, na @fig-mapa-bordeaux, separa as duas margens.
+
+::: {#def-margens-bordeaux}
+## Margem esquerda × margem direita
+A **margem esquerda** (Médoc e Graves), de solo de **cascalho**, é dominada pela
+**Cabernet Sauvignon**: vinhos tânicos, estruturados, de longa guarda. A **margem
+direita** (Saint-Émilion e Pomerol), de **argila e calcário**, é dominada pela
+**Merlot**: vinhos mais macios, frutados e acessíveis cedo.
+:::
+
+::: {#fig-mapa-bordeaux}
+```{.tikz}
+%%| filename: mapa-bordeaux
+%%| alt: Mapa estilizado de Bordeaux com o estuário da Gironde dividindo-se nos rios Garonne e Dordogne; à esquerda o Médoc e Graves (Cabernet Sauvignon), à direita Saint-Émilion e Pomerol (Merlot), e entre os rios o Entre-Deux-Mers.
+\begin{tikzpicture}[font=\sffamily\scriptsize]
+  % água: Gironde + Garonne + Dordogne (Y)
+  \draw[manualblue, line width=3pt] (2.7,5.2) -- (2.7,3.2);
+  \draw[manualblue, line width=3pt] (2.7,3.2) -- (1.1,0.5);
+  \draw[manualblue, line width=3pt] (2.7,3.2) -- (4.3,0.9);
+  \node[manualblue, font=\tiny] at (2.7,5.45) {Gironde};
+  \node[manualblue, font=\tiny, rotate=60] at (1.5,1.6) {Garonne};
+  \node[manualblue, font=\tiny, rotate=-52] at (3.8,1.8) {Dordogne};
+  \node[manualblue!60!black, font=\tiny] at (1.1,5.0) {Atlântico};
+  % margem esquerda (Médoc / Graves)
+  \fill[manualred] (1.2,4.0) circle (1.6pt);
+  \node[align=center, font=\tiny, manualred!70!black] at (0.95,3.7) {Médoc\\(Cabernet)};
+  \fill[manualred] (1.0,1.6) circle (1.6pt);
+  \node[align=center, font=\tiny, manualred!70!black] at (0.7,1.25) {Graves};
+  \node[font=\tiny, manualgray, rotate=90] at (-0.15,2.8) {margem esquerda};
+  % margem direita (Saint-Émilion / Pomerol)
+  \fill[manualred] (4.2,2.7) circle (1.6pt);
+  \node[align=center, font=\tiny, manualred!70!black] at (4.9,2.7) {Saint-Émilion\\Pomerol\\(Merlot)};
+  \node[font=\tiny, manualgray, rotate=-90] at (5.9,2.4) {margem direita};
+  % entre-deux-mers
+  \node[align=center, font=\tiny, manualgreen!50!black] at (2.7,1.5) {Entre-Deux-\\Mers\\\tiny(brancos)};
+\end{tikzpicture}
+```
+
+Bordeaux estilizada. A **margem esquerda** (Médoc, Graves) cultiva **Cabernet
+Sauvignon** em solo de cascalho; a **margem direita** (Saint-Émilion, Pomerol),
+**Merlot** em argila e calcário; entre os rios, o **Entre-Deux-Mers** dos brancos.
+:::
+
+## Por que cada casta em cada margem
+
+A escolha não é arbitrária — é **terroir** (Volume II). O **cascalho** da margem
+esquerda drena bem e acumula calor, ajudando a tardia **Cabernet Sauvignon** a
+amadurecer; sua estrutura tânica pede guarda. A **argila** fria da margem direita
+favorece a **Merlot**, mais precoce, dando vinhos redondos e acessíveis. Em ambas,
+o vinho final é quase sempre um **corte** (Volume III), completado por Cabernet
+Franc e Petit Verdot.
+
+Bordeaux faz também grandes **brancos secos** (Graves/Pessac, de Sauvignon Blanc e
+Sémillon) e o lendário doce de **Sauternes** (Volume VI). E foi aqui que nasceu, em
+**1855**, a famosa classificação dos *crus* em cinco níveis — referência de
+prestígio até hoje.
+
+::: {.callout-note}
+## O que é um "cru"
+**Cru** designa um vinhedo ou propriedade de qualidade reconhecida. Em Bordeaux,
+os *Grands Crus Classés* de 1855 hierarquizam châteaux da margem esquerda; o termo
+reaparece na Borgonha (próximo capítulo) com outro sentido. Guarde a palavra: ela
+volta sempre.
+:::
+
+## Exemplos
+
+::: {#exm-pauillac}
+## Pauillac: o coração do Cabernet
+A comuna de **Pauillac**, no Médoc, abriga três dos cinco *premiers crus* de 1855
+(Lafite, Latour, Mouton). Seus vinhos, dominados por **Cabernet Sauvignon** sobre
+cascalho profundo, são o arquétipo do tinto de guarda: tânicos na juventude,
+sublimes após décadas — a curva de evolução do Volume VII em estado puro.
+:::
+
+::: {#exm-pomerol}
+## Pomerol: Merlot sem hierarquia
+Curiosamente, **Pomerol** — lar de alguns dos tintos mais caros do mundo, como o
+Petrus — **não** entrou na classificação de 1855 e não tem hierarquia oficial. Seus
+Merlots de argila são opulentos e sedosos, acessíveis mais cedo que os Cabernets da
+margem esquerda. Prova de que prestígio e classificação nem sempre coincidem.
+:::
+
+## Exercícios
+
+::: {#exr-margem-casta}
+Pela @def-margens-bordeaux, associe cada margem à sua casta dominante e ao seu
+solo: (a) margem esquerda; (b) margem direita.
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) **Margem esquerda** — **Cabernet Sauvignon** em **cascalho** (vinhos tânicos,
+de guarda); (b) **margem direita** — **Merlot** em **argila/calcário** (vinhos
+macios, acessíveis cedo).
+:::
+
+::: {#exr-cascalho-cabernet}
+Por que o solo de **cascalho** da margem esquerda favorece a **Cabernet
+Sauvignon**? Relacione com o terroir (Volume II).
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+O cascalho **drena bem** e **acumula/irradia calor**, ajudando a Cabernet
+Sauvignon — casta **tardia** — a amadurecer plenamente. Sem esse calor extra, ela
+não chegaria ao ponto na região.
+:::
+
+::: {#exr-corte-bordeaux}
+Por que o vinho de Bordeaux é quase sempre um **corte**, e quais castas o compõem
+(Volume III)?
+:::
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque as castas se **complementam**: Cabernet Sauvignon (estrutura, guarda) e
+Merlot (maciez, fruta), com apoio de Cabernet Franc e Petit Verdot. O corte
+equilibra o vinho melhor do que cada casta isolada.
+:::

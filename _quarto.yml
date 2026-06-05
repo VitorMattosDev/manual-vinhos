@@ -89,15 +89,15 @@ book:
         - volumes/v8-estilos/04-fortificados-e-doces.qmd
         - volumes/v8-estilos/05-laranja-naturais-biodinamicos.qmd
 
-    # - part: "Volume IX — Regiões do Velho Mundo"
-    #   chapters:
-    #     - volumes/v9-velho-mundo/01-franca-bordeaux.qmd
-    #     - volumes/v9-velho-mundo/02-franca-borgonha-champagne.qmd
-    #     - volumes/v9-velho-mundo/03-franca-rhone-loire-alsacia.qmd
-    #     - volumes/v9-velho-mundo/04-italia.qmd
-    #     - volumes/v9-velho-mundo/05-espanha-e-portugal.qmd
-    #     - volumes/v9-velho-mundo/06-alemanha-austria-europa-central.qmd
-    #     - volumes/v9-velho-mundo/07-classificacoes-europeias.qmd
+    - part: "Volume IX — Regiões do Velho Mundo"
+      chapters:
+        - volumes/v9-velho-mundo/01-franca-bordeaux.qmd
+        - volumes/v9-velho-mundo/02-franca-borgonha-champagne.qmd
+        - volumes/v9-velho-mundo/03-franca-rhone-loire-alsacia.qmd
+        - volumes/v9-velho-mundo/04-italia.qmd
+        - volumes/v9-velho-mundo/05-espanha-e-portugal.qmd
+        - volumes/v9-velho-mundo/06-alemanha-austria-europa-central.qmd
+        - volumes/v9-velho-mundo/07-classificacoes-europeias.qmd
 
     # - part: "Volume X — Regiões do Novo Mundo"
     #   chapters:

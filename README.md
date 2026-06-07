@@ -4,6 +4,8 @@ Quinto título da série *Manuais de Ciências* — um livro aberto que vai da
 videira no vinhedo à taça na mesa. Construído com [Quarto](https://quarto.org) e
 publicado no GitHub Pages.
 
+**📖 Leia online:** https://vitormattosdev.github.io/manual-vinhos/
+
 ## Pré-requisitos
 
 - [Quarto](https://quarto.org/docs/get-started/) (CLI).

@@ -47,8 +47,8 @@ O site ficará em `https://SEU-USUARIO.github.io/manual-vinhos/`.
 
 Escritas em TikZ dentro dos `.qmd` e compiladas para SVG (site) / PDF (livro)
 pela extensão local em `_extensions/danmackinlay/tikz/`. **Não** atualize essa
-extensão via `quarto add` — ela tem patches locais. Detalhes no `CLAUDE.md`,
-`PLANO.md` e `FIGURAS.md`.
+extensão via `quarto add` — ela tem patches locais. Detalhes no `PLANO.md`
+e `FIGURAS.md`.
 
 ## Estrutura
 
@@ -58,7 +58,6 @@ index.qmd        apresentação + grafo de pré-requisitos
 glossario.qmd    glossário (apêndice)
 PLANO.md         guia de estilo + decisões técnicas
 ROADMAP.md       fila dos 13 volumes / 67 capítulos
-CLAUDE.md        contrato do projeto para o Claude Code
 styles.css       identidade visual
 volumes/         capítulos
 _extensions/     extensão TikZ (patcheada)
